@@ -27,6 +27,15 @@
   color: var(--text-muted);
 }
 
+.footer-copy a {
+  color: var(--primary-light);
+  transition: color 0.2s;
+}
+
+.footer-copy a:hover {
+  color: var(--text);
+}
+
 .footer-nav {
   display: flex;
   gap: 1.5rem;

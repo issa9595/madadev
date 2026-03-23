@@ -12,7 +12,8 @@ export default function Footer() {
           <span className="logo-bracket">/&gt;</span>
         </a>
         <p className="footer-copy">
-          © {year} MadaDev · Développeur web freelance · Fait avec ❤️ et React
+          © {year} MadaDev · Développeur web freelance ·{' '}
+          <a href="https://mada-dev.com" target="_blank" rel="noreferrer">mada-dev.com</a>
         </p>
         <nav className="footer-nav">
           <a href="#services">Services</a>

@@ -2,52 +2,31 @@ import './Portfolio.css'
 
 const projects = [
   {
-    title: 'ShopEasy',
-    category: 'E-commerce',
-    description:
-      'Boutique en ligne complète avec gestion des produits, panier, paiement Stripe et espace client.',
-    tech: ['Next.js', 'Stripe', 'PostgreSQL'],
-    color: '#6366f1',
-  },
-  {
-    title: 'DashPro',
+    title: 'Locali',
     category: 'Application web',
     description:
-      'Tableau de bord analytique temps réel pour une startup SaaS, avec graphiques interactifs et exports.',
-    tech: ['React', 'Node.js', 'Chart.js'],
-    color: '#8b5cf6',
+      'Plateforme de mise en relation locale permettant aux utilisateurs de trouver des services et commerces à proximité.',
+    tech: ['React', 'Node.js', 'Maps API'],
+    preview: '/previews/locali.jpg',
+    link: 'https://www.mylocali.fr',
   },
   {
-    title: 'CabinetLegal.fr',
+    title: "L'Essence",
     category: 'Site vitrine',
     description:
-      'Refonte complète d\'un cabinet d\'avocats : design moderne, SEO avancé et formulaire de contact.',
-    tech: ['Vite', 'GSAP', 'EmailJS'],
-    color: '#f59e0b',
+      'Site vitrine élégant pour une marque lifestyle, avec un design soigné et une expérience utilisateur fluide.',
+    tech: ['Vite', 'React', 'CSS'],
+    preview: '/previews/lessence.jpg',
+    link: 'https://mada-dev-template1.vercel.app',
   },
   {
-    title: 'FoodTrack',
-    category: 'Application mobile-first',
+    title: 'Lumia',
+    category: 'Application web',
     description:
-      'Application de suivi nutritionnel avec scan de codes-barres, base de données alimentaire et stats.',
-    tech: ['React', 'Express', 'MongoDB'],
-    color: '#10b981',
-  },
-  {
-    title: 'AgenceVoyages',
-    category: 'Site vitrine',
-    description:
-      'Site de réservation de voyages avec moteur de recherche, galerie et système de réservation en ligne.',
-    tech: ['Next.js', 'Prisma', 'Vercel'],
-    color: '#3b82f6',
-  },
-  {
-    title: 'DevCollab',
-    category: 'SaaS',
-    description:
-      'Plateforme de collaboration pour équipes de développement : revue de code, tickets, roadmap.',
-    tech: ['React', 'WebSockets', 'Redis'],
-    color: '#ec4899',
+      'Assistant vocal interactif propulsé par IA, avec reconnaissance vocale et réponses en temps réel.',
+    tech: ['React', 'Web Speech API', 'AI'],
+    preview: '/previews/lumia.jpg',
+    link: 'https://vocal-assistant-two.vercel.app',
   },
 ]
 
@@ -64,17 +43,16 @@ export default function Portfolio() {
 
         <div className="portfolio-grid">
           {projects.map((project, i) => (
-            <div key={i} className="project-card">
-              <div
-                className="project-thumbnail"
-                style={{ background: `linear-gradient(135deg, ${project.color}22, ${project.color}44)` }}
-              >
-                <div
-                  className="project-icon-wrapper"
-                  style={{ background: project.color }}
-                >
-                  <span className="project-icon">&lt;/&gt;</span>
-                </div>
+            <a
+              key={i}
+              className="project-card"
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="project-thumbnail">
+                <img src={project.preview} alt={project.title} className="project-preview" />
+                <div className="project-overlay">Voir le projet ↗</div>
               </div>
               <div className="project-body">
                 <span className="project-category">{project.category}</span>
@@ -86,7 +64,7 @@ export default function Portfolio() {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
