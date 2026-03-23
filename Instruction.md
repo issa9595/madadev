@@ -261,3 +261,23 @@
 - Ajout du composant `<SpeedInsights />` en fin d'arbre JSX (apres `<Analytics />`) pour activer la mesure de performance.
 - Verification des dependances: `@vercel/speed-insights` etait deja present dans `package.json`, aucune installation supplementaire necessaire.
 - Validation technique: aucun avertissement linter sur `src/App.jsx`.
+
+### 2026-03-23 - Agrandissement du selecteur "Type de projet"
+- Ajustement CSS du selecteur du formulaire de contact dans `src/components/Contact.css`.
+- Changements appliques sur `.form-group select`: `min-height` augmente, `padding` vertical augmente et `font-size` passe a `1rem`.
+- Objectif: rendre le selecteur visuellement plus grand et plus lisible, en particulier sur desktop.
+
+### 2026-03-23 - Reduction du selecteur apres retour visuel
+- Ajustement de la taille du selecteur `Type de projet` dans `src/components/Contact.css` pour reduire d'environ la moitie l'agrandissement precedent.
+- Nouvelles valeurs appliquees sur `.form-group select`: `min-height: 46px`, `padding-top/bottom: 0.8rem`, `font-size: 0.95rem`.
+- Objectif: conserver un selecteur plus lisible tout en etant moins imposant visuellement.
+
+### 2026-03-23 - Ajustement fin du selecteur (encore un peu)
+- Nouvelle reduction legere de la taille du selecteur `Type de projet` dans `src/components/Contact.css`.
+- Valeurs mises a jour sur `.form-group select`: `min-height: 44px`, `padding-top/bottom: 0.75rem`, `font-size: 0.92rem`.
+- Objectif: affiner la hauteur visuelle pour un rendu plus discret tout en gardant une bonne lisibilite.
+
+### 2026-03-23 - Alignement du selecteur sur les autres champs
+- Suppression de la surcharge CSS dediee a `.form-group select` dans `src/components/Contact.css`.
+- Le selecteur `Type de projet` herite maintenant exactement des memes regles que `input` et `textarea` via le bloc commun (`padding`, `font-size`, bordure, largeur).
+- Objectif: obtenir une hauteur et un rendu coherents avec les autres champs du formulaire.
