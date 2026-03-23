@@ -247,3 +247,10 @@
 - Ajout de la ligne d'import demandee dans `src/main.jsx`:
   - `import { Analytics } from "@vercel/analytics/next"`
 - Aucun autre changement fonctionnel applique.
+
+### 2026-03-23 - Correction integration Vercel Analytics pour React/Vite
+- Suppression de `<Analytics />` dans `src/main.jsx` (utilisation invalide sans import).
+- Remplacement de l'import Next par l'import React dans `src/App.jsx`:
+  - `@vercel/analytics/next` -> `@vercel/analytics/react`
+- Conservation d'une seule occurrence de `<Analytics />` dans `src/App.jsx` (en fin d'arbre, apres `Footer`) pour eviter le double tracking.
+- Validation technique: aucun avertissement linter sur `src/App.jsx` et `src/main.jsx`.
