@@ -2,6 +2,7 @@ import { Suspense, lazy } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Footer from './components/Footer'
 
 const Services = lazy(() => import('./components/Services'))
@@ -26,6 +27,7 @@ export default function App() {
       </main>
       <Footer />
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }

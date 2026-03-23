@@ -254,3 +254,10 @@
   - `@vercel/analytics/next` -> `@vercel/analytics/react`
 - Conservation d'une seule occurrence de `<Analytics />` dans `src/App.jsx` (en fin d'arbre, apres `Footer`) pour eviter le double tracking.
 - Validation technique: aucun avertissement linter sur `src/App.jsx` et `src/main.jsx`.
+
+### 2026-03-23 - Ajout de Vercel Speed Insights (React/Vite)
+- Ajout de l'import `SpeedInsights` dans `src/App.jsx`:
+  - `import { SpeedInsights } from '@vercel/speed-insights/react'`
+- Ajout du composant `<SpeedInsights />` en fin d'arbre JSX (apres `<Analytics />`) pour activer la mesure de performance.
+- Verification des dependances: `@vercel/speed-insights` etait deja present dans `package.json`, aucune installation supplementaire necessaire.
+- Validation technique: aucun avertissement linter sur `src/App.jsx`.
