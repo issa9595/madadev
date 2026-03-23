@@ -9,9 +9,9 @@ const resources = {
         label: 'Langue',
         selectDefault: 'Choisir une langue',
         options: {
-          fr: 'Francais',
+          fr: 'Français',
           en: 'English',
-          es: 'Espanol',
+          es: 'Español',
           ru: 'Russkii',
           de: 'Deutsch',
           nl: 'Nederlands',
@@ -21,12 +21,12 @@ const resources = {
         },
       },
       nav: {
-        logoAria: 'MadaDev, developpeur web freelance, retour en haut',
+        logoAria: 'MadaDev, développeur web freelance, retour en haut',
         mainAria: 'Navigation principale',
         links: {
           services: 'Services',
           offer: "L'offre",
-          about: 'A propos',
+          about: 'À propos',
           portfolio: 'Portfolio',
           contact: 'Contact',
         },
@@ -35,140 +35,140 @@ const resources = {
       },
       hero: {
         badge: 'Disponible pour de nouveaux projets',
-        titlePrefix: 'Je concois des',
-        titleHighlight: 'experiences web',
-        titleSuffix: 'qui font la difference',
+        titlePrefix: 'Je conçois des',
+        titleHighlight: 'expériences web',
+        titleSuffix: 'qui font la différence',
         description:
-          "Developpeur web freelance passionne, je transforme vos idees en applications modernes, performantes et accessibles. Du design a la mise en ligne, je m'occupe de tout.",
+          "Développeur web freelance passionné, je transforme vos idées en applications modernes, performantes et accessibles. Du design à la mise en ligne, je m'occupe de tout.",
         primaryCta: 'Voir mes projets',
         secondaryCta: 'Discutons ensemble',
         stats: {
-          projectsLabel: 'Projets livres',
+          projectsLabel: 'Projets livrés',
           experienceValue: '5 ans',
-          experienceLabel: 'Experience',
+          experienceLabel: 'Expérience',
           satisfactionLabel: 'Clients satisfaits',
         },
       },
       services: {
         title: 'Mes services',
         subtitle:
-          'Des solutions web adaptees a vos besoins, de la conception a la mise en production.',
+          'Des solutions web adaptées à vos besoins, de la conception à la mise en production.',
         items: [
           {
             icon: '🎨',
             title: 'Sites vitrine',
             description:
-              'Des sites elegants et performants pour presenter votre activite et convertir vos visiteurs en clients.',
+              'Des sites élégants et performants pour présenter votre activité et convertir vos visiteurs en clients.',
             tags: ['React', 'Next.js', 'Vite'],
           },
           {
             icon: '🛒',
             title: 'E-commerce',
             description:
-              'Boutiques en ligne sur mesure, optimisees pour les conversions, avec paiement securise integre.',
+              'Boutiques en ligne sur mesure, optimisées pour les conversions, avec paiement sécurisé intégré.',
             tags: ['Shopify', 'WooCommerce', 'Stripe'],
           },
           {
             icon: '⚙️',
             title: 'Applications web',
             description:
-              'Applications web complexes avec tableau de bord, authentification, base de donnees et API REST.',
+              'Applications web complexes avec tableau de bord, authentification, base de données et API REST.',
             tags: ['Node.js', 'Express', 'PostgreSQL'],
           },
           {
             icon: '🚀',
             title: 'Optimisation et SEO',
             description:
-              'Audit, refonte technique et optimisation pour ameliorer les performances et votre referencement.',
+              'Audit, refonte technique et optimisation pour améliorer les performances et votre référencement.',
             tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
           },
           {
             icon: '🔗',
-            title: 'Integrations API',
+            title: 'Intégrations API',
             description:
-              'Connexion a des services tiers : CRM, paiement, emailing, reseaux sociaux, et bien plus.',
+              'Connexion à des services tiers : CRM, paiement, emailing, réseaux sociaux, et bien plus.',
             tags: ['REST API', 'GraphQL', 'Webhooks'],
           },
           {
             icon: '🛡️',
             title: 'Maintenance et support',
             description:
-              'Suivi continu, mises a jour de securite et support technique pour votre serenite.',
+              'Suivi continu, mises à jour de sécurité et support technique pour votre sérénité.',
             tags: ['DevOps', 'CI/CD', 'Monitoring'],
           },
         ],
       },
       offer: {
         badge: "L'offre",
-        title: 'Votre site, votre machine a vendre',
+        title: 'Votre site, votre machine à vendre',
         subtitle:
-          "Un site web qui ne convertit pas, c'est de l'argent jete. Je concois des sites penses pour transformer vos visiteurs en acheteurs, livres en 24 a 48h.",
+          "Un site web qui ne convertit pas, c'est de l'argent jeté. Je conçois des sites pensés pour transformer vos visiteurs en acheteurs, livrés en 24 à 48h.",
         benefits: [
           {
             icon: '💰',
             title: 'Un site qui vend',
             description:
-              'Pas juste une vitrine, une machine a convertir. Chaque section, chaque bouton, chaque mot est pense pour transformer un visiteur en client.',
+              'Pas juste une vitrine, une machine à convertir. Chaque section, chaque bouton, chaque mot est pensé pour transformer un visiteur en client.',
           },
           {
             icon: '📱',
             title: '100% mobile et rapide',
             description:
-              'Plus de 60 % de vos visiteurs arrivent sur mobile. Votre site est optimise pour offrir une experience fluide sur tous les appareils.',
+              'Plus de 60 % de vos visiteurs arrivent sur mobile. Votre site est optimisé pour offrir une expérience fluide sur tous les appareils.',
           },
           {
             icon: '🎯',
-            title: 'Copywriting oriente action',
+            title: 'Copywriting orienté action',
             description:
-              "Des accroches qui captent, des arguments qui convainquent, des appels a l'action qui declenchent. Le design sert le message.",
+              "Des accroches qui captent, des arguments qui convainquent, des appels à l'action qui déclenchent. Le design sert le message.",
           },
           {
             icon: '🔍',
-            title: 'SEO et visibilite',
+            title: 'SEO et visibilité',
             description:
-              'Votre site est optimise pour apparaitre sur Google : structure semantique, balises, performances, pour attirer du trafic des le lancement.',
+              'Votre site est optimisé pour apparaître sur Google : structure sémantique, balises, performances, pour attirer du trafic dès le lancement.',
           },
           {
             icon: '⚡',
             title: 'Livraison express',
             description:
-              'Votre site livre en 24 a 48h pour un projet standard, ou selon la complexite de votre besoin. Rapide, sans sacrifier la qualite.',
+              'Votre site est livré en 24 à 48h pour un projet standard, ou selon la complexité de votre besoin. Rapide, sans sacrifier la qualité.',
           },
           {
             icon: '🔧',
             title: 'Autonomie totale',
             description:
-              'Vous repartez avec un site que vous pouvez faire evoluer. Pas de dependance, pas de couts caches, vous etes proprietaire de votre outil.',
+              'Vous repartez avec un site que vous pouvez faire évoluer. Pas de dépendance, pas de coûts cachés, vous êtes propriétaire de votre outil.',
           },
         ],
         pricing: {
           label: 'Investissement',
           note:
-            'Tarif fixe, sans surprise. Le prix final depend de la complexite de votre projet, du nombre de sections et des integrations necessaires.',
+            'Tarif fixe, sans surprise. Le prix final dépend de la complexité de votre projet, du nombre de sections et des intégrations nécessaires.',
           details: [
-            'Livraison en 24 a 48h (projet standard)',
+            'Livraison en 24 à 48h (projet standard)',
             "Pas d'abonnement, paiement unique",
-            "Revisions incluses jusqu'a votre satisfaction",
-            'Hebergement et domaine guides ou pris en charge',
+            "Révisions incluses jusqu'à votre satisfaction",
+            'Hébergement et domaine guidés ou pris en charge',
           ],
-          cta: 'Demarrer mon projet',
+          cta: 'Démarrer mon projet',
         },
       },
       about: {
-        title: 'A propos de moi',
-        subtitle: 'Passionne par le web depuis plus de 5 ans',
+        title: 'À propos de moi',
+        subtitle: 'Passionné par le web depuis plus de 5 ans',
         paragraph1:
-          'Bonjour ! Je suis un developpeur web freelance base en France, specialise dans la creation de sites vitrine, landing pages et applications web avec React et Node.js. Je travaille avec des startups, PME et entrepreneurs pour donner vie a leurs projets digitaux.',
+          'Bonjour ! Je suis un développeur web freelance basé en France, spécialisé dans la création de sites vitrine, landing pages et applications web avec React et Node.js. Je travaille avec des startups, PME et entrepreneurs pour donner vie à leurs projets digitaux.',
         paragraph2:
-          "Mon approche : comprendre vos besoins, proposer des solutions adaptees, livrer dans les delais, et rester disponible apres la mise en ligne. La qualite du code et l'experience utilisateur sont au coeur de chaque projet.",
+          "Mon approche : comprendre vos besoins, proposer des solutions adaptées, livrer dans les délais, et rester disponible après la mise en ligne. La qualité du code et l'expérience utilisateur sont au cœur de chaque projet.",
         perks: [
           'Code propre et maintenable',
-          'Livraison dans les delais',
+          'Livraison dans les délais',
           'Communication transparente',
-          'Support apres livraison',
+          'Support après livraison',
         ],
         cta: 'Travailler ensemble',
-        skillsTitle: 'Competences techniques',
+        skillsTitle: 'Compétences techniques',
         skills: [
           { name: 'React / Next.js', level: 95 },
           { name: 'Node.js / Express', level: 88 },
@@ -181,13 +181,13 @@ const resources = {
       portfolio: {
         title: 'Mes projets',
         subtitle:
-          'Une selection de projets recents illustrant mes competences et mon savoir-faire.',
+          'Une sélection de projets récents illustrant mes compétences et mon savoir-faire.',
         projects: [
           {
             title: 'Locali',
             category: 'Application web',
             description:
-              'Plateforme de mise en relation locale permettant aux utilisateurs de trouver des services et commerces a proximite.',
+              'Plateforme de mise en relation locale permettant aux utilisateurs de trouver des services et commerces à proximité.',
             tech: ['React', 'Node.js', 'Maps API'],
             preview: '/previews/locali.jpg',
             link: 'https://www.mylocali.fr',
@@ -196,7 +196,7 @@ const resources = {
             title: "L'Essence",
             category: 'Site vitrine',
             description:
-              'Site vitrine elegant pour une marque lifestyle, avec un design soigne et une experience utilisateur fluide.',
+              'Site vitrine élégant pour une marque lifestyle, avec un design soigné et une expérience utilisateur fluide.',
             tech: ['Vite', 'React', 'CSS'],
             preview: '/previews/lessence.jpg',
             link: 'https://mada-dev-template1.vercel.app',
@@ -205,35 +205,35 @@ const resources = {
             title: 'Lumia',
             category: 'Application web',
             description:
-              'Assistant vocal interactif propulse par IA, avec reconnaissance vocale et reponses en temps reel.',
+              'Assistant vocal interactif propulsé par IA, avec reconnaissance vocale et réponses en temps réel.',
             tech: ['React', 'Web Speech API', 'AI'],
             preview: '/previews/lumia.jpg',
             link: 'https://vocal-assistant-two.vercel.app',
           },
         ],
         viewProject: 'Voir le projet',
-        ctaQuestion: 'Vous avez un projet en tete ?',
+        ctaQuestion: 'Vous avez un projet en tête ?',
         ctaAction: 'Parlons-en',
       },
       contact: {
         title: 'Parlons de votre projet',
-        subtitle: 'Pret a demarrer ? Envoyez-moi un message et je vous reponds sous 24h.',
+        subtitle: 'Prêt à démarrer ? Envoyez-moi un message et je vous réponds sous 24h.',
         emailLabel: 'Email',
         locationLabel: 'Localisation',
         locationValue: 'France (remote)',
-        availabilityLabel: 'Disponibilite',
-        availabilityValue: 'Des maintenant',
-        successTitle: 'Message envoye !',
-        successBody: 'Merci pour votre message. Je vous reponds dans les 24 heures.',
+        availabilityLabel: 'Disponibilité',
+        availabilityValue: 'Dès maintenant',
+        successTitle: 'Message envoyé !',
+        successBody: 'Merci pour votre message. Je vous réponds dans les 24 heures.',
         form: {
           name: 'Nom complet',
           email: 'Email',
           projectType: 'Type de projet',
-          message: 'Decrivez votre projet',
+          message: 'Décrivez votre projet',
           namePlaceholder: 'Jean Dupont',
           emailPlaceholder: 'jean@exemple.fr',
-          messagePlaceholder: 'Parlez-moi de votre projet, vos objectifs, votre delai...',
-          selectPlaceholder: 'Selectionner...',
+          messagePlaceholder: 'Parlez-moi de votre projet, vos objectifs, votre délai...',
+          selectPlaceholder: 'Sélectionner...',
           options: [
             'Site vitrine',
             'E-commerce',
@@ -242,13 +242,13 @@ const resources = {
             'Autre',
           ],
           error:
-            'Une erreur est survenue. Reessayez ou ecrivez directement a issamadayev@gmail.com',
+            'Une erreur est survenue. Réessayez ou écrivez directement à issamadayev@gmail.com',
           sending: 'Envoi en cours...',
           submit: 'Envoyer le message',
         },
       },
       footer: {
-        copyRole: 'Developpeur web freelance',
+        copyRole: 'Développeur web freelance',
         secondaryAria: 'Navigation secondaire',
       },
     },
@@ -410,36 +410,36 @@ resources.es = {
       label: 'Idioma',
       selectDefault: 'Elegir un idioma',
       options: {
-        fr: 'Frances',
-        en: 'Ingles',
-        es: 'Espanol',
+        fr: 'Francés',
+        en: 'Inglés',
+        es: 'Español',
         ru: 'Ruso',
-        de: 'Aleman',
-        nl: 'Neerlandes',
+        de: 'Alemán',
+        nl: 'Neerlandés',
         it: 'Italiano',
         zh: 'Chino',
-        ja: 'Japones',
+        ja: 'Japonés',
       },
     },
     nav: {
       logoAria: 'MadaDev, desarrollador web freelance, volver arriba',
-      mainAria: 'Navegacion principal',
-      links: { services: 'Servicios', offer: 'Oferta', about: 'Sobre mi', portfolio: 'Portafolio', contact: 'Contacto' },
+      mainAria: 'Navegación principal',
+      links: { services: 'Servicios', offer: 'Oferta', about: 'Sobre mí', portfolio: 'Portafolio', contact: 'Contacto' },
       cta: 'Contactarme',
-      menuAria: 'Menu',
+      menuAria: 'Menú',
     },
     hero: {
       badge: 'Disponible para nuevos proyectos',
-      titlePrefix: 'Diseno',
+      titlePrefix: 'Diseño',
       titleHighlight: 'experiencias web',
       titleSuffix: 'que marcan la diferencia',
       description:
-        'Desarrollador web freelance apasionado, transformo tus ideas en aplicaciones modernas, rapidas y accesibles. Del diseno al lanzamiento, me encargo de todo.',
+        'Desarrollador web freelance apasionado, transformo tus ideas en aplicaciones modernas, rápidas y accesibles. Del diseño al lanzamiento, me encargo de todo.',
       primaryCta: 'Ver mis proyectos',
       secondaryCta: 'Hablemos',
       stats: {
         projectsLabel: 'Proyectos entregados',
-        experienceValue: '5 anos',
+        experienceValue: '5 años',
         experienceLabel: 'Experiencia',
         satisfactionLabel: 'Clientes satisfechos',
       },
@@ -447,18 +447,18 @@ resources.es = {
     services: {
       title: 'Mis servicios',
       subtitle:
-        'Soluciones web adaptadas a tus necesidades, desde el diseno hasta la produccion.',
+        'Soluciones web adaptadas a tus necesidades, desde el diseño hasta la producción.',
       items: [
         {
           icon: '🎨',
           title: 'Sitios corporativos',
           description:
-            'Sitios elegantes y rapidos para presentar tu actividad y convertir visitantes en clientes.',
+            'Sitios elegantes y rápidos para presentar tu actividad y convertir visitantes en clientes.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
           icon: '🛒',
-          title: 'Comercio electronico',
+          title: 'Comercio electrónico',
           description:
             'Tiendas online a medida, optimizadas para conversiones con pago seguro integrado.',
           tags: ['Shopify', 'WooCommerce', 'Stripe'],
@@ -467,103 +467,103 @@ resources.es = {
           icon: '⚙️',
           title: 'Aplicaciones web',
           description:
-            'Aplicaciones web completas con panel, autenticacion, base de datos y API REST.',
+            'Aplicaciones web completas con panel, autenticación, base de datos y API REST.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
           icon: '🚀',
-          title: 'Optimizacion y SEO',
+          title: 'Optimización y SEO',
           description:
-            'Auditoria, mejora tecnica y optimizacion para subir rendimiento y visibilidad.',
+            'Auditoría, mejora técnica y optimización para subir rendimiento y visibilidad.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
           icon: '🔗',
           title: 'Integraciones API',
           description:
-            'Conexion con servicios externos: CRM, pagos, emailing, redes sociales y mas.',
+            'Conexión con servicios externos: CRM, pagos, emailing, redes sociales y más.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
           icon: '🛡️',
           title: 'Mantenimiento y soporte',
           description:
-            'Seguimiento continuo, actualizaciones de seguridad y soporte tecnico.',
+            'Seguimiento continuo, actualizaciones de seguridad y soporte técnico.',
           tags: ['DevOps', 'CI/CD', 'Monitoring'],
         },
       ],
     },
     offer: {
       badge: 'La oferta',
-      title: 'Tu sitio, tu maquina de ventas',
+      title: 'Tu sitio, tu máquina de ventas',
       subtitle:
-        'Un sitio web que no convierte es dinero perdido. Diseno sitios pensados para convertir visitantes en compradores, entregados en 24 a 48 horas.',
+        'Un sitio web que no convierte es dinero perdido. Diseño sitios pensados para convertir visitantes en compradores, entregados en 24 a 48 horas.',
       benefits: [
         {
           icon: '💰',
           title: 'Un sitio que vende',
           description:
-            'No solo una vitrina, una maquina de conversion. Cada seccion, boton y palabra esta pensada para convertir.',
+            'No solo una vitrina, una máquina de conversión. Cada sección, botón y palabra está pensada para convertir.',
         },
         {
           icon: '📱',
-          title: '100% movil y rapido',
+          title: '100% móvil y rápido',
           description:
-            'Mas del 60% de tus visitas llegan desde movil. Tu sitio estara optimizado para todos los dispositivos.',
+            'Más del 60% de tus visitas llegan desde móvil. Tu sitio estará optimizado para todos los dispositivos.',
         },
         {
           icon: '🎯',
-          title: 'Copywriting orientado a accion',
+          title: 'Copywriting orientado a acción',
           description:
-            'Titulares que captan, argumentos que convencen y llamadas a la accion que convierten.',
+            'Titulares que captan, argumentos que convencen y llamadas a la acción que convierten.',
         },
         {
           icon: '🔍',
           title: 'SEO y visibilidad',
           description:
-            'Tu sitio optimizado para Google: estructura semantica, etiquetas y rendimiento.',
+            'Tu sitio optimizado para Google: estructura semántica, etiquetas y rendimiento.',
         },
         {
           icon: '⚡',
           title: 'Entrega express',
           description:
-            'Sitio entregado en 24 a 48h para proyectos estandar, segun complejidad.',
+            'Sitio entregado en 24 a 48h para proyectos estándar, según complejidad.',
         },
         {
           icon: '🔧',
-          title: 'Autonomia total',
+          title: 'Autonomía total',
           description:
             'Te llevas un sitio que puedes evolucionar sin dependencia ni costes ocultos.',
         },
       ],
       pricing: {
-        label: 'Inversion',
+        label: 'Inversión',
         note:
           'Precio fijo y sin sorpresas. El precio final depende de la complejidad del proyecto y las integraciones.',
         details: [
-          'Entrega en 24 a 48h (proyecto estandar)',
-          'Sin suscripcion, pago unico',
-          'Revisiones incluidas hasta tu satisfaccion',
+          'Entrega en 24 a 48h (proyecto estándar)',
+          'Sin suscripción, pago único',
+          'Revisiones incluidas hasta tu satisfacción',
           'Alojamiento y dominio guiados o gestionados',
         ],
         cta: 'Empezar mi proyecto',
       },
     },
     about: {
-      title: 'Sobre mi',
-      subtitle: 'Apasionado por la web desde hace mas de 5 anos',
+      title: 'Sobre mí',
+      subtitle: 'Apasionado por la web desde hace más de 5 años',
       paragraph1:
         'Hola, soy desarrollador web freelance en Francia, especializado en sitios corporativos, landing pages y aplicaciones web con React y Node.js.',
       paragraph2:
-        'Mi enfoque: entender tus necesidades, proponer soluciones adecuadas, entregar en plazo y seguir disponible despues del lanzamiento.',
+        'Mi enfoque: entender tus necesidades, proponer soluciones adecuadas, entregar en plazo y seguir disponible después del lanzamiento.',
       perks: [
-        'Codigo limpio y mantenible',
+        'Código limpio y mantenible',
         'Entrega en plazo',
-        'Comunicacion transparente',
-        'Soporte despues de la entrega',
+        'Comunicación transparente',
+        'Soporte después de la entrega',
       ],
       cta: 'Trabajemos juntos',
-      skillsTitle: 'Habilidades tecnicas',
+      skillsTitle: 'Habilidades técnicas',
       skills: [
         { name: 'React / Next.js', level: 95 },
         { name: 'Node.js / Express', level: 88 },
@@ -576,11 +576,11 @@ resources.es = {
     portfolio: {
       title: 'Mis proyectos',
       subtitle:
-        'Una seleccion de proyectos recientes que muestran mis habilidades y experiencia.',
+        'Una selección de proyectos recientes que muestran mis habilidades y experiencia.',
       projects: [
         {
           title: 'Locali',
-          category: 'Aplicacion web',
+          category: 'Aplicación web',
           description:
             'Plataforma local para ayudar a usuarios a encontrar servicios y comercios cercanos.',
           tech: ['React', 'Node.js', 'Maps API'],
@@ -591,14 +591,14 @@ resources.es = {
           title: "L'Essence",
           category: 'Sitio corporativo',
           description:
-            'Sitio elegante para una marca lifestyle con diseno cuidado y experiencia fluida.',
+            'Sitio elegante para una marca lifestyle con diseño cuidado y experiencia fluida.',
           tech: ['Vite', 'React', 'CSS'],
           preview: '/previews/lessence.jpg',
           link: 'https://mada-dev-template1.vercel.app',
         },
         {
           title: 'Lumia',
-          category: 'Aplicacion web',
+          category: 'Aplicación web',
           description:
             'Asistente de voz impulsado por IA con reconocimiento de voz y respuestas en tiempo real.',
           tech: ['React', 'Web Speech API', 'AI'],
@@ -607,44 +607,44 @@ resources.es = {
         },
       ],
       viewProject: 'Ver proyecto',
-      ctaQuestion: 'Tienes un proyecto en mente?',
+      ctaQuestion: '¿Tienes un proyecto en mente?',
       ctaAction: 'Hablemos',
     },
     contact: {
       title: 'Hablemos de tu proyecto',
-      subtitle: 'Listo para empezar? Enviame un mensaje y respondo en 24h.',
+      subtitle: '¿Listo para empezar? Envíame un mensaje y respondo en 24h.',
       emailLabel: 'Email',
-      locationLabel: 'Ubicacion',
+      locationLabel: 'Ubicación',
       locationValue: 'Francia (remoto)',
       availabilityLabel: 'Disponibilidad',
       availabilityValue: 'Desde ahora',
-      successTitle: 'Mensaje enviado!',
-      successBody: 'Gracias por tu mensaje. Te respondo en las proximas 24 horas.',
+      successTitle: '¡Mensaje enviado!',
+      successBody: 'Gracias por tu mensaje. Te respondo en las próximas 24 horas.',
       form: {
         name: 'Nombre completo',
         email: 'Email',
         projectType: 'Tipo de proyecto',
         message: 'Describe tu proyecto',
-        namePlaceholder: 'Juan Perez',
+        namePlaceholder: 'Juan Pérez',
         emailPlaceholder: 'juan@ejemplo.com',
-        messagePlaceholder: 'Cuentame tu proyecto, tus objetivos y plazo...',
+        messagePlaceholder: 'Cuéntame tu proyecto, tus objetivos y plazo...',
         selectPlaceholder: 'Seleccionar...',
         options: [
           'Sitio corporativo',
-          'Comercio electronico',
-          'Aplicacion web',
-          'Rediseno / optimizacion',
+          'Comercio electrónico',
+          'Aplicación web',
+          'Rediseño / optimización',
           'Otro',
         ],
         error:
-          'Ha ocurrido un error. Intentalo de nuevo o escribe a issamadayev@gmail.com',
+          'Ha ocurrido un error. Inténtalo de nuevo o escribe a issamadayev@gmail.com',
         sending: 'Enviando...',
         submit: 'Enviar mensaje',
       },
     },
     footer: {
       copyRole: 'Desarrollador web freelance',
-      secondaryAria: 'Navegacion secundaria',
+      secondaryAria: 'Navegación secundaria',
     },
   }),
 }
@@ -684,7 +684,7 @@ resources.ru = {
       titleHighlight: 'веб-решения',
       titleSuffix: 'которые дают результат',
       description:
-        'Я увлеченный веб-разработчик фрилансер. Превращаю ваши идеи в современные, быстрые и доступные приложения. От дизайна до запуска беру все на себя.',
+        'Я увлечённый веб-разработчик фрилансер. Превращаю ваши идеи в современные, быстрые и доступные приложения. От дизайна до запуска беру всё на себя.',
       primaryCta: 'Посмотреть проекты',
       secondaryCta: 'Обсудить проект',
       stats: {
@@ -884,7 +884,7 @@ resources.ru = {
           'Другое',
         ],
         error:
-          'Произошла ошибка. Попробуйте еще раз или напишите на issamadayev@gmail.com',
+          'Произошла ошибка. Попробуйте ещё раз или напишите на issamadayev@gmail.com',
         sending: 'Отправка...',
         submit: 'Отправить сообщение',
       },
@@ -900,12 +900,12 @@ resources.de = {
     language: {
       label: 'Sprache',
       options: {
-        fr: 'Franzoesisch',
+        fr: 'Französisch',
         en: 'Englisch',
         es: 'Spanisch',
         ru: 'Russisch',
         de: 'Deutsch',
-        nl: 'Niederlaendisch',
+        nl: 'Niederländisch',
         it: 'Italienisch',
         zh: 'Chinesisch',
         ja: 'Japanisch',
@@ -914,12 +914,12 @@ resources.de = {
     nav: {
       logoAria: 'MadaDev, freiberuflicher Webentwickler, nach oben',
       mainAria: 'Hauptnavigation',
-      links: { services: 'Leistungen', offer: 'Angebot', about: 'Ueber mich', portfolio: 'Portfolio', contact: 'Kontakt' },
+      links: { services: 'Leistungen', offer: 'Angebot', about: 'Über mich', portfolio: 'Portfolio', contact: 'Kontakt' },
       cta: 'Kontakt aufnehmen',
-      menuAria: 'Menue',
+      menuAria: 'Menü',
     },
     hero: {
-      badge: 'Verfuegbar fuer neue Projekte',
+      badge: 'Verfügbar für neue Projekte',
       titlePrefix: 'Ich entwickle',
       titleHighlight: 'Web-Erlebnisse',
       titleSuffix: 'die den Unterschied machen',
@@ -937,20 +937,20 @@ resources.de = {
     services: {
       title: 'Meine Leistungen',
       subtitle:
-        'Webloesungen passend zu deinem Bedarf, von der Konzeption bis zur Produktion.',
+        'Weblösungen passend zu deinem Bedarf, von der Konzeption bis zur Produktion.',
       items: [
         {
           icon: '🎨',
           title: 'Showcase-Websites',
           description:
-            'Elegante und schnelle Websites, um dein Angebot zu praesentieren und Besucher in Kunden zu verwandeln.',
+            'Elegante und schnelle Websites, um dein Angebot zu präsentieren und Besucher in Kunden zu verwandeln.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
           icon: '🛒',
           title: 'Online-Shops',
           description:
-            'Massgeschneiderte Online-Shops mit Fokus auf Conversion und sicherer Bezahlung.',
+            'Maßgeschneiderte Online-Shops mit Fokus auf Conversion und sicherer Bezahlung.',
           tags: ['Shopify', 'WooCommerce', 'Stripe'],
         },
         {
@@ -964,7 +964,7 @@ resources.de = {
           icon: '🚀',
           title: 'Optimierung und SEO',
           description:
-            'Audit, technisches Refactoring und Optimierung fuer bessere Performance und Sichtbarkeit.',
+            'Audit, technisches Refactoring und Optimierung für bessere Performance und Sichtbarkeit.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
@@ -978,7 +978,7 @@ resources.de = {
           icon: '🛡️',
           title: 'Wartung und Support',
           description:
-            'Laufende Betreuung, Sicherheitsupdates und technischer Support fuer maximale Ruhe.',
+            'Laufende Betreuung, Sicherheitsupdates und technischer Support für maximale Ruhe.',
           tags: ['DevOps', 'CI/CD', 'Monitoring'],
         },
       ],
@@ -999,53 +999,53 @@ resources.de = {
           icon: '📱',
           title: '100% mobil und schnell',
           description:
-            'Mehr als 60% deiner Besucher kommen mobil. Deine Website wird fuer alle Geraete optimiert.',
+            'Mehr als 60% deiner Besucher kommen mobil. Deine Website wird für alle Geräte optimiert.',
         },
         {
           icon: '🎯',
           title: 'Copywriting mit Action-Fokus',
           description:
-            'Ueberschriften, die Aufmerksamkeit erzeugen, Argumente, die ueberzeugen, und CTAs, die konvertieren.',
+            'Überschriften, die Aufmerksamkeit erzeugen, Argumente, die überzeugen, und CTAs, die konvertieren.',
         },
         {
           icon: '🔍',
           title: 'SEO und Sichtbarkeit',
           description:
-            'Optimiert fuer Google: semantische Struktur, Tags und Performance fuer mehr qualifizierten Traffic.',
+            'Optimiert für Google: semantische Struktur, Tags und Performance für mehr qualifizierten Traffic.',
         },
         {
           icon: '⚡',
           title: 'Express-Lieferung',
           description:
-            'Standardprojekte in 24 bis 48 Stunden, je nach Komplexitaet.',
+            'Standardprojekte in 24 bis 48 Stunden, je nach Komplexität.',
         },
         {
           icon: '🔧',
-          title: 'Volle Unabhaengigkeit',
+          title: 'Volle Unabhängigkeit',
           description:
-            'Du erhaeltst eine Website, die du ohne Abhaengigkeit und ohne versteckte Kosten weiterentwickeln kannst.',
+            'Du erhältst eine Website, die du ohne Abhängigkeit und ohne versteckte Kosten weiterentwickeln kannst.',
         },
       ],
       pricing: {
         label: 'Investition',
         note:
-          'Festpreis ohne Ueberraschungen. Der Endpreis haengt von Komplexitaet, Seitenumfang und Integrationen ab.',
+          'Festpreis ohne Überraschungen. Der Endpreis hängt von Komplexität, Seitenumfang und Integrationen ab.',
         details: [
           'Lieferung in 24 bis 48 Stunden (Standardprojekt)',
           'Kein Abo, einmalige Zahlung',
           'Revisionen inklusive bis zur Zufriedenheit',
-          'Hosting- und Domain-Begleitung oder Komplettuebernahme',
+          'Hosting- und Domain-Begleitung oder Komplettübernahme',
         ],
         cta: 'Projekt starten',
       },
     },
     about: {
-      title: 'Ueber mich',
-      subtitle: 'Seit ueber 5 Jahren mit Leidenschaft im Web',
+      title: 'Über mich',
+      subtitle: 'Seit über 5 Jahren mit Leidenschaft im Web',
       paragraph1:
         'Ich bin freiberuflicher Webentwickler in Frankreich und spezialisiert auf Showcase-Websites, Landingpages und Webanwendungen mit React und Node.js.',
       paragraph2:
-        'Mein Ansatz: Ziele verstehen, passende Loesungen liefern, termingerecht liefern und auch nach dem Go-live verfuegbar bleiben.',
+        'Mein Ansatz: Ziele verstehen, passende Lösungen liefern, termingerecht liefern und auch nach dem Go-live verfügbar bleiben.',
       perks: [
         'Sauberer und wartbarer Code',
         'Termingerechte Lieferung',
@@ -1053,7 +1053,7 @@ resources.de = {
         'Support nach dem Launch',
       ],
       cta: 'Zusammenarbeiten',
-      skillsTitle: 'Technische Faehigkeiten',
+      skillsTitle: 'Technische Fähigkeiten',
       skills: [
         { name: 'React / Next.js', level: 95 },
         { name: 'Node.js / Express', level: 88 },
@@ -1071,7 +1071,7 @@ resources.de = {
           title: 'Locali',
           category: 'Webanwendung',
           description:
-            'Lokale Plattform zur Vermittlung von Dienstleistungen und Geschaeften in der Naehe.',
+            'Lokale Plattform zur Vermittlung von Dienstleistungen und Geschäften in der Nähe.',
           tech: ['React', 'Node.js', 'Maps API'],
           preview: '/previews/locali.jpg',
           link: 'https://www.mylocali.fr',
@@ -1080,7 +1080,7 @@ resources.de = {
           title: "L'Essence",
           category: 'Showcase-Website',
           description:
-            'Elegante Website fuer eine Lifestyle-Marke mit durchdachtem Design und fluessiger UX.',
+            'Elegante Website für eine Lifestyle-Marke mit durchdachtem Design und flüssiger UX.',
           tech: ['Vite', 'React', 'CSS'],
           preview: '/previews/lessence.jpg',
           link: 'https://mada-dev-template1.vercel.app',
@@ -1100,24 +1100,24 @@ resources.de = {
       ctaAction: 'Lass uns sprechen',
     },
     contact: {
-      title: 'Sprechen wir ueber dein Projekt',
+      title: 'Sprechen wir über dein Projekt',
       subtitle:
         'Bereit zu starten? Schreib mir und ich antworte innerhalb von 24 Stunden.',
       emailLabel: 'E-Mail',
       locationLabel: 'Standort',
       locationValue: 'Frankreich (remote)',
-      availabilityLabel: 'Verfuegbarkeit',
+      availabilityLabel: 'Verfügbarkeit',
       availabilityValue: 'Ab sofort',
       successTitle: 'Nachricht gesendet!',
-      successBody: 'Danke fuer deine Nachricht. Ich antworte innerhalb von 24 Stunden.',
+      successBody: 'Danke für deine Nachricht. Ich antworte innerhalb von 24 Stunden.',
       form: {
-        name: 'Vollstaendiger Name',
+        name: 'Vollständiger Name',
         projectType: 'Projekttyp',
         message: 'Beschreibe dein Projekt',
         namePlaceholder: 'Max Mustermann',
         emailPlaceholder: 'max@beispiel.de',
-        messagePlaceholder: 'Erzaehl mir von deinem Projekt, Zielen und Zeitplan...',
-        selectPlaceholder: 'Auswaehlen...',
+        messagePlaceholder: 'Erzähl mir von deinem Projekt, Zielen und Zeitplan...',
+        selectPlaceholder: 'Auswählen...',
         options: [
           'Showcase-Website',
           'Online-Shop',
@@ -1133,7 +1133,7 @@ resources.de = {
     },
     footer: {
       copyRole: 'Freiberuflicher Webentwickler',
-      secondaryAria: 'Sekundaere Navigation',
+      secondaryAria: 'Sekundäre Navigation',
     },
   }),
 }
@@ -1396,7 +1396,7 @@ resources.it = {
       mainAria: 'Navigazione principale',
       links: { services: 'Servizi', offer: 'Offerta', about: 'Chi sono', portfolio: 'Portfolio', contact: 'Contatto' },
       cta: 'Contattami',
-      menuAria: 'Menu',
+      menuAria: 'Menù',
     },
     hero: {
       badge: 'Disponibile per nuovi progetti',
@@ -1421,7 +1421,7 @@ resources.it = {
           icon: '🎨',
           title: 'Siti vetrina',
           description:
-            'Siti eleganti e veloci per presentare la tua attivita e convertire visitatori in clienti.',
+            'Siti eleganti e veloci per presentare la tua attività e convertire visitatori in clienti.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
@@ -1442,7 +1442,7 @@ resources.it = {
           icon: '🚀',
           title: 'Ottimizzazione e SEO',
           description:
-            'Audit, miglioramenti tecnici e ottimizzazione per prestazioni e visibilita migliori.',
+            'Audit, miglioramenti tecnici e ottimizzazione per prestazioni e visibilità migliori.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
@@ -1465,7 +1465,7 @@ resources.it = {
       badge: 'Offerta',
       title: 'Il tuo sito, la tua macchina di vendita',
       subtitle:
-        'Un sito che non converte e denaro perso. Realizzo siti pensati per trasformare visitatori in clienti, consegnati in 24-48 ore.',
+        'Un sito che non converte è denaro perso. Realizzo siti pensati per trasformare visitatori in clienti, consegnati in 24-48 ore.',
       benefits: [
         {
           icon: '💰',
@@ -1477,7 +1477,7 @@ resources.it = {
           icon: '📱',
           title: '100% ottimizzato per dispositivi mobili e veloce',
           description:
-            'Oltre il 60% dei visitatori arriva da dispositivi mobili. Il sito e ottimizzato per tutti i dispositivi.',
+            'Oltre il 60% dei visitatori arriva da dispositivi mobili. Il sito è ottimizzato per tutti i dispositivi.',
         },
         {
           icon: '🎯',
@@ -1487,7 +1487,7 @@ resources.it = {
         },
         {
           icon: '🔍',
-          title: 'SEO e visibilita',
+          title: 'SEO e visibilità',
           description:
             'Sito ottimizzato per Google: struttura semantica, tag e performance per aumentare il traffico.',
         },
@@ -1495,7 +1495,7 @@ resources.it = {
           icon: '⚡',
           title: 'Consegna rapida',
           description:
-            'Consegna in 24-48 ore per progetti standard, in base alla complessita.',
+            'Consegna in 24-48 ore per progetti standard, in base alla complessità.',
         },
         {
           icon: '🔧',
@@ -1507,7 +1507,7 @@ resources.it = {
       pricing: {
         label: 'Investimento',
         note:
-          'Prezzo fisso senza sorprese. Il prezzo finale dipende da complessita, numero di sezioni e integrazioni.',
+          'Prezzo fisso senza sorprese. Il prezzo finale dipende da complessità, numero di sezioni e integrazioni.',
         details: [
           'Consegna in 24-48 ore (progetto standard)',
           'Nessun abbonamento, pagamento unico',
@@ -1550,7 +1550,7 @@ resources.it = {
           title: 'Locali',
           category: 'Applicazione web',
           description:
-            'Piattaforma locale che aiuta gli utenti a trovare servizi e attivita nelle vicinanze.',
+            'Piattaforma locale che aiuta gli utenti a trovare servizi e attività nelle vicinanze.',
           tech: ['React', 'Node.js', 'Maps API'],
           preview: '/previews/locali.jpg',
           link: 'https://www.mylocali.fr',
@@ -1583,7 +1583,7 @@ resources.it = {
       subtitle: 'Pronto a iniziare? Inviami un messaggio e rispondo entro 24 ore.',
       locationLabel: 'Posizione',
       locationValue: 'Francia (remoto)',
-      availabilityLabel: 'Disponibilita',
+      availabilityLabel: 'Disponibilità',
       availabilityValue: 'Da subito',
       successTitle: 'Messaggio inviato!',
       successBody: 'Grazie per il messaggio. Ti rispondo entro 24 ore.',
@@ -1603,7 +1603,7 @@ resources.it = {
           'Altro',
         ],
         error:
-          'Si e verificato un errore. Riprova o scrivi a issamadayev@gmail.com',
+          'Si è verificato un errore. Riprova o scrivi a issamadayev@gmail.com',
         sending: 'Invio in corso...',
         submit: 'Invia messaggio',
       },
@@ -1949,7 +1949,7 @@ resources.ja = {
         {
           icon: '🔍',
           title: 'SEOと検索露出',
-          description: 'Googleに評価される構造・タグ・パフォーマンスで、公開初日からトラフィックを獲得します。',
+          description: 'グーグルに評価される構造・タグ・パフォーマンスで、公開初日からトラフィックを獲得します。',
         },
         {
           icon: '⚡',

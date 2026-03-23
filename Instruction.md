@@ -194,3 +194,51 @@
 - Revalidation de la compilation production: `npm run build` reussi sans erreur.
 - Controle des diagnostics IDE sur les fichiers refactores: aucun avertissement linter detecte.
 - Conclusion: rien d'oublié cote validation technique immediate; les changements sont coherents et compilent correctement.
+
+### 2026-03-23 - Correction "Google" non traduit en japonais
+- Correction de `offer.benefits[3].description` dans la locale `ja` de `src/i18n.js`.
+- Remplacement: `Google` -> `グーグル`.
+- Validation technique: aucun avertissement linter sur `src/i18n.js`.
+
+### 2026-03-23 - Verification/correction des accents en francais
+- Relecture complete du bloc `fr.translation` dans `src/i18n.js`.
+- Correction des accents manquants sur les libelles et paragraphes FR (ex: `Développeur`, `À propos`, `Expérience`, `Réessayez`, `Dès`, `Sélectionner`, etc.).
+- Harmonisation des noms de langues dans `language.options` (`Français`, `Español`).
+- Validation technique: aucun avertissement linter sur `src/i18n.js`.
+
+### 2026-03-23 - Verification/correction des accents en espagnol
+- Relecture complete du bloc `resources.es` dans `src/i18n.js`.
+- Correction des accents manquants sur l'ensemble des sections (navigation, hero, services, offre, about, portfolio, contact, footer).
+- Exemples corriges: `Navegación`, `Sobre mí`, `Diseño`, `rápidas`, `años`, `Comercio electrónico`, `Aplicación`, `Ubicación`, `Inténtalo`, `¡Mensaje enviado!`.
+- Correction complementaire: suppression d'une ligne de description dupliquee dans `portfolio.projects[1]`.
+- Validation technique: aucun avertissement linter sur `src/i18n.js`.
+
+### 2026-03-23 - Verification/correction des accents en allemand
+- Relecture complete du bloc `resources.de` dans `src/i18n.js`.
+- Conversion des transliterations ASCII vers les caracteres allemands natifs (`ä`, `ö`, `ü`, `ß`) sur l'ensemble des sections.
+- Exemples corriges: `Französisch`, `Niederländisch`, `Über mich`, `Menü`, `verfügbar`, `präsentieren`, `Maßgeschneiderte`, `Komplexität`, `Unabhängigkeit`, `Vollständiger`, `Sekundäre`.
+- Validation technique: aucun avertissement linter sur `src/i18n.js`.
+
+### 2026-03-23 - Verification/correction des accents en italien
+- Relecture complete du bloc `resources.it` dans `src/i18n.js`.
+- Correction des accents manquants et apostrophes accentuees sur les textes italiens (ex: `Menù`, `attività`, `visibilità`, `è`, `complessità`, `Disponibilità`).
+- Verification de coherence sur toutes les sections (`nav`, `services`, `offer`, `portfolio`, `contact`).
+- Validation technique: aucun avertissement linter sur `src/i18n.js`.
+
+### 2026-03-23 - Verification des accents en neerlandais
+- Relecture complete du bloc `resources.nl` dans `src/i18n.js`.
+- Controle des diacritiques neerlandais et des formes typographiques sensibles (`ideeën`, apostrophes, etc.).
+- Constat: aucune correction necessaire sur la locale neerlandaise, les accents/diacritiques requis sont deja coherents.
+
+### 2026-03-23 - Verification/correction des accents en russe
+- Relecture complete du bloc `resources.ru` dans `src/i18n.js`.
+- Ajustements orthographiques avec diacritique russe (`ё`) sur des occurrences utilisateur:
+  - `увлеченный` -> `увлечённый`
+  - `все` -> `всё`
+  - `еще` -> `ещё`
+- Validation technique: aucun avertissement linter sur `src/i18n.js`.
+
+### 2026-03-23 - Verification orthographique en francais
+- Relecture complete du bloc `fr.translation` dans `src/i18n.js`.
+- Controle des mots accentues, apostrophes et formulations FR sur toutes les sections.
+- Constat: aucune faute d'orthographe supplementaire detectee, aucune correction necessaire.
