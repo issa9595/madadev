@@ -2,13 +2,107 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Développeur web freelance - Création de sites web modernes et performants" />
-    <title>MadaDev | Développeur Web Freelance</title>
+
+    <!-- Primary SEO -->
+    <title>MadaDev — Développeur Web Freelance | Sites &amp; Landing Pages en 24-48h</title>
+    <meta name="description" content="Développeur web freelance en France. Création de sites vitrine, landing pages et apps web sur mesure — livrés en 24 à 48h pour 400 à 700 €. Devis gratuit." />
+    <meta name="keywords" content="développeur web freelance, création site web, landing page, site vitrine, site internet pas cher, développeur React freelance, création site web France, site web 24h" />
+    <meta name="author" content="MadaDev — Issa Madayev" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mada-dev.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mada-dev.com" />
+    <meta property="og:site_name" content="MadaDev" />
+    <meta property="og:title" content="MadaDev — Développeur Web Freelance | Sites livrés en 24-48h" />
+    <meta property="og:description" content="Sites vitrine, landing pages et apps web sur mesure. Livrés en 24 à 48h, de 400 à 700 €. Développeur web freelance basé en France." />
+    <meta property="og:image" content="https://mada-dev.com/previews/locali.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MadaDev — Développeur Web Freelance | Sites livrés en 24-48h" />
+    <meta name="twitter:description" content="Sites vitrine, landing pages et apps web sur mesure. Livrés en 24 à 48h, de 400 à 700 €." />
+    <meta name="twitter:image" content="https://mada-dev.com/previews/locali.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://mada-dev.com/#person",
+          "name": "Issa Madayev",
+          "alternateName": "MadaDev",
+          "jobTitle": "Développeur web freelance",
+          "url": "https://mada-dev.com",
+          "email": "issamadayev@gmail.com",
+          "description": "Développeur web freelance basé en France, spécialisé en création de sites vitrine, landing pages et applications web avec React et Node.js.",
+          "knowsAbout": ["React", "Next.js", "Node.js", "TypeScript", "Développement web", "Sites vitrine", "Landing page", "E-commerce", "SEO"],
+          "sameAs": [
+            "https://github.com/issa9595",
+            "https://www.linkedin.com/in/issa-madayev-325395253"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Création de site web",
+            "description": "Création de sites vitrine, landing pages et applications web sur mesure. Livraison en 24 à 48h.",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": 400,
+              "maxPrice": 700,
+              "priceCurrency": "EUR"
+            }
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mada-dev.com/#website",
+          "url": "https://mada-dev.com",
+          "name": "MadaDev",
+          "description": "Portfolio de MadaDev, développeur web freelance en France",
+          "publisher": { "@id": "https://mada-dev.com/#person" },
+          "inLanguage": "fr-FR"
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://mada-dev.com/#service",
+          "name": "MadaDev — Développement web freelance",
+          "url": "https://mada-dev.com",
+          "description": "Création de sites vitrine, landing pages et applications web. Livraison express en 24 à 48h. Tarifs à partir de 400 €.",
+          "provider": { "@id": "https://mada-dev.com/#person" },
+          "areaServed": "France",
+          "availableLanguage": "French",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services web",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Site vitrine" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing page" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Application web" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-commerce" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Optimisation SEO" } }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

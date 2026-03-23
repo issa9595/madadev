@@ -70,6 +70,26 @@
   font-size: 0.9rem;
 }
 
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.language-select {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+}
+
 .burger {
   display: none;
   flex-direction: column;
@@ -127,5 +147,13 @@
 
   .nav-link {
     font-size: 1.1rem;
+  }
+
+  .language-switcher {
+    width: 100%;
+  }
+
+  .language-select {
+    width: 100%;
   }
 }

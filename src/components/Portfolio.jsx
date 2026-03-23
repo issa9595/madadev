@@ -1,44 +1,17 @@
+import { memo, useMemo } from 'react'
 import './Portfolio.css'
+import { useTranslation } from 'react-i18next'
 
-const projects = [
-  {
-    title: 'Locali',
-    category: 'Application web',
-    description:
-      'Plateforme de mise en relation locale permettant aux utilisateurs de trouver des services et commerces à proximité.',
-    tech: ['React', 'Node.js', 'Maps API'],
-    preview: '/previews/locali.jpg',
-    link: 'https://www.mylocali.fr',
-  },
-  {
-    title: "L'Essence",
-    category: 'Site vitrine',
-    description:
-      'Site vitrine élégant pour une marque lifestyle, avec un design soigné et une expérience utilisateur fluide.',
-    tech: ['Vite', 'React', 'CSS'],
-    preview: '/previews/lessence.jpg',
-    link: 'https://mada-dev-template1.vercel.app',
-  },
-  {
-    title: 'Lumia',
-    category: 'Application web',
-    description:
-      'Assistant vocal interactif propulsé par IA, avec reconnaissance vocale et réponses en temps réel.',
-    tech: ['React', 'Web Speech API', 'AI'],
-    preview: '/previews/lumia.jpg',
-    link: 'https://vocal-assistant-two.vercel.app',
-  },
-]
+function Portfolio() {
+  const { t } = useTranslation()
+  const projects = useMemo(() => t('portfolio.projects', { returnObjects: true }), [t])
 
-export default function Portfolio() {
   return (
     <section className="section portfolio-section" id="portfolio">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Mes projets</h2>
-          <p className="section-subtitle">
-            Une sélection de projets récents illustrant mes compétences et mon savoir-faire.
-          </p>
+          <h2 className="section-title">{t('portfolio.title')}</h2>
+          <p className="section-subtitle">{t('portfolio.subtitle')}</p>
         </div>
 
         <div className="portfolio-grid">
@@ -51,16 +24,16 @@ export default function Portfolio() {
               rel="noreferrer"
             >
               <div className="project-thumbnail">
-                <img src={project.preview} alt={project.title} className="project-preview" />
-                <div className="project-overlay">Voir le projet ↗</div>
+                <img src={project.preview} alt={`${project.title} ${project.category}`} className="project-preview" loading="lazy" />
+                <div className="project-overlay">{t('portfolio.viewProject')} ↗</div>
               </div>
               <div className="project-body">
                 <span className="project-category">{project.category}</span>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
                 <div className="project-tech">
-                  {project.tech.map(t => (
-                    <span key={t} className="tag">{t}</span>
+                  {(project.tech || []).map(tech => (
+                    <span key={tech} className="tag">{tech}</span>
                   ))}
                 </div>
               </div>
@@ -69,12 +42,14 @@ export default function Portfolio() {
         </div>
 
         <div className="portfolio-cta">
-          <p>Vous avez un projet en tête ?</p>
+          <p>{t('portfolio.ctaQuestion')}</p>
           <a href="#contact" className="btn btn-primary">
-            Parlons-en
+            {t('portfolio.ctaAction')}
           </a>
         </div>
       </div>
     </section>
   )
 }
+
+export default memo(Portfolio)

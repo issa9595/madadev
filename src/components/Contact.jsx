@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import emailjs from '@emailjs/browser'
+import { memo, useMemo, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import './Contact.css'
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
-export default function Contact() {
+function Contact() {
+  const { t } = useTranslation()
   const [form, setForm] = useState({ name: '', email: '', project: '', message: '' })
   const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const projectOptions = useMemo(() => t('contact.form.options', { returnObjects: true }), [t])
 
   const handleChange = e => {
     setForm(prev => ({ ...prev, [e.target.name]: e.target.value }))
@@ -19,6 +21,7 @@ export default function Contact() {
     setStatus('sending')
 
     try {
+      const { default: emailjs } = await import('@emailjs/browser')
       await emailjs.send(
         SERVICE_ID,
         TEMPLATE_ID,
@@ -42,16 +45,14 @@ export default function Contact() {
       <div className="container">
         <div className="contact-grid">
           <div className="contact-info">
-            <h2 className="section-title">Parlons de votre projet</h2>
-            <p className="section-subtitle">
-              Prêt à démarrer ? Envoyez-moi un message et je vous réponds sous 24h.
-            </p>
+            <h2 className="section-title">{t('contact.title')}</h2>
+            <p className="section-subtitle">{t('contact.subtitle')}</p>
 
             <div className="contact-items">
               <div className="contact-item">
                 <div className="contact-item-icon">📧</div>
                 <div>
-                  <p className="contact-item-label">Email</p>
+                  <p className="contact-item-label">{t('contact.emailLabel')}</p>
                   <a href="mailto:issamadayev@gmail.com" className="contact-item-value">
                     issamadayev@gmail.com
                   </a>
@@ -60,15 +61,15 @@ export default function Contact() {
               <div className="contact-item">
                 <div className="contact-item-icon">📍</div>
                 <div>
-                  <p className="contact-item-label">Localisation</p>
-                  <p className="contact-item-value">France (remote)</p>
+                  <p className="contact-item-label">{t('contact.locationLabel')}</p>
+                  <p className="contact-item-value">{t('contact.locationValue')}</p>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-item-icon">⏱️</div>
                 <div>
-                  <p className="contact-item-label">Disponibilité</p>
-                  <p className="contact-item-value">Dès maintenant</p>
+                  <p className="contact-item-label">{t('contact.availabilityLabel')}</p>
+                  <p className="contact-item-value">{t('contact.availabilityValue')}</p>
                 </div>
               </div>
             </div>
@@ -98,39 +99,39 @@ export default function Contact() {
             {status === 'success' ? (
               <div className="success-message">
                 <div className="success-icon">🎉</div>
-                <h3>Message envoyé !</h3>
-                <p>Merci pour votre message. Je vous réponds dans les 24 heures.</p>
+                <h3>{t('contact.successTitle')}</h3>
+                <p>{t('contact.successBody')}</p>
               </div>
             ) : (
               <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="name">Nom complet</label>
+                    <label htmlFor="name">{t('contact.form.name')}</label>
                     <input
                       type="text"
                       id="name"
                       name="name"
                       value={form.name}
                       onChange={handleChange}
-                      placeholder="Jean Dupont"
+                      placeholder={t('contact.form.namePlaceholder')}
                       required
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">{t('contact.form.email')}</label>
                     <input
                       type="email"
                       id="email"
                       name="email"
                       value={form.email}
                       onChange={handleChange}
-                      placeholder="jean@exemple.fr"
+                      placeholder={t('contact.form.emailPlaceholder')}
                       required
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label htmlFor="project">Type de projet</label>
+                  <label htmlFor="project">{t('contact.form.projectType')}</label>
                   <select
                     id="project"
                     name="project"
@@ -138,22 +139,22 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                   >
-                    <option value="">Sélectionner...</option>
-                    <option value="Site vitrine">Site vitrine</option>
-                    <option value="E-commerce">E-commerce</option>
-                    <option value="Application web">Application web</option>
-                    <option value="Refonte / optimisation">Refonte / optimisation</option>
-                    <option value="Autre">Autre</option>
+                    <option value="">{t('contact.form.selectPlaceholder')}</option>
+                    {projectOptions.map(option => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
                   </select>
                 </div>
                 <div className="form-group">
-                  <label htmlFor="message">Décrivez votre projet</label>
+                  <label htmlFor="message">{t('contact.form.message')}</label>
                   <textarea
                     id="message"
                     name="message"
                     value={form.message}
                     onChange={handleChange}
-                    placeholder="Parlez-moi de votre projet, vos objectifs, votre délai..."
+                    placeholder={t('contact.form.messagePlaceholder')}
                     rows={5}
                     required
                   />
@@ -161,7 +162,7 @@ export default function Contact() {
 
                 {status === 'error' && (
                   <p className="form-error">
-                    Une erreur est survenue. Réessayez ou écrivez directement à issamadayev@gmail.com
+                    {t('contact.form.error')}
                   </p>
                 )}
 
@@ -170,7 +171,7 @@ export default function Contact() {
                   className="btn btn-primary submit-btn"
                   disabled={status === 'sending'}
                 >
-                  {status === 'sending' ? 'Envoi en cours...' : 'Envoyer le message →'}
+                  {status === 'sending' ? t('contact.form.sending') : `${t('contact.form.submit')} →`}
                 </button>
               </form>
             )}
@@ -180,3 +181,5 @@ export default function Contact() {
     </section>
   )
 }
+
+export default memo(Contact)

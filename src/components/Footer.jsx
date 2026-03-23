@@ -1,6 +1,9 @@
+import { memo } from 'react'
 import './Footer.css'
+import { useTranslation } from 'react-i18next'
 
-export default function Footer() {
+function Footer() {
+  const { t } = useTranslation()
   const year = new Date().getFullYear()
 
   return (
@@ -12,16 +15,19 @@ export default function Footer() {
           <span className="logo-bracket">/&gt;</span>
         </a>
         <p className="footer-copy">
-          © {year} MadaDev · Développeur web freelance ·{' '}
+          © {year} MadaDev · {t('footer.copyRole')} ·{' '}
           <a href="https://mada-dev.com" target="_blank" rel="noreferrer">mada-dev.com</a>
         </p>
-        <nav className="footer-nav">
-          <a href="#services">Services</a>
-          <a href="#about">À propos</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
+        <nav className="footer-nav" aria-label={t('footer.secondaryAria')}>
+          <a href="#services">{t('nav.links.services')}</a>
+          <a href="#offre">{t('nav.links.offer')}</a>
+          <a href="#about">{t('nav.links.about')}</a>
+          <a href="#portfolio">{t('nav.links.portfolio')}</a>
+          <a href="#contact">{t('nav.links.contact')}</a>
         </nav>
       </div>
     </footer>
   )
 }
+
+export default memo(Footer)
