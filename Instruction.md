@@ -242,3 +242,8 @@
 - Relecture complete du bloc `fr.translation` dans `src/i18n.js`.
 - Controle des mots accentues, apostrophes et formulations FR sur toutes les sections.
 - Constat: aucune faute d'orthographe supplementaire detectee, aucune correction necessaire.
+
+### 2026-03-23 - Ajout import Vercel Analytics (Next)
+- Ajout de la ligne d'import demandee dans `src/main.jsx`:
+  - `import { Analytics } from "@vercel/analytics/next"`
+- Aucun autre changement fonctionnel applique.
