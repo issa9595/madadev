@@ -278,6 +278,6 @@
 - Objectif: affiner la hauteur visuelle pour un rendu plus discret tout en gardant une bonne lisibilite.
 
 ### 2026-03-23 - Alignement du selecteur sur les autres champs
-- Suppression de la surcharge CSS dediee a `.form-group select` dans `src/components/Contact.css`.
-- Le selecteur `Type de projet` herite maintenant exactement des memes regles que `input` et `textarea` via le bloc commun (`padding`, `font-size`, bordure, largeur).
-- Objectif: obtenir une hauteur et un rendu coherents avec les autres champs du formulaire.
+- Suppression de la regle CSS specifique `.form-group select` dans `src/components/Contact.css`.
+- Le selecteur `Type de projet` herite maintenant exactement des memes styles que `input`/`textarea` via la regle commune (`padding`, `font-size`, bordure, etc.).
+- Objectif: uniformiser la taille visuelle de tous les champs du formulaire.
