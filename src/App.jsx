@@ -1,30 +1,19 @@
-import { Suspense, lazy } from 'react'
+import { Suspense } from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import ScrollToTop from './components/seo/ScrollToTop'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import Footer from './components/Footer'
-
-const Services = lazy(() => import('./components/Services'))
-const Offer = lazy(() => import('./components/Offer'))
-const About = lazy(() => import('./components/About'))
-const Portfolio = lazy(() => import('./components/Portfolio'))
-const Contact = lazy(() => import('./components/Contact'))
+import AppRoutes from './routes/AppRoutes'
 
 export default function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
-      <main>
-        <Hero />
-        <Suspense fallback={null}>
-          <Services />
-          <Offer />
-          <About />
-          <Portfolio />
-          <Contact />
-        </Suspense>
-      </main>
+      <Suspense fallback={null}>
+        <AppRoutes />
+      </Suspense>
       <Footer />
       <Analytics />
       <SpeedInsights />

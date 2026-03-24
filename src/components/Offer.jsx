@@ -34,14 +34,14 @@ function Offer() {
           <div className="pricing-inner">
             <div className="pricing-left">
               <p className="pricing-label">{t('offer.pricing.label')}</p>
+              <p className="pricing-vitrine-label">{t('offer.pricing.labelVitrine')}</p>
               <p className="pricing-range">
                 <span className="pricing-from">400 €</span>
                 <span className="pricing-sep">→</span>
                 <span className="pricing-to">700 €</span>
               </p>
-              <p className="pricing-note">
-                {t('offer.pricing.note')}
-              </p>
+              <p className="pricing-note">{t('offer.pricing.note')}</p>
+              <p className="pricing-ecommerce-line">{t('offer.pricing.ecommerceLine')}</p>
             </div>
             <div className="pricing-right">
               {pricingDetails.map(detail => (
@@ -50,7 +50,7 @@ function Offer() {
                   <span>{detail}</span>
                 </div>
               ))}
-              <a href="#contact" className="btn btn-primary pricing-cta">
+              <a href="/#contact" className="btn btn-primary pricing-cta">
                 {t('offer.pricing.cta')}
               </a>
             </div>

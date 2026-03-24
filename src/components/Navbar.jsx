@@ -1,4 +1,5 @@
 import { memo, useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { SUPPORTED_LANGUAGES, resolveSelectableLanguage } from '../i18n/languages'
 import './Navbar.css'
@@ -35,11 +36,11 @@ function Navbar() {
 
   const navLinks = useMemo(
     () => [
-      { href: '#services', label: t('nav.links.services') },
-      { href: '#offre', label: t('nav.links.offer') },
-      { href: '#about', label: t('nav.links.about') },
-      { href: '#portfolio', label: t('nav.links.portfolio') },
-      { href: '#contact', label: t('nav.links.contact') },
+      { href: '/#services', label: t('nav.links.services') },
+      { href: '/#offre', label: t('nav.links.offer') },
+      { href: '/#about', label: t('nav.links.about') },
+      { href: '/#portfolio', label: t('nav.links.portfolio') },
+      { href: '/#contact', label: t('nav.links.contact') },
     ],
     [t],
   )
@@ -49,11 +50,11 @@ function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-inner">
-        <a href="#" className="logo" aria-label={t('nav.logoAria')}>
+        <Link to="/" className="logo" aria-label={t('nav.logoAria')}>
           <span className="logo-bracket">&lt;</span>
           MadaDev
           <span className="logo-bracket">/&gt;</span>
-        </a>
+        </Link>
 
         <nav className={`nav-links ${menuOpen ? 'open' : ''}`} aria-label={t('nav.mainAria')}>
           {navLinks.map(link => (
@@ -83,7 +84,7 @@ function Navbar() {
               ))}
             </select>
           </div>
-          <a href="#contact" className="btn btn-primary nav-cta" onClick={() => setMenuOpen(false)}>
+          <a href="/#contact" className="btn btn-primary nav-cta" onClick={() => setMenuOpen(false)}>
             {t('nav.cta')}
           </a>
         </nav>

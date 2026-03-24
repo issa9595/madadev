@@ -1,5 +1,32 @@
 ## Journal des actions
 
+### 2026-03-24 - Refactor TarifsPage : extraction donnees + sous-composants
+- Constantes `PRICING_PLANS`, `COMPARISON_ROWS`, `FAQ_ITEMS` en tete de fichier.
+- Sous-composants : `PriceDisplay` (range / from / text), `PricingCta` (Link vs anchor), `PricingCard`, `TableCell` (boolean → check/cross ou string), `FaqItem`.
+- Suppression de tous les styles inline ; nouvelles classes CSS dans `SeoLanding.css` : `.pricing-arrow`, `.pricing-price--text`, `.btn-full`, `.cta-section .btn-cta`.
+- Build et lint : aucune erreur.
+
+### 2026-03-24 - Refactor SEO : shell commun et meta centralisees
+- `EcommercePage`, `TarifsPage`, `NantesPage` : suppression des imports locaux `SeoHead`, `./SeoLanding.css` et des objets JSON-LD inline ; utilisation de `SeoPageShell` avec `ecommercePageMeta`, `tarifsPageMeta`, `nantesPageMeta` depuis `src/data/seo/pageMeta.js` (alignement avec `SiteVitrinePage`).
+- Styles SEO : charges une seule fois via `SeoPageShell` depuis `src/components/seo/SeoLanding.css`.
+- Validation : `npm run build` reussi.
+
+### 2026-03-24 - Alignement tarifs et offres (vitrine vs e-commerce)
+- Sites vitrine : fourchette 400 a 700 EUR, delai 24-48h reserve a ce type de projet (textes i18n, pages SEO, Offer, index.html, Home Helmet).
+- E-commerce : minimum 1500 EUR, delai minimum 1 semaine ; suppression des mentions WooCommerce ; stack Shopify ou Next.js ; paiements carte bancaire + Stripe (pages Ecommerce et Tarifs, FAQ, Nantes).
+- JSON-LD et meta : plages et offres e-commerce mises a jour (ex. index.html, jsonLd des pages SEO).
+
+### 2026-03-24 - React Router pour les pages SEO (remplacement des index.html dans public)
+- Ajout des dependances `react-router-dom` et `react-helmet-async`.
+- `main.jsx` : `BrowserRouter` + `HelmetProvider` autour de l'application.
+- `App.jsx` : routes `/`, `/site-vitrine`, `/ecommerce`, `/nantes`, `/tarifs` avec code splitting (`lazy`), composant `ScrollToTop` pour le scroll en haut a chaque changement de route.
+- `pages/Home.jsx` : contenu d'accueil (Hero + sections lazy) avec `Helmet` pour titre/description/canonical de la page d'accueil.
+- `pages/seo/*` : composants React pour chaque landing SEO enveloppes par `SeoPageShell` ; styles partages dans `src/components/seo/SeoLanding.css` (hero scope `.seo-page .hero` pour eviter le conflit avec `Hero.css`) ; meta et JSON-LD centralises dans `src/data/seo/pageMeta.js` et `src/data/seo/jsonLd.js`.
+- `Navbar` / `Footer` : liens internes vers les sections en `/#...`, logo et pages SEO en `Link` React Router.
+- Suppression des fichiers `public/site-vitrine/index.html`, `public/ecommerce/index.html`, `public/nantes/index.html`, `public/tarifs/index.html` et des dossiers vides associes.
+- `vercel.json` : rewrites unifies vers `/index.html` pour le routage SPA (les fichiers statiques restent servis en priorite par Vercel).
+- Validation : `npm run build` reussi.
+
 ### 2026-03-23 - Correction erreur Vite/Babel dans Offer.jsx
 - Cause identifiee: apostrophe non echappee dans une chaine delimitee par des quotes simples (`l'action`) dans `src/components/Offer.jsx`.
 - Action effectuee: remplacement de la chaine concernee par une chaine delimitee par des quotes doubles pour conserver l'apostrophe sans erreur de parsing.

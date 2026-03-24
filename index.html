@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO -->
-    <title>MadaDev — Développeur Web Freelance | Sites &amp; Landing Pages en 24-48h</title>
-    <meta name="description" content="Développeur web freelance en France. Création de sites vitrine, landing pages et apps web sur mesure — livrés en 24 à 48h pour 400 à 700 €. Devis gratuit." />
-    <meta name="keywords" content="développeur web freelance, création site web, landing page, site vitrine, site internet pas cher, développeur React freelance, création site web France, site web 24h" />
+    <title>Création Site Web Nantes | Freelance Vitrine &amp; E-commerce — MadaDev</title>
+    <meta name="description" content="MadaDev, développeur web freelance à Nantes. Sites vitrine 400–700€ livrés en 24–48h. E-commerce sur mesure dès 1500€ (min. 1 semaine). Devis gratuit." />
+    <meta name="keywords" content="développeur web freelance Nantes, création site web Nantes, site vitrine Nantes, e-commerce Nantes, landing page, site internet pas cher, développeur React freelance, site vitrine artisan, site web PME" />
     <meta name="author" content="MadaDev — Issa Madayev" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://mada-dev.com" />
@@ -16,8 +16,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mada-dev.com" />
     <meta property="og:site_name" content="MadaDev" />
-    <meta property="og:title" content="MadaDev — Développeur Web Freelance | Sites livrés en 24-48h" />
-    <meta property="og:description" content="Sites vitrine, landing pages et apps web sur mesure. Livrés en 24 à 48h, de 400 à 700 €. Développeur web freelance basé en France." />
+    <meta property="og:title" content="Création Site Web Nantes | Freelance Vitrine &amp; E-commerce — MadaDev" />
+    <meta property="og:description" content="MadaDev, développeur web freelance à Nantes. Sites vitrine 400–700€ en 24–48h. E-commerce dès 1500€ (min. 1 semaine)." />
     <meta property="og:image" content="https://mada-dev.com/previews/madadev.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -25,8 +25,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="MadaDev — Développeur Web Freelance | Sites livrés en 24-48h" />
-    <meta name="twitter:description" content="Sites vitrine, landing pages et apps web sur mesure. Livrés en 24 à 48h, de 400 à 700 €." />
+    <meta name="twitter:title" content="Création Site Web Nantes | Freelance Vitrine &amp; E-commerce — MadaDev" />
+    <meta name="twitter:description" content="MadaDev, développeur web freelance à Nantes. Sites vitrine 400–700€ en 24–48h. E-commerce dès 1500€ (min. 1 semaine)." />
     <meta name="twitter:image" content="https://mada-dev.com/previews/madadev.png" />
 
     <!-- Favicon -->
@@ -45,29 +45,62 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Person",
-          "@id": "https://mada-dev.com/#person",
-          "name": "Issa Madayev",
-          "alternateName": "MadaDev",
-          "jobTitle": "Développeur web freelance",
+          "@type": "LocalBusiness",
+          "@id": "https://mada-dev.com/#business",
+          "name": "MadaDev",
+          "description": "Développeur web freelance à Nantes : sites vitrine 400–700€ livrés en 24–48h ; e-commerce sur mesure dès 1500€ (délai min. 1 semaine).",
           "url": "https://mada-dev.com",
           "email": "issamadayev@gmail.com",
-          "description": "Développeur web freelance basé en France, spécialisé en création de sites vitrine, landing pages et applications web avec React et Node.js.",
-          "knowsAbout": ["React", "Next.js", "Node.js", "TypeScript", "Développement web", "Sites vitrine", "Landing page", "E-commerce", "SEO"],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nantes",
+            "addressRegion": "Pays de la Loire",
+            "postalCode": "44000",
+            "addressCountry": "FR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.2184,
+            "longitude": -1.5536
+          },
+          "areaServed": ["Nantes", "Loire-Atlantique", "Pays de la Loire", "France"],
+          "priceRange": "400€ - 1500€+",
+          "currenciesAccepted": "EUR",
+          "paymentAccepted": "Virement bancaire, carte bancaire",
+          "openingHours": "Mo-Fr 09:00-18:00",
           "sameAs": [
             "https://github.com/issa9595",
             "https://www.linkedin.com/in/issa-madayev-325395253"
           ],
-          "offers": {
-            "@type": "Offer",
-            "name": "Création de site web",
-            "description": "Création de sites vitrine, landing pages et applications web sur mesure. Livraison en 24 à 48h.",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": 400,
-              "maxPrice": 700,
-              "priceCurrency": "EUR"
-            }
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services web MadaDev",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Site vitrine professionnel" },
+                "price": "400",
+                "priceCurrency": "EUR"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Site e-commerce" },
+                "price": "1500",
+                "priceCurrency": "EUR"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Landing page" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Application web" }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": { "@type": "Service", "name": "Audit performance SEO" }
+              }
+            ]
           }
         },
         {
@@ -75,30 +108,9 @@
           "@id": "https://mada-dev.com/#website",
           "url": "https://mada-dev.com",
           "name": "MadaDev",
-          "description": "Portfolio de MadaDev, développeur web freelance en France",
-          "publisher": { "@id": "https://mada-dev.com/#person" },
+          "description": "Portfolio de MadaDev, développeur web freelance à Nantes",
+          "publisher": { "@id": "https://mada-dev.com/#business" },
           "inLanguage": "fr-FR"
-        },
-        {
-          "@type": "ProfessionalService",
-          "@id": "https://mada-dev.com/#service",
-          "name": "MadaDev — Développement web freelance",
-          "url": "https://mada-dev.com",
-          "description": "Création de sites vitrine, landing pages et applications web. Livraison express en 24 à 48h. Tarifs à partir de 400 €.",
-          "provider": { "@id": "https://mada-dev.com/#person" },
-          "areaServed": "France",
-          "availableLanguage": "French",
-          "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Services web",
-            "itemListElement": [
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Site vitrine" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing page" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Application web" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-commerce" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Optimisation SEO" } }
-            ]
-          }
         }
       ]
     }

@@ -65,8 +65,8 @@ const resources = {
             icon: '🛒',
             title: 'E-commerce',
             description:
-              'Boutiques en ligne sur mesure, optimisées pour les conversions, avec paiement sécurisé intégré.',
-            tags: ['Shopify', 'WooCommerce', 'Stripe'],
+              'Boutiques en ligne sur mesure (Shopify ou Next.js), optimisées pour les conversions, avec paiements par carte bancaire et Stripe.',
+            tags: ['Shopify', 'Next.js', 'Stripe'],
           },
           {
             icon: '⚙️',
@@ -102,7 +102,7 @@ const resources = {
         badge: "L'offre",
         title: 'Votre site, votre machine à vendre',
         subtitle:
-          "Un site web qui ne convertit pas, c'est de l'argent jeté. Je conçois des sites pensés pour transformer vos visiteurs en acheteurs, livrés en 24 à 48h.",
+          "Un site web qui ne convertit pas, c'est de l'argent jeté. Je conçois des sites pensés pour transformer vos visiteurs en acheteurs : sites vitrine livrés en 24 à 48h pour un projet standard.",
         benefits: [
           {
             icon: '💰',
@@ -132,7 +132,7 @@ const resources = {
             icon: '⚡',
             title: 'Livraison express',
             description:
-              'Votre site est livré en 24 à 48h pour un projet standard, ou selon la complexité de votre besoin. Rapide, sans sacrifier la qualité.',
+              'Pour un site vitrine standard : livraison en 24 à 48h. Les boutiques en ligne (e-commerce) nécessitent au minimum une semaine et sont chiffrées à partir de 1500€.',
           },
           {
             icon: '🔧',
@@ -143,10 +143,13 @@ const resources = {
         ],
         pricing: {
           label: 'Investissement',
+          labelVitrine: 'Sites vitrine',
           note:
-            'Tarif fixe, sans surprise. Le prix final dépend de la complexité de votre projet, du nombre de sections et des intégrations nécessaires.',
+            'Fourchette 400 à 700€ pour un site vitrine, selon la complexité. Tarif fixe convenu, sans surprise.',
+          ecommerceLine:
+            'E-commerce sur mesure : à partir de 1500€, délai minimum 1 semaine (devis personnalisé).',
           details: [
-            'Livraison en 24 à 48h (projet standard)',
+            'Livraison en 24 à 48h pour un site vitrine standard',
             "Pas d'abonnement, paiement unique",
             "Révisions incluses jusqu'à votre satisfaction",
             'Hébergement et domaine guidés ou pris en charge',
@@ -289,8 +292,9 @@ resources.en = {
         {
           icon: '🛒',
           title: 'Online stores',
-          description: 'Custom online stores optimized for conversions with integrated secure payments.',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          description:
+            'Custom online stores (Shopify or Next.js) optimized for conversions, with card payments and Stripe.',
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -321,7 +325,8 @@ resources.en = {
     offer: {
       badge: 'Offer',
       title: 'Your website, your sales machine',
-      subtitle: 'A website that does not convert is wasted money. I design sites built to turn visitors into buyers, delivered in 24 to 48 hours.',
+      subtitle:
+        'A website that does not convert is wasted money. I design sites built to turn visitors into buyers: showcase sites delivered in 24 to 48 hours for a standard project.',
       benefits: [
         {
           icon: '💰',
@@ -346,7 +351,8 @@ resources.en = {
         {
           icon: '⚡',
           title: 'Express delivery',
-          description: 'Your site delivered in 24 to 48h for a standard project, or according to the complexity of your needs. Fast, without sacrificing quality.',
+          description:
+            'For a standard showcase site: delivery in 24 to 48 hours. Online stores require at least one week and start from €1,500.',
         },
         {
           icon: '🔧',
@@ -354,7 +360,19 @@ resources.en = {
           description: 'You leave with a site you can grow. No dependency, no hidden costs — you own your tool.',
         },
       ],
-      pricing: { label: 'Investment', note: 'Fixed price, no surprises. The final price depends on your project complexity, number of sections, and required integrations.', details: ['Delivery in 24 to 48h (standard project)', 'No subscription, one-time payment', 'Revisions included until you are satisfied', 'Hosting and domain guidance or full handling'], cta: 'Start my project' },
+      pricing: {
+        label: 'Investment',
+        labelVitrine: 'Showcase websites',
+        note: '€400 to €700 range for a showcase site, depending on complexity. Agreed fixed price, no surprises.',
+        ecommerceLine: 'Custom e-commerce: from €1,500, minimum one-week timeline (custom quote).',
+        details: [
+          'Delivery in 24 to 48h for a standard showcase site',
+          'No subscription, one-time payment',
+          'Revisions included until you are satisfied',
+          'Hosting and domain guidance or full handling',
+        ],
+        cta: 'Start my project',
+      },
     },
     about: { title: 'About me', subtitle: 'Passionate about the web for over 5 years', paragraph1: 'Hi! I am a freelance web developer based in France, specialized in showcase websites, landing pages, and web applications with React and Node.js. I work with startups, SMEs, and entrepreneurs to bring their digital projects to life.', paragraph2: 'My approach: understand your needs, propose suitable solutions, deliver on time, and stay available after launch. Code quality and user experience are at the core of every project.', perks: ['Clean and maintainable code', 'On-time delivery', 'Transparent communication', 'Post-delivery support'], cta: 'Work together', skillsTitle: 'Technical skills', skills: [
       { name: 'React / Next.js', level: 95 },
@@ -461,7 +479,7 @@ resources.es = {
           title: 'Comercio electrónico',
           description:
             'Tiendas online a medida, optimizadas para conversiones con pago seguro integrado.',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -497,7 +515,7 @@ resources.es = {
       badge: 'La oferta',
       title: 'Tu sitio, tu máquina de ventas',
       subtitle:
-        'Un sitio web que no convierte es dinero perdido. Diseño sitios pensados para convertir visitantes en compradores, entregados en 24 a 48 horas.',
+        'Un sitio web que no convierte es dinero perdido. Sitios vitrina entregados en 24 a 48 horas para un proyecto estándar.',
       benefits: [
         {
           icon: '💰',
@@ -527,7 +545,7 @@ resources.es = {
           icon: '⚡',
           title: 'Entrega express',
           description:
-            'Sitio entregado en 24 a 48h para proyectos estándar, según complejidad.',
+            'Sitio vitrina estándar en 24 a 48h. E-commerce desde 1500€, mínimo 1 semana.',
         },
         {
           icon: '🔧',
@@ -538,10 +556,13 @@ resources.es = {
       ],
       pricing: {
         label: 'Inversión',
+        labelVitrine: 'Sitios vitrina',
         note:
-          'Precio fijo y sin sorpresas. El precio final depende de la complejidad del proyecto y las integraciones.',
+          'Entre 400 y 700€ para un sitio vitrina, según complejidad. Precio fijo acordado, sin sorpresas.',
+        ecommerceLine:
+          'E-commerce a medida: desde 1500€, plazo mínimo 1 semana (presupuesto personalizado).',
         details: [
-          'Entrega en 24 a 48h (proyecto estándar)',
+          'Entrega en 24 a 48h para un sitio vitrina estándar',
           'Sin suscripción, pago único',
           'Revisiones incluidas hasta tu satisfacción',
           'Alojamiento y dominio guiados o gestionados',
@@ -710,7 +731,7 @@ resources.ru = {
           title: 'Интернет-магазины',
           description:
             'Интернет-магазины под ключ, оптимизированные под продажи, с безопасной оплатой.',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -787,10 +808,13 @@ resources.ru = {
       ],
       pricing: {
         label: 'Инвестиции',
+        labelVitrine: 'Сайты-визитки',
         note:
-          'Фиксированная цена без сюрпризов. Финальная стоимость зависит от сложности проекта и интеграций.',
+          'Ориентир 400–700€ для сайта-визитки в зависимости от сложности. Фиксированная договорённая цена.',
+        ecommerceLine:
+          'Интернет-магазин на заказ: от 1500€, минимум 1 неделя (индивидуальный расчёт).',
         details: [
-          'Запуск за 24-48 часов (стандартный проект)',
+          'Сдача за 24–48 ч для стандартного сайта-визитки',
           'Без подписки, единоразовая оплата',
           'Правки включены до полного результата',
           'Помощь с хостингом и доменом',
@@ -951,7 +975,7 @@ resources.de = {
           title: 'Online-Shops',
           description:
             'Maßgeschneiderte Online-Shops mit Fokus auf Conversion und sicherer Bezahlung.',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -1028,10 +1052,13 @@ resources.de = {
       ],
       pricing: {
         label: 'Investition',
+        labelVitrine: 'Showcase-Websites',
         note:
-          'Festpreis ohne Überraschungen. Der Endpreis hängt von Komplexität, Seitenumfang und Integrationen ab.',
+          '400–700 € für eine Showcase-Website, je nach Komplexität. Fester vereinbarter Preis.',
+        ecommerceLine:
+          'E-Commerce nach Maß: ab 1500 €, mindestens 1 Woche Lieferzeit (individuelles Angebot).',
         details: [
-          'Lieferung in 24 bis 48 Stunden (Standardprojekt)',
+          'Lieferung in 24 bis 48 Stunden für eine Standard-Showcase-Website',
           'Kein Abo, einmalige Zahlung',
           'Revisionen inklusive bis zur Zufriedenheit',
           'Hosting- und Domain-Begleitung oder Komplettübernahme',
@@ -1191,7 +1218,7 @@ resources.nl = {
           title: 'Webshops',
           description:
             'Webshops op maat, geoptimaliseerd voor conversie met veilige betalingen.',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -1268,10 +1295,13 @@ resources.nl = {
       ],
       pricing: {
         label: 'Investering',
+        labelVitrine: 'Showcase websites',
         note:
-          'Vaste prijs zonder verrassingen. De eindprijs hangt af van complexiteit, aantal secties en integraties.',
+          '€400 tot €700 voor een showcase website, afhankelijk van complexiteit. Vaste afgesproken prijs.',
+        ecommerceLine:
+          'E-commerce op maat: vanaf €1500, minimaal 1 week (offerte op maat).',
         details: [
-          'Oplevering in 24 tot 48 uur (standaardproject)',
+          'Oplevering in 24 tot 48 uur voor een standaard showcase website',
           'Geen abonnement, eenmalige betaling',
           'Aanpassingen inbegrepen tot je tevreden bent',
           'Hosting en domeinbegeleiding of volledige afhandeling',
@@ -1429,7 +1459,7 @@ resources.it = {
           title: 'Negozi online',
           description:
             'Shop online su misura, ottimizzati per la conversione con pagamenti sicuri.',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -1506,10 +1536,13 @@ resources.it = {
       ],
       pricing: {
         label: 'Investimento',
+        labelVitrine: 'Siti vetrina',
         note:
-          'Prezzo fisso senza sorprese. Il prezzo finale dipende da complessità, numero di sezioni e integrazioni.',
+          'Fascia 400–700€ per un sito vetrina, a seconda della complessità. Prezzo fisso concordato.',
+        ecommerceLine:
+          'E-commerce su misura: da 1500€, minimo 1 settimana (preventivo personalizzato).',
         details: [
-          'Consegna in 24-48 ore (progetto standard)',
+          'Consegna in 24-48 ore per un sito vetrina standard',
           'Nessun abbonamento, pagamento unico',
           'Revisioni incluse fino alla tua soddisfazione',
           'Supporto o gestione di hosting e dominio',
@@ -1669,7 +1702,7 @@ resources.zh = {
           title: '电商网站',
           description:
             '定制化电商站点，聚焦转化，集成安全支付。',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -1740,9 +1773,11 @@ resources.zh = {
       ],
       pricing: {
         label: '投入预算',
-        note: '固定价格，无隐藏费用。最终价格取决于项目复杂度、页面数量和集成需求。',
+        labelVitrine: '展示型网站',
+        note: '展示型网站约 400–700€，视复杂度而定。约定固定总价，无隐藏费用。',
+        ecommerceLine: '定制电商：1500€ 起，最短约一周交付（按报价单）。',
         details: [
-          '24 到 48 小时交付（标准项目）',
+          '标准展示型网站 24–48 小时内交付',
           '无订阅，一次性付款',
           '含修改，直到你满意',
           '可提供域名与托管指导或代办',
@@ -1893,7 +1928,7 @@ resources.ja = {
           title: 'ECサイト構築',
           description:
             '売上につながる導線設計と安全な決済を備えたECサイトを構築します。',
-          tags: ['Shopify', 'WooCommerce', 'Stripe'],
+          tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
           icon: '⚙️',
@@ -1964,10 +1999,13 @@ resources.ja = {
       ],
       pricing: {
         label: '料金',
+        labelVitrine: 'コーポレートサイト',
         note:
-          '明確な固定料金。最終価格は要件の複雑さ、セクション数、連携内容によって決まります。',
+          'コーポレートサイトは約400〜700€（要件により変動）。合意した固定価格です。',
+        ecommerceLine:
+          'オーダーメイドEC：1500€〜、最短約1週間（お見積り）。',
         details: [
-          '24〜48時間で納品（標準案件）',
+          '標準のコーポレートサイトは24〜48時間で納品',
           'サブスクなし、一括払い',
           '満足いただくまで修正対応',
           'ドメイン・ホスティング設定をサポート',

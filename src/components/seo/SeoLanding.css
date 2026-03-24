@@ -1,0 +1,653 @@
+/* SEO landing pages — .seo-page .hero évite le conflit avec Hero.css */
+
+/* Hero */
+.seo-page .hero {
+  padding: 9rem 0 5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: unset;
+  display: block;
+  justify-content: unset;
+  flex-direction: unset;
+}
+
+.seo-page .hero::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(99,102,241,0.1);
+      border: 1px solid rgba(99,102,241,0.3);
+      border-radius: 50px;
+      padding: 0.4rem 1rem;
+      font-size: 0.85rem;
+      color: var(--primary-light);
+      margin-bottom: 1.5rem;
+    }
+
+    .dot {
+      width: 8px; height: 8px;
+      background: #22c55e;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .seo-page .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+      letter-spacing: -1px;
+    }
+
+    .gradient-text {
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-sub {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+    }
+
+    .hero-ctas {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Section */
+    .section { padding: 5rem 0; }
+
+    .section-header { text-align: center; margin-bottom: 3rem; }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* Cards grid */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+
+    .card:hover {
+      border-color: var(--primary);
+      transform: translateY(-4px);
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* Two-col */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .two-col h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .two-col p {
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+
+    .checklist {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-top: 1rem;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    .check { color: var(--primary-light); flex-shrink: 0; margin-top: 2px; }
+
+    /* Pricing block */
+    .pricing-block {
+      background: var(--gradient);
+      border-radius: 20px;
+      padding: 3rem;
+      text-align: center;
+      color: white;
+    }
+
+    .pricing-block .price {
+      font-size: 3.5rem;
+      font-weight: 800;
+      line-height: 1;
+      margin: 1rem 0 0.5rem;
+    }
+
+    .pricing-block .price-sub {
+      opacity: 0.85;
+      margin-bottom: 2rem;
+    }
+
+.pricing-block .pricing-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+  max-width: 320px;
+  margin: 0 auto 2rem;
+}
+
+.pricing-block .pricing-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+    /* Alt bg section */
+    .section-alt { background: var(--bg-secondary); }
+
+    /* CTA section */
+    .cta-section {
+      padding: 5rem 0;
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .cta-section p {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      font-size: 1.05rem;
+    }
+
+/* Tags */
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+
+    .tag {
+      background: rgba(99,102,241,0.1);
+      border: 1px solid rgba(99,102,241,0.25);
+      color: var(--primary-light);
+      border-radius: 6px;
+      padding: 0.25rem 0.7rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+@media (max-width: 600px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .seo-page .hero h1 {
+    font-size: 1.9rem;
+  }
+  .pricing-block {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* E-commerce — plateformes */
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.platform-grid--two {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.platform-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.platform-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-4px);
+}
+
+.platform-card .platform-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.platform-card h3 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.platform-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Nantes — stats */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Nantes — liens services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.service-link {
+  display: block;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.service-link:hover {
+  border-color: var(--primary);
+  transform: translateY(-4px);
+}
+
+.service-link .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.service-link h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.service-link p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.service-link .price {
+  color: var(--primary-light);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 0.75rem;
+}
+
+.service-link .arrow {
+  color: var(--primary-light);
+}
+
+/* Nantes — carte contact */
+.contact-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-icon {
+  font-size: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-text strong {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.contact-text span {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* Tarifs — grille & cartes */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.pricing-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  transition: border-color 0.3s, transform 0.3s;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+}
+
+.pricing-card.featured {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.08));
+}
+
+.pricing-card.featured::before {
+  content: 'Populaire';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gradient);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 1rem;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+}
+
+.pricing-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-light);
+  margin-bottom: 0.75rem;
+}
+
+.pricing-price {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.pricing-from {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.pricing-arrow {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+
+.pricing-price--text {
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+
+.btn-full {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.cta-section .btn-cta {
+  font-size: 1rem;
+  padding: 0.9rem 2.25rem;
+}
+
+.pricing-delay {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.pricing-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0;
+}
+
+.pricing-card .pricing-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-card .pricing-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.pricing-card .pricing-features .check {
+  color: var(--primary-light);
+  flex-shrink: 0;
+}
+
+.pricing-card .pricing-features .muted {
+  color: var(--text-muted);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.seo-page table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.seo-page th {
+  text-align: left;
+  padding: 1rem 1.25rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--border);
+}
+
+.seo-page td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(45, 55, 72, 0.5);
+}
+
+.seo-page tr:last-child td {
+  border-bottom: none;
+}
+
+.seo-page tr:hover td {
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.seo-page td:first-child {
+  font-weight: 500;
+}
+
+.td-check {
+  color: #22c55e;
+}
+
+.td-cross {
+  color: var(--text-muted);
+}
+
+.td-badge {
+  display: inline-block;
+  background: var(--gradient);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.faq-q {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.faq-a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .cards-grid,
+  .platform-grid,
+  .platform-grid--two,
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-grid,
+  .platform-grid,
+  .platform-grid--two,
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+  
