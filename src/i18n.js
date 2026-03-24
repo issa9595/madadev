@@ -357,7 +357,7 @@ resources.en = {
         {
           icon: '🔧',
           title: 'Full autonomy',
-          description: 'You leave with a site you can grow. No dependency, no hidden costs — you own your tool.',
+          description: 'You leave with a site you can grow. No dependency, no hidden costs you own your tool.',
         },
       ],
       pricing: {

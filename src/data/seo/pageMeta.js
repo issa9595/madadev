@@ -8,40 +8,40 @@ import {
 /** Métadonnées + JSON-LD par route SEO (contenu FR figé pour le référencement). */
 export const siteVitrinePageMeta = {
   path: '/site-vitrine',
-  title: 'Création Site Vitrine Professionnel Nantes | 400 à 700€, livraison 24-48h — MadaDev',
+  title: 'Création Site Vitrine Artisan, Restaurant, TPE | 400–700€, livraison 24-48h - MadaDev',
   description:
-    'Création de sites vitrine sur mesure pour artisans, restaurants et TPE à Nantes. Fourchette 400 à 700€, livraison en 24-48h pour un projet standard. Devis gratuit.',
+    'Site vitrine professionnel sur mesure pour artisans, restaurants et TPE à Nantes. 400 à 700€, livré en 24-48h. Visible sur Google, parfait sur mobile. Devis gratuit.',
   keywords:
-    'site vitrine artisan Nantes, site vitrine restaurant, site professionnel pas cher, créer site internet entreprise, site web PME Nantes, création site vitrine Nantes',
+    'site vitrine artisan Nantes, site vitrine restaurant Nantes, site vitrine plombier, site internet artisan, créer site vitrine professionnel, site web restaurant, site vitrine PME, site professionnel pas cher Nantes',
   jsonLd: jsonLdSiteVitrineService,
 }
 
 export const ecommercePageMeta = {
   path: '/ecommerce',
-  title: 'Création Site E-commerce Nantes | Boutique en ligne sur mesure — MadaDev',
+  title: 'Création Boutique en Ligne Nantes | Shopify & Next.js sur mesure - MadaDev',
   description:
-    'Développeur e-commerce freelance à Nantes. Boutiques Shopify ou Next.js sur mesure. Paiements carte bancaire et Stripe. À partir de 1500€, délai minimum 1 semaine.',
+    'Boutique en ligne sur mesure à Nantes. Shopify ou Next.js, paiement par carte bancaire et Stripe. À partir de 1500€, délai minimum 1 semaine. Devis gratuit.',
   keywords:
-    'boutique en ligne freelance, développeur Shopify Nantes, création e-commerce Nantes, Next.js e-commerce, Stripe, paiement carte bancaire',
+    'créer boutique en ligne freelance, boutique en ligne sur mesure Nantes, développeur Shopify Nantes, e-commerce Next.js, boutique mode en ligne, boutique artisanale en ligne, création e-commerce Nantes, vendre en ligne',
   jsonLd: jsonLdEcommerceService,
 }
 
 export const tarifsPageMeta = {
   path: '/tarifs',
-  title: 'Tarifs Création Site Web Nantes | Vitrine 400–700€, E-commerce dès 1500€ — MadaDev',
+  title: 'Tarifs Site Web Nantes | Combien coûte un site vitrine ? - MadaDev',
   description:
-    'Prix transparents : sites vitrine 400 à 700€ (livraison 24-48h), e-commerce sur mesure dès 1500€, délai minimum 1 semaine. Sans WooCommerce. Devis gratuit.',
+    'Combien coûte un site web ? Vitrine 400–700€ (24-48h), e-commerce dès 1500€ (min. 1 semaine). Prix clairs, sans surprise. Paiement après validation. Devis gratuit.',
   keywords:
-    'combien coûte un site vitrine, tarif site e-commerce, prix création site web Nantes, devis site internet, tarif développeur web freelance Nantes',
+    'combien coûte un site vitrine, tarif site internet artisan, prix site vitrine restaurant, combien coûte un site e-commerce, tarif développeur web freelance Nantes, prix création site web 2024',
   jsonLd: jsonLdTarifsWebPage,
 }
 
 export const nantesPageMeta = {
   path: '/nantes',
-  title: 'Développeur Web Freelance Nantes | Création Site Internet — MadaDev',
+  title: 'Création Site Internet Nantes | Freelance Web Artisans & PME - MadaDev',
   description:
-    'Développeur web freelance à Nantes : sites vitrine 400–700€ livrés en 24–48h ; boutiques en ligne dès 1500€ (min. 1 semaine). Basé à Nantes, France.',
+    'Développeur web freelance à Nantes pour artisans, restaurants et PME. Sites vitrine 400–700€ livrés en 24–48h. Boutiques en ligne dès 1500€. Présentiel ou remote.',
   keywords:
-    'freelance création site web Nantes, agence web Nantes, développeur web Loire-Atlantique, création site internet 44, développeur web freelance Nantes, site internet Nantes',
+    'création site internet Nantes, freelance web Nantes, site vitrine artisan Nantes, développeur web Loire-Atlantique, agence web Nantes pas cher, site internet restaurant Nantes, développeur freelance 44',
   jsonLd: jsonLdNantesLocalBusiness,
 }

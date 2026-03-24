@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  color: var(--primary-light);
   flex-shrink: 0;
 }
 
@@ -181,8 +181,10 @@ a.contact-item-value:hover {
 }
 
 .success-icon {
-  font-size: 3rem;
+  display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
+  color: #22c55e;
 }
 
 .success-message h3 {

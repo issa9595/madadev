@@ -1,6 +1,9 @@
 import { memo, useMemo } from 'react'
 import './Offer.css'
 import { useTranslation } from 'react-i18next'
+import { TrendingUp, Smartphone, Target, Search, Zap, Wrench } from 'lucide-react'
+
+const BENEFIT_ICONS = [TrendingUp, Smartphone, Target, Search, Zap, Wrench]
 
 function Offer() {
   const { t } = useTranslation()
@@ -21,13 +24,18 @@ function Offer() {
         </div>
 
         <div className="offer-grid">
-          {benefits.map((b, i) => (
-            <div key={i} className="offer-card">
-              <span className="offer-card-icon">{b.icon}</span>
-              <h3 className="offer-card-title">{b.title}</h3>
-              <p className="offer-card-desc">{b.description}</p>
-            </div>
-          ))}
+          {benefits.map((b, i) => {
+            const Icon = BENEFIT_ICONS[i]
+            return (
+              <div key={i} className="offer-card">
+                <div className="offer-card-icon">
+                  {Icon && <Icon size={26} />}
+                </div>
+                <h3 className="offer-card-title">{b.title}</h3>
+                <p className="offer-card-desc">{b.description}</p>
+              </div>
+            )
+          })}
         </div>
 
         <div className="offer-pricing">

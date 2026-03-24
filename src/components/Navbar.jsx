@@ -1,4 +1,4 @@
-import { memo, useEffect, useMemo, useState } from 'react'
+import { memo, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { SUPPORTED_LANGUAGES, resolveSelectableLanguage } from '../i18n/languages'
@@ -34,16 +34,12 @@ function Navbar() {
     }
   }, [])
 
-  const navLinks = useMemo(
-    () => [
-      { href: '/#services', label: t('nav.links.services') },
-      { href: '/#offre', label: t('nav.links.offer') },
-      { href: '/#about', label: t('nav.links.about') },
-      { href: '/#portfolio', label: t('nav.links.portfolio') },
-      { href: '/#contact', label: t('nav.links.contact') },
-    ],
-    [t],
-  )
+  const navLinks = [
+    { to: '/site-vitrine', label: 'Site vitrine' },
+    { to: '/ecommerce', label: 'E-commerce' },
+    { to: '/tarifs', label: 'Tarifs' },
+    { to: '/nantes', label: 'Nantes' },
+  ]
 
   const selectedLanguage = resolveSelectableLanguage(i18n.resolvedLanguage || i18n.language)
 
@@ -58,14 +54,14 @@ function Navbar() {
 
         <nav className={`nav-links ${menuOpen ? 'open' : ''}`} aria-label={t('nav.mainAria')}>
           {navLinks.map(link => (
-            <a
-              key={link.href}
-              href={link.href}
+            <Link
+              key={link.to}
+              to={link.to}
               className="nav-link"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <div className="language-switcher">
             <select

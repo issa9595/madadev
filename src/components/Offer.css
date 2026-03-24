@@ -67,9 +67,10 @@
 }
 
 .offer-card-icon {
-  font-size: 1.75rem;
-  display: block;
+  display: flex;
+  align-items: center;
   margin-bottom: 0.85rem;
+  color: var(--primary-light);
 }
 
 .offer-card-title {

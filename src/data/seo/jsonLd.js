@@ -50,7 +50,7 @@ export const jsonLdEcommerceService = {
 export const jsonLdTarifsWebPage = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
-  name: 'Tarifs création site web Nantes — MadaDev',
+  name: 'Tarifs création site web Nantes - MadaDev',
   url: `${SITE_ORIGIN}/tarifs`,
   description:
     'Prix transparents pour la création de sites web à Nantes. Sites vitrine 400 à 700€ (livraison 24-48h). E-commerce sur mesure dès 1500€ (min. 1 semaine).',

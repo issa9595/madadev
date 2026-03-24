@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <Helmet>
-        <title>Création Site Web Nantes | Freelance Vitrine &amp; E-commerce — MadaDev</title>
+        <title>Création Site Web Nantes | Freelance Vitrine &amp; E-commerce - MadaDev</title>
         <meta
           name="description"
           content="MadaDev, développeur web freelance à Nantes. Sites vitrine 400–700€ en 24–48h. E-commerce sur mesure dès 1500€ (min. 1 semaine). Devis gratuit."

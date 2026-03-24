@@ -105,6 +105,10 @@
       gap: 1.5rem;
     }
 
+    .cards-grid--four {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
     .card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -119,8 +123,10 @@
     }
 
     .card-icon {
-      font-size: 2rem;
+      display: flex;
+      align-items: center;
       margin-bottom: 1rem;
+      color: var(--primary-light);
     }
 
     .card h3 {
@@ -284,8 +290,10 @@
 }
 
 .platform-card .platform-icon {
-  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
+  color: var(--primary-light);
 }
 
 .platform-card h3 {
@@ -351,8 +359,10 @@
 }
 
 .service-link .icon {
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
   margin-bottom: 1rem;
+  color: var(--primary-light);
 }
 
 .service-link h3 {
@@ -395,7 +405,6 @@
 }
 
 .contact-icon {
-  font-size: 1.25rem;
   width: 2.5rem;
   height: 2.5rem;
   background: rgba(99, 102, 241, 0.1);
@@ -403,6 +412,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--primary-light);
   flex-shrink: 0;
 }
 
@@ -416,6 +426,32 @@
 .contact-text span {
   color: var(--text-muted);
   font-size: 0.85rem;
+}
+
+/* Trust bar */
+.trust-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 2.5rem;
+  padding: 1.5rem 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.trust-icon {
+  color: var(--primary-light);
+  flex-shrink: 0;
 }
 
 /* Tarifs — grille & cartes */
@@ -623,6 +659,7 @@
 
 @media (max-width: 900px) {
   .cards-grid,
+  .cards-grid--four,
   .platform-grid,
   .platform-grid--two,
   .services-grid {
@@ -644,6 +681,7 @@
 
 @media (max-width: 600px) {
   .cards-grid,
+  .cards-grid--four,
   .platform-grid,
   .platform-grid--two,
   .services-grid {

@@ -1,5 +1,6 @@
 import { memo, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Mail, MapPin, Clock, CheckCircle } from 'lucide-react'
 import './Contact.css'
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
@@ -50,7 +51,7 @@ function Contact() {
 
             <div className="contact-items">
               <div className="contact-item">
-                <div className="contact-item-icon">📧</div>
+                <div className="contact-item-icon"><Mail size={20} /></div>
                 <div>
                   <p className="contact-item-label">{t('contact.emailLabel')}</p>
                   <a href="mailto:issamadayev@gmail.com" className="contact-item-value">
@@ -59,14 +60,14 @@ function Contact() {
                 </div>
               </div>
               <div className="contact-item">
-                <div className="contact-item-icon">📍</div>
+                <div className="contact-item-icon"><MapPin size={20} /></div>
                 <div>
                   <p className="contact-item-label">{t('contact.locationLabel')}</p>
                   <p className="contact-item-value">{t('contact.locationValue')}</p>
                 </div>
               </div>
               <div className="contact-item">
-                <div className="contact-item-icon">⏱️</div>
+                <div className="contact-item-icon"><Clock size={20} /></div>
                 <div>
                   <p className="contact-item-label">{t('contact.availabilityLabel')}</p>
                   <p className="contact-item-value">{t('contact.availabilityValue')}</p>
@@ -98,7 +99,7 @@ function Contact() {
           <div className="contact-form-wrapper">
             {status === 'success' ? (
               <div className="success-message">
-                <div className="success-icon">🎉</div>
+                <div className="success-icon"><CheckCircle size={48} /></div>
                 <h3>{t('contact.successTitle')}</h3>
                 <p>{t('contact.successBody')}</p>
               </div>

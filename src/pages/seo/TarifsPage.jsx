@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { CreditCard, Lock, Ban, Zap } from 'lucide-react'
 import SeoPageShell from '../../components/seo/SeoPageShell'
 import { tarifsPageMeta } from '../../data/seo/pageMeta'
 
@@ -80,24 +81,32 @@ const FAQ_ITEMS = [
     a: "Les sites vitrine sont en général entre 400 € et 700 € selon la complexité, avec livraison en 24 à 48 h pour un projet standard. Le devis détaille le périmètre : design, développement, SEO de base, formulaire de contact et mise en ligne.",
   },
   {
+    q: 'Combien coûte un site vitrine pour un artisan ou un restaurant ?',
+    a: "Pour un artisan (plombier, électricien, menuisier…) ou un restaurant, le tarif est le même : entre 400 et 700€ selon le contenu et le nombre de pages. Un devis gratuit et détaillé vous est envoyé sous 24h.",
+  },
+  {
     q: 'Combien coûte un site e-commerce ?',
     a: "Un site e-commerce sur mesure (Shopify ou Next.js, pas WooCommerce) démarre à 1500 € et peut monter selon le catalogue, les intégrations et les moyens de paiement (carte bancaire, Stripe, etc.). Comptez au minimum une semaine de délai. Devis gratuit avant engagement.",
   },
   {
     q: 'Pourquoi une fourchette 400 à 700€ pour un site vitrine ?',
-    a: "400 € est le point d'entrée pour un site vitrine standard ; une fourchette plus large couvre plus de pages, des fonctionnalités ou un contenu plus riche. Vous recevez toujours un devis détaillé gratuit avant de vous engager.",
+    a: "400 € est le point d'entrée pour un site vitrine standard (quelques pages, design sur mesure, SEO de base). La fourchette monte si votre projet nécessite plus de pages, des fonctionnalités supplémentaires ou un contenu plus riche. Vous recevez toujours un devis détaillé gratuit avant de vous engager.",
   },
   {
     q: 'Y a-t-il des frais cachés ou récurrents ?',
-    a: "Non. Mon tarif couvre le développement du site. Seuls l'hébergement et le nom de domaine (gérés par vous ou accompagnés par moi) génèrent des coûts annuels — environ 10 à 30€/an selon l'hébergeur.",
+    a: "Non. Mon tarif couvre le développement du site. Seuls l'hébergement et le nom de domaine (gérés par vous ou accompagnés par moi) génèrent des coûts annuels environ 10 à 30€/an selon l'hébergeur. Pas d'abonnement mensuel à me payer.",
   },
   {
     q: 'Quand est-ce que je paye ?',
-    a: "Le paiement se fait en fin de projet, une fois que vous avez validé le site. Pas d'acompte sur les projets standard.",
+    a: "Le paiement se fait en fin de projet, une fois que vous avez validé le site. Pas d'acompte sur les projets standard. Vous ne prenez aucun risque.",
   },
   {
     q: 'Que se passe-t-il si je veux des modifications après livraison ?',
     a: "1 révision est incluse dans chaque formule. Pour des modifications supplémentaires, je vous propose un tarif horaire ou un forfait maintenance mensuel selon vos besoins.",
+  },
+  {
+    q: 'Quelle est la différence entre un site vitrine et un site e-commerce ?',
+    a: "Un site vitrine présente votre activité, vos services, vos coordonnées l'objectif est de générer des contacts et des appels. Un site e-commerce permet à vos clients d'acheter directement en ligne, avec un panier et un système de paiement par carte bancaire.",
   },
 ]
 
@@ -142,7 +151,7 @@ function PricingCard({ plan }) {
         ))}
         {plan.excluded.map((item) => (
           <li key={item}>
-            <span className="muted check">—</span> <span className="muted">{item}</span>
+            <span className="muted check">-</span> <span className="muted">{item}</span>
           </li>
         ))}
       </ul>
@@ -153,7 +162,7 @@ function PricingCard({ plan }) {
 
 function TableCell({ value }) {
   if (value === true)  return <td className="td-check">✓</td>
-  if (value === false) return <td className="td-cross">—</td>
+  if (value === false) return <td className="td-cross">-</td>
   return <td>{value}</td>
 }
 
@@ -192,7 +201,25 @@ export default function TarifsPage() {
 
       <section className="section">
         <div className="container">
-          <div className="section-header">
+          <div className="trust-bar">
+            <div className="trust-item">
+              <CreditCard size={18} className="trust-icon" />
+              <span>Paiement en fin de projet</span>
+            </div>
+            <div className="trust-item">
+              <Lock size={18} className="trust-icon" />
+              <span>Prix fixe contractualisé</span>
+            </div>
+            <div className="trust-item">
+              <Ban size={18} className="trust-icon" />
+              <span>Pas d'acompte demandé</span>
+            </div>
+            <div className="trust-item">
+              <Zap size={18} className="trust-icon" />
+              <span>Devis gratuit sous 24h</span>
+            </div>
+          </div>
+          <div className="section-header" style={{ marginTop: '3rem' }}>
             <h2 className="section-title">Formules &amp; tarifs</h2>
             <p className="section-subtitle">Choisissez la formule adaptée à votre projet.</p>
           </div>

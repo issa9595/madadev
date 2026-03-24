@@ -45,9 +45,10 @@
 }
 
 .service-icon {
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
   margin-bottom: 1rem;
-  display: block;
+  color: var(--primary-light);
 }
 
 .service-title {
