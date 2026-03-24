@@ -29,6 +29,7 @@
 
 .footer-copy a {
   color: var(--primary-light);
+  text-decoration: underline;
   transition: color 0.2s;
 }
 
