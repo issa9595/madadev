@@ -24,7 +24,10 @@ function Portfolio() {
               rel="noreferrer"
             >
               <div className="project-thumbnail">
-                <img src={project.preview} alt={`${project.title} ${project.category}`} className="project-preview" loading="lazy" />
+                <picture>
+                  <source srcSet={project.preview.replace(/\.(jpg|jpeg|png)$/i, '.webp')} type="image/webp" />
+                  <img src={project.preview} alt={`${project.title} ${project.category}`} className="project-preview" loading="lazy" width="634" height="396" />
+                </picture>
                 <div className="project-overlay">{t('portfolio.viewProject')} ↗</div>
               </div>
               <div className="project-body">
