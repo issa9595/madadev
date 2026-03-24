@@ -1,116 +1,12 @@
+import { useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { CreditCard, Lock, Ban, Zap } from 'lucide-react'
 import SeoPageShell from '../../components/seo/SeoPageShell'
 import { tarifsPageMeta } from '../../data/seo/pageMeta'
 
-const PRICING_PLANS = [
-  {
-    id: 'vitrine',
-    label: 'Site vitrine',
-    price: { range: ['400€', '700€'] },
-    delay: 'Livraison en 24 à 48h',
-    features: [
-      'Design sur mesure',
-      'Mobile-first & responsive',
-      'SEO de base (balises, metas)',
-      'Formulaire de contact',
-      'Copywriting orienté conversion',
-      '1 révision incluse',
-      'Accompagnement mise en ligne',
-    ],
-    excluded: ['Catalogue produits', 'Système de paiement'],
-    cta: { type: 'link', to: '/site-vitrine', label: 'En savoir plus', variant: 'outline' },
-  },
-  {
-    id: 'ecommerce',
-    label: 'E-commerce',
-    featured: true,
-    price: { from: '1500€' },
-    delay: 'Délai minimum · 1 semaine',
-    features: [
-      'Boutique en ligne complète',
-      'Shopify ou Next.js (pas de WooCommerce)',
-      'Carte bancaire, Stripe, autres moyens selon besoin',
-      'Gestion commandes & stocks',
-      'Mobile-first & SEO e-commerce',
-      'Emails transactionnels',
-      '1 révision incluse',
-      "Formation à l'administration",
-    ],
-    excluded: [],
-    cta: { type: 'link', to: '/ecommerce', label: 'En savoir plus', variant: 'primary' },
-  },
-  {
-    id: 'custom',
-    label: 'Sur mesure',
-    price: { text: 'Devis gratuit' },
-    delay: 'Délai selon le projet',
-    features: [
-      'Application web complexe',
-      'API & intégrations tierces',
-      'Base de données sur mesure',
-      'Authentification utilisateurs',
-      'Dashboard & back-office',
-      'CI/CD & DevOps',
-      'Maintenance incluse (option)',
-      'Support prioritaire',
-    ],
-    excluded: [],
-    cta: { type: 'anchor', href: '/#contact', label: 'Demander un devis', variant: 'outline' },
-  },
-]
-
-const COMPARISON_ROWS = [
-  { feature: 'Prix',               vitrine: '400€ → 700€',       ecommerce: 'À partir de 1500€', custom: 'Devis gratuit' },
-  { feature: 'Délai de livraison', vitrine: '24 à 48h',           ecommerce: 'Min. 1 semaine',    custom: 'Selon projet'  },
-  { feature: 'Design sur mesure',  vitrine: true,  ecommerce: true,  custom: true  },
-  { feature: 'Mobile-first',       vitrine: true,  ecommerce: true,  custom: true  },
-  { feature: 'SEO de base',        vitrine: true,  ecommerce: true,  custom: true  },
-  { feature: 'Formulaire de contact', vitrine: true,  ecommerce: true,  custom: true  },
-  { feature: '1 révision incluse', vitrine: true,  ecommerce: true,  custom: true  },
-  { feature: 'Boutique e-commerce',vitrine: false, ecommerce: true,  custom: true  },
-  { feature: 'Paiements sécurisés',vitrine: false, ecommerce: true,  custom: true  },
-  { feature: 'Gestion stocks',     vitrine: false, ecommerce: true,  custom: true  },
-  { feature: 'API & intégrations', vitrine: false, ecommerce: false, custom: true  },
-  { feature: 'Back-office sur mesure', vitrine: false, ecommerce: false, custom: true },
-]
-
-const FAQ_ITEMS = [
-  {
-    q: 'Combien coûte un site vitrine ?',
-    a: "Les sites vitrine sont en général entre 400 € et 700 € selon la complexité, avec livraison en 24 à 48 h pour un projet standard. Le devis détaille le périmètre : design, développement, SEO de base, formulaire de contact et mise en ligne.",
-  },
-  {
-    q: 'Combien coûte un site vitrine pour un artisan ou un restaurant ?',
-    a: "Pour un artisan (plombier, électricien, menuisier…) ou un restaurant, le tarif est le même : entre 400 et 700€ selon le contenu et le nombre de pages. Un devis gratuit et détaillé vous est envoyé sous 24h.",
-  },
-  {
-    q: 'Combien coûte un site e-commerce ?',
-    a: "Un site e-commerce sur mesure (Shopify ou Next.js, pas WooCommerce) démarre à 1500 € et peut monter selon le catalogue, les intégrations et les moyens de paiement (carte bancaire, Stripe, etc.). Comptez au minimum une semaine de délai. Devis gratuit avant engagement.",
-  },
-  {
-    q: 'Pourquoi une fourchette 400 à 700€ pour un site vitrine ?',
-    a: "400 € est le point d'entrée pour un site vitrine standard (quelques pages, design sur mesure, SEO de base). La fourchette monte si votre projet nécessite plus de pages, des fonctionnalités supplémentaires ou un contenu plus riche. Vous recevez toujours un devis détaillé gratuit avant de vous engager.",
-  },
-  {
-    q: 'Y a-t-il des frais cachés ou récurrents ?',
-    a: "Non. Mon tarif couvre le développement du site. Seuls l'hébergement et le nom de domaine (gérés par vous ou accompagnés par moi) génèrent des coûts annuels environ 10 à 30€/an selon l'hébergeur. Pas d'abonnement mensuel à me payer.",
-  },
-  {
-    q: 'Quand est-ce que je paye ?',
-    a: "Le paiement se fait en fin de projet, une fois que vous avez validé le site. Pas d'acompte sur les projets standard. Vous ne prenez aucun risque.",
-  },
-  {
-    q: 'Que se passe-t-il si je veux des modifications après livraison ?',
-    a: "1 révision est incluse dans chaque formule. Pour des modifications supplémentaires, je vous propose un tarif horaire ou un forfait maintenance mensuel selon vos besoins.",
-  },
-  {
-    q: 'Quelle est la différence entre un site vitrine et un site e-commerce ?',
-    a: "Un site vitrine présente votre activité, vos services, vos coordonnées l'objectif est de générer des contacts et des appels. Un site e-commerce permet à vos clients d'acheter directement en ligne, avec un panier et un système de paiement par carte bancaire.",
-  },
-]
-
 function PriceDisplay({ price }) {
+  const { t } = useTranslation()
   if (price.range) {
     return (
       <div className="pricing-price">
@@ -121,7 +17,7 @@ function PriceDisplay({ price }) {
   if (price.from) {
     return (
       <div className="pricing-price">
-        <span className="pricing-from">À partir de </span>{price.from}
+        <span className="pricing-from">{t('tarifsPage.plans.from')}</span>{price.from}
       </div>
     )
   }
@@ -176,25 +72,79 @@ function FaqItem({ q, a }) {
 }
 
 export default function TarifsPage() {
+  const { t } = useTranslation()
+
+  const PRICING_PLANS = useMemo(() => [
+    {
+      id: 'vitrine',
+      label: t('tarifsPage.plans.vitrine.label'),
+      price: { range: ['400€', '700€'] },
+      delay: t('tarifsPage.plans.vitrine.delay'),
+      features: t('tarifsPage.plans.vitrine.features', { returnObjects: true }),
+      excluded: t('tarifsPage.plans.vitrine.excluded', { returnObjects: true }),
+      cta: { type: 'link', to: '/site-vitrine', label: t('tarifsPage.plans.vitrine.cta'), variant: 'outline' },
+    },
+    {
+      id: 'ecommerce',
+      label: t('tarifsPage.plans.ecommerce.label'),
+      featured: true,
+      price: { from: '1500€' },
+      delay: t('tarifsPage.plans.ecommerce.delay'),
+      features: t('tarifsPage.plans.ecommerce.features', { returnObjects: true }),
+      excluded: [],
+      cta: { type: 'link', to: '/ecommerce', label: t('tarifsPage.plans.ecommerce.cta'), variant: 'primary' },
+    },
+    {
+      id: 'custom',
+      label: t('tarifsPage.plans.custom.label'),
+      price: { text: t('tarifsPage.plans.custom.priceText') },
+      delay: t('tarifsPage.plans.custom.delay'),
+      features: t('tarifsPage.plans.custom.features', { returnObjects: true }),
+      excluded: [],
+      cta: { type: 'anchor', href: '/#contact', label: t('tarifsPage.plans.custom.cta'), variant: 'outline' },
+    },
+  ], [t])
+
+  const COMPARISON_ROWS = useMemo(() => {
+    const cr = (key) => t(`tarifsPage.comparison.rows.${key}`)
+    return [
+      { feature: cr('price.label'), vitrine: cr('price.vitrine'), ecommerce: cr('price.ecommerce'), custom: cr('price.custom') },
+      { feature: cr('delay.label'), vitrine: cr('delay.vitrine'), ecommerce: cr('delay.ecommerce'), custom: cr('delay.custom') },
+      { feature: cr('customDesign'),     vitrine: true,  ecommerce: true,  custom: true  },
+      { feature: cr('mobileFirst'),      vitrine: true,  ecommerce: true,  custom: true  },
+      { feature: cr('baseSeo'),          vitrine: true,  ecommerce: true,  custom: true  },
+      { feature: cr('contactForm'),      vitrine: true,  ecommerce: true,  custom: true  },
+      { feature: cr('revision'),         vitrine: true,  ecommerce: true,  custom: true  },
+      { feature: cr('ecommerceShop'),    vitrine: false, ecommerce: true,  custom: true  },
+      { feature: cr('securePayments'),   vitrine: false, ecommerce: true,  custom: true  },
+      { feature: cr('stockManagement'),  vitrine: false, ecommerce: true,  custom: true  },
+      { feature: cr('apiIntegrations'),  vitrine: false, ecommerce: false, custom: true  },
+      { feature: cr('backOffice'),       vitrine: false, ecommerce: false, custom: true  },
+    ]
+  }, [t])
+
+  const FAQ_ITEMS = t('tarifsPage.faq.items', { returnObjects: true })
+
   return (
     <SeoPageShell meta={tarifsPageMeta}>
       <section className="hero">
         <div className="container">
           <div className="badge">
             <span className="dot" />
-            Prix fixe · Sans surprise · Devis gratuit
+            {t('tarifsPage.hero.badge')}
           </div>
           <h1>
-            <span className="gradient-text">Tarifs</span> création
+            <span className="gradient-text">{t('tarifsPage.hero.titleHighlight')}</span>
+            {t('tarifsPage.hero.titleAfter')}
             <br />
-            site web à Nantes
+            {t('tarifsPage.hero.titleLine2')}
           </h1>
           <p className="hero-sub">
-            Des prix clairs et fixes pour chaque projet. Pas de mauvaises surprises, pas de devis à rallonge. Vous savez exactement ce que vous payez avant de commencer.
+            {t('tarifsPage.hero.sub')}
           </p>
           <div className="hero-ctas">
-            <a href="/#contact" className="btn btn-primary">Demander un devis gratuit</a>
-            <a href="/#portfolio" className="btn btn-outline">Voir les réalisations</a>
+            <a href="/#contact" className="btn btn-primary">{t('tarifsPage.hero.ctaQuote')}</a>
+            <a href="/#portfolio" className="btn btn-outline">{t('tarifsPage.hero.ctaPortfolio')}</a>
           </div>
         </div>
       </section>
@@ -204,24 +154,24 @@ export default function TarifsPage() {
           <div className="trust-bar">
             <div className="trust-item">
               <CreditCard size={18} className="trust-icon" />
-              <span>Paiement en fin de projet</span>
+              <span>{t('tarifsPage.trust.payment')}</span>
             </div>
             <div className="trust-item">
               <Lock size={18} className="trust-icon" />
-              <span>Prix fixe contractualisé</span>
+              <span>{t('tarifsPage.trust.fixedPrice')}</span>
             </div>
             <div className="trust-item">
               <Ban size={18} className="trust-icon" />
-              <span>Pas d'acompte demandé</span>
+              <span>{t('tarifsPage.trust.noDeposit')}</span>
             </div>
             <div className="trust-item">
               <Zap size={18} className="trust-icon" />
-              <span>Devis gratuit sous 24h</span>
+              <span>{t('tarifsPage.trust.freeQuote')}</span>
             </div>
           </div>
           <div className="section-header" style={{ marginTop: '3rem' }}>
-            <h2 className="section-title">Formules &amp; tarifs</h2>
-            <p className="section-subtitle">Choisissez la formule adaptée à votre projet.</p>
+            <h2 className="section-title">{t('tarifsPage.plans.sectionTitle')}</h2>
+            <p className="section-subtitle">{t('tarifsPage.plans.sectionSubtitle')}</p>
           </div>
           <div className="pricing-grid">
             {PRICING_PLANS.map((plan) => (
@@ -234,17 +184,17 @@ export default function TarifsPage() {
       <section className="section section-alt">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Comparatif des formules</h2>
-            <p className="section-subtitle">Tout ce qui est inclus dans chaque formule, sans ambiguïté.</p>
+            <h2 className="section-title">{t('tarifsPage.comparison.sectionTitle')}</h2>
+            <p className="section-subtitle">{t('tarifsPage.comparison.sectionSubtitle')}</p>
           </div>
           <div className="table-wrapper">
             <table>
               <thead>
                 <tr>
-                  <th>Fonctionnalité</th>
-                  <th>Site vitrine</th>
-                  <th>E-commerce <span className="td-badge">Populaire</span></th>
-                  <th>Sur mesure</th>
+                  <th>{t('tarifsPage.comparison.thFeature')}</th>
+                  <th>{t('tarifsPage.comparison.thVitrine')}</th>
+                  <th>{t('tarifsPage.comparison.thEcommerce')} <span className="td-badge">{t('tarifsPage.comparison.popularBadge')}</span></th>
+                  <th>{t('tarifsPage.comparison.thCustom')}</th>
                 </tr>
               </thead>
               <tbody>
@@ -265,8 +215,8 @@ export default function TarifsPage() {
       <section className="section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Questions fréquentes</h2>
-            <p className="section-subtitle">Ce que vous vous demandez avant de vous lancer.</p>
+            <h2 className="section-title">{t('tarifsPage.faq.sectionTitle')}</h2>
+            <p className="section-subtitle">{t('tarifsPage.faq.sectionSubtitle')}</p>
           </div>
           <div className="faq-list">
             {FAQ_ITEMS.map((item) => (
@@ -279,10 +229,10 @@ export default function TarifsPage() {
       <section className="cta-section section-alt">
         <div className="container">
           <h2>
-            Prêt à démarrer votre <span className="gradient-text">projet web</span> ?
+            {t('tarifsPage.cta.titleBefore')}<span className="gradient-text">{t('tarifsPage.cta.titleHighlight')}</span> ?
           </h2>
-          <p>Devis gratuit sous 24h · Vitrine 400–700€ · E-commerce dès 1500€</p>
-          <a href="/#contact" className="btn btn-primary btn-cta">Obtenir mon devis gratuit</a>
+          <p>{t('tarifsPage.cta.sub')}</p>
+          <a href="/#contact" className="btn btn-primary btn-cta">{t('tarifsPage.cta.btn')}</a>
         </div>
       </section>
     </SeoPageShell>

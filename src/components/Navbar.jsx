@@ -1,8 +1,54 @@
-import { memo, useEffect, useState } from 'react'
+import { memo, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { SUPPORTED_LANGUAGES, resolveSelectableLanguage } from '../i18n/languages'
+import { Globe, ChevronDown } from 'lucide-react'
+import { SUPPORTED_LANGUAGES, LANGUAGE_AUTONYMS, resolveSelectableLanguage } from '../i18n/languages'
 import './Navbar.css'
+
+function LanguageDropdown({ selectedLanguage, onChange }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+
+  useEffect(() => {
+    const handler = e => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false)
+    }
+    document.addEventListener('mousedown', handler)
+    return () => document.removeEventListener('mousedown', handler)
+  }, [])
+
+  const currentLabel = LANGUAGE_AUTONYMS[selectedLanguage] || selectedLanguage.toUpperCase()
+
+  return (
+    <div className="lang-dropdown" ref={ref}>
+      <button
+        className={`lang-trigger ${open ? 'open' : ''}`}
+        onClick={() => setOpen(prev => !prev)}
+        aria-label="Changer de langue"
+        type="button"
+      >
+        <Globe size={15} />
+        <span>{currentLabel}</span>
+        <ChevronDown size={13} className="lang-chevron" />
+      </button>
+      {open && (
+        <ul className="lang-menu" role="listbox">
+          {SUPPORTED_LANGUAGES.map(code => (
+            <li
+              key={code}
+              role="option"
+              aria-selected={code === selectedLanguage}
+              className={`lang-option ${code === selectedLanguage ? 'active' : ''}`}
+              onClick={() => { onChange(code); setOpen(false) }}
+            >
+              {LANGUAGE_AUTONYMS[code]}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  )
+}
 
 function Navbar() {
   const { t, i18n } = useTranslation()
@@ -63,23 +109,10 @@ function Navbar() {
               {link.label}
             </Link>
           ))}
-          <div className="language-switcher">
-            <select
-              id="lang-select"
-              className="language-select"
-              value={selectedLanguage}
-              onChange={e => i18n.changeLanguage(e.target.value)}
-            >
-              <option value="" disabled>
-                {t('language.selectDefault')}
-              </option>
-              {SUPPORTED_LANGUAGES.map(code => (
-                <option key={code} value={code}>
-                  {t(`language.options.${code}`)}
-                </option>
-              ))}
-            </select>
-          </div>
+          <LanguageDropdown
+            selectedLanguage={selectedLanguage}
+            onChange={code => i18n.changeLanguage(code)}
+          />
           <a href="/#contact" className="btn btn-primary nav-cta" onClick={() => setMenuOpen(false)}>
             {t('nav.cta')}
           </a>

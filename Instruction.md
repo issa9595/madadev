@@ -1,5 +1,14 @@
 ## Journal des actions
 
+### 2026-03-24 - Traduction anglaise de TarifsPage (migration i18next)
+- Tâche : `migrate_hardcoded` — migration de tous les textes en dur de `TarifsPage.jsx` vers i18next.
+- Structure détectée : fichier monolithique `src/i18n.js`, namespace unique `translation`, pattern `deepMerge` pour les langues non-FR.
+- Clés ajoutées dans `resources.fr.translation` : namespace `tarifsPage` couvrant `hero`, `trust`, `plans` (vitrine/ecommerce/custom), `comparison` (rows, en-têtes), `faq` (8 items), `cta`.
+- Clés ajoutées dans `resources.en` (via `deepMerge`) : traduction anglaise complète de toutes les clés `tarifsPage`.
+- `TarifsPage.jsx` migré : `useTranslation` + `useMemo` pour `PRICING_PLANS` et `COMPARISON_ROWS`; `t(..., { returnObjects: true })` pour les tableaux (features, excluded, faq.items); `useTranslation` dans `PriceDisplay` pour le texte "À partir de" / "Starting from".
+- Parité structurelle FR ↔ EN vérifiée sur toutes les clés `tarifsPage`.
+- Validation : aucun avertissement linter, `npm run build` réussi (exit 0).
+
 ### 2026-03-24 - Refactor TarifsPage : extraction donnees + sous-composants
 - Constantes `PRICING_PLANS`, `COMPARISON_ROWS`, `FAQ_ITEMS` en tete de fichier.
 - Sous-composants : `PriceDisplay` (range / from / text), `PricingCta` (Link vs anchor), `PricingCard`, `TableCell` (boolean → check/cross ou string), `FaqItem`.
