@@ -524,6 +524,155 @@ const resources = {
           btn: 'Démarrer maintenant',
         },
       },
+      ecommercePage: {
+        hero: {
+          badge: 'Disponible maintenant · Nantes & remote',
+          title: 'Création de',
+          titleHighlight: 'boutique en ligne',
+          titleLine2: 'sur mesure à Nantes',
+          sub: 'Vendez en ligne avec une boutique professionnelle Shopify ou Next.js, paiement par carte bancaire, mobile-first. À partir de 1500€, livré en minimum 1 semaine.',
+          ctaQuote: 'Demander un devis gratuit',
+          ctaTarifs: 'Voir les tarifs',
+        },
+        niches: {
+          sectionTitle: 'Pour quelle boutique ?',
+          sectionSubtitle: "J'interviens sur tous types de projets e-commerce, quelle que soit votre activité.",
+          items: [
+            {
+              title: 'Mode & accessoires',
+              description: "Boutique de vêtements, bijoux, maroquinerie galerie produits, variantes de tailles et couleurs, expérience d'achat soignée.",
+              tags: ['Boutique mode en ligne', 'Bijoux'],
+            },
+            {
+              title: 'Artisanat & fait main',
+              description: "Savons, bougies, céramiques, créations artisanales mettez en valeur votre travail avec une boutique qui vous ressemble.",
+              tags: ['Boutique artisanale', 'Fait main'],
+            },
+            {
+              title: 'Produits physiques & livraison',
+              description: "Tout type de produits avec gestion des stocks, intégration Colissimo / DHL, suivi de commandes, emails automatiques.",
+              tags: ['E-commerce livraison', 'Colissimo'],
+            },
+          ],
+        },
+        platforms: {
+          sectionTitle: 'Shopify ou Next.js comment je choisis ?',
+          sectionSubtitle: 'Chaque projet est différent. Je recommande la technologie adaptée à votre situation.',
+          advice: "Pas sûr de ce dont vous avez besoin ? Je vous conseille gratuitement après un rapide échange sur votre projet.",
+          shopify: {
+            title: 'Shopify',
+            description: "Idéal si vous voulez gérer votre boutique vous-même facilement. Interface admin très simple, écosystème d'applications, lancement rapide. Parfait pour les boutiques avec un catalogue standard.",
+            tags: ['Gestion facile', 'Lancement rapide'],
+          },
+          nextjs: {
+            title: 'Next.js sur mesure',
+            description: "Idéal pour une boutique 100% personnalisée, plus performante, sans les limites de Shopify. Checkout unique, catalogue spécifique, intégrations métier. Performances maximales.",
+            tags: ['100% sur mesure', 'Ultra-performant'],
+          },
+        },
+        payments: {
+          title: 'Paiements : carte bancaire, Stripe et plus',
+          description: 'Vos clients règlent par carte bancaire en toute sécurité. Stripe est au cœur du dispositif rapide, fiable, reconnu partout.',
+          checklist: [
+            'Carte bancaire (Visa, Mastercard, CB…) via Stripe',
+            'PayPal ou Mollie en option selon le projet',
+            'Paiement sécurisé SSL/HTTPS',
+            'Gestion des commandes et des stocks',
+            'Emails automatiques (confirmation, expédition…)',
+            'Compatible mobile & tablette',
+            'Tableau de bord pour gérer votre boutique',
+          ],
+          includedTitle: 'Ce qui est inclus',
+          includedChecklist: [
+            'Catalogue produits illimité',
+            'Filtres et recherche produits',
+            'Pages produits optimisées pour vendre',
+            'Panier & checkout fluide',
+            'Visible sur Google (SEO e-commerce)',
+            'Intégration livraison (Colissimo, DHL…)',
+            'Analytics intégré (GA4 ou Plausible)',
+            "Formation à l'administration incluse",
+          ],
+        },
+        process: {
+          sectionTitle: 'Comment ça se passe ?',
+          sectionSubtitle: 'Un projet e-commerce simple, structuré, sans surprise.',
+          steps: [
+            {
+              title: '1. Brief & devis',
+              description: "On parle de votre projet produits, objectifs, budget. Je vous envoie un devis gratuit et détaillé sous 24h. Aucun engagement.",
+            },
+            {
+              title: '2. Développement',
+              description: "Je construis votre boutique. Vous recevez une préversion en ligne pour valider le design et les fonctionnalités avant la mise en production.",
+            },
+            {
+              title: '3. Livraison & formation',
+              description: "Votre boutique est mise en ligne. Je vous forme à la gestion (produits, commandes, stocks). Vous payez uniquement une fois le site validé.",
+            },
+          ],
+        },
+        pricing: {
+          pricingLabel: 'Site e-commerce',
+          pricingPrice: '1500€+',
+          pricingSub: 'Délai minimum · 1 semaine',
+          pricingFeatures: [
+            'Boutique complète sur mesure',
+            'Carte bancaire & Stripe inclus',
+            'Mobile-first & visible sur Google',
+            '1 révision incluse',
+            "Formation à l'administration",
+            "Pas d'acompte demandé",
+          ],
+          pricingCta: 'Démarrer ma boutique',
+          title: 'À partir de 1500€ sans mauvaise surprise',
+          description: 'Le prix final dépend de la complexité de votre boutique : nombre de produits, intégrations, moyens de paiement, fonctionnalités spécifiques.',
+          noSurprise: "Dans tous les cas, vous recevez un devis gratuit et détaillé avant de vous engager. Aucun frais caché.",
+          checklist: [
+            'Devis gratuit sous 24h',
+            'Prix fixe contractualisé',
+            "Paiement en fin de projet pas d'acompte",
+            'Support post-lancement inclus',
+          ],
+          ctaTarifs: 'Voir tous les tarifs',
+        },
+        faq: {
+          sectionTitle: 'Questions fréquentes',
+          sectionSubtitle: 'Ce que vous vous demandez avant de vous lancer.',
+          items: [
+            {
+              q: 'Combien coûte une boutique en ligne ?',
+              a: "Un site e-commerce sur mesure démarre à 1500€. Le prix final dépend du nombre de produits, des intégrations et des moyens de paiement. Vous recevez un devis détaillé et gratuit avant tout engagement. Paiement en fin de projet.",
+            },
+            {
+              q: 'Shopify ou Next.js quelle différence pour moi ?',
+              a: "Shopify est idéal si vous voulez gérer votre boutique vous-même facilement, avec un back-office très simple. Next.js est préférable si vous avez besoin d'une boutique 100% sur mesure, plus performante, et que vous n'avez pas peur d'un peu plus de technique. Je vous conseille selon votre situation.",
+            },
+            {
+              q: 'Est-ce que mes clients peuvent payer par carte bancaire ?',
+              a: "Oui, c'est inclus dans chaque projet e-commerce. Les paiements sont gérés via Stripe (Visa, Mastercard, CB…). PayPal ou Mollie peuvent être ajoutés selon le besoin.",
+            },
+            {
+              q: 'Pourquoi pas WooCommerce ?',
+              a: "Je ne propose pas WooCommerce car c'est un plugin WordPress qui devient vite lourd, lent et difficile à maintenir. Shopify et Next.js offrent de meilleures performances, plus de sécurité, et une expérience d'achat bien plus fluide pour vos clients.",
+            },
+            {
+              q: "Est-ce que je pourrai gérer ma boutique seul après la livraison ?",
+              a: "Oui. Une formation à l'administration est incluse dans chaque projet. Vous apprenez à ajouter des produits, gérer les commandes et les stocks. Pour Shopify en particulier, l'interface est très intuitive.",
+            },
+            {
+              q: 'Est-ce que je paye en avance ?',
+              a: "Non. Le paiement se fait en fin de projet, une fois que vous avez validé votre boutique. Pas d'acompte pour les projets standard.",
+            },
+          ],
+        },
+        cta: {
+          titleBefore: 'Prêt à lancer votre ',
+          titleHighlight: 'boutique en ligne',
+          sub: 'Devis gratuit sous 24h · À partir de 1500€ · Paiement après validation',
+          btn: 'Démarrer maintenant',
+        },
+      },
       footer: {
         copyRole: 'Développeur web freelance',
         secondaryAria: 'Navigation secondaire',
@@ -963,7 +1112,156 @@ resources.en = {
       cta: {
         titleBefore: 'Ready to create your ',
         titleHighlight: 'showcase website',
-        sub: 'Free quote within 24h · Between €400 and €700 · Delivered in 24-48h · Pay after approval',  
+        sub: 'Free quote within 24h · Between €400 and €700 · Delivered in 24-48h · Pay after approval',
+        btn: 'Get started now',
+      },
+    },
+    ecommercePage: {
+      hero: {
+        badge: 'Available now · Nantes & remote',
+        title: 'Custom',
+        titleHighlight: 'online store',
+        titleLine2: 'creation in Nantes',
+        sub: 'Sell online with a professional Shopify or Next.js store, credit card payments, mobile-first. From €1,500, delivered in a minimum of 1 week.',
+        ctaQuote: 'Get a free quote',
+        ctaTarifs: 'View pricing',
+      },
+      niches: {
+        sectionTitle: 'What kind of store?',
+        sectionSubtitle: 'I work on all types of e-commerce projects, whatever your business.',
+        items: [
+          {
+            title: 'Fashion & accessories',
+            description: 'Clothing, jewellery, leather goods — product gallery, size and colour variants, refined shopping experience.',
+            tags: ['Online fashion store', 'Jewellery'],
+          },
+          {
+            title: 'Craft & handmade',
+            description: 'Soaps, candles, ceramics, handmade creations — showcase your work with a store that reflects you.',
+            tags: ['Craft store', 'Handmade'],
+          },
+          {
+            title: 'Physical products & delivery',
+            description: 'Any type of product with inventory management, Colissimo / DHL integration, order tracking, and automated emails.',
+            tags: ['E-commerce delivery', 'Colissimo'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'Shopify or Next.js — how do I choose?',
+        sectionSubtitle: 'Every project is different. I recommend the technology best suited to your situation.',
+        advice: 'Not sure what you need? I advise you for free after a quick chat about your project.',
+        shopify: {
+          title: 'Shopify',
+          description: "Ideal if you want to manage your store yourself with ease. Very simple admin interface, app ecosystem, fast launch. Perfect for stores with a standard catalogue.",
+          tags: ['Easy management', 'Fast launch'],
+        },
+        nextjs: {
+          title: 'Custom Next.js',
+          description: "Ideal for a 100% personalised store, higher performance, without Shopify's limitations. Unique checkout, specific catalogue, business integrations. Maximum performance.",
+          tags: ['100% custom', 'Ultra-performant'],
+        },
+      },
+      payments: {
+        title: 'Payments: credit card, Stripe and more',
+        description: 'Your customers pay by credit card securely. Stripe is at the heart of the system — fast, reliable, recognised everywhere.',
+        checklist: [
+          'Credit card (Visa, Mastercard…) via Stripe',
+          'PayPal or Mollie as an option',
+          'Secure SSL/HTTPS payment',
+          'Order and inventory management',
+          'Automated emails (confirmation, shipping…)',
+          'Mobile & tablet compatible',
+          'Dashboard to manage your store',
+        ],
+        includedTitle: 'What is included',
+        includedChecklist: [
+          'Unlimited product catalogue',
+          'Product filters and search',
+          'Product pages optimised to sell',
+          'Smooth cart & checkout',
+          'Visible on Google (e-commerce SEO)',
+          'Delivery integration (Colissimo, DHL…)',
+          'Integrated analytics (GA4 or Plausible)',
+          'Admin training included',
+        ],
+      },
+      process: {
+        sectionTitle: 'How does it work?',
+        sectionSubtitle: 'A simple, structured e-commerce project with no surprises.',
+        steps: [
+          {
+            title: '1. Brief & quote',
+            description: 'We talk about your project — products, goals, budget. I send you a free, detailed quote within 24h. No commitment.',
+          },
+          {
+            title: '2. Development',
+            description: 'I build your store. You receive an online preview to approve the design and features before going live.',
+          },
+          {
+            title: '3. Delivery & training',
+            description: 'Your store goes live. I train you on management (products, orders, inventory). You pay only once the site is approved.',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'E-commerce site',
+        pricingPrice: '€1,500+',
+        pricingSub: 'Minimum lead time · 1 week',
+        pricingFeatures: [
+          'Fully custom store',
+          'Credit card & Stripe included',
+          'Mobile-first & visible on Google',
+          '1 revision included',
+          'Admin training',
+          'No deposit required',
+        ],
+        pricingCta: 'Launch my store',
+        title: 'From €1,500 with no unpleasant surprises',
+        description: 'The final price depends on the complexity of your store: number of products, integrations, payment methods, and specific features.',
+        noSurprise: 'In every case, you receive a free, detailed quote before committing. No hidden fees.',
+        checklist: [
+          'Free quote within 24h',
+          'Fixed contractual price',
+          'Payment at end of project — no deposit',
+          'Post-launch support included',
+        ],
+        ctaTarifs: 'View all pricing',
+      },
+      faq: {
+        sectionTitle: 'Frequently asked questions',
+        sectionSubtitle: 'What you wonder before getting started.',
+        items: [
+          {
+            q: 'How much does an online store cost?',
+            a: 'A custom e-commerce site starts at €1,500. The final price depends on the number of products, integrations, and payment methods. You receive a detailed, free quote before any commitment. Payment at the end of the project.',
+          },
+          {
+            q: 'Shopify or Next.js — what is the difference for me?',
+            a: 'Shopify is ideal if you want to manage your store yourself easily, with a very simple back-office. Next.js is preferable if you need a 100% custom store, higher performance, and are not afraid of a bit more technical complexity. I advise you based on your situation.',
+          },
+          {
+            q: 'Can my customers pay by credit card?',
+            a: 'Yes, it is included in every e-commerce project. Payments are handled via Stripe (Visa, Mastercard…). PayPal or Mollie can be added as needed.',
+          },
+          {
+            q: 'Why not WooCommerce?',
+            a: 'I do not offer WooCommerce because it is a WordPress plugin that quickly becomes heavy, slow, and difficult to maintain. Shopify and Next.js offer better performance, more security, and a much smoother shopping experience for your customers.',
+          },
+          {
+            q: 'Will I be able to manage my store on my own after delivery?',
+            a: 'Yes. Admin training is included in every project. You learn how to add products, manage orders and inventory. For Shopify in particular, the interface is very intuitive.',
+          },
+          {
+            q: 'Do I pay upfront?',
+            a: 'No. Payment is made at the end of the project, once you have approved your store. No deposit for standard projects.',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Ready to launch your ',
+        titleHighlight: 'online store',
+        sub: 'Free quote within 24h · From €1,500 · Payment after approval',
         btn: 'Get started now',
       },
     },
@@ -1482,6 +1780,155 @@ resources.es = {
         titleBefore: 'Listo para crear tu ',
         titleHighlight: 'sitio corporativo',
         sub: 'Presupuesto gratuito en 24h · Entre 400 y 700€ · Entrega 24 a 48h · Pago tras la validación',
+        btn: 'Empezar ahora',
+      },
+    },
+    ecommercePage: {
+      hero: {
+        badge: 'Disponible ahora · Nantes y remoto',
+        title: 'Creación de',
+        titleHighlight: 'tienda online',
+        titleLine2: 'a medida en Nantes',
+        sub: 'Vende en línea con una tienda profesional Shopify o Next.js, pago con tarjeta bancaria, mobile-first. Desde 1500€, entregado en un mínimo de 1 semana.',
+        ctaQuote: 'Pedir un presupuesto gratuito',
+        ctaTarifs: 'Ver tarifas',
+      },
+      niches: {
+        sectionTitle: '¿Para qué tipo de tienda?',
+        sectionSubtitle: 'Trabajo en todo tipo de proyectos e-commerce, sea cual sea tu actividad.',
+        items: [
+          {
+            title: 'Moda y accesorios',
+            description: 'Ropa, joyas, marroquinería — galería de productos, variantes de tallas y colores, experiencia de compra cuidada.',
+            tags: ['Tienda de moda online', 'Joyería'],
+          },
+          {
+            title: 'Artesanía y hecho a mano',
+            description: 'Jabones, velas, cerámica, creaciones artesanales — muestra tu trabajo con una tienda que te represente.',
+            tags: ['Tienda artesanal', 'Hecho a mano'],
+          },
+          {
+            title: 'Productos físicos y envíos',
+            description: 'Cualquier tipo de producto con gestión de stock, integración de mensajería, seguimiento de pedidos y correos automáticos.',
+            tags: ['E-commerce con envíos', 'Mensajería'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: '¿Shopify o Next.js — cómo elijo?',
+        sectionSubtitle: 'Cada proyecto es diferente. Recomiendo la tecnología más adecuada a tu situación.',
+        advice: '¿No sabes lo que necesitas? Te asesoro gratis tras un intercambio rápido sobre tu proyecto.',
+        shopify: {
+          title: 'Shopify',
+          description: 'Ideal si quieres gestionar tu tienda fácilmente por tu cuenta. Interfaz de administración muy sencilla, ecosistema de aplicaciones, lanzamiento rápido. Perfecto para tiendas con un catálogo estándar.',
+          tags: ['Gestión fácil', 'Lanzamiento rápido'],
+        },
+        nextjs: {
+          title: 'Next.js a medida',
+          description: 'Ideal para una tienda 100% personalizada, más eficiente, sin las limitaciones de Shopify. Checkout único, catálogo específico, integraciones de negocio. Rendimiento máximo.',
+          tags: ['100% a medida', 'Ultra eficiente'],
+        },
+      },
+      payments: {
+        title: 'Pagos: tarjeta bancaria, Stripe y más',
+        description: 'Tus clientes pagan con tarjeta bancaria de forma segura. Stripe es el núcleo del sistema — rápido, fiable, reconocido en todas partes.',
+        checklist: [
+          'Tarjeta bancaria (Visa, Mastercard…) vía Stripe',
+          'PayPal o Mollie como opción',
+          'Pago seguro SSL/HTTPS',
+          'Gestión de pedidos y stock',
+          'Correos automáticos (confirmación, envío…)',
+          'Compatible con móvil y tableta',
+          'Panel de control para gestionar tu tienda',
+        ],
+        includedTitle: 'Qué está incluido',
+        includedChecklist: [
+          'Catálogo de productos ilimitado',
+          'Filtros y búsqueda de productos',
+          'Páginas de producto optimizadas para vender',
+          'Carrito y checkout fluido',
+          'Visible en Google (SEO e-commerce)',
+          'Integración de mensajería (Correos, DHL…)',
+          'Analítica integrada (GA4 o Plausible)',
+          'Formación en administración incluida',
+        ],
+      },
+      process: {
+        sectionTitle: '¿Cómo funciona?',
+        sectionSubtitle: 'Un proyecto e-commerce simple, estructurado, sin sorpresas.',
+        steps: [
+          {
+            title: '1. Brief y presupuesto',
+            description: 'Hablamos de tu proyecto — productos, objetivos, presupuesto. Te envío un presupuesto gratuito y detallado en 24h. Sin compromiso.',
+          },
+          {
+            title: '2. Desarrollo',
+            description: 'Construyo tu tienda. Recibes una previsualización en línea para validar el diseño y las funcionalidades antes de publicarla.',
+          },
+          {
+            title: '3. Entrega y formación',
+            description: 'Tu tienda se pone en línea. Te formo en la gestión (productos, pedidos, stock). Pagas solo una vez que el sitio ha sido validado.',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'Sitio e-commerce',
+        pricingPrice: '1500€+',
+        pricingSub: 'Plazo mínimo · 1 semana',
+        pricingFeatures: [
+          'Tienda completa a medida',
+          'Tarjeta bancaria y Stripe incluidos',
+          'Mobile-first y visible en Google',
+          '1 revisión incluida',
+          'Formación en administración',
+          'Sin anticipo',
+        ],
+        pricingCta: 'Lanzar mi tienda',
+        title: 'Desde 1500€ sin sorpresas desagradables',
+        description: 'El precio final depende de la complejidad de tu tienda: número de productos, integraciones, métodos de pago y funcionalidades específicas.',
+        noSurprise: 'En todos los casos, recibes un presupuesto gratuito y detallado antes de comprometerte. Sin costes ocultos.',
+        checklist: [
+          'Presupuesto gratuito en 24h',
+          'Precio fijo contractualizado',
+          'Pago al final del proyecto, sin anticipo',
+          'Soporte post-lanzamiento incluido',
+        ],
+        ctaTarifs: 'Ver todas las tarifas',
+      },
+      faq: {
+        sectionTitle: 'Preguntas frecuentes',
+        sectionSubtitle: 'Lo que te preguntas antes de lanzarte.',
+        items: [
+          {
+            q: '¿Cuánto cuesta una tienda online?',
+            a: 'Una tienda e-commerce a medida empieza desde 1500€. El precio final depende del número de productos, las integraciones y los métodos de pago. Recibes un presupuesto gratuito y detallado antes de cualquier compromiso. Pago al final del proyecto.',
+          },
+          {
+            q: '¿Shopify o Next.js — cuál es la diferencia para mí?',
+            a: 'Shopify es ideal si quieres gestionar tu tienda fácilmente por tu cuenta, con un back-office muy sencillo. Next.js es preferible si necesitas una tienda 100% a medida, más eficiente, y no te asusta algo más de técnica. Te aconsejo según tu situación.',
+          },
+          {
+            q: '¿Mis clientes pueden pagar con tarjeta bancaria?',
+            a: 'Sí, está incluido en cada proyecto e-commerce. Los pagos se gestionan a través de Stripe (Visa, Mastercard…). PayPal o Mollie pueden añadirse según la necesidad.',
+          },
+          {
+            q: '¿Por qué no WooCommerce?',
+            a: 'No ofrezco WooCommerce porque es un plugin de WordPress que rápidamente se vuelve pesado, lento y difícil de mantener. Shopify y Next.js ofrecen mejor rendimiento, más seguridad y una experiencia de compra mucho más fluida para tus clientes.',
+          },
+          {
+            q: '¿Podré gestionar mi tienda solo después de la entrega?',
+            a: 'Sí. La formación en administración está incluida en cada proyecto. Aprenderás a añadir productos, gestionar pedidos y stock. Para Shopify en particular, la interfaz es muy intuitiva.',
+          },
+          {
+            q: '¿Pago por adelantado?',
+            a: 'No. El pago se realiza al final del proyecto, una vez que hayas validado tu tienda. Sin anticipo para los proyectos estándar.',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Listo para lanzar tu ',
+        titleHighlight: 'tienda online',
+        sub: 'Presupuesto gratuito en 24h · Desde 1500€ · Pago tras la validación',
         btn: 'Empezar ahora',
       },
     },
@@ -2009,6 +2456,155 @@ resources.ru = {
         btn: 'Начать сейчас',
       },
     },
+    ecommercePage: {
+      hero: {
+        badge: 'Доступно сейчас · Нант и удалённо',
+        title: 'Разработка',
+        titleHighlight: 'интернет-магазина',
+        titleLine2: 'под заказ в Нанте',
+        sub: 'Продавайте онлайн с профессиональным магазином на Shopify или Next.js, оплата банковской картой, mobile-first. От 1500€, срок от 1 недели.',
+        ctaQuote: 'Получить бесплатный расчёт',
+        ctaTarifs: 'Посмотреть тарифы',
+      },
+      niches: {
+        sectionTitle: 'Для какого магазина?',
+        sectionSubtitle: 'Я работаю со всеми типами e-commerce проектов, в любой сфере.',
+        items: [
+          {
+            title: 'Мода и аксессуары',
+            description: 'Одежда, украшения, кожгалантерея — галерея товаров, варианты размеров и цветов, продуманный опыт покупки.',
+            tags: ['Интернет-магазин моды', 'Украшения'],
+          },
+          {
+            title: 'Ремесло и хэндмейд',
+            description: 'Мыло, свечи, керамика, авторские изделия — представьте своё творчество в магазине, который вас отражает.',
+            tags: ['Магазин мастера', 'Хэндмейд'],
+          },
+          {
+            title: 'Физические товары и доставка',
+            description: 'Любые товары с управлением складом, интеграцией доставки, отслеживанием заказов и автоматическими письмами.',
+            tags: ['E-commerce с доставкой', 'Логистика'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'Shopify или Next.js — как выбрать?',
+        sectionSubtitle: 'Каждый проект уникален. Я рекомендую технологию, подходящую именно вашей ситуации.',
+        advice: 'Не уверены, что вам нужно? Я бесплатно проконсультирую вас после короткого разговора о проекте.',
+        shopify: {
+          title: 'Shopify',
+          description: 'Идеально, если хотите самостоятельно управлять магазином. Очень простой интерфейс администратора, экосистема приложений, быстрый запуск. Подходит для магазинов со стандартным каталогом.',
+          tags: ['Простое управление', 'Быстрый запуск'],
+        },
+        nextjs: {
+          title: 'Next.js под заказ',
+          description: 'Идеально для 100% персонализированного магазина, с более высокой производительностью и без ограничений Shopify. Уникальный чекаут, специфический каталог, бизнес-интеграции. Максимальная производительность.',
+          tags: ['100% на заказ', 'Максимальная скорость'],
+        },
+      },
+      payments: {
+        title: 'Оплата: банковская карта, Stripe и другие способы',
+        description: 'Ваши клиенты оплачивают банковской картой в полной безопасности. Stripe — основа системы: быстро, надёжно, везде принимается.',
+        checklist: [
+          'Банковская карта (Visa, Mastercard…) через Stripe',
+          'PayPal или Mollie по желанию',
+          'Защищённая оплата SSL/HTTPS',
+          'Управление заказами и складом',
+          'Автоматические письма (подтверждение, отправка…)',
+          'Совместимость с мобильными и планшетами',
+          'Панель управления для вашего магазина',
+        ],
+        includedTitle: 'Что входит в комплект',
+        includedChecklist: [
+          'Неограниченный каталог товаров',
+          'Фильтры и поиск по товарам',
+          'Страницы товаров, оптимизированные для продаж',
+          'Удобная корзина и оформление заказа',
+          'Видимость в Google (SEO для e-commerce)',
+          'Интеграция доставки (Colissimo, DHL…)',
+          'Встроенная аналитика (GA4 или Plausible)',
+          'Обучение администрированию включено',
+        ],
+      },
+      process: {
+        sectionTitle: 'Как это происходит?',
+        sectionSubtitle: 'Простой, структурированный e-commerce проект без сюрпризов.',
+        steps: [
+          {
+            title: '1. Бриф и расчёт',
+            description: 'Обсуждаем ваш проект — товары, цели, бюджет. Высылаю бесплатный подробный расчёт в течение 24 ч. Без обязательств.',
+          },
+          {
+            title: '2. Разработка',
+            description: 'Строю ваш магазин. Вы получаете онлайн-предпросмотр для согласования дизайна и функций перед запуском.',
+          },
+          {
+            title: '3. Сдача и обучение',
+            description: 'Ваш магазин запускается. Я обучаю вас управлению (товары, заказы, склад). Платите только после согласования сайта.',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'Интернет-магазин',
+        pricingPrice: 'от 1500€',
+        pricingSub: 'Минимальный срок · 1 неделя',
+        pricingFeatures: [
+          'Полный магазин под заказ',
+          'Банковская карта и Stripe включены',
+          'Mobile-first и видимость в Google',
+          '1 правка включена',
+          'Обучение администрированию',
+          'Предоплата не требуется',
+        ],
+        pricingCta: 'Запустить мой магазин',
+        title: 'От 1500€ без неприятных сюрпризов',
+        description: 'Итоговая цена зависит от сложности магазина: количества товаров, интеграций, способов оплаты и специфических функций.',
+        noSurprise: 'В любом случае вы получаете бесплатный подробный расчёт до принятия обязательств. Никаких скрытых платежей.',
+        checklist: [
+          'Бесплатный расчёт в течение 24 ч',
+          'Фиксированная договорная цена',
+          'Оплата по завершении проекта, без предоплаты',
+          'Поддержка после запуска включена',
+        ],
+        ctaTarifs: 'Смотреть все тарифы',
+      },
+      faq: {
+        sectionTitle: 'Часто задаваемые вопросы',
+        sectionSubtitle: 'То, что вы спрашиваете перед стартом.',
+        items: [
+          {
+            q: 'Сколько стоит интернет-магазин?',
+            a: 'Магазин под заказ начинается от 1500€. Итоговая цена зависит от количества товаров, интеграций и способов оплаты. Вы получаете подробный бесплатный расчёт до любых обязательств. Оплата по завершении проекта.',
+          },
+          {
+            q: 'Shopify или Next.js — в чём разница?',
+            a: 'Shopify идеален, если хотите самостоятельно управлять магазином с простым бэк-офисом. Next.js предпочтительнее, если нужен 100% персонализированный магазин с более высокой производительностью и вас не пугает чуть больше технической сложности. Я консультирую исходя из вашей ситуации.',
+          },
+          {
+            q: 'Могут ли мои клиенты платить банковской картой?',
+            a: 'Да, это включено в каждый e-commerce проект. Платежи обрабатываются через Stripe (Visa, Mastercard…). PayPal или Mollie можно добавить по необходимости.',
+          },
+          {
+            q: 'Почему не WooCommerce?',
+            a: 'Я не предлагаю WooCommerce, потому что это плагин WordPress, который быстро становится тяжёлым, медленным и трудным в обслуживании. Shopify и Next.js обеспечивают лучшую производительность, безопасность и более плавный опыт покупки для ваших клиентов.',
+          },
+          {
+            q: 'Смогу ли я самостоятельно управлять магазином после сдачи?',
+            a: 'Да. Обучение администрированию включено в каждый проект. Вы научитесь добавлять товары, управлять заказами и складом. Для Shopify интерфейс особенно интуитивен.',
+          },
+          {
+            q: 'Нужно ли платить авансом?',
+            a: 'Нет. Оплата производится по завершении проекта, после вашего согласования магазина. Без предоплаты для стандартных проектов.',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Готовы запустить',
+        titleHighlight: 'интернет-магазин',
+        sub: 'Бесплатный расчёт за 24 ч · От 1500€ · Оплата после согласования',
+        btn: 'Начать сейчас',
+      },
+    },
     footer: {
       copyRole: 'Веб-разработчик фрилансер',
       secondaryAria: 'Дополнительная навигация',
@@ -2528,6 +3124,155 @@ resources.de = {
         btn: 'Jetzt loslegen',
       },
     },
+    ecommercePage: {
+      hero: {
+        badge: 'Jetzt verfügbar · Nantes & remote',
+        title: 'Erstellung eines',
+        titleHighlight: 'Online-Shops',
+        titleLine2: 'auf Maß in Nantes',
+        sub: 'Verkaufe online mit einem professionellen Shopify- oder Next.js-Shop, Kreditkartenzahlung, mobile-first. Ab 1.500€, Lieferung in mindestens 1 Woche.',
+        ctaQuote: 'Kostenloses Angebot anfragen',
+        ctaTarifs: 'Preise ansehen',
+      },
+      niches: {
+        sectionTitle: 'Für welchen Shop?',
+        sectionSubtitle: 'Ich arbeite an allen Arten von E-Commerce-Projekten, egal welche Branche.',
+        items: [
+          {
+            title: 'Mode & Accessoires',
+            description: 'Kleidung, Schmuck, Lederwaren — Produktgalerie, Größen- und Farbvarianten, durchdachtes Einkaufserlebnis.',
+            tags: ['Online-Modeshop', 'Schmuck'],
+          },
+          {
+            title: 'Handwerk & Handgefertigtes',
+            description: 'Seifen, Kerzen, Keramik, handgefertigte Kreationen — präsentiere deine Arbeit in einem Shop, der zu dir passt.',
+            tags: ['Handwerker-Shop', 'Handgefertigt'],
+          },
+          {
+            title: 'Physische Produkte & Lieferung',
+            description: 'Jede Art von Produkt mit Bestandsverwaltung, DHL-Integration, Auftragsverfolgung und automatischen E-Mails.',
+            tags: ['E-Commerce Lieferung', 'DHL'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'Shopify oder Next.js — wie wähle ich?',
+        sectionSubtitle: 'Jedes Projekt ist anders. Ich empfehle die Technologie, die am besten zu deiner Situation passt.',
+        advice: 'Nicht sicher, was du brauchst? Ich berate dich kostenlos nach einem kurzen Gespräch über dein Projekt.',
+        shopify: {
+          title: 'Shopify',
+          description: 'Ideal, wenn du deinen Shop einfach selbst verwalten möchtest. Sehr einfaches Admin-Interface, App-Ökosystem, schneller Launch. Perfekt für Shops mit einem Standardkatalog.',
+          tags: ['Einfache Verwaltung', 'Schneller Launch'],
+        },
+        nextjs: {
+          title: 'Next.js nach Maß',
+          description: 'Ideal für einen 100% individualisierten Shop, höhere Performance, ohne die Einschränkungen von Shopify. Einzigartiger Checkout, spezifischer Katalog, Business-Integrationen. Maximale Performance.',
+          tags: ['100% individuell', 'Ultra-performant'],
+        },
+      },
+      payments: {
+        title: 'Zahlungen: Kreditkarte, Stripe und mehr',
+        description: 'Deine Kunden zahlen sicher per Kreditkarte. Stripe ist das Herzstück des Systems — schnell, zuverlässig, überall anerkannt.',
+        checklist: [
+          'Kreditkarte (Visa, Mastercard…) über Stripe',
+          'PayPal oder Mollie als Option',
+          'Sichere SSL/HTTPS-Zahlung',
+          'Auftrags- und Bestandsverwaltung',
+          'Automatische E-Mails (Bestätigung, Versand…)',
+          'Mobilgeräte & Tablet-kompatibel',
+          'Dashboard zur Verwaltung deines Shops',
+        ],
+        includedTitle: 'Was enthalten ist',
+        includedChecklist: [
+          'Unbegrenzter Produktkatalog',
+          'Produktfilter und -suche',
+          'Produktseiten optimiert zum Verkaufen',
+          'Reibungsloser Warenkorb & Checkout',
+          'Sichtbar auf Google (E-Commerce-SEO)',
+          'Lieferintegration (DHL, Colissimo…)',
+          'Integrierte Analyse (GA4 oder Plausible)',
+          'Admin-Schulung inklusive',
+        ],
+      },
+      process: {
+        sectionTitle: 'Wie läuft das ab?',
+        sectionSubtitle: 'Ein einfaches, strukturiertes E-Commerce-Projekt ohne Überraschungen.',
+        steps: [
+          {
+            title: '1. Briefing & Angebot',
+            description: 'Wir besprechen dein Projekt — Produkte, Ziele, Budget. Ich schicke dir ein kostenloses, detailliertes Angebot innerhalb von 24 h. Keinerlei Verpflichtung.',
+          },
+          {
+            title: '2. Entwicklung',
+            description: 'Ich baue deinen Shop. Du erhältst eine Online-Vorschau, um Design und Funktionen vor dem Launch zu genehmigen.',
+          },
+          {
+            title: '3. Lieferung & Schulung',
+            description: 'Dein Shop geht live. Ich schule dich in der Verwaltung (Produkte, Bestellungen, Bestand). Du zahlst erst, wenn die Website freigegeben wurde.',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'E-Commerce-Website',
+        pricingPrice: '1.500€+',
+        pricingSub: 'Mindestlieferzeit · 1 Woche',
+        pricingFeatures: [
+          'Vollständig individueller Shop',
+          'Kreditkarte & Stripe inklusive',
+          'Mobile-first & auf Google sichtbar',
+          '1 Revision inklusive',
+          'Admin-Schulung',
+          'Keine Anzahlung',
+        ],
+        pricingCta: 'Meinen Shop starten',
+        title: 'Ab 1.500€ ohne unangenehme Überraschungen',
+        description: 'Der Endpreis hängt von der Komplexität deines Shops ab: Anzahl der Produkte, Integrationen, Zahlungsmethoden und spezifische Funktionen.',
+        noSurprise: 'In jedem Fall erhältst du ein kostenloses, detailliertes Angebot, bevor du dich verpflichtest. Keine versteckten Kosten.',
+        checklist: [
+          'Kostenloses Angebot in 24 h',
+          'Fixer Vertragspreis',
+          'Zahlung am Ende des Projekts — keine Anzahlung',
+          'Support nach dem Launch inklusive',
+        ],
+        ctaTarifs: 'Alle Preise ansehen',
+      },
+      faq: {
+        sectionTitle: 'Häufig gestellte Fragen',
+        sectionSubtitle: 'Was du dich fragst, bevor du loslegst.',
+        items: [
+          {
+            q: 'Wie viel kostet ein Online-Shop?',
+            a: 'Ein maßgeschneiderter E-Commerce-Shop beginnt bei 1.500€. Der Endpreis hängt von der Anzahl der Produkte, Integrationen und Zahlungsmethoden ab. Du erhältst ein detailliertes, kostenloses Angebot vor jeder Verpflichtung. Zahlung am Ende des Projekts.',
+          },
+          {
+            q: 'Shopify oder Next.js — was ist der Unterschied für mich?',
+            a: 'Shopify ist ideal, wenn du deinen Shop einfach selbst verwalten möchtest, mit einem sehr einfachen Back-Office. Next.js ist besser, wenn du einen 100% individualisierten Shop mit höherer Performance brauchst und ein bisschen mehr Technik kein Problem ist. Ich berate dich je nach Situation.',
+          },
+          {
+            q: 'Können meine Kunden per Kreditkarte zahlen?',
+            a: 'Ja, das ist in jedem E-Commerce-Projekt enthalten. Zahlungen werden über Stripe (Visa, Mastercard…) abgewickelt. PayPal oder Mollie können bei Bedarf hinzugefügt werden.',
+          },
+          {
+            q: 'Warum kein WooCommerce?',
+            a: 'Ich biete kein WooCommerce an, weil es ein WordPress-Plugin ist, das schnell schwerfällig, langsam und schwer zu warten wird. Shopify und Next.js bieten bessere Performance, mehr Sicherheit und ein viel flüssigeres Einkaufserlebnis für deine Kunden.',
+          },
+          {
+            q: 'Kann ich meinen Shop nach der Lieferung selbst verwalten?',
+            a: 'Ja. Eine Admin-Schulung ist in jedem Projekt enthalten. Du lernst, wie du Produkte hinzufügst, Bestellungen und Bestände verwaltest. Besonders für Shopify ist das Interface sehr intuitiv.',
+          },
+          {
+            q: 'Muss ich im Voraus zahlen?',
+            a: 'Nein. Die Zahlung erfolgt am Ende des Projekts, sobald du deinen Shop freigegeben hast. Keine Anzahlung für Standardprojekte.',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Bereit, deinen ',
+        titleHighlight: 'Online-Shop zu launchen',
+        sub: 'Kostenloses Angebot in 24 h · Ab 1.500€ · Zahlung nach Freigabe',
+        btn: 'Jetzt loslegen',
+      },
+    },
     footer: {
       copyRole: 'Freiberuflicher Webentwickler',
       secondaryAria: 'Sekundäre Navigation',
@@ -3040,6 +3785,155 @@ resources.nl = {
         titleBefore: 'Klaar om jouw ',
         titleHighlight: 'showcase-website te maken',
         sub: 'Gratis offerte binnen 24 u · Tussen €400 en €700 · Levering in 24-48 u · Betaling na goedkeuring',
+        btn: 'Nu starten',
+      },
+    },
+    ecommercePage: {
+      hero: {
+        badge: 'Nu beschikbaar · Nantes & remote',
+        title: 'Maak een',
+        titleHighlight: 'webshop op maat',
+        titleLine2: 'in Nantes',
+        sub: 'Verkoop online met een professionele Shopify- of Next.js-webshop, betaling met bankkaart, mobile-first. Vanaf €1.500, geleverd in minimaal 1 week.',
+        ctaQuote: 'Gratis offerte aanvragen',
+        ctaTarifs: 'Prijzen bekijken',
+      },
+      niches: {
+        sectionTitle: 'Voor welke webshop?',
+        sectionSubtitle: 'Ik werk aan alle soorten e-commerceprojecten, ongeacht jouw activiteit.',
+        items: [
+          {
+            title: 'Mode & accessoires',
+            description: 'Kleding, sieraden, lederwaren — productgalerij, maat- en kleurvarianten, verzorgde winkelervaring.',
+            tags: ['Online modeshop', 'Sieraden'],
+          },
+          {
+            title: 'Ambacht & handgemaakt',
+            description: 'Zeep, kaarsen, keramiek, handgemaakte creaties — toon jouw werk met een webshop die bij jou past.',
+            tags: ['Ambachtswinkel', 'Handgemaakt'],
+          },
+          {
+            title: 'Fysieke producten & levering',
+            description: 'Elk type product met voorraadbeheer, integratie van bezorgdiensten, ordertracering en automatische e-mails.',
+            tags: ['E-commerce levering', 'Bezorgdienst'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'Shopify of Next.js — hoe kies ik?',
+        sectionSubtitle: 'Elk project is anders. Ik raad de technologie aan die het best bij jouw situatie past.',
+        advice: 'Niet zeker wat je nodig hebt? Ik adviseer je gratis na een kort gesprek over jouw project.',
+        shopify: {
+          title: 'Shopify',
+          description: 'Ideaal als je jouw webshop eenvoudig zelf wilt beheren. Zeer eenvoudig admin-interface, app-ecosysteem, snelle lancering. Perfect voor webshops met een standaardcatalogus.',
+          tags: ['Eenvoudig beheer', 'Snelle lancering'],
+        },
+        nextjs: {
+          title: 'Next.js op maat',
+          description: "Ideaal voor een 100% gepersonaliseerde webshop, hogere prestaties, zonder de beperkingen van Shopify. Unieke checkout, specifieke catalogus, zakelijke integraties. Maximale prestaties.",
+          tags: ['100% op maat', 'Ultra-performant'],
+        },
+      },
+      payments: {
+        title: 'Betalingen: bankkaart, Stripe en meer',
+        description: 'Jouw klanten betalen veilig met bankkaart. Stripe is het hart van het systeem — snel, betrouwbaar, overal erkend.',
+        checklist: [
+          'Bankkaart (Visa, Mastercard…) via Stripe',
+          'PayPal of Mollie als optie',
+          'Veilige SSL/HTTPS-betaling',
+          'Bestelling- en voorraadbeheer',
+          'Automatische e-mails (bevestiging, verzending…)',
+          'Compatibel met mobiel & tablet',
+          'Dashboard om jouw webshop te beheren',
+        ],
+        includedTitle: 'Wat is inbegrepen',
+        includedChecklist: [
+          'Onbeperkte productcatalogus',
+          'Productfilters en zoekfunctie',
+          "Productpagina's geoptimaliseerd om te verkopen",
+          'Vlotte winkelwagen & checkout',
+          'Zichtbaar op Google (e-commerce SEO)',
+          'Bezorgintegratie (Colissimo, DHL…)',
+          'Geïntegreerde analyse (GA4 of Plausible)',
+          'Admin-training inbegrepen',
+        ],
+      },
+      process: {
+        sectionTitle: 'Hoe verloopt het?',
+        sectionSubtitle: 'Een eenvoudig, gestructureerd e-commerceproject zonder verrassingen.',
+        steps: [
+          {
+            title: '1. Briefing & offerte',
+            description: 'We bespreken jouw project — producten, doelen, budget. Ik stuur je een gratis, gedetailleerde offerte binnen 24 u. Geen enkele verplichting.',
+          },
+          {
+            title: '2. Ontwikkeling',
+            description: 'Ik bouw jouw webshop. Je ontvangt een online preview om het ontwerp en de functies te valideren voor de lancering.',
+          },
+          {
+            title: '3. Oplevering & training',
+            description: 'Jouw webshop gaat live. Ik train je in het beheer (producten, bestellingen, voorraad). Je betaalt pas nadat de website is goedgekeurd.',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'E-commerce website',
+        pricingPrice: '€1.500+',
+        pricingSub: 'Minimale levertijd · 1 week',
+        pricingFeatures: [
+          'Volledig op maat gemaakte webshop',
+          'Bankkaart & Stripe inbegrepen',
+          'Mobile-first & zichtbaar op Google',
+          '1 revisie inbegrepen',
+          'Admin-training',
+          'Geen voorschot',
+        ],
+        pricingCta: 'Mijn webshop starten',
+        title: 'Vanaf €1.500 zonder onaangename verrassingen',
+        description: 'De uiteindelijke prijs hangt af van de complexiteit van jouw webshop: aantal producten, integraties, betaalmethoden en specifieke functies.',
+        noSurprise: 'In elk geval ontvang je een gratis, gedetailleerde offerte voordat je je verbindt. Geen verborgen kosten.',
+        checklist: [
+          'Gratis offerte binnen 24 u',
+          'Vaste contractprijs',
+          'Betaling aan het einde van het project — geen voorschot',
+          'Ondersteuning na lancering inbegrepen',
+        ],
+        ctaTarifs: 'Alle prijzen bekijken',
+      },
+      faq: {
+        sectionTitle: 'Veelgestelde vragen',
+        sectionSubtitle: 'Wat je je afvraagt voor je begint.',
+        items: [
+          {
+            q: 'Hoeveel kost een webshop?',
+            a: 'Een op maat gemaakte e-commercewebsite begint vanaf €1.500. De uiteindelijke prijs hangt af van het aantal producten, integraties en betaalmethoden. Je ontvangt een gedetailleerde, gratis offerte voor elke verplichting. Betaling aan het einde van het project.',
+          },
+          {
+            q: 'Shopify of Next.js — wat is het verschil voor mij?',
+            a: 'Shopify is ideaal als je jouw webshop eenvoudig zelf wilt beheren, met een zeer eenvoudig back-office. Next.js is beter als je een 100% op maat gemaakte webshop nodig hebt met hogere prestaties en je niet bang bent voor iets meer techniek. Ik adviseer je op basis van jouw situatie.',
+          },
+          {
+            q: 'Kunnen mijn klanten betalen met bankkaart?',
+            a: 'Ja, dat is inbegrepen in elk e-commerceproject. Betalingen worden verwerkt via Stripe (Visa, Mastercard…). PayPal of Mollie kunnen worden toegevoegd indien nodig.',
+          },
+          {
+            q: 'Waarom geen WooCommerce?',
+            a: 'Ik bied geen WooCommerce aan omdat het een WordPress-plugin is die snel zwaar, traag en moeilijk te onderhouden wordt. Shopify en Next.js bieden betere prestaties, meer beveiliging en een veel vlottere winkelervaring voor jouw klanten.',
+          },
+          {
+            q: 'Kan ik mijn webshop zelf beheren na de oplevering?',
+            a: 'Ja. Admin-training is inbegrepen in elk project. Je leert hoe je producten toevoegt, bestellingen en voorraad beheert. Voor Shopify in het bijzonder is de interface zeer intuïtief.',
+          },
+          {
+            q: 'Moet ik op voorhand betalen?',
+            a: 'Nee. Betaling vindt plaats aan het einde van het project, nadat je jouw webshop hebt goedgekeurd. Geen voorschot voor standaardprojecten.',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Klaar om jouw ',
+        titleHighlight: 'webshop te lanceren',
+        sub: 'Gratis offerte binnen 24 u · Vanaf €1.500 · Betaling na goedkeuring',
         btn: 'Nu starten',
       },
     },
@@ -3559,6 +4453,155 @@ resources.it = {
         btn: 'Inizia ora',
       },
     },
+    ecommercePage: {
+      hero: {
+        badge: 'Disponibile ora · Nantes & remoto',
+        title: "Creazione di un",
+        titleHighlight: 'negozio online',
+        titleLine2: 'su misura a Nantes',
+        sub: 'Vendi online con un negozio professionale Shopify o Next.js, pagamento con carta di credito, mobile-first. A partire da 1.500€, consegnato in minimo 1 settimana.',
+        ctaQuote: 'Richiedi un preventivo gratuito',
+        ctaTarifs: 'Vedi i prezzi',
+      },
+      niches: {
+        sectionTitle: 'Per quale negozio?',
+        sectionSubtitle: 'Lavoro su tutti i tipi di progetti e-commerce, qualunque sia la tua attività.',
+        items: [
+          {
+            title: 'Moda & accessori',
+            description: "Abbigliamento, gioielli, pelletteria — galleria prodotti, varianti di taglie e colori, esperienza d'acquisto curata.",
+            tags: ['Negozio moda online', 'Gioielli'],
+          },
+          {
+            title: 'Artigianato & fatto a mano',
+            description: 'Saponi, candele, ceramica, creazioni artigianali — metti in mostra il tuo lavoro con un negozio che ti rappresenta.',
+            tags: ['Negozio artigianale', 'Fatto a mano'],
+          },
+          {
+            title: 'Prodotti fisici & spedizione',
+            description: 'Qualsiasi tipo di prodotto con gestione del magazzino, integrazione corrieri, tracciamento ordini ed e-mail automatiche.',
+            tags: ['E-commerce spedizioni', 'Corriere'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'Shopify o Next.js — come scelgo?',
+        sectionSubtitle: 'Ogni progetto è diverso. Consiglio la tecnologia più adatta alla tua situazione.',
+        advice: 'Non sei sicuro di cosa hai bisogno? Ti consiglio gratuitamente dopo una breve chiacchierata sul tuo progetto.',
+        shopify: {
+          title: 'Shopify',
+          description: 'Ideale se vuoi gestire facilmente il tuo negozio da solo. Interfaccia di amministrazione molto semplice, ecosistema di app, lancio rapido. Perfetto per negozi con un catalogo standard.',
+          tags: ['Gestione facile', 'Lancio rapido'],
+        },
+        nextjs: {
+          title: 'Next.js su misura',
+          description: 'Ideale per un negozio 100% personalizzato, più performante, senza i limiti di Shopify. Checkout unico, catalogo specifico, integrazioni business. Performance massime.',
+          tags: ['100% su misura', 'Ultra-performante'],
+        },
+      },
+      payments: {
+        title: 'Pagamenti: carta di credito, Stripe e altro',
+        description: 'I tuoi clienti pagano con carta di credito in tutta sicurezza. Stripe è al cuore del sistema — veloce, affidabile, riconosciuto ovunque.',
+        checklist: [
+          'Carta di credito (Visa, Mastercard…) tramite Stripe',
+          'PayPal o Mollie come opzione',
+          'Pagamento sicuro SSL/HTTPS',
+          'Gestione ordini e magazzino',
+          'E-mail automatiche (conferma, spedizione…)',
+          'Compatibile con mobile & tablet',
+          'Dashboard per gestire il tuo negozio',
+        ],
+        includedTitle: 'Cosa è incluso',
+        includedChecklist: [
+          'Catalogo prodotti illimitato',
+          'Filtri e ricerca prodotti',
+          'Pagine prodotto ottimizzate per vendere',
+          'Carrello & checkout fluido',
+          'Visibile su Google (SEO e-commerce)',
+          'Integrazione corrieri (Colissimo, DHL…)',
+          'Analisi integrata (GA4 o Plausible)',
+          "Formazione all'amministrazione inclusa",
+        ],
+      },
+      process: {
+        sectionTitle: 'Come funziona?',
+        sectionSubtitle: 'Un progetto e-commerce semplice, strutturato, senza sorprese.',
+        steps: [
+          {
+            title: '1. Brief & preventivo',
+            description: 'Parliamo del tuo progetto — prodotti, obiettivi, budget. Ti invio un preventivo gratuito e dettagliato entro 24 h. Nessun impegno.',
+          },
+          {
+            title: '2. Sviluppo',
+            description: "Costruisco il tuo negozio. Ricevi un'anteprima online per approvare il design e le funzionalità prima della messa online.",
+          },
+          {
+            title: '3. Consegna & formazione',
+            description: "Il tuo negozio va online. Ti formo sulla gestione (prodotti, ordini, magazzino). Paghi solo dopo l'approvazione del sito.",
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'Sito e-commerce',
+        pricingPrice: '1.500€+',
+        pricingSub: 'Tempo minimo · 1 settimana',
+        pricingFeatures: [
+          'Negozio completo su misura',
+          'Carta di credito & Stripe inclusi',
+          'Mobile-first & visibile su Google',
+          '1 revisione inclusa',
+          "Formazione all'amministrazione",
+          'Nessun acconto richiesto',
+        ],
+        pricingCta: 'Avviare il mio negozio',
+        title: 'A partire da 1.500€ senza brutte sorprese',
+        description: 'Il prezzo finale dipende dalla complessità del tuo negozio: numero di prodotti, integrazioni, metodi di pagamento e funzionalità specifiche.',
+        noSurprise: 'In ogni caso, ricevi un preventivo gratuito e dettagliato prima di impegnarti. Nessun costo nascosto.',
+        checklist: [
+          'Preventivo gratuito entro 24 h',
+          'Prezzo fisso contrattualizzato',
+          'Pagamento a fine progetto — nessun acconto',
+          'Supporto post-lancio incluso',
+        ],
+        ctaTarifs: 'Vedi tutti i prezzi',
+      },
+      faq: {
+        sectionTitle: 'Domande frequenti',
+        sectionSubtitle: 'Quello che ti chiedi prima di iniziare.',
+        items: [
+          {
+            q: 'Quanto costa un negozio online?',
+            a: "Un sito e-commerce su misura parte da 1.500€. Il prezzo finale dipende dal numero di prodotti, dalle integrazioni e dai metodi di pagamento. Ricevi un preventivo dettagliato e gratuito prima di qualsiasi impegno. Pagamento a fine progetto.",
+          },
+          {
+            q: 'Shopify o Next.js — qual è la differenza per me?',
+            a: "Shopify è ideale se vuoi gestire facilmente il tuo negozio da solo, con un back-office molto semplice. Next.js è preferibile se hai bisogno di un negozio 100% su misura, più performante, e non ti spaventa un po' più di tecnica. Ti consiglio in base alla tua situazione.",
+          },
+          {
+            q: 'I miei clienti possono pagare con carta di credito?',
+            a: 'Sì, è incluso in ogni progetto e-commerce. I pagamenti sono gestiti tramite Stripe (Visa, Mastercard…). PayPal o Mollie possono essere aggiunti in base alle esigenze.',
+          },
+          {
+            q: 'Perché non WooCommerce?',
+            a: "Non offro WooCommerce perché è un plugin WordPress che diventa rapidamente pesante, lento e difficile da mantenere. Shopify e Next.js offrono prestazioni migliori, più sicurezza e un'esperienza d'acquisto molto più fluida per i tuoi clienti.",
+          },
+          {
+            q: 'Potrò gestire il mio negozio da solo dopo la consegna?',
+            a: "Sì. La formazione all'amministrazione è inclusa in ogni progetto. Impari ad aggiungere prodotti, gestire ordini e magazzino. Per Shopify in particolare, l'interfaccia è molto intuitiva.",
+          },
+          {
+            q: 'Devo pagare in anticipo?',
+            a: 'No. Il pagamento avviene a fine progetto, dopo che hai approvato il tuo negozio. Nessun acconto per i progetti standard.',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Pronto a lanciare il tuo ',
+        titleHighlight: 'negozio online',
+        sub: 'Preventivo gratuito entro 24 h · A partire da 1.500€ · Pagamento dopo approvazione',
+        btn: 'Inizia ora',
+      },
+    },
     footer: {
       copyRole: 'Sviluppatore web freelance',
       secondaryAria: 'Navigazione secondaria',
@@ -4056,6 +5099,155 @@ resources.zh = {
         titleBefore: '准备好创建您的',
         titleHighlight: '展示型网站',
         sub: '24小时内免费报价 · 400至700€之间 · 24–48小时交付 · 审核通过后付款',
+        btn: '立即开始',
+      },
+    },
+    ecommercePage: {
+      hero: {
+        badge: '现已接单 · 南特及远程',
+        title: '打造',
+        titleHighlight: '定制网店',
+        titleLine2: '南特专业电商开发',
+        sub: '通过专业的Shopify或Next.js网店在线销售，支持银行卡付款，移动端优先。起价1500€，最短1周交付。',
+        ctaQuote: '申请免费报价',
+        ctaTarifs: '查看价格',
+      },
+      niches: {
+        sectionTitle: '适合哪种网店？',
+        sectionSubtitle: '无论您从事哪个行业，我都能承接各类电商项目。',
+        items: [
+          {
+            title: '时尚与配饰',
+            description: '服装、珠宝、皮具——产品图库、尺码与颜色变体、精心设计的购物体验。',
+            tags: ['时尚网店', '珠宝'],
+          },
+          {
+            title: '手工艺与手作',
+            description: '香皂、蜡烛、陶瓷、手作创意商品——用一家独具风格的网店展示您的作品。',
+            tags: ['手工艺网店', '手作'],
+          },
+          {
+            title: '实体商品与配送',
+            description: '各类商品，含库存管理、快递集成（Colissimo/DHL）、订单追踪及自动邮件。',
+            tags: ['电商配送', '快递'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'Shopify还是Next.js，如何选择？',
+        sectionSubtitle: '每个项目各有不同，我会根据您的实际情况推荐最合适的技术方案。',
+        advice: '不确定自己需要什么？简短沟通后，我免费为您提供建议。',
+        shopify: {
+          title: 'Shopify',
+          description: '如果您希望轻松自主管理网店，Shopify是最佳选择。后台界面极为简洁，拥有丰富的应用生态，上线速度快。非常适合标准品类的网店。',
+          tags: ['管理简便', '快速上线'],
+        },
+        nextjs: {
+          title: '定制Next.js',
+          description: '适合需要100%个性化、性能更高、不受Shopify限制的网店。独特结账流程、专属品类、业务系统集成，性能最大化。',
+          tags: ['100%定制', '超高性能'],
+        },
+      },
+      payments: {
+        title: '支付方式：银行卡、Stripe及更多',
+        description: '您的客户可安全地使用银行卡付款。Stripe是系统核心——快速、可靠、全球通用。',
+        checklist: [
+          '银行卡（Visa、Mastercard……）通过Stripe支付',
+          '可选PayPal或Mollie',
+          'SSL/HTTPS安全支付',
+          '订单与库存管理',
+          '自动邮件（确认、发货……）',
+          '兼容手机与平板',
+          '网店管理后台',
+        ],
+        includedTitle: '包含内容',
+        includedChecklist: [
+          '无限商品目录',
+          '商品筛选与搜索',
+          '针对转化优化的商品详情页',
+          '流畅的购物车与结账',
+          '在谷歌可见（电商SEO）',
+          '快递集成（Colissimo、DHL……）',
+          '内置数据分析（GA4或Plausible）',
+          '含后台操作培训',
+        ],
+      },
+      process: {
+        sectionTitle: '项目如何进行？',
+        sectionSubtitle: '简单、有序的电商项目，没有任何意外。',
+        steps: [
+          {
+            title: '1. 沟通需求与报价',
+            description: '我们沟通您的项目——商品、目标、预算。我在24小时内向您发送免费详细报价，无任何承诺。',
+          },
+          {
+            title: '2. 开发建设',
+            description: '我构建您的网店。上线前您将收到在线预览版本，供您确认设计与功能。',
+          },
+          {
+            title: '3. 交付与培训',
+            description: '您的网店正式上线。我为您提供后台管理培训（商品、订单、库存）。仅在您验收通过后付款。',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: '电商网站',
+        pricingPrice: '1500€起',
+        pricingSub: '最短交期 · 1周',
+        pricingFeatures: [
+          '全定制网店',
+          '银行卡与Stripe支持',
+          '移动端优先，谷歌可见',
+          '含1次修改',
+          '后台管理培训',
+          '无需预付款',
+        ],
+        pricingCta: '启动我的网店',
+        title: '起价1500€，无任何隐藏费用',
+        description: '最终价格取决于网店复杂程度：商品数量、集成方案、支付方式及特定功能。',
+        noSurprise: '无论如何，您在做出任何承诺之前都将收到免费详细报价，绝无隐藏收费。',
+        checklist: [
+          '24小时内免费报价',
+          '固定合同价格',
+          '项目完成后付款，无需预付',
+          '含上线后支持',
+        ],
+        ctaTarifs: '查看全部价格',
+      },
+      faq: {
+        sectionTitle: '常见问题',
+        sectionSubtitle: '开始前您想了解的内容。',
+        items: [
+          {
+            q: '开一家网店需要多少钱？',
+            a: '定制电商网站起价1500€。最终价格取决于商品数量、集成方案和支付方式。在做出任何承诺之前，您将收到详细的免费报价。项目完成后付款。',
+          },
+          {
+            q: 'Shopify和Next.js有什么区别？',
+            a: 'Shopify适合希望轻松自主管理网店、后台界面极为简洁的用户。Next.js更适合需要100%定制、性能更高、不介意稍微复杂一点技术的用户。我会根据您的实际情况提供建议。',
+          },
+          {
+            q: '我的客户可以用银行卡付款吗？',
+            a: '可以，这是每个电商项目的标配。支付通过Stripe处理（Visa、Mastercard……）。如有需要，可添加PayPal或Mollie。',
+          },
+          {
+            q: '为什么不用WooCommerce？',
+            a: '我不提供WooCommerce，因为它是一款WordPress插件，很快就会变得臃肿、缓慢且难以维护。Shopify和Next.js性能更好、更安全，为您的客户提供更流畅的购物体验。',
+          },
+          {
+            q: '交付后我能自己管理网店吗？',
+            a: '可以。每个项目均含后台管理培训，您将学习如何添加商品、管理订单和库存。尤其是Shopify，界面非常直观。',
+          },
+          {
+            q: '需要预先付款吗？',
+            a: '不需要。付款在项目完成、您验收通过后进行。标准项目无需预付款。',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: '准备好上线您的',
+        titleHighlight: '定制网店',
+        sub: '24小时内免费报价 · 起价1500€ · 审核通过后付款',
         btn: '立即开始',
       },
     },
@@ -4562,6 +5754,155 @@ resources.ja = {
         titleBefore: 'あなたの',
         titleHighlight: 'ショーケースサイト',
         sub: '無料見積もり24時間以内 · 400〜700€ · 24〜48時間納品 · 承認後にお支払い',
+        btn: '今すぐ始める',
+      },
+    },
+    ecommercePage: {
+      hero: {
+        badge: '今すぐ対応可能 · ナント & リモート',
+        title: '制作します',
+        titleHighlight: 'ネットショップ',
+        titleLine2: 'ナントのECサイト専門開発',
+        sub: 'ShopifyまたはNext.jsによるプロフェッショナルなネットショップで販売を始めましょう。クレジットカード決済対応、モバイルファースト。1,500€〜、最短1週間で納品。',
+        ctaQuote: '無料見積もりを依頼する',
+        ctaTarifs: '料金を確認する',
+      },
+      niches: {
+        sectionTitle: 'どんなショップ向け？',
+        sectionSubtitle: 'どんな業種のECプロジェクトにも対応します。',
+        items: [
+          {
+            title: 'ファッション & アクセサリー',
+            description: 'アパレル、ジュエリー、レザーグッズに対応。商品ギャラリー、サイズ・カラーバリエーション、こだわりの購買体験。',
+            tags: ['ファッション通販', 'ジュエリー'],
+          },
+          {
+            title: 'クラフト & ハンドメイド',
+            description: '石けん、キャンドル、陶器、手作り作品。あなたらしさを表現するショップで作品を世界に届けましょう。',
+            tags: ['ハンドメイドショップ', 'クラフト'],
+          },
+          {
+            title: '実物商品 & 配送',
+            description: 'あらゆる商品に対応。在庫管理、配送業者連携（Colissimo/DHL）、注文追跡、自動メール送信まで。',
+            tags: ['ECサイト配送', '配送業者連携'],
+          },
+        ],
+      },
+      platforms: {
+        sectionTitle: 'ShopifyかNext.js、どちらを選ぶ？',
+        sectionSubtitle: 'プロジェクトは千差万別。あなたの状況に最適な技術をご提案します。',
+        advice: '何が必要か迷っていますか？プロジェクトについて簡単にお話しした後、無料でアドバイスします。',
+        shopify: {
+          title: 'Shopify',
+          description: '自分でショップを簡単に管理したい方に最適。非常にシンプルな管理画面、豊富なアプリ、素早い立ち上げ。標準的なカタログのショップに最適です。',
+          tags: ['簡単管理', '素早い立ち上げ'],
+        },
+        nextjs: {
+          title: 'Next.js フルオーダー',
+          description: '100%カスタマイズされた、より高パフォーマンスなショップを求める方に。Shopifyの制限なし、独自チェックアウト、業務システム連携、最大限のパフォーマンス。',
+          tags: ['100%カスタム', '超高パフォーマンス'],
+        },
+      },
+      payments: {
+        title: '決済：クレジットカード、Stripe、その他',
+        description: 'お客様はクレジットカードで安全にお支払いいただけます。Stripeがシステムの核心。高速・信頼性抜群・世界中で認知。',
+        checklist: [
+          'クレジットカード（Visa、Mastercard…）Stripe経由',
+          'PayPalまたはMollieをオプションとして追加可能',
+          '安全なSSL/HTTPS決済',
+          '注文・在庫管理',
+          '自動メール（注文確認、発送通知…）',
+          'スマートフォン & タブレット対応',
+          'ショップ管理ダッシュボード',
+        ],
+        includedTitle: '含まれるもの',
+        includedChecklist: [
+          '無制限の商品カタログ',
+          '商品フィルター & 検索機能',
+          '売れるよう最適化された商品ページ',
+          'スムーズなカート & チェックアウト',
+          'Google表示（ECサイトSEO）',
+          '配送業者連携（Colissimo、DHL…）',
+          '分析ツール統合（GA4またはPlausible）',
+          '管理操作トレーニング込み',
+        ],
+      },
+      process: {
+        sectionTitle: 'どのように進みますか？',
+        sectionSubtitle: 'シンプルで構造化されたECプロジェクト、サプライズなし。',
+        steps: [
+          {
+            title: '1. ヒアリング & 見積もり',
+            description: 'プロジェクトについてお伺いします（商品・目標・予算）。24時間以内に無料の詳細見積もりをお送りします。コミットメント不要。',
+          },
+          {
+            title: '2. 開発',
+            description: 'ショップを構築します。公開前にオンラインプレビューでデザインと機能をご確認いただけます。',
+          },
+          {
+            title: '3. 納品 & トレーニング',
+            description: 'ショップが公開されます。管理操作（商品、注文、在庫）のトレーニングを行います。お支払いはサイト承認後のみ。',
+          },
+        ],
+      },
+      pricing: {
+        pricingLabel: 'ECサイト',
+        pricingPrice: '1,500€〜',
+        pricingSub: '最短納期 · 1週間',
+        pricingFeatures: [
+          'フルオーダーショップ',
+          'クレジットカード & Stripe対応',
+          'モバイルファースト & Google表示',
+          '修正1回込み',
+          '管理操作トレーニング',
+          '頭金不要',
+        ],
+        pricingCta: 'ショップを始める',
+        title: '1,500€〜、嫌な驚きなし',
+        description: '最終価格はショップの複雑さによります：商品数、連携、決済方法、特定機能。',
+        noSurprise: 'いかなる場合も、コミットメント前に無料の詳細見積もりをご提供します。隠れた費用は一切ありません。',
+        checklist: [
+          '24時間以内に無料見積もり',
+          '固定契約価格',
+          'プロジェクト完了後にお支払い（頭金不要）',
+          '公開後サポート込み',
+        ],
+        ctaTarifs: '全料金を確認する',
+      },
+      faq: {
+        sectionTitle: 'よくある質問',
+        sectionSubtitle: '始める前に知りたいこと。',
+        items: [
+          {
+            q: 'ネットショップはいくらかかりますか？',
+            a: 'フルオーダーのECサイトは1,500€〜。最終価格は商品数、連携、決済方法によります。コミットメント前に詳細な無料見積もりをご提供します。お支払いはプロジェクト完了後。',
+          },
+          {
+            q: 'ShopifyとNext.jsの違いは何ですか？',
+            a: 'Shopifyはシンプルな管理画面で自分でショップを運営したい方に最適です。Next.jsは100%カスタムで高パフォーマンスなショップが必要で、少し技術的な部分も問題ない方に向いています。状況に応じてアドバイスします。',
+          },
+          {
+            q: 'お客様はクレジットカードで支払えますか？',
+            a: 'はい、すべてのECプロジェクトに含まれています。Stripe（Visa、Mastercard…）経由で決済処理されます。PayPalやMollieも必要に応じて追加できます。',
+          },
+          {
+            q: 'なぜWooCommerceではないのですか？',
+            a: 'WooCommerceはWordPressのプラグインで、すぐに重くなり、遅く、メンテナンスが困難になるため提供していません。ShopifyとNext.jsはより優れたパフォーマンス、セキュリティ、そしてお客様にとってより快適なショッピング体験を提供します。',
+          },
+          {
+            q: '納品後に自分でショップを管理できますか？',
+            a: 'はい。管理操作トレーニングはすべてのプロジェクトに含まれています。商品追加、注文・在庫管理の方法をお教えします。特にShopifyはインターフェースが非常に直感的です。',
+          },
+          {
+            q: '前払いは必要ですか？',
+            a: 'いいえ。お支払いはプロジェクト完了後、ショップをご承認いただいた後に行います。標準プロジェクトは頭金不要です。',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'あなたの',
+        titleHighlight: 'ネットショップ',
+        sub: '無料見積もり24時間以内 · 1,500€〜 · 承認後にお支払い',
         btn: '今すぐ始める',
       },
     },
