@@ -317,3 +317,10 @@
 - Suppression de la regle CSS specifique `.form-group select` dans `src/components/Contact.css`.
 - Le selecteur `Type de projet` herite maintenant exactement des memes styles que `input`/`textarea` via la regle commune (`padding`, `font-size`, bordure, etc.).
 - Objectif: uniformiser la taille visuelle de tous les champs du formulaire.
+
+### 2026-03-25 - Correction navigation vers #contact depuis les pages SEO
+- Problème : `href="/#contact"` dans `NantesPage.jsx` (et toutes les pages SEO) ne scrollait pas vers la section contact sur `/`.
+- Cause double :
+  1. `<a href="/#contact">` est un lien HTML natif → rechargement complet de page (pas une navigation React Router).
+  2. Le composant `Contact` est lazy-loadé dans `Home.jsx` → il n'est pas encore dans le DOM au moment où le scroll est tenté.
+- Fix final : mécanisme de retry dans `ScrollToTop.jsx` (retry toutes les 100ms jusqu'à 20 fois = 2s max) pour attendre que l'élément `#contact` soit rendu dans le DOM avant de scroller. Sans hash : comportement inchangé (`window.scrollTo(0, 0)`).
