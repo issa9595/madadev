@@ -70,7 +70,7 @@ export const jsonLdNantesLocalBusiness = {
   '@id': `${SITE_ORIGIN}/#business`,
   name: 'MadaDev',
   description:
-    'Développeur web freelance à Nantes : sites vitrine 400–700€ en 24–48h, e-commerce sur mesure dès 1500€ (min. 1 semaine). Disponible partout en France.',
+    'Développeur web freelance à Nantes : sites vitrine 400-700€ en 24-48h, e-commerce sur mesure dès 1500€ (min. 1 semaine). Disponible partout en France.',
   url: SITE_ORIGIN,
   email: BUSINESS_EMAIL,
   address: postalAddressNantes(),

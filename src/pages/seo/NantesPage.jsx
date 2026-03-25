@@ -169,7 +169,7 @@ export default function NantesPage() {
                   <div className="contact-icon"><Euro size={18} /></div>
                   <div className="contact-text">
                     <strong>Tarifs</strong>
-                    <span>Vitrine 400–700€ · E-commerce dès 1500€</span>
+                    <span>Vitrine 400-700€ · E-commerce dès 1500€</span>
                   </div>
                 </div>
                 <a href="/#contact" className="btn btn-primary" style={{ textAlign: 'center', marginTop: '0.5rem' }}>
@@ -192,7 +192,7 @@ export default function NantesPage() {
               <Link to="/site-vitrine" className="service-link">
                 <div className="icon"><Monitor size={28} /></div>
                 <h3>Site vitrine professionnel</h3>
-                <p>Pour artisans, restaurants, TPE design moderne, SEO, mobile-first. Livré en 24–48h.</p>
+                <p>Pour artisans, restaurants, TPE design moderne, SEO, mobile-first. Livré en 24-48h.</p>
                 <div className="price">
                   400€ → 700€ <span className="arrow">→</span>
                 </div>
@@ -329,7 +329,7 @@ export default function NantesPage() {
             <h2>
               Demander un <span className="gradient-text">devis gratuit</span>
             </h2>
-            <p>Réponse sous 24h · Vitrine 400–700€ (24–48h) · E-commerce dès 1500€ · Paiement après validation</p>
+            <p>Réponse sous 24h · Vitrine 400-700€ (24-48h) · E-commerce dès 1500€ · Paiement après validation</p>
             <a href="/#contact" className="btn btn-primary" style={{ fontSize: '1rem', padding: '0.9rem 2.25rem' }}>
               Démarrer mon projet
             </a>
