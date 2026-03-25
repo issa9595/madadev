@@ -673,6 +673,130 @@ const resources = {
           btn: 'Démarrer maintenant',
         },
       },
+      nantesPage: {
+        hero: {
+          badge: 'Basé à Nantes · Disponible partout en France',
+          title: 'Développeur web freelance',
+          titleHighlight: 'à Nantes',
+          sub: 'Vous cherchez un développeur web freelance à Nantes ? Sites vitrine 400 à 700€ livrés en 24 à 48h ; e-commerce sur mesure dès 1500€, délai minimum une semaine. Applications web sur devis.',
+          ctaQuote: 'Demander un devis gratuit',
+          ctaTarifs: 'Voir les tarifs',
+          statsProjects: '+30',
+          statsProjectsLabel: 'Projets livrés',
+          statsExperience: '5 ans',
+          statsExperienceLabel: "D'expérience",
+          statsSatisfaction: '100%',
+          statsSatisfactionLabel: 'Clients satisfaits',
+        },
+        coverage: {
+          sectionTitle: 'Création de site internet à Nantes et en Loire-Atlantique',
+          sectionSubtitle: "Basé à Nantes, j'interviens sur toute la Loire-Atlantique et partout en France en remote.",
+          nantes: {
+            title: 'Nantes & agglomération',
+            description: "Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault je suis disponible pour des rencontres sur place si vous préférez un suivi en face à face.",
+          },
+          loireAtlantique: {
+            title: 'Loire-Atlantique (44)',
+            description: "Toute la Loire-Atlantique est couverte. Artisans, restaurateurs et commerçants du département peuvent bénéficier de mes services.",
+          },
+          france: {
+            title: 'Partout en France',
+            description: "Je travaille en remote pour des clients partout en France. Visioconférence, échanges par email et téléphone la distance n'est pas un obstacle.",
+          },
+        },
+        why: {
+          title: 'Pourquoi choisir MadaDev pour votre projet web à Nantes ?',
+          p: "Contrairement aux agences web, je suis un freelance solo votre interlocuteur unique du brief à la mise en ligne. Pas de chef de projet intermédiaire, pas de délais inutiles.",
+          checklist: [
+            'Interlocuteur unique du début à la fin',
+            'Réactivité : réponse sous 24h',
+            'Sites vitrine livrés en 24 à 48h (projet standard)',
+            'Prix fixe, contractualisé, sans surprise',
+            'Code propre, performant, maintenable',
+            'SEO intégré dès le développement',
+            'Accompagnement après la mise en ligne',
+          ],
+          contactLocation: 'Nantes, Pays de la Loire remote France entière',
+          contactAvailability: 'Disponible maintenant · Réponse sous 24h',
+          contactTarifs: 'Vitrine 400-700€ · E-commerce dès 1500€',
+          contactCta: 'Envoyer un message',
+        },
+        services: {
+          sectionTitle: '+30 projets livrés, disponible maintenant',
+          sectionSubtitle: 'Des sites web pour artisans, commerçants, restaurants et startups à Nantes et partout en France.',
+          vitrine: {
+            title: 'Site vitrine professionnel',
+            description: 'Pour artisans, restaurants, TPE design moderne, SEO, mobile-first. Livré en 24-48h.',
+            price: '400€ → 700€',
+          },
+          ecommerce: {
+            title: 'Site e-commerce',
+            description: 'Boutique Shopify ou Next.js, paiements carte bancaire et Stripe (pas de WooCommerce).',
+            price: 'À partir de 1500€',
+          },
+          webapp: {
+            title: 'Application web sur mesure',
+            description: 'Node.js, Express, PostgreSQL pour des besoins métier spécifiques et complexes.',
+            price: 'Devis gratuit',
+          },
+          seo: {
+            title: 'Performance & SEO',
+            description: 'Audit Lighthouse, Core Web Vitals, optimisation SEO pour que Google vous trouve.',
+            price: 'Devis gratuit',
+          },
+        },
+        remote: {
+          title: 'Interventions à Nantes et partout en France en remote',
+          p1: "Je peux travailler avec vous quelle que soit votre localisation. Les projets web ne nécessitent pas de présence physique échanges par visio, email et téléphone suffisent.",
+          p2: "Si vous êtes basé à Nantes ou en Loire-Atlantique, je suis également disponible pour des rencontres en personne si vous le souhaitez.",
+          checklist: [
+            'Appel de découverte gratuit (30 min)',
+            'Suivi de projet transparent',
+            'Préversion en ligne avant livraison',
+            'Réunions visio selon vos disponibilités',
+          ],
+          stackLabel: 'Stack technique',
+          zonesLabel: "Zones d'intervention",
+          zones: [
+            'Nantes (44) - présentiel possible',
+            'Loire-Atlantique - présentiel possible',
+            'Pays de la Loire - remote',
+            'France entière - remote',
+          ],
+        },
+        faq: {
+          sectionTitle: 'Questions fréquentes',
+          sectionSubtitle: 'Ce que les clients nantais demandent souvent.',
+          items: [
+            {
+              q: 'Vous êtes basé à Nantes ?',
+              a: "Oui, je suis basé à Nantes. Je travaille avec des clients sur Nantes et l'agglomération (Saint-Herblain, Rezé, Orvault, Carquefou…), mais aussi toute la Loire-Atlantique et la France entière en remote.",
+            },
+            {
+              q: 'Peut-on se rencontrer en personne ?',
+              a: "Oui, si vous êtes à Nantes ou en Loire-Atlantique, je suis disponible pour un rendez-vous en personne. Pour les clients hors de la région, on travaille efficacement en visioconférence.",
+            },
+            {
+              q: 'Combien coûte un site web à Nantes ?',
+              a: "Un site vitrine professionnel à Nantes est entre 400 et 700€, livré en 24 à 48h. Une boutique en ligne démarre à 1500€, avec un délai minimum d'une semaine. Devis gratuit sous 24h.",
+            },
+            {
+              q: 'Je suis artisan à Nantes est-ce que vous faites des sites pour les artisans ?',
+              a: "Absolument. Je crée régulièrement des sites vitrine pour des artisans nantais : plombiers, électriciens, menuisiers, peintres, maçons… Un site entre 400 et 700€ qui génère des demandes de devis directement.",
+            },
+            {
+              q: 'Quelle est la différence entre vous et une agence web à Nantes ?',
+              a: "Je suis freelance solo votre interlocuteur unique du début à la fin. Pas de chef de projet intermédiaire, pas de délais inutiles. Les tarifs sont aussi bien plus accessibles qu'une agence (souvent 2 à 5× plus cher pour un résultat équivalent).",
+            },
+          ],
+        },
+        cta: {
+          titleBefore: 'Demander un ',
+          titleHighlight: 'devis gratuit',
+          sub: 'Réponse sous 24h · Vitrine 400-700€ (24-48h) · E-commerce dès 1500€ · Paiement après validation',
+          btn: 'Démarrer mon projet',
+        },
+      },
       footer: {
         copyRole: 'Développeur web freelance',
         secondaryAria: 'Navigation secondaire',
@@ -1132,12 +1256,12 @@ resources.en = {
         items: [
           {
             title: 'Fashion & accessories',
-            description: 'Clothing, jewellery, leather goods — product gallery, size and colour variants, refined shopping experience.',
+            description: 'Clothing, jewellery, leather goods product gallery, size and colour variants, refined shopping experience.',
             tags: ['Online fashion store', 'Jewellery'],
           },
           {
             title: 'Craft & handmade',
-            description: 'Soaps, candles, ceramics, handmade creations — showcase your work with a store that reflects you.',
+            description: 'Soaps, candles, ceramics, handmade creations showcase your work with a store that reflects you.',
             tags: ['Craft store', 'Handmade'],
           },
           {
@@ -1148,7 +1272,7 @@ resources.en = {
         ],
       },
       platforms: {
-        sectionTitle: 'Shopify or Next.js — how do I choose?',
+        sectionTitle: 'Shopify or Next.js how do I choose?',
         sectionSubtitle: 'Every project is different. I recommend the technology best suited to your situation.',
         advice: 'Not sure what you need? I advise you for free after a quick chat about your project.',
         shopify: {
@@ -1164,7 +1288,7 @@ resources.en = {
       },
       payments: {
         title: 'Payments: credit card, Stripe and more',
-        description: 'Your customers pay by credit card securely. Stripe is at the heart of the system — fast, reliable, recognised everywhere.',
+        description: 'Your customers pay by credit card securely. Stripe is at the heart of the system fast, reliable, recognised everywhere.',
         checklist: [
           'Credit card (Visa, Mastercard…) via Stripe',
           'PayPal or Mollie as an option',
@@ -1192,7 +1316,7 @@ resources.en = {
         steps: [
           {
             title: '1. Brief & quote',
-            description: 'We talk about your project — products, goals, budget. I send you a free, detailed quote within 24h. No commitment.',
+            description: 'We talk about your project products, goals, budget. I send you a free, detailed quote within 24h. No commitment.',
           },
           {
             title: '2. Development',
@@ -1223,7 +1347,7 @@ resources.en = {
         checklist: [
           'Free quote within 24h',
           'Fixed contractual price',
-          'Payment at end of project — no deposit',
+          'Payment at end of project no deposit',
           'Post-launch support included',
         ],
         ctaTarifs: 'View all pricing',
@@ -1237,7 +1361,7 @@ resources.en = {
             a: 'A custom e-commerce site starts at €1,500. The final price depends on the number of products, integrations, and payment methods. You receive a detailed, free quote before any commitment. Payment at the end of the project.',
           },
           {
-            q: 'Shopify or Next.js — what is the difference for me?',
+            q: 'Shopify or Next.js what is the difference for me?',
             a: 'Shopify is ideal if you want to manage your store yourself easily, with a very simple back-office. Next.js is preferable if you need a 100% custom store, higher performance, and are not afraid of a bit more technical complexity. I advise you based on your situation.',
           },
           {
@@ -1263,6 +1387,130 @@ resources.en = {
         titleHighlight: 'online store',
         sub: 'Free quote within 24h · From €1,500 · Payment after approval',
         btn: 'Get started now',
+      },
+    },
+    nantesPage: {
+      hero: {
+        badge: 'Based in Nantes · Available throughout France',
+        title: 'Freelance web developer',
+        titleHighlight: 'in Nantes',
+        sub: 'Looking for a freelance web developer in Nantes? Showcase sites €400–€700, delivered in 24 to 48h; custom e-commerce from €1,500, minimum one week. Web applications on quote.',
+        ctaQuote: 'Request a free quote',
+        ctaTarifs: 'View pricing',
+        statsProjects: '+30',
+        statsProjectsLabel: 'Projects delivered',
+        statsExperience: '5 years',
+        statsExperienceLabel: 'Experience',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: 'Satisfied clients',
+      },
+      coverage: {
+        sectionTitle: 'Website creation in Nantes and Loire-Atlantique',
+        sectionSubtitle: 'Based in Nantes, I work across Loire-Atlantique and all of France remotely.',
+        nantes: {
+          title: 'Nantes & greater area',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault I am available for in-person meetings if you prefer face-to-face follow-up.',
+        },
+        loireAtlantique: {
+          title: 'Loire-Atlantique (44)',
+          description: 'All of Loire-Atlantique is covered. Tradespeople, restaurateurs and retailers in the department can benefit from my services.',
+        },
+        france: {
+          title: 'All of France',
+          description: 'I work remotely for clients all over France. Video calls, email and phone distance is no obstacle.',
+        },
+      },
+      why: {
+        title: 'Why choose MadaDev for your web project in Nantes?',
+        p: 'Unlike web agencies, I am a solo freelance your single point of contact from brief to launch. No intermediate project manager, no unnecessary delays.',
+        checklist: [
+          'Single point of contact from start to finish',
+          'Responsiveness: reply within 24h',
+          'Showcase sites delivered in 24 to 48h (standard project)',
+          'Fixed price, contractually set, no surprises',
+          'Clean, high-performance, maintainable code',
+          'SEO integrated from development',
+          'Support after launch',
+        ],
+        contactLocation: 'Nantes, Pays de la Loire remote, all of France',
+        contactAvailability: 'Available now · Reply within 24h',
+        contactTarifs: 'Showcase €400–€700 · E-commerce from €1,500',
+        contactCta: 'Send a message',
+      },
+      services: {
+        sectionTitle: '+30 projects delivered, available now',
+        sectionSubtitle: 'Websites for tradespeople, retailers, restaurants and startups in Nantes and across France.',
+        vitrine: {
+          title: 'Professional showcase site',
+          description: 'For tradespeople, restaurants, small businesses modern design, SEO, mobile-first. Delivered in 24–48h.',
+          price: '€400 → €700',
+        },
+        ecommerce: {
+          title: 'E-commerce site',
+          description: 'Shopify or Next.js store, credit card and Stripe payments (no WooCommerce).',
+          price: 'From €1,500',
+        },
+        webapp: {
+          title: 'Custom web application',
+          description: 'Node.js, Express, PostgreSQL for specific and complex business needs.',
+          price: 'Free quote',
+        },
+        seo: {
+          title: 'Performance & SEO',
+          description: 'Lighthouse audit, Core Web Vitals, SEO optimisation so Google finds you.',
+          price: 'Free quote',
+        },
+      },
+      remote: {
+        title: 'Work in Nantes and all of France remotely',
+        p1: 'I can work with you regardless of your location. Web projects do not require physical presence video calls, email and phone are sufficient.',
+        p2: 'If you are based in Nantes or Loire-Atlantique, I am also available for in-person meetings if you wish.',
+        checklist: [
+          'Free discovery call (30 min)',
+          'Transparent project tracking',
+          'Online preview before delivery',
+          'Video meetings at your convenience',
+        ],
+        stackLabel: 'Tech stack',
+        zonesLabel: 'Service areas',
+        zones: [
+          'Nantes (44) - in-person possible',
+          'Loire-Atlantique - in-person possible',
+          'Pays de la Loire - remote',
+          'All of France - remote',
+        ],
+      },
+      faq: {
+        sectionTitle: 'Frequently asked questions',
+        sectionSubtitle: 'What Nantes clients often ask.',
+        items: [
+          {
+            q: 'Are you based in Nantes?',
+            a: 'Yes, I am based in Nantes. I work with clients in Nantes and the greater area (Saint-Herblain, Rezé, Orvault, Carquefou…), as well as all of Loire-Atlantique and all of France remotely.',
+          },
+          {
+            q: 'Can we meet in person?',
+            a: 'Yes, if you are in Nantes or Loire-Atlantique, I am available for an in-person meeting. For clients outside the region, we work efficiently by video call.',
+          },
+          {
+            q: 'How much does a website cost in Nantes?',
+            a: 'A professional showcase site in Nantes ranges from €400 to €700, delivered in 24 to 48h. An online store starts at €1,500 with a minimum timeline of one week. Free quote within 24h.',
+          },
+          {
+            q: 'I am a tradesperson in Nantes do you build sites for tradespeople?',
+            a: 'Absolutely. I regularly create showcase sites for Nantes tradespeople: plumbers, electricians, carpenters, painters, masons… A site between €400 and €700 that generates quote requests directly.',
+          },
+          {
+            q: 'What is the difference between you and a web agency in Nantes?',
+            a: 'I am a solo freelance your single point of contact from start to finish. No intermediate project manager, no unnecessary delays. Rates are also far more accessible than an agency (often 2 to 5× more expensive for an equivalent result).',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Request a ',
+        titleHighlight: 'free quote',
+        sub: 'Reply within 24h · Showcase €400–€700 (24–48h) · E-commerce from €1,500 · Payment after approval',
+        btn: 'Start my project',
       },
     },
     footer: { copyRole: 'Freelance web developer', secondaryAria: 'Secondary navigation' },
@@ -1799,12 +2047,12 @@ resources.es = {
         items: [
           {
             title: 'Moda y accesorios',
-            description: 'Ropa, joyas, marroquinería — galería de productos, variantes de tallas y colores, experiencia de compra cuidada.',
+            description: 'Ropa, joyas, marroquinería galería de productos, variantes de tallas y colores, experiencia de compra cuidada.',
             tags: ['Tienda de moda online', 'Joyería'],
           },
           {
             title: 'Artesanía y hecho a mano',
-            description: 'Jabones, velas, cerámica, creaciones artesanales — muestra tu trabajo con una tienda que te represente.',
+            description: 'Jabones, velas, cerámica, creaciones artesanales muestra tu trabajo con una tienda que te represente.',
             tags: ['Tienda artesanal', 'Hecho a mano'],
           },
           {
@@ -1815,7 +2063,7 @@ resources.es = {
         ],
       },
       platforms: {
-        sectionTitle: '¿Shopify o Next.js — cómo elijo?',
+        sectionTitle: '¿Shopify o Next.js cómo elijo?',
         sectionSubtitle: 'Cada proyecto es diferente. Recomiendo la tecnología más adecuada a tu situación.',
         advice: '¿No sabes lo que necesitas? Te asesoro gratis tras un intercambio rápido sobre tu proyecto.',
         shopify: {
@@ -1831,7 +2079,7 @@ resources.es = {
       },
       payments: {
         title: 'Pagos: tarjeta bancaria, Stripe y más',
-        description: 'Tus clientes pagan con tarjeta bancaria de forma segura. Stripe es el núcleo del sistema — rápido, fiable, reconocido en todas partes.',
+        description: 'Tus clientes pagan con tarjeta bancaria de forma segura. Stripe es el núcleo del sistema rápido, fiable, reconocido en todas partes.',
         checklist: [
           'Tarjeta bancaria (Visa, Mastercard…) vía Stripe',
           'PayPal o Mollie como opción',
@@ -1859,7 +2107,7 @@ resources.es = {
         steps: [
           {
             title: '1. Brief y presupuesto',
-            description: 'Hablamos de tu proyecto — productos, objetivos, presupuesto. Te envío un presupuesto gratuito y detallado en 24h. Sin compromiso.',
+            description: 'Hablamos de tu proyecto productos, objetivos, presupuesto. Te envío un presupuesto gratuito y detallado en 24h. Sin compromiso.',
           },
           {
             title: '2. Desarrollo',
@@ -1904,7 +2152,7 @@ resources.es = {
             a: 'Una tienda e-commerce a medida empieza desde 1500€. El precio final depende del número de productos, las integraciones y los métodos de pago. Recibes un presupuesto gratuito y detallado antes de cualquier compromiso. Pago al final del proyecto.',
           },
           {
-            q: '¿Shopify o Next.js — cuál es la diferencia para mí?',
+            q: '¿Shopify o Next.js cuál es la diferencia para mí?',
             a: 'Shopify es ideal si quieres gestionar tu tienda fácilmente por tu cuenta, con un back-office muy sencillo. Next.js es preferible si necesitas una tienda 100% a medida, más eficiente, y no te asusta algo más de técnica. Te aconsejo según tu situación.',
           },
           {
@@ -1930,6 +2178,130 @@ resources.es = {
         titleHighlight: 'tienda online',
         sub: 'Presupuesto gratuito en 24h · Desde 1500€ · Pago tras la validación',
         btn: 'Empezar ahora',
+      },
+    },
+    nantesPage: {
+      hero: {
+        badge: 'Basado en Nantes · Disponible en toda Francia',
+        title: 'Desarrollador web freelance',
+        titleHighlight: 'en Nantes',
+        sub: '¿Buscas un desarrollador web freelance en Nantes? Sitios corporativos 400-700€ entregados en 24-48h; e-commerce a medida desde 1500€, mínimo una semana. Aplicaciones web con presupuesto.',
+        ctaQuote: 'Pedir un presupuesto gratuito',
+        ctaTarifs: 'Ver tarifas',
+        statsProjects: '+30',
+        statsProjectsLabel: 'Proyectos entregados',
+        statsExperience: '5 años',
+        statsExperienceLabel: 'Experiencia',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: 'Clientes satisfechos',
+      },
+      coverage: {
+        sectionTitle: 'Creación de sitios web en Nantes y Loire-Atlantique',
+        sectionSubtitle: 'Basado en Nantes, trabajo en toda Loire-Atlantique y en toda Francia de forma remota.',
+        nantes: {
+          title: 'Nantes y área metropolitana',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault estoy disponible para reuniones presenciales si prefieres seguimiento cara a cara.',
+        },
+        loireAtlantique: {
+          title: 'Loire-Atlantique (44)',
+          description: 'Toda Loire-Atlantique está cubierta. Artesanos, restauradores y comerciantes del departamento pueden beneficiarse de mis servicios.',
+        },
+        france: {
+          title: 'Toda Francia',
+          description: 'Trabajo de forma remota para clientes en toda Francia. Videoconferencias, email y teléfono la distancia no es un obstáculo.',
+        },
+      },
+      why: {
+        title: '¿Por qué elegir MadaDev para tu proyecto web en Nantes?',
+        p: 'A diferencia de las agencias web, soy un freelance solo tu único interlocutor del brief al lanzamiento. Sin jefe de proyecto intermedio, sin retrasos innecesarios.',
+        checklist: [
+          'Interlocutor único de principio a fin',
+          'Rapidez: respuesta en 24h',
+          'Sitios corporativos entregados en 24-48h (proyecto estándar)',
+          'Precio fijo, contractual, sin sorpresas',
+          'Código limpio, eficiente y mantenible',
+          'SEO integrado desde el desarrollo',
+          'Acompañamiento tras el lanzamiento',
+        ],
+        contactLocation: 'Nantes, Pays de la Loire remoto, toda Francia',
+        contactAvailability: 'Disponible ahora · Respuesta en 24h',
+        contactTarifs: 'Corporativo 400-700€ · E-commerce desde 1500€',
+        contactCta: 'Enviar un mensaje',
+      },
+      services: {
+        sectionTitle: '+30 proyectos entregados, disponible ahora',
+        sectionSubtitle: 'Sitios web para artesanos, comerciantes, restaurantes y startups en Nantes y toda Francia.',
+        vitrine: {
+          title: 'Sitio corporativo profesional',
+          description: 'Para artesanos, restaurantes, pymes diseño moderno, SEO, mobile-first. Entregado en 24-48h.',
+          price: '400€ → 700€',
+        },
+        ecommerce: {
+          title: 'Sitio e-commerce',
+          description: 'Tienda Shopify o Next.js, pagos con tarjeta bancaria y Stripe (sin WooCommerce).',
+          price: 'Desde 1500€',
+        },
+        webapp: {
+          title: 'Aplicación web a medida',
+          description: 'Node.js, Express, PostgreSQL para necesidades empresariales específicas y complejas.',
+          price: 'Presupuesto gratuito',
+        },
+        seo: {
+          title: 'Rendimiento y SEO',
+          description: 'Auditoría Lighthouse, Core Web Vitals, optimización SEO para que Google te encuentre.',
+          price: 'Presupuesto gratuito',
+        },
+      },
+      remote: {
+        title: 'Trabajo en Nantes y en toda Francia de forma remota',
+        p1: 'Puedo trabajar contigo independientemente de tu ubicación. Los proyectos web no requieren presencia física videoconferencias, email y teléfono son suficientes.',
+        p2: 'Si estás en Nantes o Loire-Atlantique, también estoy disponible para reuniones presenciales si lo deseas.',
+        checklist: [
+          'Llamada de descubrimiento gratuita (30 min)',
+          'Seguimiento de proyecto transparente',
+          'Vista previa en línea antes de la entrega',
+          'Reuniones por videoconferencia según tu disponibilidad',
+        ],
+        stackLabel: 'Stack técnico',
+        zonesLabel: 'Zonas de intervención',
+        zones: [
+          'Nantes (44) - presencial posible',
+          'Loire-Atlantique - presencial posible',
+          'Pays de la Loire - remoto',
+          'Toda Francia - remoto',
+        ],
+      },
+      faq: {
+        sectionTitle: 'Preguntas frecuentes',
+        sectionSubtitle: 'Lo que los clientes de Nantes suelen preguntar.',
+        items: [
+          {
+            q: '¿Estás basado en Nantes?',
+            a: 'Sí, estoy basado en Nantes. Trabajo con clientes en Nantes y su área metropolitana (Saint-Herblain, Rezé, Orvault, Carquefou…), pero también en toda Loire-Atlantique y toda Francia de forma remota.',
+          },
+          {
+            q: '¿Podemos reunirnos en persona?',
+            a: 'Sí, si estás en Nantes o Loire-Atlantique, estoy disponible para una reunión presencial. Para los clientes fuera de la región, trabajamos eficazmente por videoconferencia.',
+          },
+          {
+            q: '¿Cuánto cuesta un sitio web en Nantes?',
+            a: 'Un sitio corporativo profesional en Nantes cuesta entre 400 y 700€, entregado en 24-48h. Una tienda online empieza en 1500€, con un plazo mínimo de una semana. Presupuesto gratuito en 24h.',
+          },
+          {
+            q: 'Soy artesano en Nantes ¿haces sitios para artesanos?',
+            a: 'Absolutamente. Creo regularmente sitios corporativos para artesanos de Nantes: fontaneros, electricistas, carpinteros, pintores, albañiles… Un sitio entre 400 y 700€ que genera solicitudes de presupuesto directamente.',
+          },
+          {
+            q: '¿Cuál es la diferencia entre tú y una agencia web en Nantes?',
+            a: 'Soy un freelance solo tu único interlocutor de principio a fin. Sin jefe de proyecto intermedio, sin retrasos innecesarios. Las tarifas también son mucho más accesibles que una agencia (a menudo 2 a 5× más caras por un resultado equivalente).',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Pedir un ',
+        titleHighlight: 'presupuesto gratuito',
+        sub: 'Respuesta en 24h · Corporativo 400-700€ (24-48h) · E-commerce desde 1500€ · Pago tras la validación',
+        btn: 'Empezar mi proyecto',
       },
     },
     footer: {
@@ -2323,7 +2695,7 @@ resources.ru = {
         title: 'Создание',
         titleHighlight: 'сайта-визитки',
         titleLine2: 'для ремесленников, ресторанов и малого бизнеса',
-        sub: 'Профессиональный, быстрый сайт, видимый в Google — за 24-48 часов, от 400 до 700€. Без Wix, без шаблонов: полностью под заказ.',
+        sub: 'Профессиональный, быстрый сайт, видимый в Google за 24-48 часов, от 400 до 700€. Без Wix, без шаблонов: полностью под заказ.',
         ctaQuote: 'Запросить бесплатный расчёт',
         ctaPortfolio: 'Посмотреть работы',
       },
@@ -2333,22 +2705,22 @@ resources.ru = {
         items: [
           {
             title: 'Ремесленники и строительные специальности',
-            description: 'Сантехник, электрик, столяр, маляр, каменщик — покажите своё мастерство и получайте заявки на расчёт прямо с сайта.',
+            description: 'Сантехник, электрик, столяр, маляр, каменщик покажите своё мастерство и получайте заявки на расчёт прямо с сайта.',
             tags: ['Сайт для ремесленников', 'Онлайн-заявки'],
           },
           {
             title: 'Рестораны и кафе',
-            description: 'Онлайн-меню, фотогалерея, часы работы, форма обратной связи — всё, что нужно, чтобы привлечь гостей и заполнить зал. Легко обновляется.',
+            description: 'Онлайн-меню, фотогалерея, часы работы, форма обратной связи всё, что нужно, чтобы привлечь гостей и заполнить зал. Легко обновляется.',
             tags: ['Сайт для ресторана', 'Онлайн-меню'],
           },
           {
             title: 'Торговцы и малый бизнес',
-            description: 'Магазин, кабинет, агентство — будьте заметны в Google на местном уровне и превращайте посетителей в клиентов.',
+            description: 'Магазин, кабинет, агентство будьте заметны в Google на местном уровне и превращайте посетителей в клиентов.',
             tags: ['Сайт для малого бизнеса', 'Локальное SEO'],
           },
           {
             title: 'Свободные профессии',
-            description: 'Врач, юрист, коуч, терапевт, фотограф — представьте свои услуги и биографию, упростите связь и запись на приём.',
+            description: 'Врач, юрист, коуч, терапевт, фотограф представьте свои услуги и биографию, упростите связь и запись на приём.',
             tags: ['Сайт фрилансера', 'Форма обратной связи'],
           },
         ],
@@ -2358,11 +2730,11 @@ resources.ru = {
         description: 'Никаких шаблонов. Никаких страниц, сгенерированных по образцу. Каждый сайт создаётся под ваш бизнес.',
         checklist: [
           'Современный дизайн, адаптированный под вашу отрасль',
-          'Идеально работает на смартфоне — 70% поисков происходит с мобильного',
+          'Идеально работает на смартфоне 70% поисков происходит с мобильного',
           'Виден в Google с первого дня (базовое SEO включено)',
           'Интегрированная форма обратной связи',
           'Тексты, ориентированные на убеждение посетителей (копирайтинг включён)',
-          'Сверхбыстрый сайт — загрузка менее 1 секунды',
+          'Сверхбыстрый сайт загрузка менее 1 секунды',
           '1 правка включена после сдачи',
           'Помощь с запуском',
         ],
@@ -2381,7 +2753,7 @@ resources.ru = {
         pricingCta: 'Начать проект',
       },
       process: {
-        sectionTitle: 'Сдача за 24-48 ч — вот как это работает',
+        sectionTitle: 'Сдача за 24-48 ч вот как это работает',
         sectionSubtitle: 'Простой процесс, без технического жаргона.',
         steps: [
           {
@@ -2394,22 +2766,22 @@ resources.ru = {
           },
           {
             title: '3. Запуск и оплата',
-            description: 'Сайт публикуется на вашем домене. Вы платите только после утверждения — не раньше.',
+            description: 'Сайт публикуется на вашем домене. Вы платите только после утверждения не раньше.',
           },
         ],
       },
       vsWix: {
         title: 'Почему не Wix или WordPress?',
         p1: 'Wix и WordPress кажутся удобными, но на деле сгенерированные сайты медленные, слабо настраиваемые и плохо выходят в топ Google.',
-        p2: 'Сайт под заказ загружается в 3 раза быстрее, визуально выделяется на фоне конкурентов и оптимизирован для конверсии с первого дня — без ограничений конструктора.',
+        p2: 'Сайт под заказ загружается в 3 раза быстрее, визуально выделяется на фоне конкурентов и оптимизирован для конверсии с первого дня без ограничений конструктора.',
         checklist: [
           'Никакой рекламы Wix и бейджа «Создано на WordPress»',
-          'Уникальный дизайн — не тот же шаблон, что у конкурента',
-          'Сверхбыстрая загрузка (Google отдаёт предпочтение быстрым сайтам)',
+          'Уникальный дизайн не тот же шаблон, что у конкурента',
+          'Сверхбыстрая загрузка Google отдаёт предпочтение быстрым сайтам',
           'Никакой ежемесячной подписки Wix',
           'Чистый, поддерживаемый, масштабируемый код',
         ],
-        comparisonTitle: 'Под заказ vs. конструктор',
+        comparisonTitle: 'Под заказ vs конструктор',
         comparisonSubtitle: 'Что вы получаете с настоящим профессиональным сайтом',
         rows: [
           { label: 'Скорость загрузки', good: '&lt; 1 с', bad: '3-8 с (Wix)' },
@@ -2433,7 +2805,7 @@ resources.ru = {
           },
           {
             q: 'Можно ли изменить сайт после сдачи?',
-            a: '1 правка включена в каждый план. Для регулярных изменений предлагаю пакет ежемесячной поддержки. За небольшие разовые правки — почасовая оплата.',
+            a: '1 правка включена в каждый план. Для регулярных изменений предлагаю пакет ежемесячной поддержки. За небольшие разовые правки почасовая оплата.',
           },
           {
             q: 'Зачем платить разработчику, если есть Wix или WordPress?',
@@ -2441,7 +2813,7 @@ resources.ru = {
           },
           {
             q: 'Будет ли мой сайт виден в Google?',
-            a: 'Да. В каждый сайт включены основы SEO: теги заголовков, мета-описания, структура заголовков, оптимизированная скорость загрузки. Для сильного локального SEO (например, «сантехник Нант») рекомендую создать профиль Google Business — помогу при необходимости.',
+            a: 'Да. В каждый сайт включены основы SEO: теги заголовков, мета-описания, структура заголовков, оптимизированная скорость загрузки. Для сильного локального SEO (например, «сантехник Нант») рекомендую создать профиль Google Business помогу при необходимости.',
           },
           {
             q: 'Нужно ли платить авансом?',
@@ -2472,12 +2844,12 @@ resources.ru = {
         items: [
           {
             title: 'Мода и аксессуары',
-            description: 'Одежда, украшения, кожгалантерея — галерея товаров, варианты размеров и цветов, продуманный опыт покупки.',
+            description: 'Одежда, украшения, кожгалантерея галерея товаров, варианты размеров и цветов, продуманный опыт покупки.',
             tags: ['Интернет-магазин моды', 'Украшения'],
           },
           {
             title: 'Ремесло и хэндмейд',
-            description: 'Мыло, свечи, керамика, авторские изделия — представьте своё творчество в магазине, который вас отражает.',
+            description: 'Мыло, свечи, керамика, авторские изделия представьте своё творчество в магазине, который вас отражает.',
             tags: ['Магазин мастера', 'Хэндмейд'],
           },
           {
@@ -2488,7 +2860,7 @@ resources.ru = {
         ],
       },
       platforms: {
-        sectionTitle: 'Shopify или Next.js — как выбрать?',
+        sectionTitle: 'Shopify или Next.js как выбрать?',
         sectionSubtitle: 'Каждый проект уникален. Я рекомендую технологию, подходящую именно вашей ситуации.',
         advice: 'Не уверены, что вам нужно? Я бесплатно проконсультирую вас после короткого разговора о проекте.',
         shopify: {
@@ -2498,13 +2870,13 @@ resources.ru = {
         },
         nextjs: {
           title: 'Next.js под заказ',
-          description: 'Идеально для 100% персонализированного магазина, с более высокой производительностью и без ограничений Shopify. Уникальный чекаут, специфический каталог, бизнес-интеграции. Максимальная производительность.',
+          description: 'Идеально для 100% персонализированного магазина, с более высокой производительностью и без ограничений Shopify. Уникальный чекаут, специфический каталог, бизнес-интеграции максимальная производительность.',
           tags: ['100% на заказ', 'Максимальная скорость'],
         },
       },
       payments: {
         title: 'Оплата: банковская карта, Stripe и другие способы',
-        description: 'Ваши клиенты оплачивают банковской картой в полной безопасности. Stripe — основа системы: быстро, надёжно, везде принимается.',
+        description: 'Ваши клиенты оплачивают банковской картой в полной безопасности. Stripe основа системы: быстро, надёжно, везде принимается.',
         checklist: [
           'Банковская карта (Visa, Mastercard…) через Stripe',
           'PayPal или Mollie по желанию',
@@ -2532,7 +2904,7 @@ resources.ru = {
         steps: [
           {
             title: '1. Бриф и расчёт',
-            description: 'Обсуждаем ваш проект — товары, цели, бюджет. Высылаю бесплатный подробный расчёт в течение 24 ч. Без обязательств.',
+            description: 'Обсуждаем ваш проект товары, цели, бюджет. Высылаю бесплатный подробный расчёт в течение 24 ч. Без обязательств.',
           },
           {
             title: '2. Разработка',
@@ -2577,7 +2949,7 @@ resources.ru = {
             a: 'Магазин под заказ начинается от 1500€. Итоговая цена зависит от количества товаров, интеграций и способов оплаты. Вы получаете подробный бесплатный расчёт до любых обязательств. Оплата по завершении проекта.',
           },
           {
-            q: 'Shopify или Next.js — в чём разница?',
+            q: 'Shopify или Next.js в чём разница?',
             a: 'Shopify идеален, если хотите самостоятельно управлять магазином с простым бэк-офисом. Next.js предпочтительнее, если нужен 100% персонализированный магазин с более высокой производительностью и вас не пугает чуть больше технической сложности. Я консультирую исходя из вашей ситуации.',
           },
           {
@@ -2603,6 +2975,130 @@ resources.ru = {
         titleHighlight: 'интернет-магазин',
         sub: 'Бесплатный расчёт за 24 ч · От 1500€ · Оплата после согласования',
         btn: 'Начать сейчас',
+      },
+    },
+    nantesPage: {
+      hero: {
+        badge: 'Нахожусь в Нанте · Работаю по всей Франции',
+        title: 'Веб-разработчик фрилансер',
+        titleHighlight: 'в Нанте',
+        sub: 'Ищете веб-разработчика фрилансера в Нанте? Сайты-визитки 400–700€, сдача за 24–48 ч; e-commerce под заказ от 1500€, минимум одна неделя. Веб-приложения по запросу.',
+        ctaQuote: 'Запросить бесплатный расчёт',
+        ctaTarifs: 'Посмотреть тарифы',
+        statsProjects: '+30',
+        statsProjectsLabel: 'Проектов сдано',
+        statsExperience: '5 лет',
+        statsExperienceLabel: 'Опыта',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: 'Довольных клиентов',
+      },
+      coverage: {
+        sectionTitle: 'Создание сайтов в Нанте и департаменте Луара-Атлантик',
+        sectionSubtitle: 'Нахожусь в Нанте, работаю по всему департаменту Луара-Атлантик и удалённо по всей Франции.',
+        nantes: {
+          title: 'Нант и агломерация',
+          description: 'Нант, Сен-Назер, Сен-Эрблен, Резе, Орво готов к личным встречам, если вы предпочитаете работу лицом к лицу.',
+        },
+        loireAtlantique: {
+          title: 'Луара-Атлантик (44)',
+          description: 'Весь департамент Луара-Атлантик охвачен. Ремесленники, рестораторы и предприниматели региона могут воспользоваться моими услугами.',
+        },
+        france: {
+          title: 'Вся Франция',
+          description: 'Работаю удалённо с клиентами по всей Франции. Видеозвонки, email и телефон расстояние не помеха.',
+        },
+      },
+      why: {
+        title: 'Почему выбрать MadaDev для вашего веб-проекта в Нанте?',
+        p: 'В отличие от веб-агентств, я работаю в одиночку ваш единственный контакт от брифа до запуска. Никаких промежуточных менеджеров, никаких лишних задержек.',
+        checklist: [
+          'Единый контакт с начала до конца',
+          'Оперативность: ответ в течение 24 ч',
+          'Сайты-визитки сдаются за 24–48 ч (стандартный проект)',
+          'Фиксированная цена, закреплённая договором, без сюрпризов',
+          'Чистый, производительный, поддерживаемый код',
+          'SEO интегрируется с первого дня разработки',
+          'Сопровождение после запуска',
+        ],
+        contactLocation: 'Нант, Пэи-де-ла-Луар удалённо по всей Франции',
+        contactAvailability: 'Доступен сейчас · Ответ в течение 24 ч',
+        contactTarifs: 'Визитка 400–700€ · E-commerce от 1500€',
+        contactCta: 'Написать сообщение',
+      },
+      services: {
+        sectionTitle: '+30 проектов сдано, готов к работе',
+        sectionSubtitle: 'Сайты для ремесленников, торговцев, ресторанов и стартапов в Нанте и по всей Франции.',
+        vitrine: {
+          title: 'Профессиональный сайт-визитка',
+          description: 'Для ремесленников, ресторанов, малого бизнеса современный дизайн, SEO, mobile-first. Сдача за 24–48 ч.',
+          price: '400€ → 700€',
+        },
+        ecommerce: {
+          title: 'Интернет-магазин',
+          description: 'Магазин на Shopify или Next.js, оплата банковской картой и Stripe (без WooCommerce).',
+          price: 'От 1500€',
+        },
+        webapp: {
+          title: 'Веб-приложение под заказ',
+          description: 'Node.js, Express, PostgreSQL для специфических и сложных бизнес-задач.',
+          price: 'Бесплатный расчёт',
+        },
+        seo: {
+          title: 'Производительность и SEO',
+          description: 'Аудит Lighthouse, Core Web Vitals, SEO-оптимизация чтобы Google вас нашёл.',
+          price: 'Бесплатный расчёт',
+        },
+      },
+      remote: {
+        title: 'Работа в Нанте и по всей Франции удалённо',
+        p1: 'Могу работать с вами независимо от вашего местонахождения. Веб-проекты не требуют физического присутствия видеозвонки, email и телефон вполне достаточны.',
+        p2: 'Если вы находитесь в Нанте или Луара-Атлантик, я также готов к личным встречам по вашему желанию.',
+        checklist: [
+          'Бесплатный ознакомительный звонок (30 мин)',
+          'Прозрачное ведение проекта',
+          'Предпросмотр онлайн перед сдачей',
+          'Видеовстречи в удобное для вас время',
+        ],
+        stackLabel: 'Технологический стек',
+        zonesLabel: 'Зоны охвата',
+        zones: [
+          'Нант (44) возможна личная встреча',
+          'Луара-Атлантик возможна личная встреча',
+          'Пэи-де-ла-Луар удалённо',
+          'Вся Франция удалённо',
+        ],
+      },
+      faq: {
+        sectionTitle: 'Часто задаваемые вопросы',
+        sectionSubtitle: 'То, что клиенты из Нанта спрашивают чаще всего.',
+        items: [
+          {
+            q: 'Вы находитесь в Нанте?',
+            a: 'Да, я работаю из Нанта. Сотрудничаю с клиентами в Нанте и агломерации (Сен-Эрблен, Резе, Орво, Карьюфу…), а также по всему департаменту Луара-Атлантик и удалённо по всей Франции.',
+          },
+          {
+            q: 'Можно ли встретиться лично?',
+            a: 'Да, если вы находитесь в Нанте или Луара-Атлантик, я готов к личной встрече. Для клиентов за пределами региона мы работаем эффективно по видеосвязи.',
+          },
+          {
+            q: 'Сколько стоит сайт в Нанте?',
+            a: 'Профессиональный сайт-визитка в Нанте стоит от 400 до 700€, сдача за 24–48 ч. Интернет-магазин начинается от 1500€, срок минимум одна неделя. Бесплатный расчёт в течение 24 ч.',
+          },
+          {
+            q: 'Я ремесленник в Нанте вы делаете сайты для ремесленников?',
+            a: 'Безусловно. Я регулярно создаю сайты-визитки для ремесленников Нанта: сантехников, электриков, столяров, маляров, каменщиков… Сайт за 400–700€, который сразу генерирует заявки на расчёт.',
+          },
+          {
+            q: 'В чём отличие от веб-агентства в Нанте?',
+            a: 'Я работаю в одиночку ваш единственный контакт с начала до конца. Никаких промежуточных менеджеров, никаких лишних задержек. Тарифы также значительно доступнее, чем у агентства (обычно в 2–5 раз дороже за сопоставимый результат).',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Запросить ',
+        titleHighlight: 'бесплатный расчёт',
+        sub: 'Ответ в течение 24 ч · Визитка 400–700€ (24–48 ч) · E-commerce от 1500€ · Оплата после утверждения',
+        btn: 'Начать проект',
       },
     },
     footer: {
@@ -3140,12 +3636,12 @@ resources.de = {
         items: [
           {
             title: 'Mode & Accessoires',
-            description: 'Kleidung, Schmuck, Lederwaren — Produktgalerie, Größen- und Farbvarianten, durchdachtes Einkaufserlebnis.',
+            description: 'Kleidung, Schmuck, Lederwaren Produktgalerie, Größen- und Farbvarianten, durchdachtes Einkaufserlebnis.',
             tags: ['Online-Modeshop', 'Schmuck'],
           },
           {
             title: 'Handwerk & Handgefertigtes',
-            description: 'Seifen, Kerzen, Keramik, handgefertigte Kreationen — präsentiere deine Arbeit in einem Shop, der zu dir passt.',
+            description: 'Seifen, Kerzen, Keramik, handgefertigte Kreationen präsentiere deine Arbeit in einem Shop, der zu dir passt.',
             tags: ['Handwerker-Shop', 'Handgefertigt'],
           },
           {
@@ -3156,7 +3652,7 @@ resources.de = {
         ],
       },
       platforms: {
-        sectionTitle: 'Shopify oder Next.js — wie wähle ich?',
+        sectionTitle: 'Shopify oder Next.js wie wähle ich?',
         sectionSubtitle: 'Jedes Projekt ist anders. Ich empfehle die Technologie, die am besten zu deiner Situation passt.',
         advice: 'Nicht sicher, was du brauchst? Ich berate dich kostenlos nach einem kurzen Gespräch über dein Projekt.',
         shopify: {
@@ -3172,7 +3668,7 @@ resources.de = {
       },
       payments: {
         title: 'Zahlungen: Kreditkarte, Stripe und mehr',
-        description: 'Deine Kunden zahlen sicher per Kreditkarte. Stripe ist das Herzstück des Systems — schnell, zuverlässig, überall anerkannt.',
+        description: 'Deine Kunden zahlen sicher per Kreditkarte. Stripe ist das Herzstück des Systems schnell, zuverlässig, überall anerkannt.',
         checklist: [
           'Kreditkarte (Visa, Mastercard…) über Stripe',
           'PayPal oder Mollie als Option',
@@ -3200,7 +3696,7 @@ resources.de = {
         steps: [
           {
             title: '1. Briefing & Angebot',
-            description: 'Wir besprechen dein Projekt — Produkte, Ziele, Budget. Ich schicke dir ein kostenloses, detailliertes Angebot innerhalb von 24 h. Keinerlei Verpflichtung.',
+            description: 'Wir besprechen dein Projekt Produkte, Ziele, Budget. Ich schicke dir ein kostenloses, detailliertes Angebot innerhalb von 24 h. Keinerlei Verpflichtung.',
           },
           {
             title: '2. Entwicklung',
@@ -3231,7 +3727,7 @@ resources.de = {
         checklist: [
           'Kostenloses Angebot in 24 h',
           'Fixer Vertragspreis',
-          'Zahlung am Ende des Projekts — keine Anzahlung',
+          'Zahlung am Ende des Projekts keine Anzahlung',
           'Support nach dem Launch inklusive',
         ],
         ctaTarifs: 'Alle Preise ansehen',
@@ -3245,7 +3741,7 @@ resources.de = {
             a: 'Ein maßgeschneiderter E-Commerce-Shop beginnt bei 1.500€. Der Endpreis hängt von der Anzahl der Produkte, Integrationen und Zahlungsmethoden ab. Du erhältst ein detailliertes, kostenloses Angebot vor jeder Verpflichtung. Zahlung am Ende des Projekts.',
           },
           {
-            q: 'Shopify oder Next.js — was ist der Unterschied für mich?',
+            q: 'Shopify oder Next.js was ist der Unterschied für mich?',
             a: 'Shopify ist ideal, wenn du deinen Shop einfach selbst verwalten möchtest, mit einem sehr einfachen Back-Office. Next.js ist besser, wenn du einen 100% individualisierten Shop mit höherer Performance brauchst und ein bisschen mehr Technik kein Problem ist. Ich berate dich je nach Situation.',
           },
           {
@@ -3271,6 +3767,130 @@ resources.de = {
         titleHighlight: 'Online-Shop zu launchen',
         sub: 'Kostenloses Angebot in 24 h · Ab 1.500€ · Zahlung nach Freigabe',
         btn: 'Jetzt loslegen',
+      },
+    },
+    nantesPage: {
+      hero: {
+        badge: 'Ansässig in Nantes · Verfügbar in ganz Frankreich',
+        title: 'Freiberuflicher Webentwickler',
+        titleHighlight: 'in Nantes',
+        sub: 'Suchen Sie einen freiberuflichen Webentwickler in Nantes? Showcase-Websites 400–700€, Lieferung in 24–48 h; maßgeschneiderter E-Commerce ab 1.500€, mindestens eine Woche. Web-Applikationen auf Anfrage.',
+        ctaQuote: 'Kostenloses Angebot anfordern',
+        ctaTarifs: 'Preise ansehen',
+        statsProjects: '+30',
+        statsProjectsLabel: 'Abgeschlossene Projekte',
+        statsExperience: '5 Jahre',
+        statsExperienceLabel: 'Erfahrung',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: 'Zufriedene Kunden',
+      },
+      coverage: {
+        sectionTitle: 'Website-Erstellung in Nantes und Loire-Atlantique',
+        sectionSubtitle: 'Ansässig in Nantes, arbeite ich im gesamten Département Loire-Atlantique und per Remote in ganz Frankreich.',
+        nantes: {
+          title: 'Nantes & Großraum',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault — ich bin für persönliche Treffen verfügbar, wenn Sie eine Begleitung von Angesicht zu Angesicht bevorzugen.',
+        },
+        loireAtlantique: {
+          title: 'Loire-Atlantique (44)',
+          description: 'Das gesamte Département Loire-Atlantique ist abgedeckt. Handwerker, Gastronomen und Händler der Region können meine Dienste in Anspruch nehmen.',
+        },
+        france: {
+          title: 'Ganz Frankreich',
+          description: 'Ich arbeite remote für Kunden in ganz Frankreich. Videoanrufe, E-Mail und Telefon — die Entfernung ist kein Hindernis.',
+        },
+      },
+      why: {
+        title: 'Warum MadaDev für Ihr Webprojekt in Nantes wählen?',
+        p: 'Im Gegensatz zu Webagenturen bin ich ein Solo-Freelancer — Ihr einziger Ansprechpartner vom Brief bis zum Launch. Kein zwischengeschalteter Projektmanager, keine unnötigen Verzögerungen.',
+        checklist: [
+          'Einziger Ansprechpartner von Anfang bis Ende',
+          'Reaktionsfähigkeit: Antwort innerhalb von 24 h',
+          'Showcase-Websites in 24–48 h geliefert (Standardprojekt)',
+          'Festpreis, vertraglich vereinbart, keine Überraschungen',
+          'Sauberer, leistungsstarker, wartbarer Code',
+          'SEO von Anfang der Entwicklung integriert',
+          'Begleitung nach dem Launch',
+        ],
+        contactLocation: 'Nantes, Pays de la Loire — remote, ganz Frankreich',
+        contactAvailability: 'Jetzt verfügbar · Antwort innerhalb von 24 h',
+        contactTarifs: 'Showcase 400–700€ · E-Commerce ab 1.500€',
+        contactCta: 'Nachricht senden',
+      },
+      services: {
+        sectionTitle: '+30 abgeschlossene Projekte, jetzt verfügbar',
+        sectionSubtitle: 'Websites für Handwerker, Händler, Restaurants und Startups in Nantes und ganz Frankreich.',
+        vitrine: {
+          title: 'Professionelle Showcase-Website',
+          description: 'Für Handwerker, Restaurants, Kleinunternehmen — modernes Design, SEO, mobile-first. Lieferung in 24–48 h.',
+          price: '400€ → 700€',
+        },
+        ecommerce: {
+          title: 'E-Commerce-Website',
+          description: 'Shopify- oder Next.js-Shop, Kreditkarten- und Stripe-Zahlungen (kein WooCommerce).',
+          price: 'Ab 1.500€',
+        },
+        webapp: {
+          title: 'Maßgeschneiderte Web-Applikation',
+          description: 'Node.js, Express, PostgreSQL für spezifische und komplexe Geschäftsanforderungen.',
+          price: 'Kostenloses Angebot',
+        },
+        seo: {
+          title: 'Performance & SEO',
+          description: 'Lighthouse-Audit, Core Web Vitals, SEO-Optimierung — damit Google Sie findet.',
+          price: 'Kostenloses Angebot',
+        },
+      },
+      remote: {
+        title: 'Arbeit in Nantes und ganz Frankreich per Remote',
+        p1: 'Ich kann mit Ihnen arbeiten, egal wo Sie sich befinden. Webprojekte erfordern keine physische Anwesenheit — Videoanrufe, E-Mail und Telefon reichen aus.',
+        p2: 'Wenn Sie in Nantes oder Loire-Atlantique ansässig sind, bin ich auf Wunsch auch für persönliche Treffen verfügbar.',
+        checklist: [
+          'Kostenloses Kennenlerngespräch (30 Min.)',
+          'Transparentes Projektmanagement',
+          'Online-Vorschau vor Lieferung',
+          'Videomeetings nach Ihrem Zeitplan',
+        ],
+        stackLabel: 'Tech-Stack',
+        zonesLabel: 'Einsatzgebiete',
+        zones: [
+          'Nantes (44) — persönliches Treffen möglich',
+          'Loire-Atlantique — persönliches Treffen möglich',
+          'Pays de la Loire — remote',
+          'Ganz Frankreich — remote',
+        ],
+      },
+      faq: {
+        sectionTitle: 'Häufig gestellte Fragen',
+        sectionSubtitle: 'Was Kunden aus Nantes oft fragen.',
+        items: [
+          {
+            q: 'Sind Sie in Nantes ansässig?',
+            a: 'Ja, ich bin in Nantes ansässig. Ich arbeite mit Kunden in Nantes und dem Großraum (Saint-Herblain, Rezé, Orvault, Carquefou…) sowie im gesamten Département Loire-Atlantique und per Remote in ganz Frankreich.',
+          },
+          {
+            q: 'Können wir uns persönlich treffen?',
+            a: 'Ja, wenn Sie in Nantes oder Loire-Atlantique sind, bin ich für ein persönliches Treffen verfügbar. Für Kunden außerhalb der Region arbeiten wir effizient per Videoanruf.',
+          },
+          {
+            q: 'Wie viel kostet eine Website in Nantes?',
+            a: 'Eine professionelle Showcase-Website in Nantes kostet zwischen 400 und 700€, Lieferung in 24–48 h. Ein Online-Shop beginnt bei 1.500€ mit einer Mindestlaufzeit von einer Woche. Kostenloses Angebot innerhalb von 24 h.',
+          },
+          {
+            q: 'Ich bin Handwerker in Nantes — erstellen Sie Websites für Handwerker?',
+            a: 'Absolut. Ich erstelle regelmäßig Showcase-Websites für Handwerker in Nantes: Klempner, Elektriker, Tischler, Maler, Maurer… Eine Website zwischen 400 und 700€, die direkt Angebotsanfragen generiert.',
+          },
+          {
+            q: 'Was ist der Unterschied zwischen Ihnen und einer Webagentur in Nantes?',
+            a: 'Ich bin ein Solo-Freelancer — Ihr einziger Ansprechpartner von Anfang bis Ende. Kein zwischengeschalteter Projektmanager, keine unnötigen Verzögerungen. Die Preise sind auch deutlich zugänglicher als bei einer Agentur (oft 2 bis 5× teurer für ein gleichwertiges Ergebnis).',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Ein ',
+        titleHighlight: 'kostenloses Angebot anfordern',
+        sub: 'Antwort innerhalb von 24 h · Showcase 400–700€ (24–48 h) · E-Commerce ab 1.500€ · Zahlung nach Freigabe',
+        btn: 'Mein Projekt starten',
       },
     },
     footer: {
@@ -3804,12 +4424,12 @@ resources.nl = {
         items: [
           {
             title: 'Mode & accessoires',
-            description: 'Kleding, sieraden, lederwaren — productgalerij, maat- en kleurvarianten, verzorgde winkelervaring.',
+            description: 'Kleding, sieraden, lederwaren productgalerij, maat- en kleurvarianten, verzorgde winkelervaring.',
             tags: ['Online modeshop', 'Sieraden'],
           },
           {
             title: 'Ambacht & handgemaakt',
-            description: 'Zeep, kaarsen, keramiek, handgemaakte creaties — toon jouw werk met een webshop die bij jou past.',
+            description: 'Zeep, kaarsen, keramiek, handgemaakte creaties toon jouw werk met een webshop die bij jou past.',
             tags: ['Ambachtswinkel', 'Handgemaakt'],
           },
           {
@@ -3820,7 +4440,7 @@ resources.nl = {
         ],
       },
       platforms: {
-        sectionTitle: 'Shopify of Next.js — hoe kies ik?',
+        sectionTitle: 'Shopify of Next.js hoe kies ik?',
         sectionSubtitle: 'Elk project is anders. Ik raad de technologie aan die het best bij jouw situatie past.',
         advice: 'Niet zeker wat je nodig hebt? Ik adviseer je gratis na een kort gesprek over jouw project.',
         shopify: {
@@ -3836,7 +4456,7 @@ resources.nl = {
       },
       payments: {
         title: 'Betalingen: bankkaart, Stripe en meer',
-        description: 'Jouw klanten betalen veilig met bankkaart. Stripe is het hart van het systeem — snel, betrouwbaar, overal erkend.',
+        description: 'Jouw klanten betalen veilig met bankkaart. Stripe is het hart van het systeem snel, betrouwbaar, overal erkend.',
         checklist: [
           'Bankkaart (Visa, Mastercard…) via Stripe',
           'PayPal of Mollie als optie',
@@ -3864,7 +4484,7 @@ resources.nl = {
         steps: [
           {
             title: '1. Briefing & offerte',
-            description: 'We bespreken jouw project — producten, doelen, budget. Ik stuur je een gratis, gedetailleerde offerte binnen 24 u. Geen enkele verplichting.',
+            description: 'We bespreken jouw project producten, doelen, budget. Ik stuur je een gratis, gedetailleerde offerte binnen 24 u. Geen enkele verplichting.',
           },
           {
             title: '2. Ontwikkeling',
@@ -3895,7 +4515,7 @@ resources.nl = {
         checklist: [
           'Gratis offerte binnen 24 u',
           'Vaste contractprijs',
-          'Betaling aan het einde van het project — geen voorschot',
+          'Betaling aan het einde van het project geen voorschot',
           'Ondersteuning na lancering inbegrepen',
         ],
         ctaTarifs: 'Alle prijzen bekijken',
@@ -3909,7 +4529,7 @@ resources.nl = {
             a: 'Een op maat gemaakte e-commercewebsite begint vanaf €1.500. De uiteindelijke prijs hangt af van het aantal producten, integraties en betaalmethoden. Je ontvangt een gedetailleerde, gratis offerte voor elke verplichting. Betaling aan het einde van het project.',
           },
           {
-            q: 'Shopify of Next.js — wat is het verschil voor mij?',
+            q: 'Shopify of Next.js wat is het verschil voor mij?',
             a: 'Shopify is ideaal als je jouw webshop eenvoudig zelf wilt beheren, met een zeer eenvoudig back-office. Next.js is beter als je een 100% op maat gemaakte webshop nodig hebt met hogere prestaties en je niet bang bent voor iets meer techniek. Ik adviseer je op basis van jouw situatie.',
           },
           {
@@ -3935,6 +4555,130 @@ resources.nl = {
         titleHighlight: 'webshop te lanceren',
         sub: 'Gratis offerte binnen 24 u · Vanaf €1.500 · Betaling na goedkeuring',
         btn: 'Nu starten',
+      },
+    },
+    nantesPage: {
+      hero: {
+        badge: 'Gevestigd in Nantes · Beschikbaar in heel Frankrijk',
+        title: 'Freelance webdeveloper',
+        titleHighlight: 'in Nantes',
+        sub: 'Op zoek naar een freelance webdeveloper in Nantes? Visitekaartje-websites €400–€700, geleverd in 24–48 u; maatwerk e-commerce vanaf €1.500, minimaal één week. Webapplicaties op offerte.',
+        ctaQuote: 'Gratis offerte aanvragen',
+        ctaTarifs: 'Tarieven bekijken',
+        statsProjects: '+30',
+        statsProjectsLabel: 'Afgeronde projecten',
+        statsExperience: '5 jaar',
+        statsExperienceLabel: 'Ervaring',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: 'Tevreden klanten',
+      },
+      coverage: {
+        sectionTitle: 'Website laten maken in Nantes en Loire-Atlantique',
+        sectionSubtitle: 'Gevestigd in Nantes, werk ik in heel Loire-Atlantique en op afstand door heel Frankrijk.',
+        nantes: {
+          title: 'Nantes & regio',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault — ik ben beschikbaar voor persoonlijke afspraken als u de voorkeur geeft aan begeleiding van aangezicht tot aangezicht.',
+        },
+        loireAtlantique: {
+          title: 'Loire-Atlantique (44)',
+          description: 'Het hele departement Loire-Atlantique is gedekt. Ambachtslieden, restauranthouders en winkeliers in de regio kunnen gebruik maken van mijn diensten.',
+        },
+        france: {
+          title: 'Heel Frankrijk',
+          description: 'Ik werk op afstand voor klanten in heel Frankrijk. Videogesprekken, e-mail en telefoon — afstand is geen bezwaar.',
+        },
+      },
+      why: {
+        title: 'Waarom MadaDev kiezen voor uw webproject in Nantes?',
+        p: 'In tegenstelling tot webbureaus ben ik een solo-freelancer — uw enige aanspreekpunt van brief tot lancering. Geen tussenpersoon als projectmanager, geen onnodige vertragingen.',
+        checklist: [
+          'Enig aanspreekpunt van begin tot einde',
+          'Responsiviteit: reactie binnen 24 u',
+          'Visitekaartje-websites geleverd in 24–48 u (standaardproject)',
+          'Vaste prijs, contractueel vastgelegd, geen verrassingen',
+          'Schone, krachtige, onderhoudbare code',
+          'SEO geïntegreerd vanaf de ontwikkeling',
+          'Begeleiding na de lancering',
+        ],
+        contactLocation: 'Nantes, Pays de la Loire — op afstand, heel Frankrijk',
+        contactAvailability: 'Nu beschikbaar · Reactie binnen 24 u',
+        contactTarifs: 'Visitekaartje €400–€700 · E-commerce vanaf €1.500',
+        contactCta: 'Bericht sturen',
+      },
+      services: {
+        sectionTitle: '+30 afgeronde projecten, nu beschikbaar',
+        sectionSubtitle: 'Websites voor ambachtslieden, winkeliers, restaurants en startups in Nantes en heel Frankrijk.',
+        vitrine: {
+          title: 'Professionele visitekaartje-website',
+          description: 'Voor ambachtslieden, restaurants, kleine bedrijven — modern design, SEO, mobile-first. Geleverd in 24–48 u.',
+          price: '€400 → €700',
+        },
+        ecommerce: {
+          title: 'E-commercewebsite',
+          description: 'Shopify- of Next.js-winkel, creditcard- en Stripe-betalingen (geen WooCommerce).',
+          price: 'Vanaf €1.500',
+        },
+        webapp: {
+          title: 'Maatwerk webapplicatie',
+          description: 'Node.js, Express, PostgreSQL voor specifieke en complexe zakelijke behoeften.',
+          price: 'Gratis offerte',
+        },
+        seo: {
+          title: 'Performance & SEO',
+          description: 'Lighthouse-audit, Core Web Vitals, SEO-optimalisatie — zodat Google u vindt.',
+          price: 'Gratis offerte',
+        },
+      },
+      remote: {
+        title: 'Werk in Nantes en heel Frankrijk op afstand',
+        p1: 'Ik kan met u samenwerken, ongeacht uw locatie. Webprojecten vereisen geen fysieke aanwezigheid — videogesprekken, e-mail en telefoon zijn voldoende.',
+        p2: 'Als u gevestigd bent in Nantes of Loire-Atlantique, ben ik op verzoek ook beschikbaar voor persoonlijke afspraken.',
+        checklist: [
+          'Gratis kennismakingsgesprek (30 min.)',
+          'Transparant projectbeheer',
+          'Online preview vóór levering',
+          'Videovergaderingen op uw tijdstip',
+        ],
+        stackLabel: 'Tech-stack',
+        zonesLabel: 'Werkgebieden',
+        zones: [
+          'Nantes (44) — persoonlijke afspraak mogelijk',
+          'Loire-Atlantique — persoonlijke afspraak mogelijk',
+          'Pays de la Loire — op afstand',
+          'Heel Frankrijk — op afstand',
+        ],
+      },
+      faq: {
+        sectionTitle: 'Veelgestelde vragen',
+        sectionSubtitle: 'Wat klanten uit Nantes vaak vragen.',
+        items: [
+          {
+            q: 'Bent u gevestigd in Nantes?',
+            a: 'Ja, ik ben gevestigd in Nantes. Ik werk met klanten in Nantes en de regio (Saint-Herblain, Rezé, Orvault, Carquefou…) en ook in heel Loire-Atlantique en op afstand in heel Frankrijk.',
+          },
+          {
+            q: 'Kunnen we elkaar persoonlijk ontmoeten?',
+            a: 'Ja, als u in Nantes of Loire-Atlantique bent, ben ik beschikbaar voor een persoonlijke afspraak. Voor klanten buiten de regio werken we efficiënt via videogesprekken.',
+          },
+          {
+            q: 'Hoeveel kost een website in Nantes?',
+            a: 'Een professionele visitekaartje-website in Nantes kost tussen €400 en €700, geleverd in 24–48 u. Een webshop begint bij €1.500 met een minimale doorlooptijd van één week. Gratis offerte binnen 24 u.',
+          },
+          {
+            q: 'Ik ben ambachtsman in Nantes — maakt u websites voor ambachtslieden?',
+            a: 'Absoluut. Ik maak regelmatig visitekaartje-websites voor ambachtslieden in Nantes: loodgieters, elektriciens, timmerlieden, schilders, metselaars… Een website tussen €400 en €700 die direct offerteaanvragen genereert.',
+          },
+          {
+            q: 'Wat is het verschil tussen u en een webbureau in Nantes?',
+            a: 'Ik ben een solo-freelancer — uw enige aanspreekpunt van begin tot einde. Geen tussenpersoon als projectmanager, geen onnodige vertragingen. De tarieven zijn ook veel toegankelijker dan bij een bureau (vaak 2 tot 5× duurder voor een gelijkwaardig resultaat).',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Een ',
+        titleHighlight: 'gratis offerte aanvragen',
+        sub: 'Reactie binnen 24 u · Visitekaartje €400–€700 (24–48 u) · E-commerce vanaf €1.500 · Betaling na goedkeuring',
+        btn: 'Mijn project starten',
       },
     },
     footer: {
@@ -4469,12 +5213,12 @@ resources.it = {
         items: [
           {
             title: 'Moda & accessori',
-            description: "Abbigliamento, gioielli, pelletteria — galleria prodotti, varianti di taglie e colori, esperienza d'acquisto curata.",
+            description: "Abbigliamento, gioielli, pelletteria galleria prodotti, varianti di taglie e colori, esperienza d'acquisto curata.",
             tags: ['Negozio moda online', 'Gioielli'],
           },
           {
             title: 'Artigianato & fatto a mano',
-            description: 'Saponi, candele, ceramica, creazioni artigianali — metti in mostra il tuo lavoro con un negozio che ti rappresenta.',
+            description: 'Saponi, candele, ceramica, creazioni artigianali metti in mostra il tuo lavoro con un negozio che ti rappresenta.',
             tags: ['Negozio artigianale', 'Fatto a mano'],
           },
           {
@@ -4485,7 +5229,7 @@ resources.it = {
         ],
       },
       platforms: {
-        sectionTitle: 'Shopify o Next.js — come scelgo?',
+        sectionTitle: 'Shopify o Next.js come scelgo?',
         sectionSubtitle: 'Ogni progetto è diverso. Consiglio la tecnologia più adatta alla tua situazione.',
         advice: 'Non sei sicuro di cosa hai bisogno? Ti consiglio gratuitamente dopo una breve chiacchierata sul tuo progetto.',
         shopify: {
@@ -4501,7 +5245,7 @@ resources.it = {
       },
       payments: {
         title: 'Pagamenti: carta di credito, Stripe e altro',
-        description: 'I tuoi clienti pagano con carta di credito in tutta sicurezza. Stripe è al cuore del sistema — veloce, affidabile, riconosciuto ovunque.',
+        description: 'I tuoi clienti pagano con carta di credito in tutta sicurezza. Stripe è al cuore del sistema veloce, affidabile, riconosciuto ovunque.',
         checklist: [
           'Carta di credito (Visa, Mastercard…) tramite Stripe',
           'PayPal o Mollie come opzione',
@@ -4529,7 +5273,7 @@ resources.it = {
         steps: [
           {
             title: '1. Brief & preventivo',
-            description: 'Parliamo del tuo progetto — prodotti, obiettivi, budget. Ti invio un preventivo gratuito e dettagliato entro 24 h. Nessun impegno.',
+            description: 'Parliamo del tuo progetto prodotti, obiettivi, budget. Ti invio un preventivo gratuito e dettagliato entro 24 h. Nessun impegno.',
           },
           {
             title: '2. Sviluppo',
@@ -4560,7 +5304,7 @@ resources.it = {
         checklist: [
           'Preventivo gratuito entro 24 h',
           'Prezzo fisso contrattualizzato',
-          'Pagamento a fine progetto — nessun acconto',
+          'Pagamento a fine progetto nessun acconto',
           'Supporto post-lancio incluso',
         ],
         ctaTarifs: 'Vedi tutti i prezzi',
@@ -4574,7 +5318,7 @@ resources.it = {
             a: "Un sito e-commerce su misura parte da 1.500€. Il prezzo finale dipende dal numero di prodotti, dalle integrazioni e dai metodi di pagamento. Ricevi un preventivo dettagliato e gratuito prima di qualsiasi impegno. Pagamento a fine progetto.",
           },
           {
-            q: 'Shopify o Next.js — qual è la differenza per me?',
+            q: 'Shopify o Next.js qual è la differenza per me?',
             a: "Shopify è ideale se vuoi gestire facilmente il tuo negozio da solo, con un back-office molto semplice. Next.js è preferibile se hai bisogno di un negozio 100% su misura, più performante, e non ti spaventa un po' più di tecnica. Ti consiglio in base alla tua situazione.",
           },
           {
@@ -4600,6 +5344,130 @@ resources.it = {
         titleHighlight: 'negozio online',
         sub: 'Preventivo gratuito entro 24 h · A partire da 1.500€ · Pagamento dopo approvazione',
         btn: 'Inizia ora',
+      },
+    },
+    nantesPage: {
+      hero: {
+        badge: 'Con sede a Nantes · Disponibile in tutta la Francia',
+        title: 'Sviluppatore web freelance',
+        titleHighlight: 'a Nantes',
+        sub: 'Stai cercando uno sviluppatore web freelance a Nantes? Siti vetrina 400–700€, consegnati in 24–48 h; e-commerce su misura a partire da 1.500€, minimo una settimana. Applicazioni web su preventivo.',
+        ctaQuote: 'Richiedere un preventivo gratuito',
+        ctaTarifs: 'Vedere i prezzi',
+        statsProjects: '+30',
+        statsProjectsLabel: 'Progetti consegnati',
+        statsExperience: '5 anni',
+        statsExperienceLabel: 'Esperienza',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: 'Clienti soddisfatti',
+      },
+      coverage: {
+        sectionTitle: 'Creazione siti web a Nantes e in Loire-Atlantique',
+        sectionSubtitle: 'Con sede a Nantes, lavoro in tutta la Loire-Atlantique e da remoto in tutta la Francia.',
+        nantes: {
+          title: 'Nantes e area metropolitana',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault — sono disponibile per incontri di persona se preferite un seguito faccia a faccia.',
+        },
+        loireAtlantique: {
+          title: 'Loire-Atlantique (44)',
+          description: 'Tutto il dipartimento Loire-Atlantique è coperto. Artigiani, ristoratori e commercianti della regione possono beneficiare dei miei servizi.',
+        },
+        france: {
+          title: 'Tutta la Francia',
+          description: 'Lavoro da remoto per clienti in tutta la Francia. Videochiamate, email e telefono — la distanza non è un ostacolo.',
+        },
+      },
+      why: {
+        title: 'Perché scegliere MadaDev per il vostro progetto web a Nantes?',
+        p: 'A differenza delle agenzie web, sono un freelance in solitaria — il vostro unico punto di contatto dal brief al lancio. Nessun project manager intermediario, nessun ritardo inutile.',
+        checklist: [
+          'Unico punto di contatto dall\'inizio alla fine',
+          'Reattività: risposta entro 24 h',
+          'Siti vetrina consegnati in 24–48 h (progetto standard)',
+          'Prezzo fisso, fissato contrattualmente, senza sorprese',
+          'Codice pulito, performante, manutenibile',
+          'SEO integrato fin dallo sviluppo',
+          'Accompagnamento dopo il lancio',
+        ],
+        contactLocation: 'Nantes, Pays de la Loire — da remoto, tutta la Francia',
+        contactAvailability: 'Disponibile ora · Risposta entro 24 h',
+        contactTarifs: 'Vetrina 400–700€ · E-commerce da 1.500€',
+        contactCta: 'Inviare un messaggio',
+      },
+      services: {
+        sectionTitle: '+30 progetti consegnati, disponibile ora',
+        sectionSubtitle: 'Siti web per artigiani, commercianti, ristoranti e startup a Nantes e in tutta la Francia.',
+        vitrine: {
+          title: 'Sito vetrina professionale',
+          description: 'Per artigiani, ristoranti, piccole imprese — design moderno, SEO, mobile-first. Consegnato in 24–48 h.',
+          price: '400€ → 700€',
+        },
+        ecommerce: {
+          title: 'Sito e-commerce',
+          description: 'Negozio Shopify o Next.js, pagamenti con carta di credito e Stripe (nessun WooCommerce).',
+          price: 'Da 1.500€',
+        },
+        webapp: {
+          title: 'Applicazione web su misura',
+          description: 'Node.js, Express, PostgreSQL per esigenze aziendali specifiche e complesse.',
+          price: 'Preventivo gratuito',
+        },
+        seo: {
+          title: 'Performance & SEO',
+          description: 'Audit Lighthouse, Core Web Vitals, ottimizzazione SEO — perché Google vi trovi.',
+          price: 'Preventivo gratuito',
+        },
+      },
+      remote: {
+        title: 'Lavoro a Nantes e in tutta la Francia da remoto',
+        p1: 'Posso lavorare con voi indipendentemente dalla vostra posizione. I progetti web non richiedono presenza fisica — videochiamate, email e telefono sono sufficienti.',
+        p2: 'Se siete a Nantes o in Loire-Atlantique, sono anche disponibile per incontri di persona su richiesta.',
+        checklist: [
+          'Chiamata di scoperta gratuita (30 min)',
+          'Gestione del progetto trasparente',
+          'Anteprima online prima della consegna',
+          'Riunioni video secondo le vostre disponibilità',
+        ],
+        stackLabel: 'Stack tecnologico',
+        zonesLabel: 'Aree di intervento',
+        zones: [
+          'Nantes (44) — incontro di persona possibile',
+          'Loire-Atlantique — incontro di persona possibile',
+          'Pays de la Loire — da remoto',
+          'Tutta la Francia — da remoto',
+        ],
+      },
+      faq: {
+        sectionTitle: 'Domande frequenti',
+        sectionSubtitle: 'Quello che i clienti di Nantes chiedono spesso.',
+        items: [
+          {
+            q: 'Siete con sede a Nantes?',
+            a: 'Sì, ho sede a Nantes. Lavoro con clienti a Nantes e nell\'area metropolitana (Saint-Herblain, Rezé, Orvault, Carquefou…) e anche in tutta la Loire-Atlantique e da remoto in tutta la Francia.',
+          },
+          {
+            q: 'Possiamo incontrarci di persona?',
+            a: 'Sì, se siete a Nantes o in Loire-Atlantique, sono disponibile per un incontro di persona. Per i clienti fuori dalla regione, lavoriamo efficacemente in videochiamata.',
+          },
+          {
+            q: 'Quanto costa un sito web a Nantes?',
+            a: 'Un sito vetrina professionale a Nantes costa tra 400 e 700€, consegnato in 24–48 h. Un negozio online parte da 1.500€ con una durata minima di una settimana. Preventivo gratuito entro 24 h.',
+          },
+          {
+            q: 'Sono un artigiano a Nantes — fate siti per artigiani?',
+            a: 'Assolutamente. Creo regolarmente siti vetrina per artigiani di Nantes: idraulici, elettricisti, falegnami, pittori, muratori… Un sito tra 400 e 700€ che genera richieste di preventivo direttamente.',
+          },
+          {
+            q: 'Qual è la differenza tra voi e un\'agenzia web a Nantes?',
+            a: 'Sono un freelance in solitaria — il vostro unico punto di contatto dall\'inizio alla fine. Nessun project manager intermediario, nessun ritardo inutile. Le tariffe sono anche molto più accessibili rispetto a un\'agenzia (spesso 2-5× più cara per un risultato equivalente).',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: 'Richiedere un ',
+        titleHighlight: 'preventivo gratuito',
+        sub: 'Risposta entro 24 h · Vetrina 400–700€ (24–48 h) · E-commerce da 1.500€ · Pagamento dopo approvazione',
+        btn: 'Avviare il mio progetto',
       },
     },
     footer: {
@@ -5118,12 +5986,12 @@ resources.zh = {
         items: [
           {
             title: '时尚与配饰',
-            description: '服装、珠宝、皮具——产品图库、尺码与颜色变体、精心设计的购物体验。',
+            description: '服装、珠宝、皮具产品图库、尺码与颜色变体、精心设计的购物体验。',
             tags: ['时尚网店', '珠宝'],
           },
           {
             title: '手工艺与手作',
-            description: '香皂、蜡烛、陶瓷、手作创意商品——用一家独具风格的网店展示您的作品。',
+            description: '香皂、蜡烛、陶瓷、手作创意商品用一家独具风格的网店展示您的作品。',
             tags: ['手工艺网店', '手作'],
           },
           {
@@ -5150,7 +6018,7 @@ resources.zh = {
       },
       payments: {
         title: '支付方式：银行卡、Stripe及更多',
-        description: '您的客户可安全地使用银行卡付款。Stripe是系统核心——快速、可靠、全球通用。',
+        description: '您的客户可安全地使用银行卡付款。Stripe是系统核心快速、可靠、全球通用。',
         checklist: [
           '银行卡（Visa、Mastercard……）通过Stripe支付',
           '可选PayPal或Mollie',
@@ -5178,7 +6046,7 @@ resources.zh = {
         steps: [
           {
             title: '1. 沟通需求与报价',
-            description: '我们沟通您的项目——商品、目标、预算。我在24小时内向您发送免费详细报价，无任何承诺。',
+            description: '我们沟通您的项目商品、目标、预算。我在24小时内向您发送免费详细报价，无任何承诺。',
           },
           {
             title: '2. 开发建设',
@@ -5251,6 +6119,130 @@ resources.zh = {
         btn: '立即开始',
       },
     },
+    nantesPage: {
+      hero: {
+        badge: '总部位于南特 · 服务法国各地',
+        title: '自由职业网页开发者',
+        titleHighlight: '南特',
+        sub: '正在寻找南特的自由职业网页开发者？展示网站400–700€，24–48小时交付；定制电商网站起价1500€，最短一周。网页应用按需报价。',
+        ctaQuote: '申请免费报价',
+        ctaTarifs: '查看价格',
+        statsProjects: '+30',
+        statsProjectsLabel: '已完成项目',
+        statsExperience: '5年',
+        statsExperienceLabel: '经验',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: '客户满意度',
+      },
+      coverage: {
+        sectionTitle: '南特及卢瓦尔-大西洋省网站建设',
+        sectionSubtitle: '总部位于南特，服务整个卢瓦尔-大西洋省，并远程服务法国各地。',
+        nantes: {
+          title: '南特及大区',
+          description: '南特、圣纳泽尔、圣埃尔布兰、雷泽、奥尔沃 — 如需面对面跟进，我可以安排线下会议。',
+        },
+        loireAtlantique: {
+          title: '卢瓦尔-大西洋省（44）',
+          description: '整个卢瓦尔-大西洋省均可服务。工匠、餐饮业者及商家均可使用我的服务。',
+        },
+        france: {
+          title: '法国全境',
+          description: '我为法国各地的客户提供远程服务。视频会议、电子邮件和电话 — 距离不是障碍。',
+        },
+      },
+      why: {
+        title: '为什么为您的南特网页项目选择MadaDev？',
+        p: '与网页代理公司不同，我是独立自由职业者 — 从简报到上线，我是您唯一的联系人。没有中间项目经理，没有不必要的延误。',
+        checklist: [
+          '从头到尾唯一联系人',
+          '响应迅速：24小时内回复',
+          '展示网站24–48小时交付（标准项目）',
+          '固定价格，合同约定，无意外',
+          '代码整洁、高性能、可维护',
+          '从开发阶段即整合SEO',
+          '上线后持续支持',
+        ],
+        contactLocation: '南特，卢瓦尔河地区 — 远程服务法国全境',
+        contactAvailability: '现在可接单 · 24小时内回复',
+        contactTarifs: '展示网站400–700€ · 电商起价1500€',
+        contactCta: '发送消息',
+      },
+      services: {
+        sectionTitle: '已完成30+项目，现在可接单',
+        sectionSubtitle: '为南特及法国各地的工匠、商家、餐厅和初创企业提供网站建设服务。',
+        vitrine: {
+          title: '专业展示网站',
+          description: '面向工匠、餐厅、小企业 — 现代设计、SEO、移动优先。24–48小时交付。',
+          price: '400€ → 700€',
+        },
+        ecommerce: {
+          title: '电商网站',
+          description: 'Shopify或Next.js商店，支持银行卡及Stripe支付（不含WooCommerce）。',
+          price: '起价1500€',
+        },
+        webapp: {
+          title: '定制网页应用',
+          description: 'Node.js、Express、PostgreSQL，满足特定及复杂的业务需求。',
+          price: '免费报价',
+        },
+        seo: {
+          title: '性能与SEO',
+          description: 'Lighthouse审计、Core Web Vitals、SEO优化 — 让Google找到您。',
+          price: '免费报价',
+        },
+      },
+      remote: {
+        title: '南特及法国全境远程服务',
+        p1: '无论您身处何地，我都可以与您合作。网页项目无需实体到场 — 视频会议、电子邮件和电话已足够。',
+        p2: '如果您在南特或卢瓦尔-大西洋省，我也可以按需安排线下会议。',
+        checklist: [
+          '免费探索性通话（30分钟）',
+          '透明的项目管理',
+          '交付前在线预览',
+          '按您的日程安排视频会议',
+        ],
+        stackLabel: '技术栈',
+        zonesLabel: '服务范围',
+        zones: [
+          '南特（44） — 可线下会面',
+          '卢瓦尔-大西洋省 — 可线下会面',
+          '卢瓦尔河地区 — 远程',
+          '法国全境 — 远程',
+        ],
+      },
+      faq: {
+        sectionTitle: '常见问题',
+        sectionSubtitle: '南特客户经常提出的问题。',
+        items: [
+          {
+            q: '您的总部在南特吗？',
+            a: '是的，我总部在南特。我服务南特及大区客户（圣埃尔布兰、雷泽、奥尔沃、卡尔克富…），同时也服务整个卢瓦尔-大西洋省以及通过远程方式服务法国全境。',
+          },
+          {
+            q: '我们可以线下见面吗？',
+            a: '可以，如果您在南特或卢瓦尔-大西洋省，我可以安排线下会议。对于该地区以外的客户，我们通过视频会议高效合作。',
+          },
+          {
+            q: '在南特建一个网站要多少钱？',
+            a: '南特的专业展示网站价格在400至700€之间，24–48小时交付。网店起价1500€，最短周期一周。24小时内提供免费报价。',
+          },
+          {
+            q: '我是南特的工匠 — 您为工匠建网站吗？',
+            a: '当然。我经常为南特的工匠建设展示网站：水管工、电工、木匠、油漆工、砌砖工… 价格400至700€，可直接获得报价请求。',
+          },
+          {
+            q: '您与南特网页代理公司有什么区别？',
+            a: '我是独立自由职业者 — 从头到尾您唯一的联系人。没有中间项目经理，没有不必要的延误。价格也比代理公司更亲民（同等结果通常贵2至5倍）。',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: '申请',
+        titleHighlight: '免费报价',
+        sub: '24小时内回复 · 展示网站400–700€（24–48小时） · 电商起价1500€ · 审核通过后付款',
+        btn: '启动我的项目',
+      },
+    },
     footer: {
       copyRole: '自由职业网页开发者',
       secondaryAria: '次级导航',
@@ -5274,11 +6266,11 @@ resources.ja = {
       },
     },
     nav: {
-      logoAria: 'MadaDev フリーランスウェブ開発者 トップへ戻る',
-      mainAria: 'メインナビゲーション',
-      links: { services: 'サービス一覧', offer: 'プラン', about: 'プロフィール', portfolio: '実績', contact: 'お問い合わせ' },
+      logoAria: 'MadaDev フリランスウェブ開発者 トップへ戻る',
+      mainAria: 'メインナビゲション',
+      links: { services: 'サビス一覧', offer: 'プラン', about: 'プロフィル', portfolio: '実績', contact: 'お問い合わせ' },
       cta: '相談する',
-      menuAria: 'メニュー',
+      menuAria: 'メニュ',
     },
     hero: {
       badge: '新規プロジェクト受付中',
@@ -5286,7 +6278,7 @@ resources.ja = {
       titleHighlight: 'ウェブ体験',
       titleSuffix: 'を設計します',
       description:
-        'フリーランスのウェブ開発者として、アイデアをモダンで高速かつ使いやすいアプリに仕上げます。設計から公開まで一貫して対応します。',
+        'フリランスのウェブ開発者として、アイデアをモダンで高速かつ使いやすいアプリに仕上げます。設計から公開まで一貫して対応します。',
       primaryCta: '実績を見る',
       secondaryCta: '相談してみる',
       stats: {
@@ -5297,12 +6289,12 @@ resources.ja = {
       },
     },
     services: {
-      title: '提供サービス',
-      subtitle: '設計から本番運用まで、課題に合わせたウェブソリューションを提供します。',
+      title: '提供サビス',
+      subtitle: '設計から本番運用まで、課題に合わせたウェブソリュションを提供します。',
       items: [
         {
           icon: '🎨',
-          title: 'コーポレートサイト制作',
+          title: 'コポレトサイト制作',
           description:
             '事業を魅力的に伝え、訪問者を顧客へ導く高品質・高速なサイトを制作します。',
           tags: ['React', 'Next.js', 'Vite'],
@@ -5318,7 +6310,7 @@ resources.ja = {
           icon: '⚙️',
           title: 'ウェブアプリ開発',
           description:
-            'ダッシュボード、認証、データベース、REST APIを備えたウェブアプリを開発します。',
+            'ダッシュボド、認証、デタベス、REST APIを備えたウェブアプリを開発します。',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
@@ -5332,14 +6324,14 @@ resources.ja = {
           icon: '🔗',
           title: 'API連携',
           description:
-            'CRM、決済、メール配信、SNSなど外部サービスとの連携を実装します。',
+            'CRM、決済、メル配信、SNSなど外部サビスとの連携を実装します。',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
           icon: '🛡️',
-          title: '保守・サポート',
+          title: '保守・サポト',
           description:
-            '継続的な運用支援、セキュリティ更新、技術サポートを提供します。',
+            '継続的な運用支援、セキュリティ更新、技術サポトを提供します。',
           tags: ['DevOps', 'CI/CD', 'Monitoring'],
         },
       ],
@@ -5353,26 +6345,26 @@ resources.ja = {
         {
           icon: '💰',
           title: '売れるサイト',
-          description: '単なる紹介ページではなく、コンバージョンの仕組み。すべてのセクション・ボタン・テキストが成果を出すために設計されています。',
+          description: '単なる紹介ペジではなく、コンバジョンの仕組み。すべてのセクション・ボタン・テキストが成果を出すために設計されています。',
         },
         {
           icon: '📱',
           title: '100% モバイル対応・高速',
-          description: '訪問者の60%以上はスマートフォンから来ます。あらゆるデバイスで快適に動作するよう最適化します。',
+          description: '訪問者の60%以上はスマトフォンから来ます。あらゆるデバイスで快適に動作するよう最適化します。',
         },
         {
           icon: '🎯',
-          title: 'アクション重視のコピーライティング',
-          description: '惹きつける見出し、納得させる論拠、行動を促すCTA。デザインはメッセージに奉仕します。',
+          title: 'アクション重視のコピライティング',
+          description: '惹きつける見出し、納得させる論拠、行動を促すCTA。デザインはメッセジに奉仕します。',
         },
         {
           icon: '🔍',
           title: 'SEOと検索露出',
-          description: 'グーグルに評価される構造・タグ・パフォーマンスで、公開初日からトラフィックを獲得します。',
+          description: 'ググルに評価される構造・タグ・パフォマンスで、公開初日からトラフィックを獲得します。',
         },
         {
           icon: '⚡',
-          title: 'スピード納品',
+          title: 'スピド納品',
           description: '標準案件は24〜48時間で納品。要件の複雑さに応じて柔軟に対応します。品質は妥協しません。',
         },
         {
@@ -5383,32 +6375,32 @@ resources.ja = {
       ],
       pricing: {
         label: '料金',
-        labelVitrine: 'コーポレートサイト',
+        labelVitrine: 'コポレトサイト',
         note:
-          'コーポレートサイトは約400〜700€（要件により変動）。合意した固定価格です。',
+          'コポレトサイトは約400〜700€（要件により変動）。合意した固定価格です。',
         ecommerceLine:
-          'オーダーメイドEC：1500€〜、最短約1週間（お見積り）。',
+          'オダメイドEC：1500€〜、最短約1週間（お見積り）。',
         details: [
-          '標準のコーポレートサイトは24〜48時間で納品',
+          '標準のコポレトサイトは24〜48時間で納品',
           'サブスクなし、一括払い',
           '満足いただくまで修正対応',
-          'ドメイン・ホスティング設定をサポート',
+          'ドメイン・ホスティング設定をサポト',
         ],
         cta: 'プロジェクトを始める',
       },
     },
     about: {
-      title: 'プロフィール',
+      title: 'プロフィル',
       subtitle: 'ウェブ開発に5年以上取り組んでいます',
       paragraph1:
-        'フランスを拠点に活動するフリーランスウェブ開発者です。コーポレートサイト、LP、React と Node.js によるウェブアプリ開発を得意としています。',
+        'フランスを拠点に活動するフリランスウェブ開発者です。コポレトサイト、LP、React と Node.js によるウェブアプリ開発を得意としています。',
       paragraph2:
-        '要件理解から提案、納品、公開後のサポートまで一貫して担当し、品質と使いやすさを重視します。',
+        '要件理解から提案、納品、公開後のサポトまで一貫して担当し、品質と使いやすさを重視します。',
       perks: [
-        '保守しやすいクリーンなコード',
+        '保守しやすいクリンなコド',
         '納期厳守',
-        '透明なコミュニケーション',
-        '納品後サポート',
+        '透明なコミュニケション',
+        '納品後サポト',
       ],
       cta: '一緒に取り組む',
       skillsTitle: '技術スキル',
@@ -5429,14 +6421,14 @@ resources.ja = {
           title: 'Locali',
           category: 'ウェブアプリ',
           description:
-            '近くの店舗やサービスを見つけやすくするローカルマッチングプラットフォーム。',
+            '近くの店舗やサビスを見つけやすくするロカルマッチングプラットフォム。',
           tech: ['React', 'Node.js', 'Maps API'],
           preview: '/previews/locali.jpg',
           link: 'https://www.mylocali.fr',
         },
         {
           title: "L'Essence",
-          category: 'コーポレートサイト',
+          category: 'コポレトサイト',
           description:
             'ライフスタイルブランド向けに制作した、上質なデザインと滑らかな体験のサイト。',
           tech: ['Vite', 'React', 'CSS'],
@@ -5459,33 +6451,33 @@ resources.ja = {
     },
     contact: {
       title: 'プロジェクトについて相談しましょう',
-      subtitle: '準備ができたらメッセージください。24時間以内に返信します。',
-      emailLabel: 'メール',
+      subtitle: '準備ができたらメッセジください。24時間以内に返信します。',
+      emailLabel: 'メル',
       locationLabel: '所在地',
-      locationValue: 'フランス（リモート）',
+      locationValue: 'フランス（リモト）',
       availabilityLabel: '対応状況',
       availabilityValue: '今すぐ対応可能',
       successTitle: '送信完了',
-      successBody: 'メッセージありがとうございます。24時間以内に返信します。',
+      successBody: 'メッセジありがとうございます。24時間以内に返信します。',
       form: {
         name: 'お名前',
-        email: 'メール',
+        email: 'メル',
         projectType: 'プロジェクト種別',
         message: 'プロジェクト内容',
         namePlaceholder: '山田 太郎',
         emailPlaceholder: 'taro@example.com',
         messagePlaceholder: '目的、要件、希望納期などを教えてください...',
         selectPlaceholder: '選択してください',
-        options: ['コーポレートサイト', 'ECサイト', 'ウェブアプリ', 'リニューアル / 最適化', 'その他'],
+        options: ['コポレトサイト', 'ECサイト', 'ウェブアプリ', 'リニュアル / 最適化', 'その他'],
         error:
-          'エラーが発生しました。再試行するか、issamadayev@gmail.com へ直接ご連絡ください。',
+          'エラが発生しました。再試行するか、issamadayev@gmail.com へ直接ご連絡ください。',
         sending: '送信中...',
-        submit: 'メッセージを送信',
+        submit: 'メッセジを送信',
       },
     },
     tarifsPage: {
       hero: {
-        badge: '固定料金・予算オーバーなし・無料見積もり',
+        badge: '固定料金・予算オバなし・無料見積もり',
         titleHighlight: '料金',
         titleAfter: ' ウェブ制作',
         titleLine2: 'ナントのウェブサイト',
@@ -5504,48 +6496,48 @@ resources.ja = {
         sectionSubtitle: 'プロジェクトに合ったプランをお選びください。',
         from: '〜から ',
         vitrine: {
-          label: 'ショーケースサイト',
+          label: 'ショケスサイト',
           delay: '24〜48時間で納品',
           features: [
             'カスタムデザイン',
-            'モバイルファースト・レスポンシブ',
+            'モバイルファスト・レスポンシブ',
             '基本SEO（タグ・メタ）',
-            'お問い合わせフォーム',
-            'コンバージョン重視のコピーライティング',
+            'お問い合わせフォム',
+            'コンバジョン重視のコピライティング',
             '修正1回込み',
-            'リリースサポート',
+            'リリスサポト',
           ],
           excluded: ['商品カタログ', '決済システム'],
           cta: '詳しく見る',
         },
         ecommerce: {
-          label: 'Eコマース',
+          label: 'Eコマス',
           delay: '最短納期 · 1週間',
           features: [
             '完全なオンラインショップ',
             'ShopifyまたはNext.js（WooCommerceは除く）',
-            'クレジットカード・Stripe・その他決済方法（要件に応じて）',
+            'クレジットカド・Stripe・その他決済方法（要件に応じて）',
             '注文・在庫管理',
-            'モバイルファースト・EコマースSEO',
-            'トランザクションメール',
+            'モバイルファスト・EコマスSEO',
+            'トランザクションメル',
             '修正1回込み',
-            '管理画面のトレーニング',
+            '管理画面のトレニング',
           ],
           cta: '詳しく見る',
         },
         custom: {
           label: 'カスタム',
           priceText: '無料見積もり',
-          delay: 'プロジェクトに応じたスケジュール',
+          delay: 'プロジェクトに応じたスケジュル',
           features: [
-            '複雑なウェブアプリケーション',
-            'API・サードパーティ連携',
-            'カスタムデータベース',
-            'ユーザー認証',
-            'ダッシュボード・バックオフィス',
+            '複雑なウェブアプリケション',
+            'API・サドパティ連携',
+            'カスタムデタベス',
+            'ユザ認証',
+            'ダッシュボド・バックオフィス',
             'CI/CD・DevOps',
             'メンテナンス込み（オプション）',
-            '優先サポート',
+            '優先サポト',
           ],
           cta: '見積もりを依頼する',
         },
@@ -5554,17 +6546,17 @@ resources.ja = {
         sectionTitle: 'プラン比較',
         sectionSubtitle: '各プランに含まれるすべてのもの。明確に。',
         thFeature: '機能',
-        thVitrine: 'ショーケースサイト',
-        thEcommerce: 'Eコマース',
+        thVitrine: 'ショケスサイト',
+        thEcommerce: 'Eコマス',
         popularBadge: '人気',
         thCustom: 'カスタム',
         rows: {
           price: { label: '料金', vitrine: '400€ → 700€', ecommerce: '1500€〜', custom: '無料見積もり' },
           delay: { label: '納期', vitrine: '24〜48時間', ecommerce: '最短1週間', custom: 'プロジェクト次第' },
           customDesign: 'カスタムデザイン',
-          mobileFirst: 'モバイルファースト',
+          mobileFirst: 'モバイルファスト',
           baseSeo: '基本SEO',
-          contactForm: 'お問い合わせフォーム',
+          contactForm: 'お問い合わせフォム',
           revision: '修正1回込み',
           ecommerceShop: 'オンラインショップ',
           securePayments: '安全な決済',
@@ -5578,24 +6570,24 @@ resources.ja = {
         sectionSubtitle: '始める前に知りたいこと。',
         items: [
           {
-            q: 'ショーケースサイトはいくらですか？',
-            a: 'ショーケースサイトは通常、複雑さに応じて400€〜700€の範囲で、標準プロジェクトは24〜48時間で納品します。見積もりにはデザイン、開発、基本SEO、お問い合わせフォーム、リリースサポートが含まれます。',
+            q: 'ショケスサイトはいくらですか？',
+            a: 'ショケスサイトは通常、複雑さに応じて400€〜700€の範囲で、標準プロジェクトは24〜48時間で納品します。見積もりにはデザイン、開発、基本SEO、お問い合わせフォム、リリスサポトが含まれます。',
           },
           {
-            q: '職人やレストランのショーケースサイトはいくらですか？',
-            a: '職人（配管工、電気工、大工など）やレストランの場合、料金は同じで内容とページ数に応じて400〜700€です。24時間以内に無料の詳細見積もりをお送りします。',
+            q: '職人やレストランのショケスサイトはいくらですか？',
+            a: '職人（配管工、電気工、大工など）やレストランの場合、料金は同じで内容とペジ数に応じて400〜700€です。24時間以内に無料の詳細見積もりをお送りします。',
           },
           {
-            q: 'Eコマースサイトはいくらですか？',
-            a: 'カスタムEコマースサイト（ShopifyまたはNext.js、WooCommerceは除く）は1500€〜で、カタログ・連携・決済方法（クレジットカード、Stripeなど）に応じて変動します。最短1週間の納期が必要です。コミット前に無料見積もり。',
+            q: 'Eコマスサイトはいくらですか？',
+            a: 'カスタムEコマスサイト（ShopifyまたはNext.js、WooCommerceは除く）は1500€〜で、カタログ・連携・決済方法（クレジットカド、Stripeなど）に応じて変動します。最短1週間の納期が必要です。コミット前に無料見積もり。',
           },
           {
-            q: 'ショーケースサイトが400〜700€の幅がある理由は？',
-            a: '400€は標準的なショーケースサイト（少ないページ、カスタムデザイン、基本SEO）の出発点です。ページ数が多い、追加機能がある、コンテンツが豊富なプロジェクトは費用が上がります。コミット前に必ず無料の詳細見積もりをご提供します。',
+            q: 'ショケスサイトが400〜700€の幅がある理由は？',
+            a: '400€は標準的なショケスサイト（少ないペジ、カスタムデザイン、基本SEO）の出発点です。ペジ数が多い、追加機能がある、コンテンツが豊富なプロジェクトは費用が上がります。コミット前に必ず無料の詳細見積もりをご提供します。',
           },
           {
             q: '隠れた費用や定期料金はありますか？',
-            a: 'いいえ。料金はサイトの開発のみです。ホスティングとドメイン名（ご自身または私のサポートで管理）だけが年間10〜30€程度の費用になります（プロバイダーにより異なります）。月額サブスクリプションはありません。',
+            a: 'いいえ。料金はサイトの開発のみです。ホスティングとドメイン名（ご自身または私のサポトで管理）だけが年間10〜30€程度の費用になります（プロバイダにより異なります）。月額サブスクリプションはありません。',
           },
           {
             q: 'いつ支払いますか？',
@@ -5603,80 +6595,80 @@ resources.ja = {
           },
           {
             q: '納品後に修正を依頼したい場合は？',
-            a: '修正は各プランに1回含まれています。追加の修正については、時間単価または月額メンテナンスパッケージをご提案します。',
+            a: '修正は各プランに1回含まれています。追加の修正については、時間単価または月額メンテナンスパッケジをご提案します。',
           },
           {
-            q: 'ショーケースサイトとEコマースサイトの違いは？',
-            a: 'ショーケースサイトは事業・サービス・連絡先を紹介し、問い合わせや電話を獲得することが目的です。Eコマースサイトは顧客が直接オンラインで購入でき、カートとカード決済システムを備えています。',
+            q: 'ショケスサイトとEコマスサイトの違いは？',
+            a: 'ショケスサイトは事業・サビス・連絡先を紹介し、問い合わせや電話を獲得することが目的です。Eコマスサイトは顧客が直接オンラインで購入でき、カトとカド決済システムを備えています。',
           },
         ],
       },
       cta: {
         titleBefore: 'あなたの',
         titleHighlight: 'ウェブプロジェクト',
-        sub: '無料見積もり24時間以内 · ショーケース 400〜700€ · Eコマース 1500€〜',
+        sub: '無料見積もり24時間以内 · ショケス 400〜700€ · Eコマス 1500€〜',
         btn: '無料見積もりを取得する',
       },
     },
     siteVitrinePage: {
       hero: {
-        badge: '今すぐ対応可能 · ナント & リモート',
+        badge: '今すぐ対応可能 · ナント & リモト',
         title: '制作します',
-        titleHighlight: 'ショーケースサイト',
+        titleHighlight: 'ショケスサイト',
         titleLine2: '職人・飲食店・小規模事業者向け',
-        sub: 'プロフェッショナルで高速、Googleに表示されるサイトを24〜48時間で納品。400〜700€。Wix不使用、テンプレートなし、完全フルオーダー。',
+        sub: 'プロフェッショナルで高速、Googleに表示されるサイトを24〜48時間で納品。400〜700€。Wix不使用、テンプレトなし、完全フルオダ。',
         ctaQuote: '無料見積もりを依頼する',
         ctaPortfolio: '制作実績を見る',
       },
       niches: {
         sectionTitle: 'どんな業種にも対応',
-        sectionSubtitle: 'あなたのビジネスのために設計されたサイト。誰でも使える汎用テンプレートではありません。',
+        sectionSubtitle: 'あなたのビジネスのために設計されたサイト。誰でも使える汎用テンプレトではありません。',
         items: [
           {
             title: '職人・建設業',
-            description: '配管工、電気工、大工、塗装工、左官工あなたの技術をアピールし、サイトから直接見積もり依頼を受け付けましょう。',
+            description: '配管工、電気工、大工、塗装工、左官工あなたの技術をアピルし、サイトから直接見積もり依頼を受け付けましょう。',
             tags: ['職人向けサイト', 'オンライン見積もり'],
           },
           {
             title: 'レストラン・カフェ',
-            description: 'オンラインメニュー、フォトギャラリー、営業時間、お問い合わせフォーム来店を促しお席を埋めるために必要なすべてが揃っています。簡単に更新可能。',
-            tags: ['飲食店サイト', 'オンラインメニュー'],
+            description: 'オンラインメニュ、フォトギャラリ、営業時間、お問い合わせフォム来店を促しお席を埋めるために必要なすべてが揃っています。簡単に更新可能。',
+            tags: ['飲食店サイト', 'オンラインメニュ'],
           },
           {
             title: '小売業・中小企業',
-            description: 'ショップ、クリニック、エージェンシーGoogleローカル検索で目立ち、プロフェッショナルな存在感で訪問者を顧客へと転換します。',
-            tags: ['中小企業サイト', 'ローカルSEO'],
+            description: 'ショップ、クリニック、エジェンシGoogleロカル検索で目立ち、プロフェッショナルな存在感で訪問者を顧客へと転換します。',
+            tags: ['中小企業サイト', 'ロカルSEO'],
           },
           {
-            title: '自由業・フリーランス',
-            description: '医師、弁護士、コーチ、セラピスト、カメラマンサービスや経歴を伝え、問い合わせや予約を簡単に受け付けましょう。',
-            tags: ['フリーランスサイト', 'お問い合わせフォーム'],
+            title: '自由業・フリランス',
+            description: '医師、弁護士、コチ、セラピスト、カメラマンサビスや経歴を伝え、問い合わせや予約を簡単に受け付けましょう。',
+            tags: ['フリランスサイト', 'お問い合わせフォム'],
           },
         ],
       },
       includes: {
-        title: 'ショーケースサイトに含まれるもの',
-        description: 'テンプレートなし。量産ページなし。すべてのサイトはあなたのビジネスに合わせてゼロから構築します。',
+        title: 'ショケスサイトに含まれるもの',
+        description: 'テンプレトなし。量産ペジなし。すべてのサイトはあなたのビジネスに合わせてゼロから構築します。',
         checklist: [
           'あなたの業界に合わせたモダンなデザイン',
-          'スマートフォンで完璧に表示検索の70%はモバイルから',
+          'スマトフォンで完璧に表示検索の70%はモバイルから',
           '公開初日からGoogleに表示（基本SEO込み）',
-          'お問い合わせフォーム組み込み済み',
-          '訪問者を説得するためのコピーライティング（文章作成込み）',
+          'お問い合わせフォム組み込み済み',
+          '訪問者を説得するためのコピライティング（文章作成込み）',
           '超高速サイト1秒以内に読み込み',
           '納品後の修正1回込み',
-          '公開サポート付き',
+          '公開サポト付き',
         ],
-        pricingLabel: 'ショーケースサイト',
+        pricingLabel: 'ショケスサイト',
         pricingPrice: '400€ → 700€',
         pricingSub: '24〜48時間納品 · 完了後にお支払い',
         pricingFeatures: [
           '24〜48時間で納品',
           'カスタムデザイン',
           'モバイル & Googleで完璧に表示',
-          'お問い合わせフォーム',
+          'お問い合わせフォム',
           '修正1回込み',
-          'ホスティングサポート',
+          'ホスティングサポト',
           '頭金不要',
         ],
         pricingCta: 'プロジェクトを始める',
@@ -5691,7 +6683,7 @@ resources.ja = {
           },
           {
             title: '2. サイトを制作',
-            description: 'あなた専用のショーケースサイトを開発します。公開前にオンラインプレビューをご確認いただけます。',
+            description: 'あなた専用のショケスサイトを開発します。公開前にオンラインプレビュをご確認いただけます。',
           },
           {
             title: '3. 公開 & お支払い',
@@ -5702,19 +6694,19 @@ resources.ja = {
       vsWix: {
         title: 'WixやWordPressではダメなの？',
         p1: 'WixやWordPressは便利に見えますが、実際に生成されるサイトは遅く、カスタマイズが難しく、Google上位表示も困難です。',
-        p2: 'フルオーダーのサイトは3倍速く読み込まれ、競合他社と視覚的に差別化でき、サイトビルダーの制限なしに初日からコンバージョンに最適化されています。',
+        p2: 'フルオダのサイトは3倍速く読み込まれ、競合他社と視覚的に差別化でき、サイトビルダの制限なしに初日からコンバジョンに最適化されています。',
         checklist: [
           'Wix広告や「WordPressで作成」バッジなし',
-          'ユニークなデザイン競合他社と同じテンプレートなし',
+          'ユニクなデザイン競合他社と同じテンプレトなし',
           '超高速読み込み（Googleは速いサイトを優遇）',
           'Wixへの月額サブスクリプションなし',
-          'クリーンで保守しやすい、スケーラブルなコード',
+          'クリンで保守しやすい、スケラブルなコド',
         ],
-        comparisonTitle: 'フルオーダー vs サイトビルダー',
+        comparisonTitle: 'フルオダ vs サイトビルダ',
         comparisonSubtitle: '本格的なプロサイトで得られるもの',
         rows: [
           { label: '読み込み速度', good: '&lt; 1秒', bad: '3〜8秒（Wix）' },
-          { label: 'ユニークなデザイン', good: '✓', bad: '✗' },
+          { label: 'ユニクなデザイン', good: '✓', bad: '✗' },
           { label: 'SEO最適化', good: '✓', bad: '一部のみ' },
           { label: '月額サブスクリプション', good: 'なし', bad: '13〜25€/月' },
           { label: 'サイト上の広告', good: 'なし', bad: 'あり（無料Wix）' },
@@ -5725,45 +6717,45 @@ resources.ja = {
         sectionSubtitle: '始める前に知りたいこと。',
         items: [
           {
-            q: '職人向けショーケースサイトはいくらですか？',
-            a: '職人（配管工、電気工、大工、塗装工…）向けのプロフェッショナルなショーケースサイトは、ページ数と内容に応じて400〜700€です。標準プロジェクトは24〜48時間で納品。24時間以内に無料見積もりをご提供します。',
+            q: '職人向けショケスサイトはいくらですか？',
+            a: '職人（配管工、電気工、大工、塗装工…）向けのプロフェッショナルなショケスサイトは、ペジ数と内容に応じて400〜700€です。標準プロジェクトは24〜48時間で納品。24時間以内に無料見積もりをご提供します。',
           },
           {
-            q: 'レストラン向けショーケースサイトはいくらですか？',
-            a: 'レストラン向けショーケースサイト（オンラインメニュー、ギャラリー、予約）は同じ価格帯：400〜700€。オンライン予約システムの統合をご希望の場合は、ニーズに応じて追加できます。',
+            q: 'レストラン向けショケスサイトはいくらですか？',
+            a: 'レストラン向けショケスサイト（オンラインメニュ、ギャラリ、予約）は同じ価格帯：400〜700€。オンライン予約システムの統合をご希望の場合は、ニズに応じて追加できます。',
           },
           {
             q: '納品後にサイトを修正できますか？',
-            a: '修正1回は各プランに含まれています。定期的な更新には月額メンテナンスパッケージをご提案します。小さな修正は時間単価で対応します。',
+            a: '修正1回は各プランに含まれています。定期的な更新には月額メンテナンスパッケジをご提案します。小さな修正は時間単価で対応します。',
           },
           {
             q: 'WixやWordPressで自分で作ればいいのでは？',
-            a: 'WixやWordPressは始めやすいですが、結果は遅くGoogleに最適化されず、真に個性化するのが難しいことが多いです。フルオーダーのサイトは3倍速く読み込まれ、視覚的に目立ち、訪問者を顧客に変えるために設計されています。しかも24〜48時間で納品します。',
+            a: 'WixやWordPressは始めやすいですが、結果は遅くGoogleに最適化されず、真に個性化するのが難しいことが多いです。フルオダのサイトは3倍速く読み込まれ、視覚的に目立ち、訪問者を顧客に変えるために設計されています。しかも24〜48時間で納品します。',
           },
           {
             q: 'サイトはGoogleに表示されますか？',
-            a: 'はい。すべてのサイトにSEO基礎が含まれています：タイトルタグ、メタ説明、見出し構造、最適化された読み込み速度。強力なローカルSEO（例：「ナント 配管工」）には、Googleビジネスプロフィールの作成をお勧めします必要であればサポートします。',
+            a: 'はい。すべてのサイトにSEO基礎が含まれています：タイトルタグ、メタ説明、見出し構造、最適化された読み込み速度。強力なロカルSEO（例：「ナント 配管工」）には、Googleビジネスプロフィルの作成をお勧めします必要であればサポトします。',
           },
           {
             q: '前払いは必要ですか？',
-            a: 'いいえ。標準プロジェクト（ショーケース、シンプルなEコマース）では、サイトを承認いただいた後、プロジェクト完了時にお支払いいただきます。頭金不要です。',
+            a: 'いいえ。標準プロジェクト（ショケス、シンプルなEコマス）では、サイトを承認いただいた後、プロジェクト完了時にお支払いいただきます。頭金不要です。',
           },
         ],
       },
       cta: {
         titleBefore: 'あなたの',
-        titleHighlight: 'ショーケースサイト',
+        titleHighlight: 'ショケスサイト',
         sub: '無料見積もり24時間以内 · 400〜700€ · 24〜48時間納品 · 承認後にお支払い',
         btn: '今すぐ始める',
       },
     },
     ecommercePage: {
       hero: {
-        badge: '今すぐ対応可能 · ナント & リモート',
+        badge: '今すぐ対応可能 · ナント & リモト',
         title: '制作します',
         titleHighlight: 'ネットショップ',
         titleLine2: 'ナントのECサイト専門開発',
-        sub: 'ShopifyまたはNext.jsによるプロフェッショナルなネットショップで販売を始めましょう。クレジットカード決済対応、モバイルファースト。1,500€〜、最短1週間で納品。',
+        sub: 'ShopifyまたはNext.jsによるプロフェッショナルなネットショップで販売を始めましょう。クレジットカド決済対応、モバイルファスト。1,500€〜、最短1週間で納品。',
         ctaQuote: '無料見積もりを依頼する',
         ctaTarifs: '料金を確認する',
       },
@@ -5772,24 +6764,24 @@ resources.ja = {
         sectionSubtitle: 'どんな業種のECプロジェクトにも対応します。',
         items: [
           {
-            title: 'ファッション & アクセサリー',
-            description: 'アパレル、ジュエリー、レザーグッズ——商品ギャラリー、サイズ・カラーバリエーション、こだわりの購買体験。',
-            tags: ['ファッション通販', 'ジュエリー'],
+            title: 'ファッション & アクセサリ',
+            description: 'アパレル、ジュエリ、レザグッズ商品ギャラリ、サイズ・カラバリエション、こだわりの購買体験。',
+            tags: ['ファッション通販', 'ジュエリ'],
           },
           {
             title: 'クラフト & ハンドメイド',
-            description: '石けん、キャンドル、陶器、手作り作品——あなたらしさを表現するショップで作品を世界に届けましょう。',
+            description: '石けん、キャンドル、陶器、手作り作品あなたらしさを表現するショップで作品を世界に届けましょう。',
             tags: ['ハンドメイドショップ', 'クラフト'],
           },
           {
             title: '実物商品 & 配送',
-            description: 'あらゆる商品に対応。在庫管理、配送業者連携（Colissimo/DHL）、注文追跡、自動メール送信まで。',
+            description: 'あらゆる商品に対応。在庫管理、配送業者連携（Colissimo/DHL）、注文追跡、自動メル送信まで。',
             tags: ['ECサイト配送', '配送業者連携'],
           },
         ],
       },
       platforms: {
-        sectionTitle: 'ShopifyかNext.js——どう選ぶ？',
+        sectionTitle: 'ShopifyかNext.jsどう選ぶ？',
         sectionSubtitle: 'プロジェクトは千差万別。あなたの状況に最適な技術をご提案します。',
         advice: '何が必要か迷っていますか？プロジェクトについて簡単にお話しした後、無料でアドバイスします。',
         shopify: {
@@ -5798,33 +6790,33 @@ resources.ja = {
           tags: ['簡単管理', '素早い立ち上げ'],
         },
         nextjs: {
-          title: 'Next.js フルオーダー',
-          description: '100%カスタマイズされた、より高パフォーマンスなショップを求める方に。Shopifyの制限なし、独自チェックアウト、業務システム連携、最大限のパフォーマンス。',
-          tags: ['100%カスタム', '超高パフォーマンス'],
+          title: 'Next.js フルオダ',
+          description: '100%カスタマイズされた、より高パフォマンスなショップを求める方に。Shopifyの制限なし、独自チェックアウト、業務システム連携、最大限のパフォマンス。',
+          tags: ['100%カスタム', '超高パフォマンス'],
         },
       },
       payments: {
-        title: '決済：クレジットカード、Stripe、その他',
-        description: 'お客様はクレジットカードで安全にお支払いいただけます。Stripeはシステムの核心——高速、信頼性抜群、世界中で認知。',
+        title: '決済：クレジットカド、Stripe、その他',
+        description: 'お客様はクレジットカドで安全にお支払いいただけます。Stripeはシステムの核心高速、信頼性抜群、世界中で認知。',
         checklist: [
-          'クレジットカード（Visa、Mastercard…）Stripe経由',
+          'クレジットカド（Visa、Mastercard…）Stripe経由',
           'PayPalまたはMollieをオプションとして追加可能',
           '安全なSSL/HTTPS決済',
           '注文・在庫管理',
-          '自動メール（注文確認、発送通知…）',
-          'スマートフォン & タブレット対応',
-          'ショップ管理ダッシュボード',
+          '自動メル（注文確認、発送通知…）',
+          'スマトフォン & タブレット対応',
+          'ショップ管理ダッシュボド',
         ],
         includedTitle: '含まれるもの',
         includedChecklist: [
           '無制限の商品カタログ',
-          '商品フィルター & 検索機能',
-          '売れるよう最適化された商品ページ',
-          'スムーズなカート & チェックアウト',
+          '商品フィルタ & 検索機能',
+          '売れるよう最適化された商品ペジ',
+          'スムズなカト & チェックアウト',
           'Google表示（ECサイトSEO）',
           '配送業者連携（Colissimo、DHL…）',
-          '分析ツール統合（GA4またはPlausible）',
-          '管理操作トレーニング込み',
+          '分析ツル統合（GA4またはPlausible）',
+          '管理操作トレニング込み',
         ],
       },
       process: {
@@ -5833,15 +6825,15 @@ resources.ja = {
         steps: [
           {
             title: '1. ヒアリング & 見積もり',
-            description: 'プロジェクトについてお伺いします——商品、目標、予算。24時間以内に無料の詳細見積もりをお送りします。コミットメント不要。',
+            description: 'プロジェクトについてお伺いします商品、目標、予算。24時間以内に無料の詳細見積もりをお送りします。コミットメント不要。',
           },
           {
             title: '2. 開発',
-            description: 'ショップを構築します。公開前にオンラインプレビューでデザインと機能をご確認いただけます。',
+            description: 'ショップを構築します。公開前にオンラインプレビュでデザインと機能をご確認いただけます。',
           },
           {
-            title: '3. 納品 & トレーニング',
-            description: 'ショップが公開されます。管理操作（商品、注文、在庫）のトレーニングを行います。お支払いはサイト承認後のみ。',
+            title: '3. 納品 & トレニング',
+            description: 'ショップが公開されます。管理操作（商品、注文、在庫）のトレニングを行います。お支払いはサイト承認後のみ。',
           },
         ],
       },
@@ -5850,11 +6842,11 @@ resources.ja = {
         pricingPrice: '1,500€〜',
         pricingSub: '最短納期 · 1週間',
         pricingFeatures: [
-          'フルオーダーショップ',
-          'クレジットカード & Stripe対応',
-          'モバイルファースト & Google表示',
+          'フルオダショップ',
+          'クレジットカド & Stripe対応',
+          'モバイルファスト & Google表示',
           '修正1回込み',
-          '管理操作トレーニング',
+          '管理操作トレニング',
           '頭金不要',
         ],
         pricingCta: 'ショップを始める',
@@ -5864,8 +6856,8 @@ resources.ja = {
         checklist: [
           '24時間以内に無料見積もり',
           '固定契約価格',
-          'プロジェクト完了後にお支払い——頭金不要',
-          '公開後サポート込み',
+          'プロジェクト完了後にお支払い頭金不要',
+          '公開後サポト込み',
         ],
         ctaTarifs: '全料金を確認する',
       },
@@ -5875,23 +6867,23 @@ resources.ja = {
         items: [
           {
             q: 'ネットショップはいくらかかりますか？',
-            a: 'フルオーダーのECサイトは1,500€〜。最終価格は商品数、連携、決済方法によります。コミットメント前に詳細な無料見積もりをご提供します。お支払いはプロジェクト完了後。',
+            a: 'フルオダのECサイトは1,500€〜。最終価格は商品数、連携、決済方法によります。コミットメント前に詳細な無料見積もりをご提供します。お支払いはプロジェクト完了後。',
           },
           {
-            q: 'ShopifyとNext.js——私にとって何が違う？',
-            a: 'Shopifyはシンプルな管理画面で自分でショップを運営したい方に最適です。Next.jsは100%カスタムで高パフォーマンスなショップが必要で、少し技術的な部分も問題ない方に向いています。状況に応じてアドバイスします。',
+            q: 'ShopifyとNext.js私にとって何が違う？',
+            a: 'Shopifyはシンプルな管理画面で自分でショップを運営したい方に最適です。Next.jsは100%カスタムで高パフォマンスなショップが必要で、少し技術的な部分も問題ない方に向いています。状況に応じてアドバイスします。',
           },
           {
-            q: 'お客様はクレジットカードで支払えますか？',
+            q: 'お客様はクレジットカドで支払えますか？',
             a: 'はい、すべてのECプロジェクトに含まれています。Stripe（Visa、Mastercard…）経由で決済処理されます。PayPalやMollieも必要に応じて追加できます。',
           },
           {
             q: 'なぜWooCommerceではないのですか？',
-            a: 'WooCommerceはWordPressのプラグインで、すぐに重くなり、遅く、メンテナンスが困難になるため提供していません。ShopifyとNext.jsはより優れたパフォーマンス、セキュリティ、そしてお客様にとってより快適なショッピング体験を提供します。',
+            a: 'WooCommerceはWordPressのプラグインで、すぐに重くなり、遅く、メンテナンスが困難になるため提供していません。ShopifyとNext.jsはより優れたパフォマンス、セキュリティ、そしてお客様にとってより快適なショッピング体験を提供します。',
           },
           {
             q: '納品後に自分でショップを管理できますか？',
-            a: 'はい。管理操作トレーニングはすべてのプロジェクトに含まれています。商品追加、注文・在庫管理の方法をお教えします。特にShopifyはインターフェースが非常に直感的です。',
+            a: 'はい。管理操作トレニングはすべてのプロジェクトに含まれています。商品追加、注文・在庫管理の方法をお教えします。特にShopifyはインタフェスが非常に直感的です。',
           },
           {
             q: '前払いは必要ですか？',
@@ -5906,9 +6898,133 @@ resources.ja = {
         btn: '今すぐ始める',
       },
     },
+    nantesPage: {
+      hero: {
+        badge: 'ナントを拠点に · フランス全土対応',
+        title: 'フリランスウェブ開発者',
+        titleHighlight: 'ナント',
+        sub: 'ナントのフリランスウェブ開発者をお探しですか？ショケスサイト400〜700€、24〜48時間納品；カスタムECサイト1,500€〜、最短1週間。ウェブアプリはお見積もりにて。',
+        ctaQuote: '無料見積もりを依頼する',
+        ctaTarifs: '料金を見る',
+        statsProjects: '30+',
+        statsProjectsLabel: '完成プロジェクト',
+        statsExperience: '5年',
+        statsExperienceLabel: '経験',
+        statsSatisfaction: '100%',
+        statsSatisfactionLabel: '顧客満足度',
+      },
+      coverage: {
+        sectionTitle: 'ナント・ロワル＝アトランティック県でのウェブサイト制作',
+        sectionSubtitle: 'ナントを拠点に、ロワル＝アトランティック県全域とフランス全土でリモト対応しています。',
+        nantes: {
+          title: 'ナント＆広域圏',
+          description: 'ナント、サン＝ナゼル、サン＝テルブラン、レゼ、オルヴォ — 対面フォロを希望の方には、現地でのミティングも対応可能です。',
+        },
+        loireAtlantique: {
+          title: 'ロワル＝アトランティック県（44）',
+          description: '県全域をカバしています。職人、飲食業者、商店主の方々がサビスをご利用いただけます。',
+        },
+        france: {
+          title: 'フランス全土',
+          description: 'フランス全土のクライアントにリモトで対応しています。ビデオ通話・メル・電話で距離は問題になりません。',
+        },
+      },
+      why: {
+        title: 'ナントのウェブプロジェクトにMadaDevを選ぶ理由は？',
+        p: 'ウェブ代理店と異なり、私はひとりで活動するフリランサです。ブリフからロンチまで、あなたの唯一の窓口となります。中間のプロジェクトマネジャも不要な遅延もありません。',
+        checklist: [
+          '最初から最後まで唯一の担当者',
+          '迅速対応：24時間以内に返信',
+          'ショケスサイトは24〜48時間で納品（標準プロジェクト）',
+          '固定価格・契約書明記・サプライズなし',
+          'クリンで高性能・保守しやすいコド',
+          '開発段階からSEOを統合',
+          '公開後のサポトも対応',
+        ],
+        contactLocation: 'ナント、ペイ・ド・ラ・ロワル — リモトでフランス全土対応',
+        contactAvailability: '現在対応可能 · 24時間以内に返信',
+        contactTarifs: 'ショケス400〜700€ · EC1,500€〜',
+        contactCta: 'メッセジを送る',
+      },
+      services: {
+        sectionTitle: '30件以上のプロジェクト納品、今すぐ対応可能',
+        sectionSubtitle: 'ナントおよびフランス全土の職人・商店・飲食店・スタトアップ向けウェブサイト制作。',
+        vitrine: {
+          title: 'プロフェッショナルなショケスサイト',
+          description: '職人・飲食店・小企業向け — モダンデザイン・SEO・モバイルファスト。24〜48時間で納品。',
+          price: '400€ → 700€',
+        },
+        ecommerce: {
+          title: 'ECサイト',
+          description: 'ShopifyまたはNext.jsのショップ、クレジットカド・Stripe決済対応（WooCommerceは不可）。',
+          price: '1,500€〜',
+        },
+        webapp: {
+          title: 'カスタムウェブアプリ',
+          description: 'Node.js・Express・PostgreSQLで特定の複雑なビジネスニズに対応。',
+          price: '無料見積もり',
+        },
+        seo: {
+          title: 'パフォマンス＆SEO',
+          description: 'Lighthouse監査・Core Web Vitals・SEO最適化 — Googleに見つけてもらうために。',
+          price: '無料見積もり',
+        },
+      },
+      remote: {
+        title: 'ナントおよびフランス全土でリモト対応',
+        p1: 'どこにいても一緒に仕事ができます。ウェブプロジェクトに現地への出向は不要です — ビデオ通話・メル・電話で十分です。',
+        p2: 'ナントやロワル＝アトランティック県にお住まいの場合は、ご希望に応じて対面ミティングも対応可能です。',
+        checklist: [
+          '無料ディスカバリコル（30分）',
+          '透明性の高いプロジェクト管理',
+          '納品前にオンラインプレビュを提供',
+          'ご都合に合わせたビデオミティング',
+        ],
+        stackLabel: '技術スタック',
+        zonesLabel: 'サビス対応エリア',
+        zones: [
+          'ナント（44） — 対面ミティング可能',
+          'ロワル＝アトランティック県 — 対面ミティング可能',
+          'ペイ・ド・ラ・ロワル — リモト',
+          'フランス全土 — リモト',
+        ],
+      },
+      faq: {
+        sectionTitle: 'よくある質問',
+        sectionSubtitle: 'ナントのクライアントからよく聞かれること。',
+        items: [
+          {
+            q: 'ナントを拠点にしていますか？',
+            a: 'はい、ナントを拠点にしています。ナントおよび広域圏（サン＝テルブラン、レゼ、オルヴォ、カルクフ…）のクライアントと仕事をしており、ロワル＝アトランティック県全域およびフランス全土でリモト対応しています。',
+          },
+          {
+            q: '対面で会うことはできますか？',
+            a: 'はい、ナントまたはロワル＝アトランティック県にお住まいの場合は、対面ミティングが可能です。エリア外のクライアントにはビデオ通話で効率よく対応します。',
+          },
+          {
+            q: 'ナントでウェブサイトを作るといくらかかりますか？',
+            a: 'ナントのプロフェッショナルなショケスサイトは400〜700€で、24〜48時間で納品します。ECサイトは最短1週間・1,500€〜からです。24時間以内に無料見積もりをお送りします。',
+          },
+          {
+            q: 'ナントの職人ですが、職人向けサイトも作れますか？',
+            a: 'もちろんです。ナントの職人（配管工・電気工・大工・塗装工・石工など）のショケスサイトを定期的に制作しています。400〜700€のサイトで、直接見積もり依頼を受け取れます。',
+          },
+          {
+            q: 'ナントのウェブ代理店とどう違いますか？',
+            a: '私はひとりで活動するフリランサです。最初から最後まで唯一の担当者となります。中間のプロジェクトマネジャも不要な遅延もありません。料金も代理店より大幅に手頃です（同等の結果で2〜5倍高いことが多い）。',
+          },
+        ],
+      },
+      cta: {
+        titleBefore: '',
+        titleHighlight: '無料見積もりを依頼する',
+        sub: '24時間以内に返信 · ショケス400〜700€（24〜48時間） · EC1,500€〜 · 承認後にお支払い',
+        btn: 'プロジェクトを開始する',
+      },
+    },
     footer: {
-      copyRole: 'フリーランスウェブ開発者',
-      secondaryAria: '補助ナビゲーション',
+      copyRole: 'フリランスウェブ開発者',
+      secondaryAria: '補助ナビゲション',
     },
   }),
 }
