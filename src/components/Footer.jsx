@@ -24,6 +24,7 @@ function Footer() {
           <Link to="/ecommerce">{t('footer.links.ecommerce')}</Link>
           <Link to="/tarifs">{t('footer.links.tarifs')}</Link>
           <Link to="/nantes">{t('footer.links.nantes')}</Link>
+          <Link to="/blog">Blog</Link>
           <a href="/#portfolio">{t('nav.links.portfolio')}</a>
           <a href="/#contact">{t('nav.links.contact')}</a>
         </nav>

@@ -85,6 +85,7 @@ function Navbar() {
     { to: '/ecommerce', label: t('footer.links.ecommerce') },
     { to: '/tarifs', label: t('footer.links.tarifs') },
     { to: '/nantes', label: t('footer.links.nantes') },
+    { to: '/blog', label: 'Blog' },
   ]
 
   const selectedLanguage = resolveSelectableLanguage(i18n.resolvedLanguage || i18n.language)
