@@ -1,12 +1,10 @@
 import Anthropic from '@anthropic-ai/sdk'
-import { GoogleGenerativeAI } from '@google/generative-ai'
 import fs from 'fs'
 import path from 'path'
 import dotenv from 'dotenv'
 dotenv.config()
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
 
 const RSS_FEEDS = [
   {
@@ -63,9 +61,7 @@ function getPublishedSlugs() {
   return fs.readdirSync(blogDir).map(f => f.replace('.md', ''))
 }
 
-async function pickBestTopicWithGemini(allNews, publishedSlugs) {
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
-
+async function pickBestTopicWithHaiku(allNews, publishedSlugs) {
   const newsText = allNews.map(({ theme, items }) =>
     `Thème "${theme}" :\n${items.map(i => `- ${i.title}`).join('\n')}`
   ).join('\n\n')
@@ -74,7 +70,12 @@ async function pickBestTopicWithGemini(allNews, publishedSlugs) {
     ? `\n\nArticles déjà publiés (ne pas répéter ces sujets) :\n${publishedSlugs.join('\n')}`
     : ''
 
-  const prompt = `Tu es un expert en stratégie de contenu SEO pour MadaDev, agence web freelance basée à Nantes qui crée des sites vitrine et e-commerce pour TPE/PME, artisans et restaurateurs.
+  const message = await anthropic.messages.create({
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 512,
+    messages: [{
+      role: 'user',
+      content: `Tu es un expert en stratégie de contenu SEO pour MadaDev, agence web freelance basée à Nantes qui crée des sites vitrine et e-commerce pour TPE/PME, artisans et restaurateurs.
 
 Voici les actualités de la semaine par thématique :
 
@@ -96,16 +97,17 @@ Réponds UNIQUEMENT avec un objet JSON valide sans backticks :
   "angle": "L'angle choisi pour lier l'actualité aux services MadaDev",
   "motcle": "Le mot-clé SEO principal ciblé"
 }`
+    }]
+  })
 
-  const result = await model.generateContent(prompt)
-  const text = result.response.text().trim()
+  const text = message.content[0].text.trim()
 
   try {
     const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
     return JSON.parse(cleaned)
   } catch (e) {
-    console.error('Erreur parsing JSON Gemini:', text)
-    throw new Error('Gemini n\'a pas retourné un JSON valide')
+    console.error('Erreur parsing JSON Haiku:', text)
+    throw new Error('Haiku n\'a pas retourné un JSON valide')
   }
 }
 
@@ -165,8 +167,8 @@ async function main() {
   const publishedSlugs = getPublishedSlugs()
   console.log(`Articles déjà publiés : ${publishedSlugs.length}`)
 
-  console.log('Sélection du meilleur sujet avec Gemini...')
-  const topic = await pickBestTopicWithGemini(allNews, publishedSlugs)
+  console.log('Sélection du meilleur sujet avec Haiku...')
+  const topic = await pickBestTopicWithHaiku(allNews, publishedSlugs)
   console.log(`Sujet choisi : "${topic.titre}"`)
   console.log(`Inspiré de : ${topic.actualite}`)
 
