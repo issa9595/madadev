@@ -12,7 +12,7 @@ actualite: "« Plus de 100 commandes à la seconde » : le e-commerce français 
 ---
 ```
 
-# E-commerce en France : comment les artisans et restaurateurs peuvent capter cette croissance de 200 milliards d'euros grâce à un site e-commerce TPE PME adapté
+#E-commerce en France : comment les artisans et restaurateurs peuvent capter cette croissance de 200 milliards d'euros grâce à un site e-commerce TPE PME adapté
 
 Les chiffres donnent le vertige. Selon la Fédération du e-commerce et de la vente à distance (FEVAD), le commerce en ligne français frôle les **200 milliards d'euros de chiffre d'affaires en 2025**, avec plus de 100 commandes passées chaque seconde sur le territoire. Ce n'est plus une tendance de fond, c'est une réalité qui s'impose à tous les secteurs — y compris aux artisans, boulangers, restaurateurs et petits commerçants qui pensaient encore que la vente en ligne, "c'est pour les grandes enseignes".
 

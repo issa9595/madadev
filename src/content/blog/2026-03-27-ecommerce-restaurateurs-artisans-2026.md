@@ -10,7 +10,7 @@ tags:
   - vente en ligne
 actualite: "À près de 200 milliards d'euros, l'e-commerce change d'échelle en France avec plus de 100 commandes à la seconde"
 ---
-```
+
 
 # E-commerce en France : pourquoi les restaurateurs et artisans nantais ne peuvent plus ignorer la vente en ligne en 2026
 

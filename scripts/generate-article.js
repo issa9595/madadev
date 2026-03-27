@@ -149,9 +149,9 @@ RÈGLES STRICTES :
     }]
   })
 
-  // Supprimer les éventuels blocs de code ajoutés malgré les consignes
+  // Supprimer tous les délimiteurs de blocs de code (``` et ```lang)
   const raw = message.content[0].text
-  return raw.replace(/^```[a-z]*\r?\n/, '').replace(/\r?\n```\s*$/, '').trim()
+  return raw.replace(/^```[a-z]*\r?\n/gm, '').replace(/^```\s*$/gm, '').trim()
 }
 
 async function main() {
