@@ -81,10 +81,10 @@ function Navbar() {
   }, [])
 
   const navLinks = [
-    { to: '/site-vitrine', label: 'Site vitrine' },
-    { to: '/ecommerce', label: 'E-commerce' },
-    { to: '/tarifs', label: 'Tarifs' },
-    { to: '/nantes', label: 'Nantes' },
+    { to: '/site-vitrine', label: t('footer.links.siteVitrine') },
+    { to: '/ecommerce', label: t('footer.links.ecommerce') },
+    { to: '/tarifs', label: t('footer.links.tarifs') },
+    { to: '/nantes', label: t('footer.links.nantes') },
   ]
 
   const selectedLanguage = resolveSelectableLanguage(i18n.resolvedLanguage || i18n.language)

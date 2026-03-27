@@ -20,10 +20,10 @@ function Footer() {
           <a href="https://mada-dev.com" target="_blank" rel="noreferrer">mada-dev.com</a>
         </p>
         <nav className="footer-nav" aria-label={t('footer.secondaryAria')}>
-          <Link to="/site-vitrine">Site vitrine</Link>
-          <Link to="/ecommerce">E-commerce</Link>
-          <Link to="/tarifs">Tarifs</Link>
-          <Link to="/nantes">Nantes</Link>
+          <Link to="/site-vitrine">{t('footer.links.siteVitrine')}</Link>
+          <Link to="/ecommerce">{t('footer.links.ecommerce')}</Link>
+          <Link to="/tarifs">{t('footer.links.tarifs')}</Link>
+          <Link to="/nantes">{t('footer.links.nantes')}</Link>
           <a href="/#portfolio">{t('nav.links.portfolio')}</a>
           <a href="/#contact">{t('nav.links.contact')}</a>
         </nav>

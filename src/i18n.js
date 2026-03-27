@@ -800,6 +800,17 @@ const resources = {
       footer: {
         copyRole: 'Développeur web freelance',
         secondaryAria: 'Navigation secondaire',
+        links: {
+          siteVitrine: 'Site vitrine',
+          ecommerce: 'E-commerce',
+          tarifs: 'Tarifs',
+          nantes: 'Nantes',
+        },
+      },
+      notFound: {
+        heading: 'Page introuvable',
+        description: "La page que vous recherchez n'existe pas ou a été déplacée.",
+        cta: "Retourner à l'accueil",
       },
     },
   },
@@ -1513,7 +1524,21 @@ resources.en = {
         btn: 'Start my project',
       },
     },
-    footer: { copyRole: 'Freelance web developer', secondaryAria: 'Secondary navigation' },
+    footer: {
+      copyRole: 'Freelance web developer',
+      secondaryAria: 'Secondary navigation',
+      links: {
+        siteVitrine: 'Showcase site',
+        ecommerce: 'E-commerce',
+        tarifs: 'Pricing',
+        nantes: 'Nantes',
+      },
+    },
+    notFound: {
+      heading: 'Page not found',
+      description: "The page you are looking for doesn't exist or has been moved.",
+      cta: 'Go back home',
+    },
   }),
 }
 resources.es = {
@@ -2307,6 +2332,17 @@ resources.es = {
     footer: {
       copyRole: 'Desarrollador web freelance',
       secondaryAria: 'Navegación secundaria',
+      links: {
+        siteVitrine: 'Sitio corporativo',
+        ecommerce: 'Comercio electrónico',
+        tarifs: 'Tarifas',
+        nantes: 'Nantes',
+      },
+    },
+    notFound: {
+      heading: 'Página no encontrada',
+      description: 'La página que buscas no existe o ha sido movida.',
+      cta: 'Volver al inicio',
     },
   }),
 }
@@ -3104,6 +3140,17 @@ resources.ru = {
     footer: {
       copyRole: 'Веб-разработчик фрилансер',
       secondaryAria: 'Дополнительная навигация',
+      links: {
+        siteVitrine: 'Сайт-визитка',
+        ecommerce: 'Интернет-магазин',
+        tarifs: 'Тарифы',
+        nantes: 'Нант',
+      },
+    },
+    notFound: {
+      heading: 'Страница не найдена',
+      description: 'Страница, которую вы ищете, не существует или была перемещена.',
+      cta: 'Вернуться на главную',
     },
   }),
 }
@@ -3896,6 +3943,17 @@ resources.de = {
     footer: {
       copyRole: 'Freiberuflicher Webentwickler',
       secondaryAria: 'Sekundäre Navigation',
+      links: {
+        siteVitrine: 'Präsentationsseite',
+        ecommerce: 'E-Commerce',
+        tarifs: 'Preise',
+        nantes: 'Nantes',
+      },
+    },
+    notFound: {
+      heading: 'Seite nicht gefunden',
+      description: 'Die gesuchte Seite existiert nicht oder wurde verschoben.',
+      cta: 'Zur Startseite',
     },
   }),
 }
@@ -4684,6 +4742,17 @@ resources.nl = {
     footer: {
       copyRole: 'Freelance webdeveloper',
       secondaryAria: 'Secundaire navigatie',
+      links: {
+        siteVitrine: 'Visitekaartjessite',
+        ecommerce: 'E-commerce',
+        tarifs: 'Tarieven',
+        nantes: 'Nantes',
+      },
+    },
+    notFound: {
+      heading: 'Pagina niet gevonden',
+      description: 'De pagina die u zoekt bestaat niet of is verplaatst.',
+      cta: 'Terug naar home',
     },
   }),
 }
@@ -5473,6 +5542,17 @@ resources.it = {
     footer: {
       copyRole: 'Sviluppatore web freelance',
       secondaryAria: 'Navigazione secondaria',
+      links: {
+        siteVitrine: 'Sito vetrina',
+        ecommerce: 'E-commerce',
+        tarifs: 'Tariffe',
+        nantes: 'Nantes',
+      },
+    },
+    notFound: {
+      heading: 'Pagina non trovata',
+      description: 'La pagina che stai cercando non esiste o è stata spostata.',
+      cta: 'Torna alla home',
     },
   }),
 }
@@ -6246,6 +6326,17 @@ resources.zh = {
     footer: {
       copyRole: '自由职业网页开发者',
       secondaryAria: '次级导航',
+      links: {
+        siteVitrine: '展示网站',
+        ecommerce: '电子商务',
+        tarifs: '价格',
+        nantes: '南特',
+      },
+    },
+    notFound: {
+      heading: '页面未找到',
+      description: '您访问的页面不存在或已被移动。',
+      cta: '返回首页',
     },
   }),
 }
@@ -7025,6 +7116,17 @@ resources.ja = {
     footer: {
       copyRole: 'フリランスウェブ開発者',
       secondaryAria: '補助ナビゲション',
+      links: {
+        siteVitrine: 'ショーケースサイト',
+        ecommerce: 'Eコマース',
+        tarifs: '料金',
+        nantes: 'ナント',
+      },
+    },
+    notFound: {
+      heading: 'ページが見つかりません',
+      description: 'お探しのページは存在しないか、移動されました。',
+      cta: 'ホームに戻る',
     },
   }),
 }
