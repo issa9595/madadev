@@ -10,7 +10,6 @@ tags:
   - boutique en ligne
 actualite: "« Plus de 100 commandes à la seconde » : le e-commerce français frôle les 200 milliards d'euros en 2025"
 ---
-```
 
 #E-commerce en France : comment les artisans et restaurateurs peuvent capter cette croissance de 200 milliards d'euros grâce à un site e-commerce TPE PME adapté
 

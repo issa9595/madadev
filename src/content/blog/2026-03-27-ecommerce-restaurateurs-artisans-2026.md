@@ -11,7 +11,6 @@ tags:
 actualite: "À près de 200 milliards d'euros, l'e-commerce change d'échelle en France avec plus de 100 commandes à la seconde"
 ---
 
-
 # E-commerce en France : pourquoi les restaurateurs et artisans nantais ne peuvent plus ignorer la vente en ligne en 2026
 
 L'e-commerce pour restaurateurs et artisans n'est plus une option réservée aux grandes enseignes. C'est désormais une réalité à portée de main, même pour les plus petites structures. Récemment, les chiffres publiés sur l'état du commerce en ligne en France ont de quoi faire tourner la tête : le marché frôle les **200 milliards d'euros de chiffre d'affaires annuel**, avec plus de **100 commandes passées chaque seconde** sur le territoire. Une croissance qui ne montre aucun signe d'essoufflement. Face à cette dynamique, les artisans boulangers, les créateurs nantais, les restaurateurs du centre-ville ou les traiteurs de Loire-Atlantique auraient tort de se dire que "ce n'est pas pour eux". C'est précisément pour eux que cet article a été écrit.
