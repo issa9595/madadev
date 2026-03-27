@@ -4,6 +4,18 @@
   gap: 1.5rem;
 }
 
+@media (max-width: 960px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -71,14 +83,13 @@
   padding: 3rem 0;
 }
 
-@media (max-width: 900px) {
-  .blog-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 560px) {
-  .blog-grid {
-    grid-template-columns: 1fr;
-  }
+/* Tag pill — copie de SeoLanding.css pour éviter la dépendance */
+.blog-tags .tag {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  color: var(--primary-light);
+  border-radius: 6px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 500;
 }

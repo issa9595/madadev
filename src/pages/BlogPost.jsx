@@ -1,9 +1,10 @@
 import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import matter from 'gray-matter'
+import { parseMd } from '../utils/parseMd'
 import { marked } from 'marked'
 import SeoHead from '../components/seo/SeoHead'
 import NotFound from './NotFound'
+import '../components/seo/SeoLanding.css'
 import './BlogPost.css'
 
 const rawFiles = import.meta.glob('../content/blog/*.md', { eager: true, query: '?raw', import: 'default' })
@@ -13,7 +14,7 @@ export default function BlogPost() {
 
   const post = useMemo(() => {
     for (const raw of Object.values(rawFiles)) {
-      const { data, content } = matter(raw)
+      const { data, content } = parseMd(raw)
       if (data.slug === slug) {
         return { frontmatter: data, html: marked(content) }
       }
