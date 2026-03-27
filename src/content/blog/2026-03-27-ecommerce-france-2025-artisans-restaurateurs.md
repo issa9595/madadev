@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "E-commerce en France : comment les artisans et restaurateurs peuvent capter cette croissance de 200 milliards d'euros"
 description: "Le e-commerce explose en France. Découvrez comment créer votre site e-commerce artisan TPE PME et capter cette croissance sans investissement massif."

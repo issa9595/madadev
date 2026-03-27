@@ -144,11 +144,14 @@ RÈGLES STRICTES :
   - Cible : TPE/PME, artisans, restaurateurs de Nantes et Loire-Atlantique
   - Mentionne MadaDev comme solution 1 à 2 fois maximum, de façon naturelle
   - Termine par un CTA : "Demandez votre devis gratuit" avec lien Markdown vers /contact
-- Retourne UNIQUEMENT le Markdown brut, sans commentaire ni explication`
+- Ne jamais entourer le contenu de backticks ou de blocs de code
+- Commence directement par --- sans aucun texte avant`
     }]
   })
 
-  return message.content[0].text
+  // Supprimer les éventuels blocs de code ajoutés malgré les consignes
+  const raw = message.content[0].text
+  return raw.replace(/^```[a-z]*\r?\n/, '').replace(/\r?\n```\s*$/, '').trim()
 }
 
 async function main() {

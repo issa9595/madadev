@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "E-commerce en France : pourquoi les restaurateurs et artisans nantais ne peuvent plus ignorer la vente en ligne en 2026"
 description: "E-commerce pour restaurateurs artisans : la vente en ligne explose en France. Découvrez comment les pros nantais peuvent en profiter dès 2026."

@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Pourquoi un restaurant a besoin d'un site web pour attirer plus de clients"
 description: "Découvrez pourquoi un restaurant a besoin d'un site web pour gagner en visibilité, rassurer les clients et augmenter les réservations."
