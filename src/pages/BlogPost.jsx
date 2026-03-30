@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { parseMd } from '../utils/parseMd'
 import { marked } from 'marked'
+import DOMPurify from 'dompurify'
 import SeoHead from '../components/seo/SeoHead'
 import NotFound from './NotFound'
 import '../components/seo/SeoLanding.css'
@@ -16,7 +17,7 @@ export default function BlogPost() {
     for (const raw of Object.values(rawFiles)) {
       const { data, content } = parseMd(raw)
       if (data.slug === slug) {
-        return { frontmatter: data, html: marked(content) }
+        return { frontmatter: data, html: DOMPurify.sanitize(marked(content)) }
       }
     }
     return null
