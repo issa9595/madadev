@@ -21,7 +21,7 @@ export default function Blog() {
   return (
     <>
       <SeoHead
-        title="Blog — Conseils web pour TPE/PME à Nantes | MadaDev"
+        title="Blog - Conseils web pour TPE/PME à Nantes | MadaDev"
         description="Articles SEO, conseils création de site web, e-commerce et présence en ligne pour artisans et commerçants à Nantes et Loire-Atlantique."
         path="/blog"
       />
@@ -34,7 +34,7 @@ export default function Blog() {
             </div>
             <h1>Conseils web pour <span className="gradient-text">développer votre activité</span></h1>
             <p className="hero-sub">
-              Articles SEO, création de site, e-commerce — tout ce que vous devez savoir pour réussir en ligne à Nantes et en Loire-Atlantique.
+              Articles SEO, création de site, e-commerce, tout ce que vous devez savoir pour réussir en ligne à Nantes et en Loire-Atlantique.
             </p>
           </div>
         </section>

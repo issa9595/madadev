@@ -318,6 +318,12 @@
 - Le selecteur `Type de projet` herite maintenant exactement des memes styles que `input`/`textarea` via la regle commune (`padding`, `font-size`, bordure, etc.).
 - Objectif: uniformiser la taille visuelle de tous les champs du formulaire.
 
+### 2026-03-31 - Suppression des tirets cadratins dans les fichiers blog
+- Action effectuée : suppression de tous les caractères `—` dans les 6 fichiers Markdown du dossier `src/content/blog/`.
+- Fichiers concernés : `2026-03-27-ecommerce-france-2025-artisans-restaurateurs.md`, `2026-03-30-paiements-digitaux-restaurant-artisan-nantes-2026.md`, `2026-03-27-wordpress-ia-automatisation-site-artisans-restaurateurs.md`, `2026-03-27-seo-2026-algorithmes-google-artisans-restaurateurs.md`, `2026-03-27-combien-coute-un-site-vitrine.md`, `2026-03-27-ecommerce-restaurateurs-artisans-2026.md`.
+- Méthode : remplacement de ` *— *` par un espace simple via `sed` pour éviter les doubles espaces résiduels.
+- Vérification : aucune occurrence résiduelle détectée après traitement.
+
 ### 2026-03-25 - Correction navigation vers #contact depuis les pages SEO
 - Problème : `href="/#contact"` dans `NantesPage.jsx` (et toutes les pages SEO) ne scrollait pas vers la section contact sur `/`.
 - Cause double :

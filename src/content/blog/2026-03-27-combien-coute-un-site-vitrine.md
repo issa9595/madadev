@@ -54,7 +54,7 @@ Utiliser un template existant réduit les coûts de façon significative. En rev
 
 ### Le SEO et l'optimisation technique
 
-Un site beau mais invisible sur Google, ça ne sert pas à grand-chose. Le travail de référencement naturel — structure des pages, balises, vitesse de chargement, adaptation mobile — représente un vrai travail en amont. Certains prestataires l'intègrent dans leur offre, d'autres le facturent en supplément. Renseignez-vous systématiquement sur ce point.
+Un site beau mais invisible sur Google, ça ne sert pas à grand-chose. Le travail de référencement naturel structure des pages, balises, vitesse de chargement, adaptation mobile représente un vrai travail en amont. Certains prestataires l'intègrent dans leur offre, d'autres le facturent en supplément. Renseignez-vous systématiquement sur ce point.
 
 ### La rédaction des textes
 
@@ -86,7 +86,7 @@ Assurez-vous d'avoir un document écrit qui précise les délais, le nombre de p
 
 ## Ce que MadaDev propose aux entreprises de Nantes et Loire-Atlantique
 
-Chez [MadaDev](https://mada-dev.com), on travaille principalement avec des TPE, des artisans, des commerçants et des professions libérales qui ont besoin d'un site vitrine efficace, beau et bien référencé — sans se ruiner.
+Chez [MadaDev](https://mada-dev.com), on travaille principalement avec des TPE, des artisans, des commerçants et des professions libérales qui ont besoin d'un site vitrine efficace, beau et bien référencé sans se ruiner.
 
 Nos offres sont transparentes, pensées pour les budgets des petites structures, et chaque projet est traité avec soin. On ne fait pas du site vitrine à la chaîne : on prend le temps de comprendre votre métier, vos clients et vos objectifs avant de commencer à coder quoi que ce soit.
 

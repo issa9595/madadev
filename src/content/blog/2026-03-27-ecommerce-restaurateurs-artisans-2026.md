@@ -19,7 +19,7 @@ L'e-commerce pour restaurateurs et artisans n'est plus une option réservée aux
 
 ## L'e-commerce en France atteint des records : ce que ça signifie pour les petits pros
 
-Quand on parle de 200 milliards d'euros et de 100 commandes à la seconde, on imagine immédiatement Amazon, Cdiscount ou les grandes marketplaces. Et pourtant, une part croissante de ces achats concerne des produits locaux, artisanaux, de niche — exactement ce que proposent les professionnels indépendants.
+Quand on parle de 200 milliards d'euros et de 100 commandes à la seconde, on imagine immédiatement Amazon, Cdiscount ou les grandes marketplaces. Et pourtant, une part croissante de ces achats concerne des produits locaux, artisanaux, de niche exactement ce que proposent les professionnels indépendants.
 
 Le comportement des consommateurs a fondamentalement changé. Aujourd'hui, un client qui cherche un coffret de biscuits artisanaux à offrir, une commande de plateau repas pour son entreprise ou un meuble sur mesure va **d'abord faire sa recherche en ligne**, même s'il habite à deux rues du producteur. Si vous n'avez pas de présence digitale avec une solution de commande en ligne, vous êtes tout simplement invisible à ce moment-là.
 
@@ -39,7 +39,7 @@ Voici ce qu'un site e-commerce bien conçu peut apporter concrètement :
 - **Une meilleure gestion des stocks et des commandes** : certaines solutions permettent d'automatiser les confirmations, les relances, les factures.
 - **Un levier de différenciation locale** : encore peu de petits artisans et restaurateurs nantais ont un vrai site e-commerce performant. C'est une opportunité réelle de prendre de l'avance.
 
-Le tout sans avoir besoin de gérer un entrepôt ou une logistique complexe. Pour beaucoup de métiers, le "click and collect" — la commande en ligne avec retrait en boutique — est déjà une excellente première étape.
+Le tout sans avoir besoin de gérer un entrepôt ou une logistique complexe. Pour beaucoup de métiers, le "click and collect" la commande en ligne avec retrait en boutique est déjà une excellente première étape.
 
 ---
 
@@ -49,7 +49,7 @@ Le tout sans avoir besoin de gérer un entrepôt ou une logistique complexe. Pou
 
 En 2026, les solutions disponibles sont **bien plus accessibles qu'il y a cinq ans**. Les plateformes modernes permettent de gérer ses produits, ses commandes et ses paiements depuis un simple smartphone. La mise à jour d'une fiche produit prend quelques minutes. Et surtout, vous n'avez pas besoin de tout faire vous-même.
 
-Faire appel à un prestataire local qui comprend vos contraintes — vos horaires chargés, votre budget mesuré, vos besoins spécifiques selon votre métier — change complètement l'expérience. C'est exactement ce que propose **MadaDev**, agence web basée à Nantes, qui accompagne artisans et restaurateurs dans la création de boutiques en ligne pensées pour leur réalité terrain.
+Faire appel à un prestataire local qui comprend vos contraintes vos horaires chargés, votre budget mesuré, vos besoins spécifiques selon votre métier change complètement l'expérience. C'est exactement ce que propose **MadaDev**, agence web basée à Nantes, qui accompagne artisans et restaurateurs dans la création de boutiques en ligne pensées pour leur réalité terrain.
 
 L'investissement dans un site e-commerce, quand il est bien calibré dès le départ, se rembourse souvent sur la première saison. Quelques commandes supplémentaires par semaine suffisent à changer la donne.
 
@@ -76,7 +76,7 @@ La Chambre des Métiers et de l'Artisanat de Loire-Atlantique, les associations 
 
 ---
 
-L'e-commerce en France ne ralentit pas. Chaque seconde qui passe, des dizaines de consommateurs commandent en ligne — peut-être des produits que vous proposez, mais chez quelqu'un d'autre, parce que vous n'êtes pas encore là où ils cherchent.
+L'e-commerce en France ne ralentit pas. Chaque seconde qui passe, des dizaines de consommateurs commandent en ligne peut-être des produits que vous proposez, mais chez quelqu'un d'autre, parce que vous n'êtes pas encore là où ils cherchent.
 
 Restaurateurs, artisans, créateurs nantais : 2026 est le bon moment pour franchir le pas, sans vous ruiner et sans vous perdre dans la technique. L'essentiel, c'est de commencer.
 

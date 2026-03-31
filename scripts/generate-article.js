@@ -140,7 +140,7 @@ RÈGLES STRICTES :
   - Introduction qui mentionne l'actualité d'inspiration naturellement
   - 3 à 4 sections H2 avec des conseils pratiques
   - Entre 900 et 1200 mots
-  - Ton naturel, professionnel, accessible — pas trop technique
+  - Ton naturel, professionnel, accessible et pas trop technique
   - Cible : TPE/PME, artisans, restaurateurs de Nantes et Loire-Atlantique
   - Mentionne MadaDev comme solution 1 à 2 fois maximum, de façon naturelle
   - Termine par un CTA : "Demandez votre devis gratuit" avec lien Markdown vers /contact
@@ -164,7 +164,7 @@ async function main() {
   }
 
   if (allNews.length === 0) {
-    throw new Error('Aucune actualité récupérée — vérifier les flux RSS')
+    throw new Error('Aucune actualité récupérée, vérifier les flux RSS')
   }
 
   const publishedSlugs = getPublishedSlugs()

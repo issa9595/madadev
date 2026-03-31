@@ -33,7 +33,7 @@ export default function BlogPost() {
   return (
     <>
       <SeoHead
-        title={`${frontmatter.title} — MadaDev`}
+        title={`${frontmatter.title} MadaDev`}
         description={frontmatter.description || ''}
         path={`/blog/${frontmatter.slug}`}
       />
