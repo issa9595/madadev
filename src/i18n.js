@@ -3836,7 +3836,7 @@ resources.de = {
         sectionSubtitle: 'Ansässig in Nantes, arbeite ich im gesamten Département Loire-Atlantique und per Remote in ganz Frankreich.',
         nantes: {
           title: 'Nantes & Großraum',
-          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault — ich bin für persönliche Treffen verfügbar, wenn Sie eine Begleitung von Angesicht zu Angesicht bevorzugen.',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault, ich bin für persönliche Treffen verfügbar, wenn Sie eine Begleitung von Angesicht zu Angesicht bevorzugen.',
         },
         loireAtlantique: {
           title: 'Loire-Atlantique (44)',
@@ -3844,12 +3844,12 @@ resources.de = {
         },
         france: {
           title: 'Ganz Frankreich',
-          description: 'Ich arbeite remote für Kunden in ganz Frankreich. Videoanrufe, E-Mail und Telefon — die Entfernung ist kein Hindernis.',
+          description: 'Ich arbeite remote für Kunden in ganz Frankreich. Videoanrufe, E-Mail und Telefon, die Entfernung ist kein Hindernis.',
         },
       },
       why: {
         title: 'Warum MadaDev für Ihr Webprojekt in Nantes wählen?',
-        p: 'Im Gegensatz zu Webagenturen bin ich ein Solo-Freelancer — Ihr einziger Ansprechpartner vom Brief bis zum Launch. Kein zwischengeschalteter Projektmanager, keine unnötigen Verzögerungen.',
+        p: 'Im Gegensatz zu Webagenturen bin ich ein Solo-Freelancer, Ihr einziger Ansprechpartner vom Brief bis zum Launch. Kein zwischengeschalteter Projektmanager, keine unnötigen Verzögerungen.',
         checklist: [
           'Einziger Ansprechpartner von Anfang bis Ende',
           'Reaktionsfähigkeit: Antwort innerhalb von 24 h',
@@ -3859,7 +3859,7 @@ resources.de = {
           'SEO von Anfang der Entwicklung integriert',
           'Begleitung nach dem Launch',
         ],
-        contactLocation: 'Nantes, Pays de la Loire — remote, ganz Frankreich',
+        contactLocation: 'Nantes, Pays de la Loire, remote, ganz Frankreich',
         contactAvailability: 'Jetzt verfügbar · Antwort innerhalb von 24 h',
         contactTarifs: 'Showcase 400–700€ · E-Commerce ab 1.500€',
         contactCta: 'Nachricht senden',
@@ -3869,7 +3869,7 @@ resources.de = {
         sectionSubtitle: 'Websites für Handwerker, Händler, Restaurants und Startups in Nantes und ganz Frankreich.',
         vitrine: {
           title: 'Professionelle Showcase-Website',
-          description: 'Für Handwerker, Restaurants, Kleinunternehmen — modernes Design, SEO, mobile-first. Lieferung in 24–48 h.',
+          description: 'Für Handwerker, Restaurants, Kleinunternehmen, modernes Design, SEO, mobile-first. Lieferung in 24–48 h.',
           price: '400€ → 700€',
         },
         ecommerce: {
@@ -3884,13 +3884,13 @@ resources.de = {
         },
         seo: {
           title: 'Performance & SEO',
-          description: 'Lighthouse-Audit, Core Web Vitals, SEO-Optimierung — damit Google Sie findet.',
+          description: 'Lighthouse-Audit, Core Web Vitals, SEO-Optimierung, damit Google Sie findet.',
           price: 'Kostenloses Angebot',
         },
       },
       remote: {
         title: 'Arbeit in Nantes und ganz Frankreich per Remote',
-        p1: 'Ich kann mit Ihnen arbeiten, egal wo Sie sich befinden. Webprojekte erfordern keine physische Anwesenheit — Videoanrufe, E-Mail und Telefon reichen aus.',
+        p1: 'Ich kann mit Ihnen arbeiten, egal wo Sie sich befinden. Webprojekte erfordern keine physische Anwesenheit, Videoanrufe, E-Mail und Telefon reichen aus.',
         p2: 'Wenn Sie in Nantes oder Loire-Atlantique ansässig sind, bin ich auf Wunsch auch für persönliche Treffen verfügbar.',
         checklist: [
           'Kostenloses Kennenlerngespräch (30 Min.)',
@@ -3901,10 +3901,10 @@ resources.de = {
         stackLabel: 'Tech-Stack',
         zonesLabel: 'Einsatzgebiete',
         zones: [
-          'Nantes (44) — persönliches Treffen möglich',
-          'Loire-Atlantique — persönliches Treffen möglich',
-          'Pays de la Loire — remote',
-          'Ganz Frankreich — remote',
+          'Nantes (44), persönliches Treffen möglich',
+          'Loire-Atlantique, persönliches Treffen möglich',
+          'Pays de la Loire, remote',
+          'Ganz Frankreich, remote',
         ],
       },
       faq: {
@@ -3913,7 +3913,7 @@ resources.de = {
         items: [
           {
             q: 'Sind Sie in Nantes ansässig?',
-            a: 'Ja, ich bin in Nantes ansässig. Ich arbeite mit Kunden in Nantes und dem Großraum (Saint-Herblain, Rezé, Orvault, Carquefou…) sowie im gesamten Département Loire-Atlantique und per Remote in ganz Frankreich.',
+            a: 'Ja, ich bin in Nantes ansässig. Ich arbeite mit Kunden in Nantes und dem Großraum (Saint-Herblain, Rezé, Orvault, Carquefou), sowie im gesamten Département Loire-Atlantique und per Remote in ganz Frankreich.',
           },
           {
             q: 'Können wir uns persönlich treffen?',
@@ -3924,12 +3924,12 @@ resources.de = {
             a: 'Eine professionelle Showcase-Website in Nantes kostet zwischen 400 und 700€, Lieferung in 24–48 h. Ein Online-Shop beginnt bei 1.500€ mit einer Mindestlaufzeit von einer Woche. Kostenloses Angebot innerhalb von 24 h.',
           },
           {
-            q: 'Ich bin Handwerker in Nantes — erstellen Sie Websites für Handwerker?',
+            q: 'Ich bin Handwerker in Nantes, erstellen Sie Websites für Handwerker?',
             a: 'Absolut. Ich erstelle regelmäßig Showcase-Websites für Handwerker in Nantes: Klempner, Elektriker, Tischler, Maler, Maurer… Eine Website zwischen 400 und 700€, die direkt Angebotsanfragen generiert.',
           },
           {
             q: 'Was ist der Unterschied zwischen Ihnen und einer Webagentur in Nantes?',
-            a: 'Ich bin ein Solo-Freelancer — Ihr einziger Ansprechpartner von Anfang bis Ende. Kein zwischengeschalteter Projektmanager, keine unnötigen Verzögerungen. Die Preise sind auch deutlich zugänglicher als bei einer Agentur (oft 2 bis 5× teurer für ein gleichwertiges Ergebnis).',
+            a: 'Ich bin ein Solo-Freelancer, Ihr einziger Ansprechpartner von Anfang bis Ende. Kein zwischengeschalteter Projektmanager, keine unnötigen Verzögerungen. Die Preise sind auch deutlich zugänglicher als bei einer Agentur (oft 2 bis 5× teurer für ein gleichwertiges Ergebnis).',
           },
         ],
       },
@@ -4635,7 +4635,7 @@ resources.nl = {
         sectionSubtitle: 'Gevestigd in Nantes, werk ik in heel Loire-Atlantique en op afstand door heel Frankrijk.',
         nantes: {
           title: 'Nantes & regio',
-          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault — ik ben beschikbaar voor persoonlijke afspraken als u de voorkeur geeft aan begeleiding van aangezicht tot aangezicht.',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault, ik ben beschikbaar voor persoonlijke afspraken als u de voorkeur geeft aan begeleiding van aangezicht tot aangezicht.',
         },
         loireAtlantique: {
           title: 'Loire-Atlantique (44)',
@@ -4643,12 +4643,12 @@ resources.nl = {
         },
         france: {
           title: 'Heel Frankrijk',
-          description: 'Ik werk op afstand voor klanten in heel Frankrijk. Videogesprekken, e-mail en telefoon — afstand is geen bezwaar.',
+          description: 'Ik werk op afstand voor klanten in heel Frankrijk. Videogesprekken, e-mail en telefoon, afstand is geen bezwaar.',
         },
       },
       why: {
         title: 'Waarom MadaDev kiezen voor uw webproject in Nantes?',
-        p: 'In tegenstelling tot webbureaus ben ik een solo-freelancer — uw enige aanspreekpunt van brief tot lancering. Geen tussenpersoon als projectmanager, geen onnodige vertragingen.',
+        p: 'In tegenstelling tot webbureaus ben ik een solo-freelancer, uw enige aanspreekpunt van brief tot lancering. Geen tussenpersoon als projectmanager, geen onnodige vertragingen.',
         checklist: [
           'Enig aanspreekpunt van begin tot einde',
           'Responsiviteit: reactie binnen 24 u',
@@ -4658,7 +4658,7 @@ resources.nl = {
           'SEO geïntegreerd vanaf de ontwikkeling',
           'Begeleiding na de lancering',
         ],
-        contactLocation: 'Nantes, Pays de la Loire — op afstand, heel Frankrijk',
+        contactLocation: 'Nantes, Pays de la Loire, op afstand, heel Frankrijk',
         contactAvailability: 'Nu beschikbaar · Reactie binnen 24 u',
         contactTarifs: 'Visitekaartje €400–€700 · E-commerce vanaf €1.500',
         contactCta: 'Bericht sturen',
@@ -4668,7 +4668,7 @@ resources.nl = {
         sectionSubtitle: 'Websites voor ambachtslieden, winkeliers, restaurants en startups in Nantes en heel Frankrijk.',
         vitrine: {
           title: 'Professionele visitekaartje-website',
-          description: 'Voor ambachtslieden, restaurants, kleine bedrijven — modern design, SEO, mobile-first. Geleverd in 24–48 u.',
+          description: 'Voor ambachtslieden, restaurants, kleine bedrijven, modern design, SEO, mobile-first. Geleverd in 24–48 u.',
           price: '€400 → €700',
         },
         ecommerce: {
@@ -4683,13 +4683,13 @@ resources.nl = {
         },
         seo: {
           title: 'Performance & SEO',
-          description: 'Lighthouse-audit, Core Web Vitals, SEO-optimalisatie — zodat Google u vindt.',
+          description: 'Lighthouse-audit, Core Web Vitals, SEO-optimalisatie, zodat Google u vindt.',
           price: 'Gratis offerte',
         },
       },
       remote: {
         title: 'Werk in Nantes en heel Frankrijk op afstand',
-        p1: 'Ik kan met u samenwerken, ongeacht uw locatie. Webprojecten vereisen geen fysieke aanwezigheid — videogesprekken, e-mail en telefoon zijn voldoende.',
+        p1: 'Ik kan met u samenwerken, ongeacht uw locatie. Webprojecten vereisen geen fysieke aanwezigheid, videogesprekken, e-mail en telefoon zijn voldoende.',
         p2: 'Als u gevestigd bent in Nantes of Loire-Atlantique, ben ik op verzoek ook beschikbaar voor persoonlijke afspraken.',
         checklist: [
           'Gratis kennismakingsgesprek (30 min.)',
@@ -4700,10 +4700,10 @@ resources.nl = {
         stackLabel: 'Tech-stack',
         zonesLabel: 'Werkgebieden',
         zones: [
-          'Nantes (44) — persoonlijke afspraak mogelijk',
-          'Loire-Atlantique — persoonlijke afspraak mogelijk',
-          'Pays de la Loire — op afstand',
-          'Heel Frankrijk — op afstand',
+          'Nantes (44), persoonlijke afspraak mogelijk',
+          'Loire-Atlantique, persoonlijke afspraak mogelijk',
+          'Pays de la Loire, op afstand',
+          'Heel Frankrijk, op afstand',
         ],
       },
       faq: {
@@ -4712,7 +4712,7 @@ resources.nl = {
         items: [
           {
             q: 'Bent u gevestigd in Nantes?',
-            a: 'Ja, ik ben gevestigd in Nantes. Ik werk met klanten in Nantes en de regio (Saint-Herblain, Rezé, Orvault, Carquefou…) en ook in heel Loire-Atlantique en op afstand in heel Frankrijk.',
+            a: 'Ja, ik ben gevestigd in Nantes. Ik werk met klanten in Nantes en de regio (Saint-Herblain, Rezé, Orvault, Carquefou), en ook in heel Loire-Atlantique en op afstand in heel Frankrijk.',
           },
           {
             q: 'Kunnen we elkaar persoonlijk ontmoeten?',
@@ -4723,12 +4723,12 @@ resources.nl = {
             a: 'Een professionele visitekaartje-website in Nantes kost tussen €400 en €700, geleverd in 24–48 u. Een webshop begint bij €1.500 met een minimale doorlooptijd van één week. Gratis offerte binnen 24 u.',
           },
           {
-            q: 'Ik ben ambachtsman in Nantes — maakt u websites voor ambachtslieden?',
+            q: 'Ik ben ambachtsman in Nantes, maakt u websites voor ambachtslieden?',
             a: 'Absoluut. Ik maak regelmatig visitekaartje-websites voor ambachtslieden in Nantes: loodgieters, elektriciens, timmerlieden, schilders, metselaars… Een website tussen €400 en €700 die direct offerteaanvragen genereert.',
           },
           {
             q: 'Wat is het verschil tussen u en een webbureau in Nantes?',
-            a: 'Ik ben een solo-freelancer — uw enige aanspreekpunt van begin tot einde. Geen tussenpersoon als projectmanager, geen onnodige vertragingen. De tarieven zijn ook veel toegankelijker dan bij een bureau (vaak 2 tot 5× duurder voor een gelijkwaardig resultaat).',
+            a: 'Ik ben een solo-freelancer, uw enige aanspreekpunt van begin tot einde. Geen tussenpersoon als projectmanager, geen onnodige vertragingen. De tarieven zijn ook veel toegankelijker dan bij een bureau (vaak 2 tot 5× duurder voor een gelijkwaardig resultaat).',
           },
         ],
       },
@@ -5435,7 +5435,7 @@ resources.it = {
         sectionSubtitle: 'Con sede a Nantes, lavoro in tutta la Loire-Atlantique e da remoto in tutta la Francia.',
         nantes: {
           title: 'Nantes e area metropolitana',
-          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault — sono disponibile per incontri di persona se preferite un seguito faccia a faccia.',
+          description: 'Nantes, Saint-Nazaire, Saint-Herblain, Rezé, Orvault, sono disponibile per incontri di persona se preferite un seguito faccia a faccia.',
         },
         loireAtlantique: {
           title: 'Loire-Atlantique (44)',
@@ -5443,12 +5443,12 @@ resources.it = {
         },
         france: {
           title: 'Tutta la Francia',
-          description: 'Lavoro da remoto per clienti in tutta la Francia. Videochiamate, email e telefono — la distanza non è un ostacolo.',
+          description: 'Lavoro da remoto per clienti in tutta la Francia. Videochiamate, email e telefono, la distanza non è un ostacolo.',
         },
       },
       why: {
         title: 'Perché scegliere MadaDev per il vostro progetto web a Nantes?',
-        p: 'A differenza delle agenzie web, sono un freelance in solitaria — il vostro unico punto di contatto dal brief al lancio. Nessun project manager intermediario, nessun ritardo inutile.',
+        p: 'A differenza delle agenzie web, sono un freelance in solitaria, il vostro unico punto di contatto dal brief al lancio. Nessun project manager intermediario, nessun ritardo inutile.',
         checklist: [
           'Unico punto di contatto dall\'inizio alla fine',
           'Reattività: risposta entro 24 h',
@@ -5458,7 +5458,7 @@ resources.it = {
           'SEO integrato fin dallo sviluppo',
           'Accompagnamento dopo il lancio',
         ],
-        contactLocation: 'Nantes, Pays de la Loire — da remoto, tutta la Francia',
+        contactLocation: 'Nantes, Pays de la Loire, da remoto, tutta la Francia',
         contactAvailability: 'Disponibile ora · Risposta entro 24 h',
         contactTarifs: 'Vetrina 400–700€ · E-commerce da 1.500€',
         contactCta: 'Inviare un messaggio',
@@ -5468,7 +5468,7 @@ resources.it = {
         sectionSubtitle: 'Siti web per artigiani, commercianti, ristoranti e startup a Nantes e in tutta la Francia.',
         vitrine: {
           title: 'Sito vetrina professionale',
-          description: 'Per artigiani, ristoranti, piccole imprese — design moderno, SEO, mobile-first. Consegnato in 24–48 h.',
+          description: 'Per artigiani, ristoranti, piccole imprese, design moderno, SEO, mobile-first. Consegnato in 24–48 h.',
           price: '400€ → 700€',
         },
         ecommerce: {
@@ -5483,13 +5483,13 @@ resources.it = {
         },
         seo: {
           title: 'Performance & SEO',
-          description: 'Audit Lighthouse, Core Web Vitals, ottimizzazione SEO — perché Google vi trovi.',
+          description: 'Audit Lighthouse, Core Web Vitals, ottimizzazione SEO, perché Google vi trovi.',
           price: 'Preventivo gratuito',
         },
       },
       remote: {
         title: 'Lavoro a Nantes e in tutta la Francia da remoto',
-        p1: 'Posso lavorare con voi indipendentemente dalla vostra posizione. I progetti web non richiedono presenza fisica — videochiamate, email e telefono sono sufficienti.',
+        p1: 'Posso lavorare con voi indipendentemente dalla vostra posizione. I progetti web non richiedono presenza fisica, videochiamate, email e telefono sono sufficienti.',
         p2: 'Se siete a Nantes o in Loire-Atlantique, sono anche disponibile per incontri di persona su richiesta.',
         checklist: [
           'Chiamata di scoperta gratuita (30 min)',
@@ -5500,10 +5500,10 @@ resources.it = {
         stackLabel: 'Stack tecnologico',
         zonesLabel: 'Aree di intervento',
         zones: [
-          'Nantes (44) — incontro di persona possibile',
-          'Loire-Atlantique — incontro di persona possibile',
-          'Pays de la Loire — da remoto',
-          'Tutta la Francia — da remoto',
+          'Nantes (44), incontro di persona possibile',
+          'Loire-Atlantique, incontro di persona possibile',
+          'Pays de la Loire, da remoto',
+          'Tutta la Francia, da remoto',
         ],
       },
       faq: {
@@ -5523,12 +5523,12 @@ resources.it = {
             a: 'Un sito vetrina professionale a Nantes costa tra 400 e 700€, consegnato in 24–48 h. Un negozio online parte da 1.500€ con una durata minima di una settimana. Preventivo gratuito entro 24 h.',
           },
           {
-            q: 'Sono un artigiano a Nantes — fate siti per artigiani?',
+            q: 'Sono un artigiano a Nantes, fate siti per artigiani?',
             a: 'Assolutamente. Creo regolarmente siti vetrina per artigiani di Nantes: idraulici, elettricisti, falegnami, pittori, muratori… Un sito tra 400 e 700€ che genera richieste di preventivo direttamente.',
           },
           {
             q: 'Qual è la differenza tra voi e un\'agenzia web a Nantes?',
-            a: 'Sono un freelance in solitaria — il vostro unico punto di contatto dall\'inizio alla fine. Nessun project manager intermediario, nessun ritardo inutile. Le tariffe sono anche molto più accessibili rispetto a un\'agenzia (spesso 2-5× più cara per un risultato equivalente).',
+            a: 'Sono un freelance in solitaria, il vostro unico punto di contatto dall\'inizio alla fine. Nessun project manager intermediario, nessun ritardo inutile. Le tariffe sono anche molto più accessibili rispetto a un\'agenzia (spesso 2-5× più cara per un risultato equivalente).',
           },
         ],
       },
@@ -6219,7 +6219,7 @@ resources.zh = {
         sectionSubtitle: '总部位于南特，服务整个卢瓦尔-大西洋省，并远程服务法国各地。',
         nantes: {
           title: '南特及大区',
-          description: '南特、圣纳泽尔、圣埃尔布兰、雷泽、奥尔沃 — 如需面对面跟进，我可以安排线下会议。',
+          description: '南特、圣纳泽尔、圣埃尔布兰、雷泽、奥尔沃 如需面对面跟进，我可以安排线下会议。',
         },
         loireAtlantique: {
           title: '卢瓦尔-大西洋省（44）',
@@ -6227,12 +6227,12 @@ resources.zh = {
         },
         france: {
           title: '法国全境',
-          description: '我为法国各地的客户提供远程服务。视频会议、电子邮件和电话 — 距离不是障碍。',
+          description: '我为法国各地的客户提供远程服务。视频会议、电子邮件和电话 距离不是障碍。',
         },
       },
       why: {
         title: '为什么为您的南特网页项目选择MadaDev？',
-        p: '与网页代理公司不同，我是独立自由职业者 — 从简报到上线，我是您唯一的联系人。没有中间项目经理，没有不必要的延误。',
+        p: '与网页代理公司不同，我是独立自由职业者 从简报到上线，我是您唯一的联系人。没有中间项目经理，没有不必要的延误。',
         checklist: [
           '从头到尾唯一联系人',
           '响应迅速：24小时内回复',
@@ -6242,7 +6242,7 @@ resources.zh = {
           '从开发阶段即整合SEO',
           '上线后持续支持',
         ],
-        contactLocation: '南特，卢瓦尔河地区 — 远程服务法国全境',
+        contactLocation: '南特，卢瓦尔河地区 远程服务法国全境',
         contactAvailability: '现在可接单 · 24小时内回复',
         contactTarifs: '展示网站400–700€ · 电商起价1500€',
         contactCta: '发送消息',
@@ -6252,7 +6252,7 @@ resources.zh = {
         sectionSubtitle: '为南特及法国各地的工匠、商家、餐厅和初创企业提供网站建设服务。',
         vitrine: {
           title: '专业展示网站',
-          description: '面向工匠、餐厅、小企业 — 现代设计、SEO、移动优先。24–48小时交付。',
+          description: '面向工匠、餐厅、小企业 现代设计、SEO、移动优先。24–48小时交付。',
           price: '400€ → 700€',
         },
         ecommerce: {
@@ -6267,13 +6267,13 @@ resources.zh = {
         },
         seo: {
           title: '性能与SEO',
-          description: 'Lighthouse审计、Core Web Vitals、SEO优化 — 让Google找到您。',
+          description: 'Lighthouse审计、Core Web Vitals、SEO优化 让Google找到您。',
           price: '免费报价',
         },
       },
       remote: {
         title: '南特及法国全境远程服务',
-        p1: '无论您身处何地，我都可以与您合作。网页项目无需实体到场 — 视频会议、电子邮件和电话已足够。',
+        p1: '无论您身处何地，我都可以与您合作。网页项目无需实体到场 视频会议、电子邮件和电话已足够。',
         p2: '如果您在南特或卢瓦尔-大西洋省，我也可以按需安排线下会议。',
         checklist: [
           '免费探索性通话（30分钟）',
@@ -6284,10 +6284,10 @@ resources.zh = {
         stackLabel: '技术栈',
         zonesLabel: '服务范围',
         zones: [
-          '南特（44） — 可线下会面',
-          '卢瓦尔-大西洋省 — 可线下会面',
-          '卢瓦尔河地区 — 远程',
-          '法国全境 — 远程',
+          '南特（44） 可线下会面',
+          '卢瓦尔-大西洋省 可线下会面',
+          '卢瓦尔河地区 远程',
+          '法国全境 远程',
         ],
       },
       faq: {
@@ -6307,12 +6307,12 @@ resources.zh = {
             a: '南特的专业展示网站价格在400至700€之间，24–48小时交付。网店起价1500€，最短周期一周。24小时内提供免费报价。',
           },
           {
-            q: '我是南特的工匠 — 您为工匠建网站吗？',
+            q: '我是南特的工匠 您为工匠建网站吗？',
             a: '当然。我经常为南特的工匠建设展示网站：水管工、电工、木匠、油漆工、砌砖工… 价格400至700€，可直接获得报价请求。',
           },
           {
             q: '您与南特网页代理公司有什么区别？',
-            a: '我是独立自由职业者 — 从头到尾您唯一的联系人。没有中间项目经理，没有不必要的延误。价格也比代理公司更亲民（同等结果通常贵2至5倍）。',
+            a: '我是独立自由职业者 从头到尾您唯一的联系人。没有中间项目经理，没有不必要的延误。价格也比代理公司更亲民（同等结果通常贵2至5倍）。',
           },
         ],
       },
@@ -7009,7 +7009,7 @@ resources.ja = {
         sectionSubtitle: 'ナントを拠点に、ロワル＝アトランティック県全域とフランス全土でリモト対応しています。',
         nantes: {
           title: 'ナント＆広域圏',
-          description: 'ナント、サン＝ナゼル、サン＝テルブラン、レゼ、オルヴォ — 対面フォロを希望の方には、現地でのミティングも対応可能です。',
+          description: 'ナント、サン＝ナゼル、サン＝テルブラン、レゼ、オルヴォ 対面フォロを希望の方には、現地でのミティングも対応可能です。',
         },
         loireAtlantique: {
           title: 'ロワル＝アトランティック県（44）',
@@ -7032,7 +7032,7 @@ resources.ja = {
           '開発段階からSEOを統合',
           '公開後のサポトも対応',
         ],
-        contactLocation: 'ナント、ペイ・ド・ラ・ロワル — リモトでフランス全土対応',
+        contactLocation: 'ナント、ペイ・ド・ラ・ロワル リモトでフランス全土対応',
         contactAvailability: '現在対応可能 · 24時間以内に返信',
         contactTarifs: 'ショケス400〜700€ · EC1,500€〜',
         contactCta: 'メッセジを送る',
@@ -7042,7 +7042,7 @@ resources.ja = {
         sectionSubtitle: 'ナントおよびフランス全土の職人・商店・飲食店・スタトアップ向けウェブサイト制作。',
         vitrine: {
           title: 'プロフェッショナルなショケスサイト',
-          description: '職人・飲食店・小企業向け — モダンデザイン・SEO・モバイルファスト。24〜48時間で納品。',
+          description: '職人・飲食店・小企業向け モダンデザイン・SEO・モバイルファスト。24〜48時間で納品。',
           price: '400€ → 700€',
         },
         ecommerce: {
@@ -7057,13 +7057,13 @@ resources.ja = {
         },
         seo: {
           title: 'パフォマンス＆SEO',
-          description: 'Lighthouse監査・Core Web Vitals・SEO最適化 — Googleに見つけてもらうために。',
+          description: 'Lighthouse監査・Core Web Vitals・SEO最適化 Googleに見つけてもらうために。',
           price: '無料見積もり',
         },
       },
       remote: {
         title: 'ナントおよびフランス全土でリモト対応',
-        p1: 'どこにいても一緒に仕事ができます。ウェブプロジェクトに現地への出向は不要です — ビデオ通話・メル・電話で十分です。',
+        p1: 'どこにいても一緒に仕事ができます。ウェブプロジェクトに現地への出向は不要です ビデオ通話・メル・電話で十分です。',
         p2: 'ナントやロワル＝アトランティック県にお住まいの場合は、ご希望に応じて対面ミティングも対応可能です。',
         checklist: [
           '無料ディスカバリコル（30分）',
@@ -7074,10 +7074,10 @@ resources.ja = {
         stackLabel: '技術スタック',
         zonesLabel: 'サビス対応エリア',
         zones: [
-          'ナント（44） — 対面ミティング可能',
-          'ロワル＝アトランティック県 — 対面ミティング可能',
-          'ペイ・ド・ラ・ロワル — リモト',
-          'フランス全土 — リモト',
+          'ナント（44） 対面ミティング可能',
+          'ロワル＝アトランティック県 対面ミティング可能',
+          'ペイ・ド・ラ・ロワル リモト',
+          'フランス全土 リモト',
         ],
       },
       faq: {

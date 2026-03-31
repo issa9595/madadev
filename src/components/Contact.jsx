@@ -7,10 +7,13 @@ const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
+const RATE_LIMIT_MS = 60_000
+
 function Contact() {
   const { t } = useTranslation()
   const [form, setForm] = useState({ name: '', email: '', project: '', message: '' })
-  const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const [status, setStatus] = useState('idle') // idle | sending | success | error | ratelimit
+  const lastSubmitRef = useState(0)
   const projectOptions = useMemo(() => t('contact.form.options', { returnObjects: true }), [t])
 
   const handleChange = e => {
@@ -19,7 +22,15 @@ function Contact() {
 
   const handleSubmit = async e => {
     e.preventDefault()
+
+    const now = Date.now()
+    if (now - lastSubmitRef[0] < RATE_LIMIT_MS) {
+      setStatus('ratelimit')
+      return
+    }
+
     setStatus('sending')
+    lastSubmitRef[0] = now
 
     try {
       const { default: emailjs } = await import('@emailjs/browser')
@@ -166,11 +177,16 @@ function Contact() {
                     {t('contact.form.error')}
                   </p>
                 )}
+                {status === 'ratelimit' && (
+                  <p className="form-error">
+                    {t('contact.form.ratelimit', 'Veuillez patienter avant de renvoyer un message.')}
+                  </p>
+                )}
 
                 <button
                   type="submit"
                   className="btn btn-primary submit-btn"
-                  disabled={status === 'sending'}
+                  disabled={status === 'sending' || status === 'ratelimit'}
                 >
                   {status === 'sending' ? t('contact.form.sending') : `${t('contact.form.submit')} →`}
                 </button>
