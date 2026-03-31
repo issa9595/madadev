@@ -11,9 +11,9 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
     "@emailjs/browser": "^4.4.1",
-    "@google/generative-ai": "^0.24.1",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
+    "dompurify": "^3.3.3",
     "dotenv": "^17.3.1",
     "gray-matter": "^4.0.3",
     "i18next": "^25.10.5",
