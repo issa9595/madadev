@@ -74,4 +74,4 @@ L'objectif n'est pas de tout automatiser, mais d'automatiser ce qui vous pèse l
 
 Le virage de l'IA dans WordPress n'est pas une menace pour les petits professionnels c'est une opportunité réelle, à condition de l'aborder avec méthode et bon sens. Artisans, restaurateurs, commerçants de Nantes et de Loire-Atlantique : votre site web peut devenir un vrai outil de développement commercial, presque en pilote automatique, sans sacrifier l'authenticité qui vous distingue.
 
-Vous souhaitez savoir comment intégrer ces outils à votre site WordPress existant ou en créer un nouveau taillé pour 2026 ? [Demandez votre devis gratuit](/contact) et échangeons ensemble sur votre projet.
+Vous souhaitez savoir comment intégrer ces outils à votre site WordPress existant ou en créer un nouveau taillé pour 2026 ? [Demandez votre devis gratuit](/#contact) et échangeons ensemble sur votre projet.

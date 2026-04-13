@@ -99,4 +99,4 @@ Intégrer les paiements digitaux à votre site, c'est travailler plus intelligem
 **Vous souhaitez intégrer des paiements en ligne sur votre site vitrine ou e-commerce à Nantes ?**
 Chez MadaDev, on vous accompagne de A à Z, de la conception à la mise en ligne, avec des solutions adaptées à votre budget et à votre secteur.
 
-[Demandez votre devis gratuit](/contact)
+[Demandez votre devis gratuit](/#contact)

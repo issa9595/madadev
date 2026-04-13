@@ -79,6 +79,6 @@ Bonne nouvelle : vous n'avez pas besoin de tout révolutionner du jour au lendem
 
 La réforme de la facturation électronique peut sembler contraignante. Mais vue sous un autre angle, c'est une **occasion en or de remettre à plat votre organisation numérique** : votre site web, vos outils, vos processus administratifs. Les entreprises qui auront su anticiper gagneront du temps, réduiront leurs erreurs de saisie et amélioreront leur image professionnelle.
 
-À Nantes et en Loire-Atlantique, nombreux sont les artisans et petits restaurateurs qui ont déjà franchi le pas vers un site web professionnel intégré. Si vous souhaitez faire de même — et être prêt avant l'échéance de 2026 —, MadaDev vous accompagne de A à Z dans la conception de votre site vitrine ou e-commerce.
+À Nantes et en Loire-Atlantique, nombreux sont les artisans et petits restaurateurs qui ont déjà franchi le pas vers un site web professionnel intégré. Si vous souhaitez faire de même et être prêt avant l'échéance de 2026 —, MadaDev vous accompagne de A à Z dans la conception de votre site vitrine ou e-commerce.
 
-**[Demandez votre devis gratuit](/contact)** et parlons ensemble de vos besoins avant que le calendrier ne vous rattrape.
+**[Demandez votre devis gratuit](/#contact)** et parlons ensemble de vos besoins avant que le calendrier ne vous rattrape.
