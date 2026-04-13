@@ -80,4 +80,4 @@ L'e-commerce en France ne ralentit pas. Chaque seconde qui passe, des dizaines d
 
 Restaurateurs, artisans, créateurs nantais : 2026 est le bon moment pour franchir le pas, sans vous ruiner et sans vous perdre dans la technique. L'essentiel, c'est de commencer.
 
-**[Demandez votre devis gratuit](/contact)** et échangeons sur la solution e-commerce qui correspond vraiment à votre activité et à votre budget.
+**[Demandez votre devis gratuit](/#contact)** et échangeons sur la solution e-commerce qui correspond vraiment à votre activité et à votre budget.

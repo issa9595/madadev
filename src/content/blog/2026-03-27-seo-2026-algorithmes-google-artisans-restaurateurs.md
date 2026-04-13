@@ -73,4 +73,4 @@ Les mises à jour de mars 2026 ne sont pas une menace pour les artisans et resta
 
 Vous voulez savoir où en est votre site face aux nouvelles exigences de Google ? Nos experts analysent votre situation et vous proposent des solutions adaptées à votre budget et à votre secteur d'activité.
 
-[Demandez votre devis gratuit](/contact)
+[Demandez votre devis gratuit](/#contact)

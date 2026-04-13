@@ -94,4 +94,4 @@ La bonne nouvelle ? Il n'a jamais été aussi accessible, rapide et abordable de
 
 Ne laissez pas les 200 milliards d'euros du e-commerce français profiter uniquement aux grands groupes.
 
-**[Demandez votre devis gratuit](/contact)** et discutons ensemble de votre projet de boutique en ligne sans engagement, en toute simplicité.
+**[Demandez votre devis gratuit](/#contact)** et discutons ensemble de votre projet de boutique en ligne sans engagement, en toute simplicité.

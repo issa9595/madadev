@@ -57,7 +57,7 @@ export default function BlogPost() {
           />
 
           <div className="blog-post-footer">
-            <a href="/contact" className="btn btn-primary">Demandez votre devis gratuit</a>
+            <a href="/#contact" className="btn btn-primary">Demandez votre devis gratuit</a>
             <Link to="/blog" className="blog-back">← Tous les articles</Link>
           </div>
         </div>

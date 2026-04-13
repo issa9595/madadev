@@ -84,4 +84,4 @@ Les réseaux sociaux vous donnent de la visibilité et du lien avec votre commun
 
 Alors, prêt à poser les fondations numériques de votre activité à Nantes ?
 
-[Demandez votre devis gratuit](/contact)
+[Demandez votre devis gratuit](/#contact)
