@@ -77,4 +77,4 @@ L'IA est une révolution, c'est indéniable. Mais pour les artisans et restaurat
 
 Vous avez un projet de site web pour votre activité à Nantes ou en Loire-Atlantique ? Faites confiance à une agence qui vous connaît et qui connaît votre marché.
 
-**[Demandez votre devis gratuit](/contact)**
+[Demandez votre devis gratuit](/#contact)
