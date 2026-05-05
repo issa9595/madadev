@@ -1,7 +1,8 @@
 {
   "redirects": [
     { "source": "/home", "destination": "/", "permanent": true },
-    { "source": "/home/", "destination": "/", "permanent": true }
+    { "source": "/home/", "destination": "/", "permanent": true },
+    { "source": "/:path+/", "destination": "/:path+", "permanent": true }
   ],
   "headers": [
     {
