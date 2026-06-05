@@ -330,3 +330,10 @@
   1. `<a href="/#contact">` est un lien HTML natif → rechargement complet de page (pas une navigation React Router).
   2. Le composant `Contact` est lazy-loadé dans `Home.jsx` → il n'est pas encore dans le DOM au moment où le scroll est tenté.
 - Fix final : mécanisme de retry dans `ScrollToTop.jsx` (retry toutes les 100ms jusqu'à 20 fois = 2s max) pour attendre que l'élément `#contact` soit rendu dans le DOM avant de scroller. Sans hash : comportement inchangé (`window.scrollTo(0, 0)`).
+
+### 2026-06-05 - Ajout du tag Google Analytics (gtag.js)
+- Ajout du snippet officiel Google tag (gtag.js) avec l'ID de mesure `G-G82E3K5TB3` dans `index.html`.
+- Emplacement : dans le `<head>`, avant la déclaration du favicon (recommandation Google = le plus haut possible dans le `<head>`).
+- Le script externe `googletagmanager.com/gtag/js` est chargé en `async` pour ne pas bloquer le rendu.
+- Initialisation standard : `dataLayer`, fonction `gtag`, `gtag('js', new Date())` puis `gtag('config', 'G-G82E3K5TB3')`.
+- Objectif : activer le suivi Google Analytics 4 (GA4) sur l'ensemble des pages du site.
