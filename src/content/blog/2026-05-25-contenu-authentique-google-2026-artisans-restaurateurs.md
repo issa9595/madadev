@@ -73,4 +73,4 @@ C'est exactement ce que propose MadaDev : accompagner les TPE et artisans nantai
 
 Vous êtes artisan, restaurateur ou commerçant en Loire-Atlantique, et vous voulez transformer votre expertise et votre histoire en visibilité concrète sur Google ? C'est le bon moment pour agir, avant que vos concurrents ne s'y mettent.
 
-[Demandez votre devis gratuit](/contact)
+[Demandez votre devis gratuit](/#contact)

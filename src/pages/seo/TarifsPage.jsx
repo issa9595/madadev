@@ -78,7 +78,7 @@ export default function TarifsPage() {
     {
       id: 'vitrine',
       label: t('tarifsPage.plans.vitrine.label'),
-      price: { range: ['400€', '700€'] },
+      price: { range: ['300€', '700€'] },
       delay: t('tarifsPage.plans.vitrine.delay'),
       features: t('tarifsPage.plans.vitrine.features', { returnObjects: true }),
       excluded: t('tarifsPage.plans.vitrine.excluded', { returnObjects: true }),

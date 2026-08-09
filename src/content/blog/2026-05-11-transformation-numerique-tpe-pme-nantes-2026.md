@@ -65,4 +65,4 @@ La bonne nouvelle ? Il n'est pas trop tard. Mais il vaut mieux agir maintenant.
 
 Vous voulez savoir concrètement ce qu'un site web professionnel pourrait apporter à votre activité à Nantes ou en Loire-Atlantique ? Obtenez une première estimation sans engagement.
 
-**[Demandez votre devis gratuit](/contact)**
+**[Demandez votre devis gratuit](/#contact)**

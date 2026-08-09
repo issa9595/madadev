@@ -8,3 +8,4 @@ dist
 
 .claude
 .playwright-cli
+firebase-debug.log

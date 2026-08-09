@@ -95,4 +95,4 @@ Ne laissez pas une mise à jour d'algorithme décider de votre visibilité en li
 
 **Vous souhaitez un site web professionnel, conforme aux exigences de Google et adapté à votre métier ?**
 
-[Demandez votre devis gratuit](/contact)
+[Demandez votre devis gratuit](/#contact)

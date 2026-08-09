@@ -44,7 +44,7 @@ function Offer() {
               <p className="pricing-label">{t('offer.pricing.label')}</p>
               <p className="pricing-vitrine-label">{t('offer.pricing.labelVitrine')}</p>
               <p className="pricing-range">
-                <span className="pricing-from">400 €</span>
+                <span className="pricing-from">300 €</span>
                 <span className="pricing-sep">→</span>
                 <span className="pricing-to">700 €</span>
               </p>

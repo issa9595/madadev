@@ -74,4 +74,4 @@ Le web est encombré de contenus automatisés. Mais les clients cherchent toujou
 
 ---
 
-Vous souhaitez un site vitrine qui vous ressemble et qui se démarque dans les résultats de recherche locaux ? [Demandez votre devis gratuit](/contact) et discutons ensemble de votre projet.
+Vous souhaitez un site vitrine qui vous ressemble et qui se démarque dans les résultats de recherche locaux ? [Demandez votre devis gratuit](/#contact) et discutons ensemble de votre projet.

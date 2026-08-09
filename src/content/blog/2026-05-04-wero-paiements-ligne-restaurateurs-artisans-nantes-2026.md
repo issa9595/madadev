@@ -76,4 +76,4 @@ Au-delà de Wero, cette actualité rappelle une réalité plus large : avoir un 
 
 Vous êtes restaurateur, artisan ou commerçant en Loire-Atlantique et vous souhaitez moderniser votre site pour accueillir Wero et les paiements en ligne de demain ? Chez MadaDev, nous créons des sites web évolutifs, pensés pour votre métier et votre clientèle locale.
 
-[Demandez votre devis gratuit](/contact)
+[Demandez votre devis gratuit](/#contact)

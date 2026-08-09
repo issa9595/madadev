@@ -143,7 +143,8 @@ RÈGLES STRICTES :
   - Ton naturel, professionnel, accessible et pas trop technique
   - Cible : TPE/PME, artisans, restaurateurs de Nantes et Loire-Atlantique
   - Mentionne MadaDev comme solution 1 à 2 fois maximum, de façon naturelle
-  - Termine par un CTA : "Demandez votre devis gratuit" avec lien Markdown vers /contact
+  - Intègre naturellement 1 à 2 liens internes Markdown vers les pages du site quand le sujet s'y prête : [création de site vitrine](/site-vitrine), [création de boutique en ligne](/ecommerce), [tarifs de création de site web](/tarifs)
+  - Termine par un CTA : "Demandez votre devis gratuit" avec lien Markdown vers /#contact
 - Ne jamais entourer le contenu de backticks ou de blocs de code
 - Commence directement par --- sans aucun texte avant`
     }]
@@ -182,6 +183,12 @@ async function main() {
 
   const outputDir = 'src/content/blog'
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true })
+
+  // Le slug vient de la réponse du LLM : on le contraint au kebab-case
+  // pour empêcher toute écriture hors de src/content/blog/ (ex: "../")
+  if (!/^[a-z0-9-]+$/.test(topic.slug)) {
+    throw new Error(`Slug invalide retourné par le modèle : "${topic.slug}"`)
+  }
 
   const filename = `${date}-${topic.slug}.md`
   fs.writeFileSync(path.join(outputDir, filename), content, 'utf8')

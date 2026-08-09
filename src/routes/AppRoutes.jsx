@@ -1,26 +1,34 @@
-import { lazy } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import App from '../App'
+import { parseMd } from '../utils/parseMd'
 
-const Home = lazy(() => import('../pages/Home'))
-const SiteVitrinePage = lazy(() => import('../pages/seo/SiteVitrinePage'))
-const EcommercePage = lazy(() => import('../pages/seo/EcommercePage'))
-const NantesPage = lazy(() => import('../pages/seo/NantesPage'))
-const TarifsPage = lazy(() => import('../pages/seo/TarifsPage'))
-const Blog = lazy(() => import('../pages/Blog'))
-const BlogPost = lazy(() => import('../pages/BlogPost'))
-const NotFound = lazy(() => import('../pages/NotFound'))
+// Les slugs des articles sont connus au build : ils déterminent les pages
+// /blog/:slug à prérendre statiquement (getStaticPaths).
+const rawFiles = import.meta.glob('../content/blog/*.md', { eager: true, query: '?raw', import: 'default' })
+const blogPaths = Object.values(rawFiles)
+  .map(raw => parseMd(raw).data.slug)
+  .filter(Boolean)
+  .map(slug => `blog/${slug}`)
 
-export default function AppRoutes() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/site-vitrine" element={<SiteVitrinePage />} />
-      <Route path="/ecommerce" element={<EcommercePage />} />
-      <Route path="/nantes" element={<NantesPage />} />
-      <Route path="/tarifs" element={<TarifsPage />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<BlogPost />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-  )
-}
+// Chaque `lazy` reste une fonction inline : vite-react-ssg lit son code source
+// pour retrouver le chunk CSS associé à injecter dans le HTML prérendu.
+export const routes = [
+  {
+    path: '/',
+    element: <App />,
+    entry: 'src/App.jsx',
+    children: [
+      { index: true, lazy: async () => ({ Component: (await import('../pages/Home')).default }) },
+      { path: 'site-vitrine', lazy: async () => ({ Component: (await import('../pages/seo/SiteVitrinePage')).default }) },
+      { path: 'ecommerce', lazy: async () => ({ Component: (await import('../pages/seo/EcommercePage')).default }) },
+      { path: 'nantes', lazy: async () => ({ Component: (await import('../pages/seo/NantesPage')).default }) },
+      { path: 'tarifs', lazy: async () => ({ Component: (await import('../pages/seo/TarifsPage')).default }) },
+      { path: 'blog', lazy: async () => ({ Component: (await import('../pages/Blog')).default }) },
+      {
+        path: 'blog/:slug',
+        lazy: async () => ({ Component: (await import('../pages/BlogPost')).default }),
+        getStaticPaths: () => blogPaths,
+      },
+      { path: '*', lazy: async () => ({ Component: (await import('../pages/NotFound')).default }) },
+    ],
+  },
+]
