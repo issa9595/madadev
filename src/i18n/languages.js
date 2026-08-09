@@ -21,6 +21,9 @@ export const normalizeLanguageCode = locale => {
 }
 
 export const detectInitialLanguage = () => {
+  // Pendant le prérendu (Node), pas d'APIs navigateur : le HTML statique est en FR.
+  if (typeof window === 'undefined') return 'fr'
+
   const savedLanguage = localStorage.getItem('language')
   if (SUPPORTED_LANGUAGES.includes(savedLanguage)) return savedLanguage
 

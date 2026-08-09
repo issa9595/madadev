@@ -1,24 +1,25 @@
-import { Helmet } from 'react-helmet-async'
+import { Head } from 'vite-react-ssg'
 import { OG_IMAGE_URL, SITE_ORIGIN } from '../../config/seo'
 
 /**
  * Composant SEO unique source de vérité : injecte title, description, canonical,
- * Open Graph, Twitter Card et (optionnellement) JSON-LD via react-helmet-async.
+ * Open Graph, Twitter Card et (optionnellement) JSON-LD via le Head de vite-react-ssg,
+ * ce qui garantit leur présence dans le HTML prérendu au build.
  * Le `path` doit être une URL absolue à partir de la racine sans slash final
  * (ex: "/blog", "/site-vitrine"). Pour la home, passer path="" pour obtenir
  * https://mada-dev.com (sans slash final).
  */
-export default function SeoHead({ title, description, path, keywords, jsonLd, noindex = false, canonicalUrl }) {
+export default function SeoHead({ title, description, path, keywords, jsonLd, noindex = false, canonicalUrl, ogType = 'website' }) {
   const url = canonicalUrl || `${SITE_ORIGIN}${path}`
 
   return (
-    <Helmet htmlAttributes={{ lang: 'fr' }}>
+    <Head defer={false}>
       <title>{title}</title>
       <meta name="description" content={description} />
       {keywords ? <meta name="keywords" content={keywords} /> : null}
       <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
       <link rel="canonical" href={url} />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={ogType} />
       <meta property="og:url" content={url} />
       <meta property="og:site_name" content="MadaDev" />
       <meta property="og:title" content={title} />
@@ -34,6 +35,6 @@ export default function SeoHead({ title, description, path, keywords, jsonLd, no
       {jsonLd ? (
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       ) : null}
-    </Helmet>
+    </Head>
   )
 }

@@ -35,11 +35,11 @@ const resources = {
       },
       hero: {
         badge: 'Disponible pour de nouveaux projets',
-        titlePrefix: 'Je conçois des',
-        titleHighlight: 'expériences web',
-        titleSuffix: 'qui font la différence',
+        titlePrefix: 'Développeur web freelance à',
+        titleHighlight: 'Nantes',
+        titleSuffix: ': des sites qui font la différence',
         description:
-          "Développeur web freelance passionné, je transforme vos idées en applications modernes, performantes et accessibles. Du design à la mise en ligne, je m'occupe de tout.",
+          "Je crée des sites vitrine et boutiques en ligne pour les artisans, restaurateurs et TPE/PME de Nantes et de Loire-Atlantique. Du design à la mise en ligne, je m'occupe de tout.",
         primaryCta: 'Voir mes projets',
         secondaryCta: 'Discutons ensemble',
         stats: {
@@ -145,7 +145,7 @@ const resources = {
           label: 'Investissement',
           labelVitrine: 'Sites vitrine',
           note:
-            'Fourchette 400 à 700€ pour un site vitrine, selon la complexité. Tarif fixe convenu, sans surprise.',
+            'Fourchette 300 à 700€ pour un site vitrine, selon la complexité. Tarif fixe convenu, sans surprise.',
           ecommerceLine:
             'E-commerce sur mesure : à partir de 1500€, délai minimum 1 semaine (devis personnalisé).',
           details: [
@@ -326,7 +326,7 @@ const resources = {
           popularBadge: 'Populaire',
           thCustom: 'Sur mesure',
           rows: {
-            price: { label: 'Prix', vitrine: '400€ → 700€', ecommerce: 'À partir de 1500€', custom: 'Devis gratuit' },
+            price: { label: 'Prix', vitrine: '300€ → 700€', ecommerce: 'À partir de 1500€', custom: 'Devis gratuit' },
             delay: { label: 'Délai de livraison', vitrine: '24 à 48h', ecommerce: 'Min. 1 semaine', custom: 'Selon projet' },
             customDesign: 'Design sur mesure',
             mobileFirst: 'Mobile-first',
@@ -346,19 +346,19 @@ const resources = {
           items: [
             {
               q: 'Combien coûte un site vitrine ?',
-              a: "Les sites vitrine sont en général entre 400 € et 700 € selon la complexité, avec livraison en 24 à 48 h pour un projet standard. Le devis détaille le périmètre : design, développement, SEO de base, formulaire de contact et mise en ligne.",
+              a: "Les sites vitrine sont en général entre 300 € et 700 € selon la complexité, avec livraison en 24 à 48 h pour un projet standard. Le devis détaille le périmètre : design, développement, SEO de base, formulaire de contact et mise en ligne.",
             },
             {
               q: 'Combien coûte un site vitrine pour un artisan ou un restaurant ?',
-              a: "Pour un artisan (plombier, électricien, menuisier…) ou un restaurant, le tarif est le même : entre 400 et 700€ selon le contenu et le nombre de pages. Un devis gratuit et détaillé vous est envoyé sous 24h.",
+              a: "Pour un artisan (plombier, électricien, menuisier…) ou un restaurant, le tarif est le même : entre 300 et 700€ selon le contenu et le nombre de pages. Un devis gratuit et détaillé vous est envoyé sous 24h.",
             },
             {
               q: 'Combien coûte un site e-commerce ?',
               a: "Un site e-commerce sur mesure (Shopify ou Next.js, pas WooCommerce) démarre à 1500 € et peut monter selon le catalogue, les intégrations et les moyens de paiement (carte bancaire, Stripe, etc.). Comptez au minimum une semaine de délai. Devis gratuit avant engagement.",
             },
             {
-              q: 'Pourquoi une fourchette 400 à 700€ pour un site vitrine ?',
-              a: "400 € est le point d'entrée pour un site vitrine standard (quelques pages, design sur mesure, SEO de base). La fourchette monte si votre projet nécessite plus de pages, des fonctionnalités supplémentaires ou un contenu plus riche. Vous recevez toujours un devis détaillé gratuit avant de vous engager.",
+              q: 'Pourquoi une fourchette 300 à 700€ pour un site vitrine ?',
+              a: "300 € est le point d'entrée pour un site vitrine standard (quelques pages, design sur mesure, SEO de base). La fourchette monte si votre projet nécessite plus de pages, des fonctionnalités supplémentaires ou un contenu plus riche. Vous recevez toujours un devis détaillé gratuit avant de vous engager.",
             },
             {
               q: 'Y a-t-il des frais cachés ou récurrents ?',
@@ -381,7 +381,7 @@ const resources = {
         cta: {
           titleBefore: 'Prêt à démarrer votre ',
           titleHighlight: 'projet web',
-          sub: 'Devis gratuit sous 24h · Vitrine 400-700€ · E-commerce dès 1500€',
+          sub: 'Devis gratuit sous 24h · Vitrine 300-700€ · E-commerce dès 1500€',
           btn: 'Obtenir mon devis gratuit',
         },
       },
@@ -391,7 +391,7 @@ const resources = {
           title: 'Création de',
           titleHighlight: 'site vitrine',
           titleLine2: 'pour artisans, restaurants et TPE',
-          sub: 'Un site professionnel, rapide et visible sur Google livré en 24 à 48h, entre 400 et 700€. Pas de Wix, pas de template : du sur mesure.',
+          sub: 'Un site professionnel, rapide et visible sur Google livré en 24 à 48h, entre 300 et 700€. Pas de Wix, pas de template : du sur mesure.',
           ctaQuote: 'Demander un devis gratuit',
           ctaPortfolio: 'Voir les réalisations',
         },
@@ -435,7 +435,7 @@ const resources = {
             'Accompagnement pour la mise en ligne',
           ],
           pricingLabel: 'Site vitrine',
-          pricingPrice: '400€ → 700€',
+          pricingPrice: '300€ → 700€',
           pricingSub: 'Livraison 24 à 48h · Paiement à la fin',
           pricingFeatures: [
             'Livraison en 24 à 48h',
@@ -493,11 +493,11 @@ const resources = {
           items: [
             {
               q: 'Combien coûte un site vitrine pour un artisan ?',
-              a: "Pour un artisan (plombier, électricien, menuisier, peintre…), un site vitrine professionnel est entre 400 et 700€ selon le nombre de pages et le contenu. Livraison en 24 à 48h pour un projet standard. Devis gratuit sous 24h.",
+              a: "Pour un artisan (plombier, électricien, menuisier, peintre…), un site vitrine professionnel est entre 300 et 700€ selon le nombre de pages et le contenu. Livraison en 24 à 48h pour un projet standard. Devis gratuit sous 24h.",
             },
             {
               q: 'Combien coûte un site vitrine pour un restaurant ?',
-              a: "Un site vitrine pour un restaurant (menu en ligne, galerie, réservation) est dans la même fourchette : 400 à 700€. Si vous souhaitez un système de réservation en ligne intégré, cela peut être ajouté selon le besoin.",
+              a: "Un site vitrine pour un restaurant (menu en ligne, galerie, réservation) est dans la même fourchette : 300 à 700€. Si vous souhaitez un système de réservation en ligne intégré, cela peut être ajouté selon le besoin.",
             },
             {
               q: 'Est-ce que je peux modifier mon site après livraison ?',
@@ -520,7 +520,7 @@ const resources = {
         cta: {
           titleBefore: 'Prêt à créer votre ',
           titleHighlight: 'site vitrine',
-          sub: 'Devis gratuit sous 24h · Entre 400 et 700€ · Livraison 24 à 48h · Paiement après validation',
+          sub: 'Devis gratuit sous 24h · Entre 300 et 700€ · Livraison 24 à 48h · Paiement après validation',
           btn: 'Démarrer maintenant',
         },
       },
@@ -678,7 +678,7 @@ const resources = {
           badge: 'Basé à Nantes · Disponible partout en France',
           title: 'Développeur web freelance',
           titleHighlight: 'à Nantes',
-          sub: 'Vous cherchez un développeur web freelance à Nantes ? Sites vitrine 400 à 700€ livrés en 24 à 48h ; e-commerce sur mesure dès 1500€, délai minimum une semaine. Applications web sur devis.',
+          sub: 'Vous cherchez un développeur web freelance à Nantes ? Sites vitrine 300 à 700€ livrés en 24 à 48h ; e-commerce sur mesure dès 1500€, délai minimum une semaine. Applications web sur devis.',
           ctaQuote: 'Demander un devis gratuit',
           ctaTarifs: 'Voir les tarifs',
           statsProjects: '+30',
@@ -718,7 +718,7 @@ const resources = {
           ],
           contactLocation: 'Nantes, Pays de la Loire remote France entière',
           contactAvailability: 'Disponible maintenant · Réponse sous 24h',
-          contactTarifs: 'Vitrine 400-700€ · E-commerce dès 1500€',
+          contactTarifs: 'Vitrine 300-700€ · E-commerce dès 1500€',
           contactCta: 'Envoyer un message',
         },
         services: {
@@ -727,7 +727,7 @@ const resources = {
           vitrine: {
             title: 'Site vitrine professionnel',
             description: 'Pour artisans, restaurants, TPE design moderne, SEO, mobile-first. Livré en 24-48h.',
-            price: '400€ → 700€',
+            price: '300€ → 700€',
           },
           ecommerce: {
             title: 'Site e-commerce',
@@ -778,11 +778,11 @@ const resources = {
             },
             {
               q: 'Combien coûte un site web à Nantes ?',
-              a: "Un site vitrine professionnel à Nantes est entre 400 et 700€, livré en 24 à 48h. Une boutique en ligne démarre à 1500€, avec un délai minimum d'une semaine. Devis gratuit sous 24h.",
+              a: "Un site vitrine professionnel à Nantes est entre 300 et 700€, livré en 24 à 48h. Une boutique en ligne démarre à 1500€, avec un délai minimum d'une semaine. Devis gratuit sous 24h.",
             },
             {
               q: 'Je suis artisan à Nantes est-ce que vous faites des sites pour les artisans ?',
-              a: "Absolument. Je crée régulièrement des sites vitrine pour des artisans nantais : plombiers, électriciens, menuisiers, peintres, maçons… Un site entre 400 et 700€ qui génère des demandes de devis directement.",
+              a: "Absolument. Je crée régulièrement des sites vitrine pour des artisans nantais : plombiers, électriciens, menuisiers, peintres, maçons… Un site entre 300 et 700€ qui génère des demandes de devis directement.",
             },
             {
               q: 'Quelle est la différence entre vous et une agence web à Nantes ?',
@@ -793,7 +793,7 @@ const resources = {
         cta: {
           titleBefore: 'Demander un ',
           titleHighlight: 'devis gratuit',
-          sub: 'Réponse sous 24h · Vitrine 400-700€ (24-48h) · E-commerce dès 1500€ · Paiement après validation',
+          sub: 'Réponse sous 24h · Vitrine 300-700€ (24-48h) · E-commerce dès 1500€ · Paiement après validation',
           btn: 'Démarrer mon projet',
         },
       },
@@ -921,7 +921,7 @@ resources.en = {
       pricing: {
         label: 'Investment',
         labelVitrine: 'Showcase websites',
-        note: '€400 to €700 range for a showcase site, depending on complexity. Agreed fixed price, no surprises.',
+        note: '€300 to €700 range for a showcase site, depending on complexity. Agreed fixed price, no surprises.',
         ecommerceLine: 'Custom e-commerce: from €1,500, minimum one-week timeline (custom quote).',
         details: [
           'Delivery in 24 to 48h for a standard showcase site',
@@ -1053,7 +1053,7 @@ resources.en = {
         popularBadge: 'Popular',
         thCustom: 'Custom',
         rows: {
-          price: { label: 'Price', vitrine: '€400 → €700', ecommerce: 'From €1,500', custom: 'Free quote' },
+          price: { label: 'Price', vitrine: '€300 → €700', ecommerce: 'From €1,500', custom: 'Free quote' },
           delay: { label: 'Delivery time', vitrine: '24 to 48h', ecommerce: 'Min. 1 week', custom: 'Per project' },
           customDesign: 'Custom design',
           mobileFirst: 'Mobile-first',
@@ -1073,19 +1073,19 @@ resources.en = {
         items: [
           {
             q: 'How much does a showcase website cost?',
-            a: 'Showcase websites generally range between €400 and €700 depending on complexity, with delivery in 24 to 48 hours for a standard project. The quote details the scope: design, development, basic SEO, contact form, and go-live support.',
+            a: 'Showcase websites generally range between €300 and €700 depending on complexity, with delivery in 24 to 48 hours for a standard project. The quote details the scope: design, development, basic SEO, contact form, and go-live support.',
           },
           {
             q: 'How much does a showcase site cost for a tradesperson or restaurant?',
-            a: 'For a tradesperson (plumber, electrician, carpenter…) or a restaurant, the price is the same: between €400 and €700 depending on content and the number of pages. A free, detailed quote is sent within 24 hours.',
+            a: 'For a tradesperson (plumber, electrician, carpenter…) or a restaurant, the price is the same: between €300 and €700 depending on content and the number of pages. A free, detailed quote is sent within 24 hours.',
           },
           {
             q: 'How much does an e-commerce website cost?',
             a: 'A custom e-commerce site (Shopify or Next.js, no WooCommerce) starts at €1,500 and can go up depending on the catalogue, integrations, and payment methods (credit card, Stripe, etc.). Allow a minimum of one week. Free quote before any commitment.',
           },
           {
-            q: 'Why a range of €400 to €700 for a showcase site?',
-            a: '€400 is the entry point for a standard showcase site (a few pages, custom design, basic SEO). The range goes up if your project requires more pages, additional features, or richer content. You always receive a free, detailed quote before committing.',
+            q: 'Why a range of €300 to €700 for a showcase site?',
+            a: '€300 is the entry point for a standard showcase site (a few pages, custom design, basic SEO). The range goes up if your project requires more pages, additional features, or richer content. You always receive a free, detailed quote before committing.',
           },
           {
             q: 'Are there any hidden or recurring fees?',
@@ -1108,7 +1108,7 @@ resources.en = {
       cta: {
         titleBefore: 'Ready to start your ',
         titleHighlight: 'web project',
-        sub: 'Free quote within 24h · Showcase €400-€700 · E-commerce from €1,500',
+        sub: 'Free quote within 24h · Showcase €300-€700 · E-commerce from €1,500',
         btn: 'Get my free quote',
       },
     },
@@ -1118,7 +1118,7 @@ resources.en = {
         title: 'Creating a',
         titleHighlight: 'showcase website',
         titleLine2: 'for tradespeople, restaurants and small businesses',
-        sub: 'A professional, fast website visible on Google, delivered in 24 to 48h, between €400 and €700. No Wix, no template: fully custom.',
+        sub: 'A professional, fast website visible on Google, delivered in 24 to 48h, between €300 and €700. No Wix, no template: fully custom.',
         ctaQuote: 'Get a free quote',
         ctaPortfolio: 'View our work',
       },
@@ -1162,7 +1162,7 @@ resources.en = {
           'Go-live support',
         ],
         pricingLabel: 'Showcase website',
-        pricingPrice: '€400 → €700',
+        pricingPrice: '€300 → €700',
         pricingSub: 'Delivered in 24-48h · Pay at the end',
         pricingFeatures: [
           'Delivered in 24 to 48h',
@@ -1220,11 +1220,11 @@ resources.en = {
         items: [
           {
             q: 'How much does a showcase website cost for a tradesperson?',
-            a: 'For a tradesperson (plumber, electrician, carpenter, painter…), a professional showcase website costs between €400 and €700 depending on the number of pages and content. Delivered in 24 to 48h for a standard project. Free quote within 24h.',
+            a: 'For a tradesperson (plumber, electrician, carpenter, painter…), a professional showcase website costs between €300 and €700 depending on the number of pages and content. Delivered in 24 to 48h for a standard project. Free quote within 24h.',
           },
           {
             q: 'How much does a showcase website cost for a restaurant?',
-            a: 'A showcase website for a restaurant (online menu, gallery, reservations) falls in the same range: €400 to €700. If you want an integrated online booking system, it can be added based on your needs.',
+            a: 'A showcase website for a restaurant (online menu, gallery, reservations) falls in the same range: €300 to €700. If you want an integrated online booking system, it can be added based on your needs.',
           },
           {
             q: 'Can I make changes to my site after delivery?',
@@ -1247,7 +1247,7 @@ resources.en = {
       cta: {
         titleBefore: 'Ready to create your ',
         titleHighlight: 'showcase website',
-        sub: 'Free quote within 24h · Between €400 and €700 · Delivered in 24-48h · Pay after approval',
+        sub: 'Free quote within 24h · Between €300 and €700 · Delivered in 24-48h · Pay after approval',
         btn: 'Get started now',
       },
     },
@@ -1405,7 +1405,7 @@ resources.en = {
         badge: 'Based in Nantes · Available throughout France',
         title: 'Freelance web developer',
         titleHighlight: 'in Nantes',
-        sub: 'Looking for a freelance web developer in Nantes? Showcase sites €400–€700, delivered in 24 to 48h; custom e-commerce from €1,500, minimum one week. Web applications on quote.',
+        sub: 'Looking for a freelance web developer in Nantes? Showcase sites €300–€700, delivered in 24 to 48h; custom e-commerce from €1,500, minimum one week. Web applications on quote.',
         ctaQuote: 'Request a free quote',
         ctaTarifs: 'View pricing',
         statsProjects: '+30',
@@ -1445,7 +1445,7 @@ resources.en = {
         ],
         contactLocation: 'Nantes, Pays de la Loire remote, all of France',
         contactAvailability: 'Available now · Reply within 24h',
-        contactTarifs: 'Showcase €400–€700 · E-commerce from €1,500',
+        contactTarifs: 'Showcase €300–€700 · E-commerce from €1,500',
         contactCta: 'Send a message',
       },
       services: {
@@ -1454,7 +1454,7 @@ resources.en = {
         vitrine: {
           title: 'Professional showcase site',
           description: 'For tradespeople, restaurants, small businesses modern design, SEO, mobile-first. Delivered in 24–48h.',
-          price: '€400 → €700',
+          price: '€300 → €700',
         },
         ecommerce: {
           title: 'E-commerce site',
@@ -1505,11 +1505,11 @@ resources.en = {
           },
           {
             q: 'How much does a website cost in Nantes?',
-            a: 'A professional showcase site in Nantes ranges from €400 to €700, delivered in 24 to 48h. An online store starts at €1,500 with a minimum timeline of one week. Free quote within 24h.',
+            a: 'A professional showcase site in Nantes ranges from €300 to €700, delivered in 24 to 48h. An online store starts at €1,500 with a minimum timeline of one week. Free quote within 24h.',
           },
           {
             q: 'I am a tradesperson in Nantes do you build sites for tradespeople?',
-            a: 'Absolutely. I regularly create showcase sites for Nantes tradespeople: plumbers, electricians, carpenters, painters, masons… A site between €400 and €700 that generates quote requests directly.',
+            a: 'Absolutely. I regularly create showcase sites for Nantes tradespeople: plumbers, electricians, carpenters, painters, masons… A site between €300 and €700 that generates quote requests directly.',
           },
           {
             q: 'What is the difference between you and a web agency in Nantes?',
@@ -1520,7 +1520,7 @@ resources.en = {
       cta: {
         titleBefore: 'Request a ',
         titleHighlight: 'free quote',
-        sub: 'Reply within 24h · Showcase €400–€700 (24–48h) · E-commerce from €1,500 · Payment after approval',
+        sub: 'Reply within 24h · Showcase €300–€700 (24–48h) · E-commerce from €1,500 · Payment after approval',
         btn: 'Start my project',
       },
     },
@@ -1677,7 +1677,7 @@ resources.es = {
         label: 'Inversión',
         labelVitrine: 'Sitios vitrina',
         note:
-          'Entre 400 y 700€ para un sitio vitrina, según complejidad. Precio fijo acordado, sin sorpresas.',
+          'Entre 300 y 700€ para un sitio vitrina, según complejidad. Precio fijo acordado, sin sorpresas.',
         ecommerceLine:
           'E-commerce a medida: desde 1500€, plazo mínimo 1 semana (presupuesto personalizado).',
         details: [
@@ -1858,7 +1858,7 @@ resources.es = {
         popularBadge: 'Popular',
         thCustom: 'A medida',
         rows: {
-          price: { label: 'Precio', vitrine: '400€ → 700€', ecommerce: 'Desde 1500€', custom: 'Presupuesto gratuito' },
+          price: { label: 'Precio', vitrine: '300€ → 700€', ecommerce: 'Desde 1500€', custom: 'Presupuesto gratuito' },
           delay: { label: 'Plazo de entrega', vitrine: '24 a 48h', ecommerce: 'Mín. 1 semana', custom: 'Según proyecto' },
           customDesign: 'Diseño a medida',
           mobileFirst: 'Mobile-first',
@@ -1878,19 +1878,19 @@ resources.es = {
         items: [
           {
             q: '¿Cuánto cuesta un sitio corporativo?',
-            a: 'Los sitios corporativos están generalmente entre 400€ y 700€ según la complejidad, con entrega en 24 a 48 horas para un proyecto estándar. El presupuesto detalla el alcance: diseño, desarrollo, SEO básico, formulario de contacto y puesta en línea.',
+            a: 'Los sitios corporativos están generalmente entre 300€ y 700€ según la complejidad, con entrega en 24 a 48 horas para un proyecto estándar. El presupuesto detalla el alcance: diseño, desarrollo, SEO básico, formulario de contacto y puesta en línea.',
           },
           {
             q: '¿Cuánto cuesta un sitio corporativo para un artesano o un restaurante?',
-            a: 'Para un artesano (fontanero, electricista, carpintero…) o un restaurante, el precio es el mismo: entre 400 y 700€ según el contenido y el número de páginas. Se envía un presupuesto gratuito y detallado en 24 horas.',
+            a: 'Para un artesano (fontanero, electricista, carpintero…) o un restaurante, el precio es el mismo: entre 300 y 700€ según el contenido y el número de páginas. Se envía un presupuesto gratuito y detallado en 24 horas.',
           },
           {
             q: '¿Cuánto cuesta un sitio e-commerce?',
             a: 'Un sitio e-commerce a medida (Shopify o Next.js, sin WooCommerce) comienza desde 1500€ y puede subir según el catálogo, las integraciones y los métodos de pago (tarjeta bancaria, Stripe, etc.). Cuenta con un mínimo de una semana de plazo. Presupuesto gratuito antes de cualquier compromiso.',
           },
           {
-            q: '¿Por qué una horquilla de 400 a 700€ para un sitio corporativo?',
-            a: '400€ es el punto de entrada para un sitio corporativo estándar (pocas páginas, diseño a medida, SEO básico). La horquilla sube si tu proyecto necesita más páginas, funcionalidades adicionales o un contenido más rico. Siempre recibes un presupuesto gratuito y detallado antes de comprometerte.',
+            q: '¿Por qué una horquilla de 300 a 700€ para un sitio corporativo?',
+            a: '300€ es el punto de entrada para un sitio corporativo estándar (pocas páginas, diseño a medida, SEO básico). La horquilla sube si tu proyecto necesita más páginas, funcionalidades adicionales o un contenido más rico. Siempre recibes un presupuesto gratuito y detallado antes de comprometerte.',
           },
           {
             q: '¿Hay tarifas ocultas o recurrentes?',
@@ -1913,7 +1913,7 @@ resources.es = {
       cta: {
         titleBefore: 'Listo para empezar tu ',
         titleHighlight: 'proyecto web',
-        sub: 'Presupuesto gratuito en 24h · Corporativo 400-700€ · E-commerce desde 1500€',
+        sub: 'Presupuesto gratuito en 24h · Corporativo 300-700€ · E-commerce desde 1500€',
         btn: 'Obtener mi presupuesto gratuito',
       },
     },
@@ -1923,7 +1923,7 @@ resources.es = {
         title: 'Creación de',
         titleHighlight: 'sitio corporativo',
         titleLine2: 'para artesanos, restaurantes y pymes',
-        sub: 'Un sitio profesional, rápido y visible en Google, entregado en 24 a 48h, entre 400 y 700€. Sin Wix, sin plantillas: totalmente a medida.',
+        sub: 'Un sitio profesional, rápido y visible en Google, entregado en 24 a 48h, entre 300 y 700€. Sin Wix, sin plantillas: totalmente a medida.',
         ctaQuote: 'Pedir un presupuesto gratuito',
         ctaPortfolio: 'Ver las realizaciones',
       },
@@ -1967,7 +1967,7 @@ resources.es = {
           'Acompañamiento en la puesta en línea',
         ],
         pricingLabel: 'Sitio corporativo',
-        pricingPrice: '400€ → 700€',
+        pricingPrice: '300€ → 700€',
         pricingSub: 'Entrega 24 a 48h · Pago al final',
         pricingFeatures: [
           'Entrega en 24 a 48h',
@@ -2025,11 +2025,11 @@ resources.es = {
         items: [
           {
             q: '¿Cuánto cuesta un sitio corporativo para un artesano?',
-            a: 'Para un artesano (fontanero, electricista, carpintero, pintor…), un sitio corporativo profesional cuesta entre 400 y 700€ según el número de páginas y el contenido. Entrega en 24 a 48h para un proyecto estándar. Presupuesto gratuito en 24h.',
+            a: 'Para un artesano (fontanero, electricista, carpintero, pintor…), un sitio corporativo profesional cuesta entre 300 y 700€ según el número de páginas y el contenido. Entrega en 24 a 48h para un proyecto estándar. Presupuesto gratuito en 24h.',
           },
           {
             q: '¿Cuánto cuesta un sitio corporativo para un restaurante?',
-            a: 'Un sitio corporativo para un restaurante (carta en línea, galería, reservas) está en la misma horquilla: 400 a 700€. Si deseas un sistema de reservas en línea integrado, se puede añadir según la necesidad.',
+            a: 'Un sitio corporativo para un restaurante (carta en línea, galería, reservas) está en la misma horquilla: 300 a 700€. Si deseas un sistema de reservas en línea integrado, se puede añadir según la necesidad.',
           },
           {
             q: '¿Puedo modificar mi sitio después de la entrega?',
@@ -2052,7 +2052,7 @@ resources.es = {
       cta: {
         titleBefore: 'Listo para crear tu ',
         titleHighlight: 'sitio corporativo',
-        sub: 'Presupuesto gratuito en 24h · Entre 400 y 700€ · Entrega 24 a 48h · Pago tras la validación',
+        sub: 'Presupuesto gratuito en 24h · Entre 300 y 700€ · Entrega 24 a 48h · Pago tras la validación',
         btn: 'Empezar ahora',
       },
     },
@@ -2210,7 +2210,7 @@ resources.es = {
         badge: 'Basado en Nantes · Disponible en toda Francia',
         title: 'Desarrollador web freelance',
         titleHighlight: 'en Nantes',
-        sub: '¿Buscas un desarrollador web freelance en Nantes? Sitios corporativos 400-700€ entregados en 24-48h; e-commerce a medida desde 1500€, mínimo una semana. Aplicaciones web con presupuesto.',
+        sub: '¿Buscas un desarrollador web freelance en Nantes? Sitios corporativos 300-700€ entregados en 24-48h; e-commerce a medida desde 1500€, mínimo una semana. Aplicaciones web con presupuesto.',
         ctaQuote: 'Pedir un presupuesto gratuito',
         ctaTarifs: 'Ver tarifas',
         statsProjects: '+30',
@@ -2250,7 +2250,7 @@ resources.es = {
         ],
         contactLocation: 'Nantes, Pays de la Loire remoto, toda Francia',
         contactAvailability: 'Disponible ahora · Respuesta en 24h',
-        contactTarifs: 'Corporativo 400-700€ · E-commerce desde 1500€',
+        contactTarifs: 'Corporativo 300-700€ · E-commerce desde 1500€',
         contactCta: 'Enviar un mensaje',
       },
       services: {
@@ -2259,7 +2259,7 @@ resources.es = {
         vitrine: {
           title: 'Sitio corporativo profesional',
           description: 'Para artesanos, restaurantes, pymes diseño moderno, SEO, mobile-first. Entregado en 24-48h.',
-          price: '400€ → 700€',
+          price: '300€ → 700€',
         },
         ecommerce: {
           title: 'Sitio e-commerce',
@@ -2310,11 +2310,11 @@ resources.es = {
           },
           {
             q: '¿Cuánto cuesta un sitio web en Nantes?',
-            a: 'Un sitio corporativo profesional en Nantes cuesta entre 400 y 700€, entregado en 24-48h. Una tienda online empieza en 1500€, con un plazo mínimo de una semana. Presupuesto gratuito en 24h.',
+            a: 'Un sitio corporativo profesional en Nantes cuesta entre 300 y 700€, entregado en 24-48h. Una tienda online empieza en 1500€, con un plazo mínimo de una semana. Presupuesto gratuito en 24h.',
           },
           {
             q: 'Soy artesano en Nantes ¿haces sitios para artesanos?',
-            a: 'Absolutamente. Creo regularmente sitios corporativos para artesanos de Nantes: fontaneros, electricistas, carpinteros, pintores, albañiles… Un sitio entre 400 y 700€ que genera solicitudes de presupuesto directamente.',
+            a: 'Absolutamente. Creo regularmente sitios corporativos para artesanos de Nantes: fontaneros, electricistas, carpinteros, pintores, albañiles… Un sitio entre 300 y 700€ que genera solicitudes de presupuesto directamente.',
           },
           {
             q: '¿Cuál es la diferencia entre tú y una agencia web en Nantes?',
@@ -2325,7 +2325,7 @@ resources.es = {
       cta: {
         titleBefore: 'Pedir un ',
         titleHighlight: 'presupuesto gratuito',
-        sub: 'Respuesta en 24h · Corporativo 400-700€ (24-48h) · E-commerce desde 1500€ · Pago tras la validación',
+        sub: 'Respuesta en 24h · Corporativo 300-700€ (24-48h) · E-commerce desde 1500€ · Pago tras la validación',
         btn: 'Empezar mi proyecto',
       },
     },
@@ -2487,7 +2487,7 @@ resources.ru = {
         label: 'Инвестиции',
         labelVitrine: 'Сайты-визитки',
         note:
-          'Ориентир 400-700€ для сайта-визитки в зависимости от сложности. Фиксированная договорённая цена.',
+          'Ориентир 300-700€ для сайта-визитки в зависимости от сложности. Фиксированная договорённая цена.',
         ecommerceLine:
           'Интернет-магазин на заказ: от 1500€, минимум 1 неделя (индивидуальный расчёт).',
         details: [
@@ -2666,7 +2666,7 @@ resources.ru = {
         popularBadge: 'Популярный',
         thCustom: 'Под заказ',
         rows: {
-          price: { label: 'Цена', vitrine: '400€ → 700€', ecommerce: 'От 1500€', custom: 'Бесплатный расчёт' },
+          price: { label: 'Цена', vitrine: '300€ → 700€', ecommerce: 'От 1500€', custom: 'Бесплатный расчёт' },
           delay: { label: 'Срок сдачи', vitrine: '24-48 ч', ecommerce: 'Мин. 1 неделя', custom: 'По проекту' },
           customDesign: 'Дизайн под заказ',
           mobileFirst: 'Mobile-first',
@@ -2686,19 +2686,19 @@ resources.ru = {
         items: [
           {
             q: 'Сколько стоит сайт-визитка?',
-            a: 'Сайты-визитки обычно стоят от 400€ до 700€ в зависимости от сложности, со сдачей за 24-48 часов для стандартного проекта. В расчёт входит: дизайн, разработка, базовое SEO, форма обратной связи и помощь с запуском.',
+            a: 'Сайты-визитки обычно стоят от 300€ до 700€ в зависимости от сложности, со сдачей за 24-48 часов для стандартного проекта. В расчёт входит: дизайн, разработка, базовое SEO, форма обратной связи и помощь с запуском.',
           },
           {
             q: 'Сколько стоит сайт-визитка для ремесленника или ресторана?',
-            a: 'Для ремесленника (сантехник, электрик, столяр…) или ресторана цена та же: от 400 до 700€ в зависимости от содержания и числа страниц. Бесплатный подробный расчёт в течение 24 часов.',
+            a: 'Для ремесленника (сантехник, электрик, столяр…) или ресторана цена та же: от 300 до 700€ в зависимости от содержания и числа страниц. Бесплатный подробный расчёт в течение 24 часов.',
           },
           {
             q: 'Сколько стоит интернет-магазин?',
             a: 'Интернет-магазин под заказ (Shopify или Next.js, без WooCommerce) начинается от 1500€ и может быть выше в зависимости от каталога, интеграций и способов оплаты (карта, Stripe и т.д.). Минимальный срок одна неделя. Бесплатный расчёт до любых обязательств.',
           },
           {
-            q: 'Почему диапазон от 400 до 700€ для сайта-визитки?',
-            a: '400€ это отправная точка для стандартного сайта-визитки (несколько страниц, дизайн под заказ, базовое SEO). Цена выше, если проект требует больше страниц, дополнительных функций или богатого контента. Вы всегда получаете бесплатный подробный расчёт до принятия решения.',
+            q: 'Почему диапазон от 300 до 700€ для сайта-визитки?',
+            a: '300€ это отправная точка для стандартного сайта-визитки (несколько страниц, дизайн под заказ, базовое SEO). Цена выше, если проект требует больше страниц, дополнительных функций или богатого контента. Вы всегда получаете бесплатный подробный расчёт до принятия решения.',
           },
           {
             q: 'Есть ли скрытые или регулярные платежи?',
@@ -2721,7 +2721,7 @@ resources.ru = {
       cta: {
         titleBefore: 'Готовы начать ваш ',
         titleHighlight: 'веб-проект',
-        sub: 'Бесплатный расчёт за 24 ч · Визитка 400-700€ · Интернет-магазин от 1500€',
+        sub: 'Бесплатный расчёт за 24 ч · Визитка 300-700€ · Интернет-магазин от 1500€',
         btn: 'Получить бесплатный расчёт',
       },
     },
@@ -2731,7 +2731,7 @@ resources.ru = {
         title: 'Создание',
         titleHighlight: 'сайта-визитки',
         titleLine2: 'для ремесленников, ресторанов и малого бизнеса',
-        sub: 'Профессиональный, быстрый сайт, видимый в Google за 24-48 часов, от 400 до 700€. Без Wix, без шаблонов: полностью под заказ.',
+        sub: 'Профессиональный, быстрый сайт, видимый в Google за 24-48 часов, от 300 до 700€. Без Wix, без шаблонов: полностью под заказ.',
         ctaQuote: 'Запросить бесплатный расчёт',
         ctaPortfolio: 'Посмотреть работы',
       },
@@ -2775,7 +2775,7 @@ resources.ru = {
           'Помощь с запуском',
         ],
         pricingLabel: 'Сайт-визитка',
-        pricingPrice: '400€ → 700€',
+        pricingPrice: '300€ → 700€',
         pricingSub: 'Сдача за 24-48 ч · Оплата по завершении',
         pricingFeatures: [
           'Сдача за 24-48 ч',
@@ -2833,11 +2833,11 @@ resources.ru = {
         items: [
           {
             q: 'Сколько стоит сайт-визитка для ремесленника?',
-            a: 'Для ремесленника (сантехник, электрик, столяр, маляр…) профессиональный сайт-визитка стоит от 400 до 700€ в зависимости от числа страниц и контента. Сдача за 24-48 ч для стандартного проекта. Бесплатный расчёт в течение 24 ч.',
+            a: 'Для ремесленника (сантехник, электрик, столяр, маляр…) профессиональный сайт-визитка стоит от 300 до 700€ в зависимости от числа страниц и контента. Сдача за 24-48 ч для стандартного проекта. Бесплатный расчёт в течение 24 ч.',
           },
           {
             q: 'Сколько стоит сайт-визитка для ресторана?',
-            a: 'Сайт-визитка для ресторана (онлайн-меню, галерея, бронирование) в том же диапазоне: 400-700€. Если нужна интегрированная система онлайн-бронирования, её можно добавить по необходимости.',
+            a: 'Сайт-визитка для ресторана (онлайн-меню, галерея, бронирование) в том же диапазоне: 300-700€. Если нужна интегрированная система онлайн-бронирования, её можно добавить по необходимости.',
           },
           {
             q: 'Можно ли изменить сайт после сдачи?',
@@ -2860,7 +2860,7 @@ resources.ru = {
       cta: {
         titleBefore: 'Готовы создать',
         titleHighlight: 'сайт-визитку',
-        sub: 'Бесплатный расчёт за 24 ч · От 400 до 700€ · Сдача за 24-48 ч · Оплата после утверждения',
+        sub: 'Бесплатный расчёт за 24 ч · От 300 до 700€ · Сдача за 24-48 ч · Оплата после утверждения',
         btn: 'Начать сейчас',
       },
     },
@@ -3018,7 +3018,7 @@ resources.ru = {
         badge: 'Нахожусь в Нанте · Работаю по всей Франции',
         title: 'Веб-разработчик фрилансер',
         titleHighlight: 'в Нанте',
-        sub: 'Ищете веб-разработчика фрилансера в Нанте? Сайты-визитки 400–700€, сдача за 24–48 ч; e-commerce под заказ от 1500€, минимум одна неделя. Веб-приложения по запросу.',
+        sub: 'Ищете веб-разработчика фрилансера в Нанте? Сайты-визитки 300–700€, сдача за 24–48 ч; e-commerce под заказ от 1500€, минимум одна неделя. Веб-приложения по запросу.',
         ctaQuote: 'Запросить бесплатный расчёт',
         ctaTarifs: 'Посмотреть тарифы',
         statsProjects: '+30',
@@ -3058,7 +3058,7 @@ resources.ru = {
         ],
         contactLocation: 'Нант, Пэи-де-ла-Луар удалённо по всей Франции',
         contactAvailability: 'Доступен сейчас · Ответ в течение 24 ч',
-        contactTarifs: 'Визитка 400–700€ · E-commerce от 1500€',
+        contactTarifs: 'Визитка 300–700€ · E-commerce от 1500€',
         contactCta: 'Написать сообщение',
       },
       services: {
@@ -3067,7 +3067,7 @@ resources.ru = {
         vitrine: {
           title: 'Профессиональный сайт-визитка',
           description: 'Для ремесленников, ресторанов, малого бизнеса современный дизайн, SEO, mobile-first. Сдача за 24–48 ч.',
-          price: '400€ → 700€',
+          price: '300€ → 700€',
         },
         ecommerce: {
           title: 'Интернет-магазин',
@@ -3118,11 +3118,11 @@ resources.ru = {
           },
           {
             q: 'Сколько стоит сайт в Нанте?',
-            a: 'Профессиональный сайт-визитка в Нанте стоит от 400 до 700€, сдача за 24–48 ч. Интернет-магазин начинается от 1500€, срок минимум одна неделя. Бесплатный расчёт в течение 24 ч.',
+            a: 'Профессиональный сайт-визитка в Нанте стоит от 300 до 700€, сдача за 24–48 ч. Интернет-магазин начинается от 1500€, срок минимум одна неделя. Бесплатный расчёт в течение 24 ч.',
           },
           {
             q: 'Я ремесленник в Нанте вы делаете сайты для ремесленников?',
-            a: 'Безусловно. Я регулярно создаю сайты-визитки для ремесленников Нанта: сантехников, электриков, столяров, маляров, каменщиков… Сайт за 400–700€, который сразу генерирует заявки на расчёт.',
+            a: 'Безусловно. Я регулярно создаю сайты-визитки для ремесленников Нанта: сантехников, электриков, столяров, маляров, каменщиков… Сайт за 300–700€, который сразу генерирует заявки на расчёт.',
           },
           {
             q: 'В чём отличие от веб-агентства в Нанте?',
@@ -3133,7 +3133,7 @@ resources.ru = {
       cta: {
         titleBefore: 'Запросить ',
         titleHighlight: 'бесплатный расчёт',
-        sub: 'Ответ в течение 24 ч · Визитка 400–700€ (24–48 ч) · E-commerce от 1500€ · Оплата после утверждения',
+        sub: 'Ответ в течение 24 ч · Визитка 300–700€ (24–48 ч) · E-commerce от 1500€ · Оплата после утверждения',
         btn: 'Начать проект',
       },
     },
@@ -3289,7 +3289,7 @@ resources.de = {
         label: 'Investition',
         labelVitrine: 'Showcase-Websites',
         note:
-          '400-700 € für eine Showcase-Website, je nach Komplexität. Fester vereinbarter Preis.',
+          '300-700 € für eine Showcase-Website, je nach Komplexität. Fester vereinbarter Preis.',
         ecommerceLine:
           'E-Commerce nach Maß: ab 1500 €, mindestens 1 Woche Lieferzeit (individuelles Angebot).',
         details: [
@@ -3469,7 +3469,7 @@ resources.de = {
         popularBadge: 'Beliebt',
         thCustom: 'Individuell',
         rows: {
-          price: { label: 'Preis', vitrine: '400€ → 700€', ecommerce: 'Ab 1500€', custom: 'Kostenloses Angebot' },
+          price: { label: 'Preis', vitrine: '300€ → 700€', ecommerce: 'Ab 1500€', custom: 'Kostenloses Angebot' },
           delay: { label: 'Lieferzeit', vitrine: '24 bis 48 h', ecommerce: 'Min. 1 Woche', custom: 'Je nach Projekt' },
           customDesign: 'Individuelles Design',
           mobileFirst: 'Mobile-first',
@@ -3489,19 +3489,19 @@ resources.de = {
         items: [
           {
             q: 'Was kostet eine Showcase-Website?',
-            a: 'Showcase-Websites kosten in der Regel zwischen 400€ und 700€, je nach Komplexität, mit Lieferung in 24-48 Stunden für ein Standardprojekt. Das Angebot umfasst: Design, Entwicklung, Basis-SEO, Kontaktformular und Launch-Unterstützung.',
+            a: 'Showcase-Websites kosten in der Regel zwischen 300€ und 700€, je nach Komplexität, mit Lieferung in 24-48 Stunden für ein Standardprojekt. Das Angebot umfasst: Design, Entwicklung, Basis-SEO, Kontaktformular und Launch-Unterstützung.',
           },
           {
             q: 'Was kostet eine Showcase-Website für ein Handwerk oder ein Restaurant?',
-            a: 'Für ein Handwerk (Klempner, Elektriker, Tischler…) oder ein Restaurant ist der Preis derselbe: zwischen 400 und 700€ je nach Inhalt und Seitenanzahl. Ein kostenloses, detailliertes Angebot wird innerhalb von 24 Stunden zugesandt.',
+            a: 'Für ein Handwerk (Klempner, Elektriker, Tischler…) oder ein Restaurant ist der Preis derselbe: zwischen 300 und 700€ je nach Inhalt und Seitenanzahl. Ein kostenloses, detailliertes Angebot wird innerhalb von 24 Stunden zugesandt.',
           },
           {
             q: 'Was kostet eine E-Commerce-Website?',
             a: 'Eine individuelle E-Commerce-Website (Shopify oder Next.js, kein WooCommerce) beginnt ab 1500€ und kann je nach Katalog, Integrationen und Zahlungsmethoden (Kreditkarte, Stripe usw.) steigen. Mindestens eine Woche Laufzeit. Kostenloses Angebot vor jeder Verpflichtung.',
           },
           {
-            q: 'Warum eine Spanne von 400 bis 700€ für eine Showcase-Website?',
-            a: '400€ ist der Einstiegspunkt für eine Standard-Showcase-Website (wenige Seiten, individuelles Design, Basis-SEO). Die Spanne steigt, wenn dein Projekt mehr Seiten, zusätzliche Funktionen oder reichhaltigere Inhalte erfordert. Du erhältst immer ein kostenloses, detailliertes Angebot, bevor du dich festlegst.',
+            q: 'Warum eine Spanne von 300 bis 700€ für eine Showcase-Website?',
+            a: '300€ ist der Einstiegspunkt für eine Standard-Showcase-Website (wenige Seiten, individuelles Design, Basis-SEO). Die Spanne steigt, wenn dein Projekt mehr Seiten, zusätzliche Funktionen oder reichhaltigere Inhalte erfordert. Du erhältst immer ein kostenloses, detailliertes Angebot, bevor du dich festlegst.',
           },
           {
             q: 'Gibt es versteckte oder wiederkehrende Gebühren?',
@@ -3524,7 +3524,7 @@ resources.de = {
       cta: {
         titleBefore: 'Bereit, dein ',
         titleHighlight: 'Webprojekt zu starten',
-        sub: 'Kostenloses Angebot in 24 h · Showcase 400-700€ · E-Commerce ab 1500€',
+        sub: 'Kostenloses Angebot in 24 h · Showcase 300-700€ · E-Commerce ab 1500€',
         btn: 'Mein kostenloses Angebot erhalten',
       },
     },
@@ -3534,7 +3534,7 @@ resources.de = {
         title: 'Erstellung einer',
         titleHighlight: 'Showcase-Website',
         titleLine2: 'für Handwerksbetriebe, Restaurants und Kleinunternehmen',
-        sub: 'Eine professionelle, schnelle Website, sichtbar auf Google geliefert in 24-48 Stunden, zwischen 400 und 700€. Kein Wix, kein Template: vollständig individuell.',
+        sub: 'Eine professionelle, schnelle Website, sichtbar auf Google geliefert in 24-48 Stunden, zwischen 300 und 700€. Kein Wix, kein Template: vollständig individuell.',
         ctaQuote: 'Kostenloses Angebot anfordern',
         ctaPortfolio: 'Referenzen ansehen',
       },
@@ -3578,7 +3578,7 @@ resources.de = {
           'Unterstützung beim Launch',
         ],
         pricingLabel: 'Showcase-Website',
-        pricingPrice: '400€ → 700€',
+        pricingPrice: '300€ → 700€',
         pricingSub: 'Lieferung in 24-48 h · Zahlung nach Abschluss',
         pricingFeatures: [
           'Lieferung in 24-48 h',
@@ -3636,11 +3636,11 @@ resources.de = {
         items: [
           {
             q: 'Was kostet eine Showcase-Website für ein Handwerk?',
-            a: 'Für einen Handwerksbetrieb (Klempner, Elektriker, Tischler, Maler…) kostet eine professionelle Showcase-Website zwischen 400 und 700€, je nach Seitenanzahl und Inhalt. Lieferung in 24-48 h für ein Standardprojekt. Kostenloses Angebot innerhalb von 24 h.',
+            a: 'Für einen Handwerksbetrieb (Klempner, Elektriker, Tischler, Maler…) kostet eine professionelle Showcase-Website zwischen 300 und 700€, je nach Seitenanzahl und Inhalt. Lieferung in 24-48 h für ein Standardprojekt. Kostenloses Angebot innerhalb von 24 h.',
           },
           {
             q: 'Was kostet eine Showcase-Website für ein Restaurant?',
-            a: 'Eine Showcase-Website für ein Restaurant (Online-Speisekarte, Galerie, Reservierung) liegt in derselben Preisspanne: 400 bis 700€. Wenn du ein integriertes Online-Reservierungssystem wünschst, kann es je nach Bedarf hinzugefügt werden.',
+            a: 'Eine Showcase-Website für ein Restaurant (Online-Speisekarte, Galerie, Reservierung) liegt in derselben Preisspanne: 300 bis 700€. Wenn du ein integriertes Online-Reservierungssystem wünschst, kann es je nach Bedarf hinzugefügt werden.',
           },
           {
             q: 'Kann ich meine Website nach der Lieferung anpassen?',
@@ -3663,7 +3663,7 @@ resources.de = {
       cta: {
         titleBefore: 'Bereit, deine ',
         titleHighlight: 'Showcase-Website zu erstellen',
-        sub: 'Kostenloses Angebot in 24 h · Zwischen 400 und 700€ · Lieferung in 24-48 h · Zahlung nach Freigabe',
+        sub: 'Kostenloses Angebot in 24 h · Zwischen 300 und 700€ · Lieferung in 24-48 h · Zahlung nach Freigabe',
         btn: 'Jetzt loslegen',
       },
     },
@@ -3821,7 +3821,7 @@ resources.de = {
         badge: 'Ansässig in Nantes · Verfügbar in ganz Frankreich',
         title: 'Freiberuflicher Webentwickler',
         titleHighlight: 'in Nantes',
-        sub: 'Suchen Sie einen freiberuflichen Webentwickler in Nantes? Showcase-Websites 400–700€, Lieferung in 24–48 h; maßgeschneiderter E-Commerce ab 1.500€, mindestens eine Woche. Web-Applikationen auf Anfrage.',
+        sub: 'Suchen Sie einen freiberuflichen Webentwickler in Nantes? Showcase-Websites 300–700€, Lieferung in 24–48 h; maßgeschneiderter E-Commerce ab 1.500€, mindestens eine Woche. Web-Applikationen auf Anfrage.',
         ctaQuote: 'Kostenloses Angebot anfordern',
         ctaTarifs: 'Preise ansehen',
         statsProjects: '+30',
@@ -3861,7 +3861,7 @@ resources.de = {
         ],
         contactLocation: 'Nantes, Pays de la Loire, remote, ganz Frankreich',
         contactAvailability: 'Jetzt verfügbar · Antwort innerhalb von 24 h',
-        contactTarifs: 'Showcase 400–700€ · E-Commerce ab 1.500€',
+        contactTarifs: 'Showcase 300–700€ · E-Commerce ab 1.500€',
         contactCta: 'Nachricht senden',
       },
       services: {
@@ -3870,7 +3870,7 @@ resources.de = {
         vitrine: {
           title: 'Professionelle Showcase-Website',
           description: 'Für Handwerker, Restaurants, Kleinunternehmen, modernes Design, SEO, mobile-first. Lieferung in 24–48 h.',
-          price: '400€ → 700€',
+          price: '300€ → 700€',
         },
         ecommerce: {
           title: 'E-Commerce-Website',
@@ -3921,11 +3921,11 @@ resources.de = {
           },
           {
             q: 'Wie viel kostet eine Website in Nantes?',
-            a: 'Eine professionelle Showcase-Website in Nantes kostet zwischen 400 und 700€, Lieferung in 24–48 h. Ein Online-Shop beginnt bei 1.500€ mit einer Mindestlaufzeit von einer Woche. Kostenloses Angebot innerhalb von 24 h.',
+            a: 'Eine professionelle Showcase-Website in Nantes kostet zwischen 300 und 700€, Lieferung in 24–48 h. Ein Online-Shop beginnt bei 1.500€ mit einer Mindestlaufzeit von einer Woche. Kostenloses Angebot innerhalb von 24 h.',
           },
           {
             q: 'Ich bin Handwerker in Nantes, erstellen Sie Websites für Handwerker?',
-            a: 'Absolut. Ich erstelle regelmäßig Showcase-Websites für Handwerker in Nantes: Klempner, Elektriker, Tischler, Maler, Maurer… Eine Website zwischen 400 und 700€, die direkt Angebotsanfragen generiert.',
+            a: 'Absolut. Ich erstelle regelmäßig Showcase-Websites für Handwerker in Nantes: Klempner, Elektriker, Tischler, Maler, Maurer… Eine Website zwischen 300 und 700€, die direkt Angebotsanfragen generiert.',
           },
           {
             q: 'Was ist der Unterschied zwischen Ihnen und einer Webagentur in Nantes?',
@@ -3936,7 +3936,7 @@ resources.de = {
       cta: {
         titleBefore: 'Ein ',
         titleHighlight: 'kostenloses Angebot anfordern',
-        sub: 'Antwort innerhalb von 24 h · Showcase 400–700€ (24–48 h) · E-Commerce ab 1.500€ · Zahlung nach Freigabe',
+        sub: 'Antwort innerhalb von 24 h · Showcase 300–700€ (24–48 h) · E-Commerce ab 1.500€ · Zahlung nach Freigabe',
         btn: 'Mein Projekt starten',
       },
     },
@@ -4090,7 +4090,7 @@ resources.nl = {
         label: 'Investering',
         labelVitrine: 'Showcase websites',
         note:
-          '€400 tot €700 voor een showcase website, afhankelijk van complexiteit. Vaste afgesproken prijs.',
+          '€300 tot €700 voor een showcase website, afhankelijk van complexiteit. Vaste afgesproken prijs.',
         ecommerceLine:
           'E-commerce op maat: vanaf €1500, minimaal 1 week (offerte op maat).',
         details: [
@@ -4268,7 +4268,7 @@ resources.nl = {
         popularBadge: 'Populair',
         thCustom: 'Op maat',
         rows: {
-          price: { label: 'Prijs', vitrine: '400€ → 700€', ecommerce: 'Vanaf 1500€', custom: 'Gratis offerte' },
+          price: { label: 'Prijs', vitrine: '300€ → 700€', ecommerce: 'Vanaf 1500€', custom: 'Gratis offerte' },
           delay: { label: 'Levertijd', vitrine: '24 tot 48 u', ecommerce: 'Min. 1 week', custom: 'Per project' },
           customDesign: 'Maatwerk design',
           mobileFirst: 'Mobile-first',
@@ -4288,19 +4288,19 @@ resources.nl = {
         items: [
           {
             q: 'Wat kost een showcase-website?',
-            a: 'Showcase-websites kosten doorgaans tussen de 400€ en 700€, afhankelijk van de complexiteit, met levering in 24 tot 48 uur voor een standaardproject. De offerte omvat: design, ontwikkeling, basis-SEO, contactformulier en ondersteuning bij de lancering.',
+            a: 'Showcase-websites kosten doorgaans tussen de 300€ en 700€, afhankelijk van de complexiteit, met levering in 24 tot 48 uur voor een standaardproject. De offerte omvat: design, ontwikkeling, basis-SEO, contactformulier en ondersteuning bij de lancering.',
           },
           {
             q: 'Wat kost een showcase-website voor een ambachtsman of restaurant?',
-            a: 'Voor een ambachtsman (loodgieter, elektricien, timmerman…) of een restaurant is de prijs hetzelfde: tussen de 400 en 700€, afhankelijk van de inhoud en het aantal pagina\'s. Een gratis, gedetailleerde offerte wordt binnen 24 uur verstuurd.',
+            a: 'Voor een ambachtsman (loodgieter, elektricien, timmerman…) of een restaurant is de prijs hetzelfde: tussen de 300 en 700€, afhankelijk van de inhoud en het aantal pagina\'s. Een gratis, gedetailleerde offerte wordt binnen 24 uur verstuurd.',
           },
           {
             q: 'Wat kost een e-commerce website?',
             a: 'Een maatwerk e-commerce website (Shopify of Next.js, geen WooCommerce) begint vanaf 1500€ en kan hoger uitvallen afhankelijk van de catalogus, integraties en betaalmethoden (bankpas, Stripe, enz.). Reken op minimaal één week doorlooptijd. Gratis offerte voor elk engagement.',
           },
           {
-            q: 'Waarom een range van 400 tot 700€ voor een showcase-website?',
-            a: '400€ is het instappunt voor een standaard showcase-website (weinig pagina\'s, maatwerk design, basis-SEO). De prijs stijgt als jouw project meer pagina\'s, extra functionaliteiten of rijkere inhoud vereist. Je ontvangt altijd een gratis, gedetailleerde offerte voordat je je vastlegt.',
+            q: 'Waarom een range van 300 tot 700€ voor een showcase-website?',
+            a: '300€ is het instappunt voor een standaard showcase-website (weinig pagina\'s, maatwerk design, basis-SEO). De prijs stijgt als jouw project meer pagina\'s, extra functionaliteiten of rijkere inhoud vereist. Je ontvangt altijd een gratis, gedetailleerde offerte voordat je je vastlegt.',
           },
           {
             q: 'Zijn er verborgen of terugkerende kosten?',
@@ -4323,7 +4323,7 @@ resources.nl = {
       cta: {
         titleBefore: 'Klaar om jouw ',
         titleHighlight: 'webproject te starten',
-        sub: 'Gratis offerte binnen 24 u · Showcase 400-700€ · E-commerce vanaf 1500€',
+        sub: 'Gratis offerte binnen 24 u · Showcase 300-700€ · E-commerce vanaf 1500€',
         btn: 'Mijn gratis offerte ontvangen',
       },
     },
@@ -4333,7 +4333,7 @@ resources.nl = {
         title: 'Maak een',
         titleHighlight: 'showcase-website',
         titleLine2: 'voor ambachtslieden, restaurants en kleine bedrijven',
-        sub: 'Een professionele, snelle website, zichtbaar op Google geleverd in 24 tot 48 uur, tussen de 400 en 700€. Geen Wix, geen template: volledig op maat.',
+        sub: 'Een professionele, snelle website, zichtbaar op Google geleverd in 24 tot 48 uur, tussen de 300 en 700€. Geen Wix, geen template: volledig op maat.',
         ctaQuote: 'Gratis offerte aanvragen',
         ctaPortfolio: 'Realisaties bekijken',
       },
@@ -4377,7 +4377,7 @@ resources.nl = {
           'Ondersteuning bij de lancering',
         ],
         pricingLabel: 'Showcase-website',
-        pricingPrice: '€400 → €700',
+        pricingPrice: '€300 → €700',
         pricingSub: 'Levering in 24-48 u · Betaling achteraf',
         pricingFeatures: [
           'Levering in 24-48 u',
@@ -4435,11 +4435,11 @@ resources.nl = {
         items: [
           {
             q: 'Wat kost een showcase-website voor een ambachtsman?',
-            a: 'Voor een ambachtsman (loodgieter, elektricien, timmerman, schilder…) kost een professionele showcase-website tussen de 400 en 700€, afhankelijk van het aantal pagina\'s en de inhoud. Levering in 24-48 u voor een standaardproject. Gratis offerte binnen 24 u.',
+            a: 'Voor een ambachtsman (loodgieter, elektricien, timmerman, schilder…) kost een professionele showcase-website tussen de 300 en 700€, afhankelijk van het aantal pagina\'s en de inhoud. Levering in 24-48 u voor een standaardproject. Gratis offerte binnen 24 u.',
           },
           {
             q: 'Wat kost een showcase-website voor een restaurant?',
-            a: "Een showcase-website voor een restaurant (online menukaart, galerij, reserveringen) valt in dezelfde prijsklasse: 400-700€. Als je een geïntegreerd online reserveringssysteem wilt, kan dat worden toegevoegd op basis van jouw behoeften.",
+            a: "Een showcase-website voor een restaurant (online menukaart, galerij, reserveringen) valt in dezelfde prijsklasse: 300-700€. Als je een geïntegreerd online reserveringssysteem wilt, kan dat worden toegevoegd op basis van jouw behoeften.",
           },
           {
             q: 'Kan ik mijn website na de oplevering aanpassen?',
@@ -4462,7 +4462,7 @@ resources.nl = {
       cta: {
         titleBefore: 'Klaar om jouw ',
         titleHighlight: 'showcase-website te maken',
-        sub: 'Gratis offerte binnen 24 u · Tussen €400 en €700 · Levering in 24-48 u · Betaling na goedkeuring',
+        sub: 'Gratis offerte binnen 24 u · Tussen €300 en €700 · Levering in 24-48 u · Betaling na goedkeuring',
         btn: 'Nu starten',
       },
     },
@@ -4620,7 +4620,7 @@ resources.nl = {
         badge: 'Gevestigd in Nantes · Beschikbaar in heel Frankrijk',
         title: 'Freelance webdeveloper',
         titleHighlight: 'in Nantes',
-        sub: 'Op zoek naar een freelance webdeveloper in Nantes? Visitekaartje-websites €400–€700, geleverd in 24–48 u; maatwerk e-commerce vanaf €1.500, minimaal één week. Webapplicaties op offerte.',
+        sub: 'Op zoek naar een freelance webdeveloper in Nantes? Visitekaartje-websites €300–€700, geleverd in 24–48 u; maatwerk e-commerce vanaf €1.500, minimaal één week. Webapplicaties op offerte.',
         ctaQuote: 'Gratis offerte aanvragen',
         ctaTarifs: 'Tarieven bekijken',
         statsProjects: '+30',
@@ -4660,7 +4660,7 @@ resources.nl = {
         ],
         contactLocation: 'Nantes, Pays de la Loire, op afstand, heel Frankrijk',
         contactAvailability: 'Nu beschikbaar · Reactie binnen 24 u',
-        contactTarifs: 'Visitekaartje €400–€700 · E-commerce vanaf €1.500',
+        contactTarifs: 'Visitekaartje €300–€700 · E-commerce vanaf €1.500',
         contactCta: 'Bericht sturen',
       },
       services: {
@@ -4669,7 +4669,7 @@ resources.nl = {
         vitrine: {
           title: 'Professionele visitekaartje-website',
           description: 'Voor ambachtslieden, restaurants, kleine bedrijven, modern design, SEO, mobile-first. Geleverd in 24–48 u.',
-          price: '€400 → €700',
+          price: '€300 → €700',
         },
         ecommerce: {
           title: 'E-commercewebsite',
@@ -4720,11 +4720,11 @@ resources.nl = {
           },
           {
             q: 'Hoeveel kost een website in Nantes?',
-            a: 'Een professionele visitekaartje-website in Nantes kost tussen €400 en €700, geleverd in 24–48 u. Een webshop begint bij €1.500 met een minimale doorlooptijd van één week. Gratis offerte binnen 24 u.',
+            a: 'Een professionele visitekaartje-website in Nantes kost tussen €300 en €700, geleverd in 24–48 u. Een webshop begint bij €1.500 met een minimale doorlooptijd van één week. Gratis offerte binnen 24 u.',
           },
           {
             q: 'Ik ben ambachtsman in Nantes, maakt u websites voor ambachtslieden?',
-            a: 'Absoluut. Ik maak regelmatig visitekaartje-websites voor ambachtslieden in Nantes: loodgieters, elektriciens, timmerlieden, schilders, metselaars… Een website tussen €400 en €700 die direct offerteaanvragen genereert.',
+            a: 'Absoluut. Ik maak regelmatig visitekaartje-websites voor ambachtslieden in Nantes: loodgieters, elektriciens, timmerlieden, schilders, metselaars… Een website tussen €300 en €700 die direct offerteaanvragen genereert.',
           },
           {
             q: 'Wat is het verschil tussen u en een webbureau in Nantes?',
@@ -4735,7 +4735,7 @@ resources.nl = {
       cta: {
         titleBefore: 'Een ',
         titleHighlight: 'gratis offerte aanvragen',
-        sub: 'Reactie binnen 24 u · Visitekaartje €400–€700 (24–48 u) · E-commerce vanaf €1.500 · Betaling na goedkeuring',
+        sub: 'Reactie binnen 24 u · Visitekaartje €300–€700 (24–48 u) · E-commerce vanaf €1.500 · Betaling na goedkeuring',
         btn: 'Mijn project starten',
       },
     },
@@ -4889,7 +4889,7 @@ resources.it = {
         label: 'Investimento',
         labelVitrine: 'Siti vetrina',
         note:
-          'Fascia 400-700€ per un sito vetrina, a seconda della complessità. Prezzo fisso concordato.',
+          'Fascia 300-700€ per un sito vetrina, a seconda della complessità. Prezzo fisso concordato.',
         ecommerceLine:
           'E-commerce su misura: da 1500€, minimo 1 settimana (preventivo personalizzato).',
         details: [
@@ -5068,7 +5068,7 @@ resources.it = {
         popularBadge: 'Popolare',
         thCustom: 'Su misura',
         rows: {
-          price: { label: 'Prezzo', vitrine: '400€ → 700€', ecommerce: 'Da 1500€', custom: 'Preventivo gratuito' },
+          price: { label: 'Prezzo', vitrine: '300€ → 700€', ecommerce: 'Da 1500€', custom: 'Preventivo gratuito' },
           delay: { label: 'Tempi di consegna', vitrine: '24-48 h', ecommerce: 'Min. 1 settimana', custom: 'Per progetto' },
           customDesign: 'Design su misura',
           mobileFirst: 'Mobile-first',
@@ -5088,19 +5088,19 @@ resources.it = {
         items: [
           {
             q: 'Quanto costa un sito vetrina?',
-            a: 'I siti vetrina costano generalmente tra 400€ e 700€ a seconda della complessità, con consegna in 24-48 ore per un progetto standard. Il preventivo include: design, sviluppo, SEO di base, modulo di contatto e supporto al lancio.',
+            a: 'I siti vetrina costano generalmente tra 300€ e 700€ a seconda della complessità, con consegna in 24-48 ore per un progetto standard. Il preventivo include: design, sviluppo, SEO di base, modulo di contatto e supporto al lancio.',
           },
           {
             q: 'Quanto costa un sito vetrina per un artigiano o un ristorante?',
-            a: 'Per un artigiano (idraulico, elettricista, falegname…) o un ristorante, il prezzo è lo stesso: tra 400 e 700€ a seconda del contenuto e del numero di pagine. Un preventivo gratuito e dettagliato viene inviato entro 24 ore.',
+            a: 'Per un artigiano (idraulico, elettricista, falegname…) o un ristorante, il prezzo è lo stesso: tra 300 e 700€ a seconda del contenuto e del numero di pagine. Un preventivo gratuito e dettagliato viene inviato entro 24 ore.',
           },
           {
             q: 'Quanto costa un sito e-commerce?',
             a: 'Un sito e-commerce su misura (Shopify o Next.js, nessun WooCommerce) parte da 1500€ e può aumentare in base al catalogo, alle integrazioni e ai metodi di pagamento (carta di credito, Stripe, ecc.). Prevedi un minimo di una settimana. Preventivo gratuito prima di qualsiasi impegno.',
           },
           {
-            q: 'Perché una forbice da 400 a 700€ per un sito vetrina?',
-            a: '400€ è il punto di ingresso per un sito vetrina standard (poche pagine, design su misura, SEO di base). La forbice sale se il tuo progetto richiede più pagine, funzionalità aggiuntive o contenuti più ricchi. Ricevi sempre un preventivo gratuito e dettagliato prima di impegnarti.',
+            q: 'Perché una forbice da 300 a 700€ per un sito vetrina?',
+            a: '300€ è il punto di ingresso per un sito vetrina standard (poche pagine, design su misura, SEO di base). La forbice sale se il tuo progetto richiede più pagine, funzionalità aggiuntive o contenuti più ricchi. Ricevi sempre un preventivo gratuito e dettagliato prima di impegnarti.',
           },
           {
             q: 'Ci sono costi nascosti o ricorrenti?',
@@ -5123,7 +5123,7 @@ resources.it = {
       cta: {
         titleBefore: 'Pronto a lanciare il tuo ',
         titleHighlight: 'progetto web',
-        sub: 'Preventivo gratuito in 24 h · Vetrina 400-700€ · E-commerce da 1500€',
+        sub: 'Preventivo gratuito in 24 h · Vetrina 300-700€ · E-commerce da 1500€',
         btn: 'Ottenere il mio preventivo gratuito',
       },
     },
@@ -5133,7 +5133,7 @@ resources.it = {
         title: 'Creazione di un',
         titleHighlight: 'sito vetrina',
         titleLine2: 'per artigiani, ristoranti e piccole imprese',
-        sub: 'Un sito professionale, veloce e visibile su Google, consegnato in 24-48 ore, tra 400 e 700€. Niente Wix, niente template: completamente su misura.',
+        sub: 'Un sito professionale, veloce e visibile su Google, consegnato in 24-48 ore, tra 300 e 700€. Niente Wix, niente template: completamente su misura.',
         ctaQuote: 'Richiedere un preventivo gratuito',
         ctaPortfolio: 'Vedere le realizzazioni',
       },
@@ -5177,7 +5177,7 @@ resources.it = {
           'Supporto per la messa online',
         ],
         pricingLabel: 'Sito vetrina',
-        pricingPrice: '400€ → 700€',
+        pricingPrice: '300€ → 700€',
         pricingSub: 'Consegna 24-48 h · Pagamento al termine',
         pricingFeatures: [
           'Consegna in 24-48 h',
@@ -5235,11 +5235,11 @@ resources.it = {
         items: [
           {
             q: 'Quanto costa un sito vetrina per un artigiano?',
-            a: 'Per un artigiano (idraulico, elettricista, falegname, imbianchino…), un sito vetrina professionale costa tra 400 e 700€ a seconda del numero di pagine e del contenuto. Consegna in 24-48 h per un progetto standard. Preventivo gratuito entro 24 h.',
+            a: 'Per un artigiano (idraulico, elettricista, falegname, imbianchino…), un sito vetrina professionale costa tra 300 e 700€ a seconda del numero di pagine e del contenuto. Consegna in 24-48 h per un progetto standard. Preventivo gratuito entro 24 h.',
           },
           {
             q: 'Quanto costa un sito vetrina per un ristorante?',
-            a: 'Un sito vetrina per un ristorante (menu online, galleria, prenotazioni) rientra nella stessa fascia: 400-700€. Se desideri un sistema di prenotazione online integrato, può essere aggiunto in base alle esigenze.',
+            a: 'Un sito vetrina per un ristorante (menu online, galleria, prenotazioni) rientra nella stessa fascia: 300-700€. Se desideri un sistema di prenotazione online integrato, può essere aggiunto in base alle esigenze.',
           },
           {
             q: 'Posso modificare il sito dopo la consegna?',
@@ -5262,7 +5262,7 @@ resources.it = {
       cta: {
         titleBefore: 'Pronto a creare il tuo ',
         titleHighlight: 'sito vetrina',
-        sub: 'Preventivo gratuito in 24 h · Tra 400 e 700€ · Consegna 24-48 h · Pagamento dopo approvazione',
+        sub: 'Preventivo gratuito in 24 h · Tra 300 e 700€ · Consegna 24-48 h · Pagamento dopo approvazione',
         btn: 'Inizia ora',
       },
     },
@@ -5420,7 +5420,7 @@ resources.it = {
         badge: 'Con sede a Nantes · Disponibile in tutta la Francia',
         title: 'Sviluppatore web freelance',
         titleHighlight: 'a Nantes',
-        sub: 'Stai cercando uno sviluppatore web freelance a Nantes? Siti vetrina 400–700€, consegnati in 24–48 h; e-commerce su misura a partire da 1.500€, minimo una settimana. Applicazioni web su preventivo.',
+        sub: 'Stai cercando uno sviluppatore web freelance a Nantes? Siti vetrina 300–700€, consegnati in 24–48 h; e-commerce su misura a partire da 1.500€, minimo una settimana. Applicazioni web su preventivo.',
         ctaQuote: 'Richiedere un preventivo gratuito',
         ctaTarifs: 'Vedere i prezzi',
         statsProjects: '+30',
@@ -5460,7 +5460,7 @@ resources.it = {
         ],
         contactLocation: 'Nantes, Pays de la Loire, da remoto, tutta la Francia',
         contactAvailability: 'Disponibile ora · Risposta entro 24 h',
-        contactTarifs: 'Vetrina 400–700€ · E-commerce da 1.500€',
+        contactTarifs: 'Vetrina 300–700€ · E-commerce da 1.500€',
         contactCta: 'Inviare un messaggio',
       },
       services: {
@@ -5469,7 +5469,7 @@ resources.it = {
         vitrine: {
           title: 'Sito vetrina professionale',
           description: 'Per artigiani, ristoranti, piccole imprese, design moderno, SEO, mobile-first. Consegnato in 24–48 h.',
-          price: '400€ → 700€',
+          price: '300€ → 700€',
         },
         ecommerce: {
           title: 'Sito e-commerce',
@@ -5520,11 +5520,11 @@ resources.it = {
           },
           {
             q: 'Quanto costa un sito web a Nantes?',
-            a: 'Un sito vetrina professionale a Nantes costa tra 400 e 700€, consegnato in 24–48 h. Un negozio online parte da 1.500€ con una durata minima di una settimana. Preventivo gratuito entro 24 h.',
+            a: 'Un sito vetrina professionale a Nantes costa tra 300 e 700€, consegnato in 24–48 h. Un negozio online parte da 1.500€ con una durata minima di una settimana. Preventivo gratuito entro 24 h.',
           },
           {
             q: 'Sono un artigiano a Nantes, fate siti per artigiani?',
-            a: 'Assolutamente. Creo regolarmente siti vetrina per artigiani di Nantes: idraulici, elettricisti, falegnami, pittori, muratori… Un sito tra 400 e 700€ che genera richieste di preventivo direttamente.',
+            a: 'Assolutamente. Creo regolarmente siti vetrina per artigiani di Nantes: idraulici, elettricisti, falegnami, pittori, muratori… Un sito tra 300 e 700€ che genera richieste di preventivo direttamente.',
           },
           {
             q: 'Qual è la differenza tra voi e un\'agenzia web a Nantes?',
@@ -5535,7 +5535,7 @@ resources.it = {
       cta: {
         titleBefore: 'Richiedere un ',
         titleHighlight: 'preventivo gratuito',
-        sub: 'Risposta entro 24 h · Vetrina 400–700€ (24–48 h) · E-commerce da 1.500€ · Pagamento dopo approvazione',
+        sub: 'Risposta entro 24 h · Vetrina 300–700€ (24–48 h) · E-commerce da 1.500€ · Pagamento dopo approvazione',
         btn: 'Avviare il mio progetto',
       },
     },
@@ -5683,7 +5683,7 @@ resources.zh = {
       pricing: {
         label: '投入预算',
         labelVitrine: '展示型网站',
-        note: '展示型网站约 400-700€，视复杂度而定。约定固定总价，无隐藏费用。',
+        note: '展示型网站约 300-700€，视复杂度而定。约定固定总价，无隐藏费用。',
         ecommerceLine: '定制电商：1500€ 起，最短约一周交付（按报价单）。',
         details: [
           '标准展示型网站 24-48 小时内交付',
@@ -5852,7 +5852,7 @@ resources.zh = {
         popularBadge: '热门',
         thCustom: '定制开发',
         rows: {
-          price: { label: '价格', vitrine: '400€ → 700€', ecommerce: '起价 1500€', custom: '免费报价' },
+          price: { label: '价格', vitrine: '300€ → 700€', ecommerce: '起价 1500€', custom: '免费报价' },
           delay: { label: '交付周期', vitrine: '24至48小时', ecommerce: '最短1周', custom: '视项目而定' },
           customDesign: '定制设计',
           mobileFirst: '移动端优先',
@@ -5872,19 +5872,19 @@ resources.zh = {
         items: [
           {
             q: '展示型网站费用是多少？',
-            a: '展示型网站价格通常在400€至700€之间，视复杂程度而定，标准项目可在24至48小时内交付。报价涵盖设计、开发、基础SEO、联系表单及上线支持。',
+            a: '展示型网站价格通常在300€至700€之间，视复杂程度而定，标准项目可在24至48小时内交付。报价涵盖设计、开发、基础SEO、联系表单及上线支持。',
           },
           {
             q: '工匠或餐厅的展示型网站费用是多少？',
-            a: '无论是工匠（水管工、电工、木工等）还是餐厅，报价相同：根据内容和页面数量，价格在400至700€之间。24小时内提供免费详细报价。',
+            a: '无论是工匠（水管工、电工、木工等）还是餐厅，报价相同：根据内容和页面数量，价格在300至700€之间。24小时内提供免费详细报价。',
           },
           {
             q: '电商网站费用是多少？',
             a: '定制电商网站（Shopify 或 Next.js，非 WooCommerce）起价1500€，根据产品目录、集成需求和支付方式（银行卡、Stripe 等）有所不同。最短需要一周时间。承诺前可获得免费报价。',
           },
           {
-            q: '展示型网站为何定价在400至700€区间？',
-            a: '400€是标准展示型网站（少量页面、定制设计、基础SEO）的起始价格。如果项目需要更多页面、额外功能或更丰富的内容，价格会相应提高。我们始终在您做出承诺前提供免费详细报价。',
+            q: '展示型网站为何定价在300至700€区间？',
+            a: '300€是标准展示型网站（少量页面、定制设计、基础SEO）的起始价格。如果项目需要更多页面、额外功能或更丰富的内容，价格会相应提高。我们始终在您做出承诺前提供免费详细报价。',
           },
           {
             q: '是否有隐藏费用或定期收费？',
@@ -5907,7 +5907,7 @@ resources.zh = {
       cta: {
         titleBefore: '准备好启动您的',
         titleHighlight: '网站项目',
-        sub: '24小时内免费报价 · 展示型网站 400€-700€ · 电商网站起价 1500€',
+        sub: '24小时内免费报价 · 展示型网站 300€-700€ · 电商网站起价 1500€',
         btn: '获取免费报价',
       },
     },
@@ -5917,7 +5917,7 @@ resources.zh = {
         title: '打造',
         titleHighlight: '展示型网站',
         titleLine2: '面向工匠、餐厅与小微企业',
-        sub: '专业、快速、在谷歌可见的网站，24至48小时交付，价格在400至700€之间。无Wix，无模板：完全定制开发。',
+        sub: '专业、快速、在谷歌可见的网站，24至48小时交付，价格在300至700€之间。无Wix，无模板：完全定制开发。',
         ctaQuote: '申请免费报价',
         ctaPortfolio: '查看案例作品',
       },
@@ -5961,7 +5961,7 @@ resources.zh = {
           '上线全程支持',
         ],
         pricingLabel: '展示型网站',
-        pricingPrice: '400€ → 700€',
+        pricingPrice: '300€ → 700€',
         pricingSub: '24-48小时交付 · 完成后付款',
         pricingFeatures: [
           '24至48小时内交付',
@@ -6019,11 +6019,11 @@ resources.zh = {
         items: [
           {
             q: '工匠的展示型网站费用是多少？',
-            a: '对于工匠（水管工、电工、木工、油漆工……），专业展示型网站费用在400至700€之间，视页面数量和内容而定。标准项目24至48小时内交付。24小时内提供免费报价。',
+            a: '对于工匠（水管工、电工、木工、油漆工……），专业展示型网站费用在300至700€之间，视页面数量和内容而定。标准项目24至48小时内交付。24小时内提供免费报价。',
           },
           {
             q: '餐厅的展示型网站费用是多少？',
-            a: '餐厅的展示型网站（在线菜单、图片展示、预订）价格区间相同：400至700€。如需集成在线预订系统，可根据需求添加。',
+            a: '餐厅的展示型网站（在线菜单、图片展示、预订）价格区间相同：300至700€。如需集成在线预订系统，可根据需求添加。',
           },
           {
             q: '交付后可以修改网站吗？',
@@ -6046,7 +6046,7 @@ resources.zh = {
       cta: {
         titleBefore: '准备好创建您的',
         titleHighlight: '展示型网站',
-        sub: '24小时内免费报价 · 400至700€之间 · 24–48小时交付 · 审核通过后付款',
+        sub: '24小时内免费报价 · 300至700€之间 · 24–48小时交付 · 审核通过后付款',
         btn: '立即开始',
       },
     },
@@ -6204,7 +6204,7 @@ resources.zh = {
         badge: '总部位于南特 · 服务法国各地',
         title: '自由职业网页开发者',
         titleHighlight: '南特',
-        sub: '正在寻找南特的自由职业网页开发者？展示网站400–700€，24–48小时交付；定制电商网站起价1500€，最短一周。网页应用按需报价。',
+        sub: '正在寻找南特的自由职业网页开发者？展示网站300–700€，24–48小时交付；定制电商网站起价1500€，最短一周。网页应用按需报价。',
         ctaQuote: '申请免费报价',
         ctaTarifs: '查看价格',
         statsProjects: '+30',
@@ -6244,7 +6244,7 @@ resources.zh = {
         ],
         contactLocation: '南特，卢瓦尔河地区 远程服务法国全境',
         contactAvailability: '现在可接单 · 24小时内回复',
-        contactTarifs: '展示网站400–700€ · 电商起价1500€',
+        contactTarifs: '展示网站300–700€ · 电商起价1500€',
         contactCta: '发送消息',
       },
       services: {
@@ -6253,7 +6253,7 @@ resources.zh = {
         vitrine: {
           title: '专业展示网站',
           description: '面向工匠、餐厅、小企业 现代设计、SEO、移动优先。24–48小时交付。',
-          price: '400€ → 700€',
+          price: '300€ → 700€',
         },
         ecommerce: {
           title: '电商网站',
@@ -6304,11 +6304,11 @@ resources.zh = {
           },
           {
             q: '在南特建一个网站要多少钱？',
-            a: '南特的专业展示网站价格在400至700€之间，24–48小时交付。网店起价1500€，最短周期一周。24小时内提供免费报价。',
+            a: '南特的专业展示网站价格在300至700€之间，24–48小时交付。网店起价1500€，最短周期一周。24小时内提供免费报价。',
           },
           {
             q: '我是南特的工匠 您为工匠建网站吗？',
-            a: '当然。我经常为南特的工匠建设展示网站：水管工、电工、木匠、油漆工、砌砖工… 价格400至700€，可直接获得报价请求。',
+            a: '当然。我经常为南特的工匠建设展示网站：水管工、电工、木匠、油漆工、砌砖工… 价格300至700€，可直接获得报价请求。',
           },
           {
             q: '您与南特网页代理公司有什么区别？',
@@ -6319,7 +6319,7 @@ resources.zh = {
       cta: {
         titleBefore: '申请',
         titleHighlight: '免费报价',
-        sub: '24小时内回复 · 展示网站400–700€（24–48小时） · 电商起价1500€ · 审核通过后付款',
+        sub: '24小时内回复 · 展示网站300–700€（24–48小时） · 电商起价1500€ · 审核通过后付款',
         btn: '启动我的项目',
       },
     },
@@ -6468,7 +6468,7 @@ resources.ja = {
         label: '料金',
         labelVitrine: 'コポレトサイト',
         note:
-          'コポレトサイトは約400〜700€（要件により変動）。合意した固定価格です。',
+          'コポレトサイトは約300〜700€（要件により変動）。合意した固定価格です。',
         ecommerceLine:
           'オダメイドEC：1500€〜、最短約1週間（お見積り）。',
         details: [
@@ -6642,7 +6642,7 @@ resources.ja = {
         popularBadge: '人気',
         thCustom: 'カスタム',
         rows: {
-          price: { label: '料金', vitrine: '400€ → 700€', ecommerce: '1500€〜', custom: '無料見積もり' },
+          price: { label: '料金', vitrine: '300€ → 700€', ecommerce: '1500€〜', custom: '無料見積もり' },
           delay: { label: '納期', vitrine: '24〜48時間', ecommerce: '最短1週間', custom: 'プロジェクト次第' },
           customDesign: 'カスタムデザイン',
           mobileFirst: 'モバイルファスト',
@@ -6662,19 +6662,19 @@ resources.ja = {
         items: [
           {
             q: 'ショケスサイトはいくらですか？',
-            a: 'ショケスサイトは通常、複雑さに応じて400€〜700€の範囲で、標準プロジェクトは24〜48時間で納品します。見積もりにはデザイン、開発、基本SEO、お問い合わせフォム、リリスサポトが含まれます。',
+            a: 'ショケスサイトは通常、複雑さに応じて300€〜700€の範囲で、標準プロジェクトは24〜48時間で納品します。見積もりにはデザイン、開発、基本SEO、お問い合わせフォム、リリスサポトが含まれます。',
           },
           {
             q: '職人やレストランのショケスサイトはいくらですか？',
-            a: '職人（配管工、電気工、大工など）やレストランの場合、料金は同じで内容とペジ数に応じて400〜700€です。24時間以内に無料の詳細見積もりをお送りします。',
+            a: '職人（配管工、電気工、大工など）やレストランの場合、料金は同じで内容とペジ数に応じて300〜700€です。24時間以内に無料の詳細見積もりをお送りします。',
           },
           {
             q: 'Eコマスサイトはいくらですか？',
             a: 'カスタムEコマスサイト（ShopifyまたはNext.js、WooCommerceは除く）は1500€〜で、カタログ・連携・決済方法（クレジットカド、Stripeなど）に応じて変動します。最短1週間の納期が必要です。コミット前に無料見積もり。',
           },
           {
-            q: 'ショケスサイトが400〜700€の幅がある理由は？',
-            a: '400€は標準的なショケスサイト（少ないペジ、カスタムデザイン、基本SEO）の出発点です。ペジ数が多い、追加機能がある、コンテンツが豊富なプロジェクトは費用が上がります。コミット前に必ず無料の詳細見積もりをご提供します。',
+            q: 'ショケスサイトが300〜700€の幅がある理由は？',
+            a: '300€は標準的なショケスサイト（少ないペジ、カスタムデザイン、基本SEO）の出発点です。ペジ数が多い、追加機能がある、コンテンツが豊富なプロジェクトは費用が上がります。コミット前に必ず無料の詳細見積もりをご提供します。',
           },
           {
             q: '隠れた費用や定期料金はありますか？',
@@ -6697,7 +6697,7 @@ resources.ja = {
       cta: {
         titleBefore: 'あなたの',
         titleHighlight: 'ウェブプロジェクト',
-        sub: '無料見積もり24時間以内 · ショケス 400〜700€ · Eコマス 1500€〜',
+        sub: '無料見積もり24時間以内 · ショケス 300〜700€ · Eコマス 1500€〜',
         btn: '無料見積もりを取得する',
       },
     },
@@ -6707,7 +6707,7 @@ resources.ja = {
         title: '制作します',
         titleHighlight: 'ショケスサイト',
         titleLine2: '職人・飲食店・小規模事業者向け',
-        sub: 'プロフェッショナルで高速、Googleに表示されるサイトを24〜48時間で納品。400〜700€。Wix不使用、テンプレトなし、完全フルオダ。',
+        sub: 'プロフェッショナルで高速、Googleに表示されるサイトを24〜48時間で納品。300〜700€。Wix不使用、テンプレトなし、完全フルオダ。',
         ctaQuote: '無料見積もりを依頼する',
         ctaPortfolio: '制作実績を見る',
       },
@@ -6751,7 +6751,7 @@ resources.ja = {
           '公開サポト付き',
         ],
         pricingLabel: 'ショケスサイト',
-        pricingPrice: '400€ → 700€',
+        pricingPrice: '300€ → 700€',
         pricingSub: '24〜48時間納品 · 完了後にお支払い',
         pricingFeatures: [
           '24〜48時間で納品',
@@ -6809,11 +6809,11 @@ resources.ja = {
         items: [
           {
             q: '職人向けショケスサイトはいくらですか？',
-            a: '職人（配管工、電気工、大工、塗装工…）向けのプロフェッショナルなショケスサイトは、ペジ数と内容に応じて400〜700€です。標準プロジェクトは24〜48時間で納品。24時間以内に無料見積もりをご提供します。',
+            a: '職人（配管工、電気工、大工、塗装工…）向けのプロフェッショナルなショケスサイトは、ペジ数と内容に応じて300〜700€です。標準プロジェクトは24〜48時間で納品。24時間以内に無料見積もりをご提供します。',
           },
           {
             q: 'レストラン向けショケスサイトはいくらですか？',
-            a: 'レストラン向けショケスサイト（オンラインメニュ、ギャラリ、予約）は同じ価格帯：400〜700€。オンライン予約システムの統合をご希望の場合は、ニズに応じて追加できます。',
+            a: 'レストラン向けショケスサイト（オンラインメニュ、ギャラリ、予約）は同じ価格帯：300〜700€。オンライン予約システムの統合をご希望の場合は、ニズに応じて追加できます。',
           },
           {
             q: '納品後にサイトを修正できますか？',
@@ -6836,7 +6836,7 @@ resources.ja = {
       cta: {
         titleBefore: 'あなたの',
         titleHighlight: 'ショケスサイト',
-        sub: '無料見積もり24時間以内 · 400〜700€ · 24〜48時間納品 · 承認後にお支払い',
+        sub: '無料見積もり24時間以内 · 300〜700€ · 24〜48時間納品 · 承認後にお支払い',
         btn: '今すぐ始める',
       },
     },
@@ -6994,7 +6994,7 @@ resources.ja = {
         badge: 'ナントを拠点に · フランス全土対応',
         title: 'フリランスウェブ開発者',
         titleHighlight: 'ナント',
-        sub: 'ナントのフリランスウェブ開発者をお探しですか？ショケスサイト400〜700€、24〜48時間納品；カスタムECサイト1,500€〜、最短1週間。ウェブアプリはお見積もりにて。',
+        sub: 'ナントのフリランスウェブ開発者をお探しですか？ショケスサイト300〜700€、24〜48時間納品；カスタムECサイト1,500€〜、最短1週間。ウェブアプリはお見積もりにて。',
         ctaQuote: '無料見積もりを依頼する',
         ctaTarifs: '料金を見る',
         statsProjects: '30+',
@@ -7034,7 +7034,7 @@ resources.ja = {
         ],
         contactLocation: 'ナント、ペイ・ド・ラ・ロワル リモトでフランス全土対応',
         contactAvailability: '現在対応可能 · 24時間以内に返信',
-        contactTarifs: 'ショケス400〜700€ · EC1,500€〜',
+        contactTarifs: 'ショケス300〜700€ · EC1,500€〜',
         contactCta: 'メッセジを送る',
       },
       services: {
@@ -7043,7 +7043,7 @@ resources.ja = {
         vitrine: {
           title: 'プロフェッショナルなショケスサイト',
           description: '職人・飲食店・小企業向け モダンデザイン・SEO・モバイルファスト。24〜48時間で納品。',
-          price: '400€ → 700€',
+          price: '300€ → 700€',
         },
         ecommerce: {
           title: 'ECサイト',
@@ -7094,11 +7094,11 @@ resources.ja = {
           },
           {
             q: 'ナントでウェブサイトを作るといくらかかりますか？',
-            a: 'ナントのプロフェッショナルなショケスサイトは400〜700€で、24〜48時間で納品します。ECサイトは最短1週間・1,500€〜からです。24時間以内に無料見積もりをお送りします。',
+            a: 'ナントのプロフェッショナルなショケスサイトは300〜700€で、24〜48時間で納品します。ECサイトは最短1週間・1,500€〜からです。24時間以内に無料見積もりをお送りします。',
           },
           {
             q: 'ナントの職人ですが、職人向けサイトも作れますか？',
-            a: 'もちろんです。ナントの職人（配管工・電気工・大工・塗装工・石工など）のショケスサイトを定期的に制作しています。400〜700€のサイトで、直接見積もり依頼を受け取れます。',
+            a: 'もちろんです。ナントの職人（配管工・電気工・大工・塗装工・石工など）のショケスサイトを定期的に制作しています。300〜700€のサイトで、直接見積もり依頼を受け取れます。',
           },
           {
             q: 'ナントのウェブ代理店とどう違いますか？',
@@ -7109,7 +7109,7 @@ resources.ja = {
       cta: {
         titleBefore: '',
         titleHighlight: '無料見積もりを依頼する',
-        sub: '24時間以内に返信 · ショケス400〜700€（24〜48時間） · EC1,500€〜 · 承認後にお支払い',
+        sub: '24時間以内に返信 · ショケス300〜700€（24〜48時間） · EC1,500€〜 · 承認後にお支払い',
         btn: 'プロジェクトを開始する',
       },
     },
@@ -7145,10 +7145,13 @@ i18n.use(initReactI18next).init({
 })
 
 i18n.on('languageChanged', language => {
+  if (typeof document === 'undefined') return
   localStorage.setItem('language', language)
   document.documentElement.lang = language
 })
 
-document.documentElement.lang = initialLanguage
+if (typeof document !== 'undefined') {
+  document.documentElement.lang = initialLanguage
+}
 
 export default i18n

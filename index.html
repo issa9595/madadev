@@ -31,10 +31,10 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "LocalBusiness",
+          "@type": ["LocalBusiness", "ProfessionalService"],
           "@id": "https://mada-dev.com/#business",
           "name": "MadaDev",
-          "description": "Développeur web freelance à Nantes : sites vitrine 400-700€ livrés en 24-48h ; e-commerce sur mesure dès 1500€ (délai min. 1 semaine).",
+          "description": "Développeur web freelance à Nantes : sites vitrine 300-700€ livrés en 24-48h ; e-commerce sur mesure dès 1500€ (délai min. 1 semaine).",
           "url": "https://mada-dev.com",
           "email": "issamadayev@gmail.com",
           "address": {
@@ -50,10 +50,16 @@
             "longitude": -1.5536
           },
           "areaServed": ["Nantes", "Loire-Atlantique", "Pays de la Loire", "France"],
-          "priceRange": "400€ - 1500€+",
+          "priceRange": "300€ - 1500€+",
           "currenciesAccepted": "EUR",
           "paymentAccepted": "Virement bancaire, carte bancaire",
           "openingHours": "Mo-Fr 09:00-18:00",
+          "founder": {
+            "@type": "Person",
+            "name": "Issa Madayev",
+            "jobTitle": "Développeur web freelance",
+            "workLocation": { "@type": "Place", "address": { "@type": "PostalAddress", "addressLocality": "Nantes", "addressCountry": "FR" } }
+          },
           "sameAs": [
             "https://github.com/issa9595",
             "https://www.linkedin.com/in/issa-madayev-325395253"
@@ -65,7 +71,7 @@
               {
                 "@type": "Offer",
                 "itemOffered": { "@type": "Service", "name": "Site vitrine professionnel" },
-                "price": "400",
+                "price": "300",
                 "priceCurrency": "EUR"
               },
               {
