@@ -37,7 +37,7 @@ function PricingCard({ plan }) {
     <div className={`pricing-card${plan.featured ? ' featured' : ''}`}>
       <div className="pricing-label">{plan.label}</div>
       <PriceDisplay price={plan.price} />
-      <p className="pricing-delay">⚡ {plan.delay}</p>
+      <p className="pricing-delay">{plan.delay}</p>
       <hr className="pricing-divider" />
       <ul className="pricing-features">
         {plan.features.map((feature) => (

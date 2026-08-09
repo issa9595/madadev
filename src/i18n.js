@@ -55,42 +55,36 @@ const resources = {
           'Des solutions web adaptées à vos besoins, de la conception à la mise en production.',
         items: [
           {
-            icon: '🎨',
             title: 'Sites vitrine',
             description:
               'Des sites élégants et performants pour présenter votre activité et convertir vos visiteurs en clients.',
             tags: ['React', 'Next.js', 'Vite'],
           },
           {
-            icon: '🛒',
             title: 'E-commerce',
             description:
               'Boutiques en ligne sur mesure (Shopify ou Next.js), optimisées pour les conversions, avec paiements par carte bancaire et Stripe.',
             tags: ['Shopify', 'Next.js', 'Stripe'],
           },
           {
-            icon: '⚙️',
             title: 'Applications web',
             description:
               'Applications web complexes avec tableau de bord, authentification, base de données et API REST.',
             tags: ['Node.js', 'Express', 'PostgreSQL'],
           },
           {
-            icon: '🚀',
             title: 'Optimisation et SEO',
             description:
               'Audit, refonte technique et optimisation pour améliorer les performances et votre référencement.',
             tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
           },
           {
-            icon: '🔗',
             title: 'Intégrations API',
             description:
               'Connexion à des services tiers : CRM, paiement, emailing, réseaux sociaux, et bien plus.',
             tags: ['REST API', 'GraphQL', 'Webhooks'],
           },
           {
-            icon: '🛡️',
             title: 'Maintenance et support',
             description:
               'Suivi continu, mises à jour de sécurité et support technique pour votre sérénité.',
@@ -105,37 +99,31 @@ const resources = {
           "Un site web qui ne convertit pas, c'est de l'argent jeté. Je conçois des sites pensés pour transformer vos visiteurs en acheteurs : sites vitrine livrés en 24 à 48h pour un projet standard.",
         benefits: [
           {
-            icon: '💰',
             title: 'Un site qui vend',
             description:
               'Pas juste une vitrine, une machine à convertir. Chaque section, chaque bouton, chaque mot est pensé pour transformer un visiteur en client.',
           },
           {
-            icon: '📱',
             title: '100% mobile et rapide',
             description:
               'Plus de 60 % de vos visiteurs arrivent sur mobile. Votre site est optimisé pour offrir une expérience fluide sur tous les appareils.',
           },
           {
-            icon: '🎯',
             title: 'Copywriting orienté action',
             description:
               "Des accroches qui captent, des arguments qui convainquent, des appels à l'action qui déclenchent. Le design sert le message.",
           },
           {
-            icon: '🔍',
             title: 'SEO et visibilité',
             description:
               'Votre site est optimisé pour apparaître sur Google : structure sémantique, balises, performances, pour attirer du trafic dès le lancement.',
           },
           {
-            icon: '⚡',
             title: 'Livraison express',
             description:
               'Pour un site vitrine standard : livraison en 24 à 48h. Les boutiques en ligne (e-commerce) nécessitent au minimum une semaine et sont chiffrées à partir de 1500€.',
           },
           {
-            icon: '🔧',
             title: 'Autonomie totale',
             description:
               'Vous repartez avec un site que vous pouvez faire évoluer. Pas de dépendance, pas de coûts cachés, vous êtes propriétaire de votre outil.',
@@ -842,38 +830,32 @@ resources.en = {
       subtitle: 'Web solutions tailored to your needs, from design to production.',
       items: [
         {
-          icon: '🎨',
           title: 'Showcase websites',
           description: 'Elegant and high-performance websites to present your business and convert visitors into clients.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'Online stores',
           description:
             'Custom online stores (Shopify or Next.js) optimized for conversions, with card payments and Stripe.',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'Web applications',
           description: 'Complex web applications with dashboards, authentication, database, and REST API.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: 'Performance & SEO',
           description: 'Audit, technical refactoring, and optimization to improve performance and search rankings.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'API integrations',
           description: 'Connecting to third-party services: CRM, payments, emailing, social media, and more.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: 'Maintenance & support',
           description: 'Continuous monitoring, security updates, and technical support for your peace of mind.',
           tags: ['DevOps', 'CI/CD', 'Monitoring'],
@@ -887,33 +869,27 @@ resources.en = {
         'A website that does not convert is wasted money. I design sites built to turn visitors into buyers: showcase sites delivered in 24 to 48 hours for a standard project.',
       benefits: [
         {
-          icon: '💰',
           title: 'A website that sells',
           description: 'Not just a showcase, a conversion machine. Every section, button, and word is designed to turn a visitor into a client.',
         },
         {
-          icon: '📱',
           title: '100% mobile and fast',
           description: 'Over 60% of your visitors come from mobile. Your site is optimized to deliver a smooth experience on all devices.',
         },
         {
-          icon: '🎯',
           title: 'Action-oriented copywriting',
           description: 'Headlines that hook, arguments that convince, calls to action that convert. Design serves the message.',
         },
         {
-          icon: '🔍',
           title: 'SEO and visibility',
           description: 'Your site is optimized to appear on Google: semantic structure, tags, and performance to attract traffic from day one.',
         },
         {
-          icon: '⚡',
           title: 'Express delivery',
           description:
             'For a standard showcase site: delivery in 24 to 48 hours. Online stores require at least one week and start from €1,500.',
         },
         {
-          icon: '🔧',
           title: 'Full autonomy',
           description: 'You leave with a site you can grow. No dependency, no hidden costs you own your tool.',
         },
@@ -1587,42 +1563,36 @@ resources.es = {
         'Soluciones web adaptadas a tus necesidades, desde el diseño hasta la producción.',
       items: [
         {
-          icon: '🎨',
           title: 'Sitios corporativos',
           description:
             'Sitios elegantes y rápidos para presentar tu actividad y convertir visitantes en clientes.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'Comercio electrónico',
           description:
             'Tiendas online a medida, optimizadas para conversiones con pago seguro integrado.',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'Aplicaciones web',
           description:
             'Aplicaciones web completas con panel, autenticación, base de datos y API REST.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: 'Optimización y SEO',
           description:
             'Auditoría, mejora técnica y optimización para subir rendimiento y visibilidad.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'Integraciones API',
           description:
             'Conexión con servicios externos: CRM, pagos, emailing, redes sociales y más.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: 'Mantenimiento y soporte',
           description:
             'Seguimiento continuo, actualizaciones de seguridad y soporte técnico.',
@@ -1637,37 +1607,31 @@ resources.es = {
         'Un sitio web que no convierte es dinero perdido. Sitios vitrina entregados en 24 a 48 horas para un proyecto estándar.',
       benefits: [
         {
-          icon: '💰',
           title: 'Un sitio que vende',
           description:
             'No solo una vitrina, una máquina de conversión. Cada sección, botón y palabra está pensada para convertir.',
         },
         {
-          icon: '📱',
           title: '100% móvil y rápido',
           description:
             'Más del 60% de tus visitas llegan desde móvil. Tu sitio estará optimizado para todos los dispositivos.',
         },
         {
-          icon: '🎯',
           title: 'Copywriting orientado a acción',
           description:
             'Titulares que captan, argumentos que convencen y llamadas a la acción que convierten.',
         },
         {
-          icon: '🔍',
           title: 'SEO y visibilidad',
           description:
             'Tu sitio optimizado para Google: estructura semántica, etiquetas y rendimiento.',
         },
         {
-          icon: '⚡',
           title: 'Entrega express',
           description:
             'Sitio vitrina estándar en 24 a 48h. E-commerce desde 1500€, mínimo 1 semana.',
         },
         {
-          icon: '🔧',
           title: 'Autonomía total',
           description:
             'Te llevas un sitio que puedes evolucionar sin dependencia ni costes ocultos.',
@@ -2397,42 +2361,36 @@ resources.ru = {
       subtitle: 'Веб-решения под ваши задачи: от идеи до продакшена.',
       items: [
         {
-          icon: '🎨',
           title: 'Сайты-витрины',
           description:
             'Элегантные и быстрые сайты для презентации вашей деятельности и конверсии посетителей в клиентов.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'Интернет-магазины',
           description:
             'Интернет-магазины под ключ, оптимизированные под продажи, с безопасной оплатой.',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'Веб-приложения',
           description:
             'Полноценные веб-приложения с панелью управления, авторизацией, базой данных и REST API.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: 'Оптимизация и SEO',
           description:
             'Аудит, технические улучшения и оптимизация производительности и видимости.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'Интеграции API',
           description:
             'Интеграция сторонних сервисов: CRM, платежи, почтовые рассылки, соцсети и многое другое.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: 'Поддержка и сопровождение',
           description:
             'Постоянное сопровождение, обновления безопасности и техническая поддержка.',
@@ -2447,37 +2405,31 @@ resources.ru = {
         'Сайт, который не конвертирует, это потерянные деньги. Я делаю сайты, которые превращают посетителей в клиентов, с запуском за 24-48 часов.',
       benefits: [
         {
-          icon: '💰',
           title: 'Сайт, который продает',
           description:
             'Не просто витрина, а инструмент конверсии. Каждый блок, кнопка и текст работают на результат.',
         },
         {
-          icon: '📱',
           title: '100% адаптивный и быстрый',
           description:
             'Более 60% посетителей приходят с мобильных устройств. Сайт будет идеально адаптирован под все экраны.',
         },
         {
-          icon: '🎯',
           title: 'Тексты, ориентированные на действие',
           description:
             'Заголовки, которые цепляют, аргументы, которые убеждают, и CTA, которые конвертируют.',
         },
         {
-          icon: '🔍',
           title: 'SEO и видимость',
           description:
             'Сайт оптимизирован под Google: семантика, мета-теги и производительность.',
         },
         {
-          icon: '⚡',
           title: 'Быстрый запуск',
           description:
             'Стандартный проект запускается за 24-48 часов, в зависимости от сложности.',
         },
         {
-          icon: '🔧',
           title: 'Полная автономия',
           description:
             'Вы получаете сайт, который можете развивать без зависимости и скрытых платежей.',
@@ -3199,42 +3151,36 @@ resources.de = {
         'Weblösungen passend zu deinem Bedarf, von der Konzeption bis zur Produktion.',
       items: [
         {
-          icon: '🎨',
           title: 'Showcase-Websites',
           description:
             'Elegante und schnelle Websites, um dein Angebot zu präsentieren und Besucher in Kunden zu verwandeln.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'Online-Shops',
           description:
             'Maßgeschneiderte Online-Shops mit Fokus auf Conversion und sicherer Bezahlung.',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'Webanwendungen',
           description:
             'Komplexe Webanwendungen mit Dashboard, Authentifizierung, Datenbank und REST API.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: 'Optimierung und SEO',
           description:
             'Audit, technisches Refactoring und Optimierung für bessere Performance und Sichtbarkeit.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'API-Integrationen',
           description:
             'Anbindung externer Dienste: CRM, Zahlungsanbieter, E-Mail-Marketing, soziale Netzwerke und mehr.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: 'Wartung und Support',
           description:
             'Laufende Betreuung, Sicherheitsupdates und technischer Support für maximale Ruhe.',
@@ -3249,37 +3195,31 @@ resources.de = {
         'Eine Website ohne Conversion kostet Geld. Ich entwickle Seiten, die Besucher in Kunden verwandeln, mit Lieferung in 24 bis 48 Stunden.',
       benefits: [
         {
-          icon: '💰',
           title: 'Eine Website, die verkauft',
           description:
             'Nicht nur eine Visitenkarte, sondern ein Conversion-Tool. Jeder Abschnitt und jeder Text hat ein klares Ziel.',
         },
         {
-          icon: '📱',
           title: '100% mobil und schnell',
           description:
             'Mehr als 60% deiner Besucher kommen mobil. Deine Website wird für alle Geräte optimiert.',
         },
         {
-          icon: '🎯',
           title: 'Copywriting mit Action-Fokus',
           description:
             'Überschriften, die Aufmerksamkeit erzeugen, Argumente, die überzeugen, und CTAs, die konvertieren.',
         },
         {
-          icon: '🔍',
           title: 'SEO und Sichtbarkeit',
           description:
             'Optimiert für Google: semantische Struktur, Tags und Performance für mehr qualifizierten Traffic.',
         },
         {
-          icon: '⚡',
           title: 'Express-Lieferung',
           description:
             'Standardprojekte in 24 bis 48 Stunden, je nach Komplexität.',
         },
         {
-          icon: '🔧',
           title: 'Volle Unabhängigkeit',
           description:
             'Du erhältst eine Website, die du ohne Abhängigkeit und ohne versteckte Kosten weiterentwickeln kannst.',
@@ -4000,42 +3940,36 @@ resources.nl = {
       subtitle: 'Weboplossingen op maat, van concept tot productie.',
       items: [
         {
-          icon: '🎨',
           title: 'Showcase-websites',
           description:
             'Elegante en snelle websites om je activiteit te presenteren en bezoekers om te zetten in klanten.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'Webshops',
           description:
             'Webshops op maat, geoptimaliseerd voor conversie met veilige betalingen.',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'Webapplicaties',
           description:
             'Volledige webapplicaties met dashboard, authenticatie, databank en REST API.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: 'Optimalisatie en SEO',
           description:
             'Audit, technische verbeteringen en optimalisatie voor betere prestaties en zichtbaarheid.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'API-integraties',
           description:
             'Koppelingen met externe diensten: CRM, betalingen, e-mailmarketing en sociale media.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: 'Onderhoud en support',
           description:
             'Doorlopende opvolging, security-updates en technische ondersteuning.',
@@ -4050,37 +3984,31 @@ resources.nl = {
         'Een website die niet converteert is verloren budget. Ik bouw websites die bezoekers omzetten in klanten, opgeleverd in 24 tot 48 uur.',
       benefits: [
         {
-          icon: '💰',
           title: 'Een website die verkoopt',
           description:
             'Niet alleen een visitekaartje, maar een echte conversiemachine. Elke sectie en elk woord heeft een doel.',
         },
         {
-          icon: '📱',
           title: '100% mobiel en snel',
           description:
             'Meer dan 60% van je bezoekers komt via mobiel. Je site wordt geoptimaliseerd voor elk toestel.',
         },
         {
-          icon: '🎯',
           title: 'Actiegerichte copywriting',
           description:
             'Koppen die aandacht trekken, argumenten die overtuigen en CTA\'s die converteren.',
         },
         {
-          icon: '🔍',
           title: 'SEO en zichtbaarheid',
           description:
             'Geoptimaliseerd voor Google: semantische structuur, tags en performance voor meer verkeer.',
         },
         {
-          icon: '⚡',
           title: 'Snelle oplevering',
           description:
             'Standaardprojecten in 24 tot 48 uur, afhankelijk van de complexiteit.',
         },
         {
-          icon: '🔧',
           title: 'Volledige autonomie',
           description:
             'Je krijgt een site die je zelfstandig kunt laten evolueren, zonder verborgen kosten.',
@@ -4799,42 +4727,36 @@ resources.it = {
       subtitle: 'Soluzioni web su misura, dalla progettazione alla messa in produzione.',
       items: [
         {
-          icon: '🎨',
           title: 'Siti vetrina',
           description:
             'Siti eleganti e veloci per presentare la tua attività e convertire visitatori in clienti.',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'Negozi online',
           description:
             'Shop online su misura, ottimizzati per la conversione con pagamenti sicuri.',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'Applicazioni web',
           description:
             'Applicazioni web complete con dashboard, autenticazione, database e API REST.',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: 'Ottimizzazione e SEO',
           description:
             'Audit, miglioramenti tecnici e ottimizzazione per prestazioni e visibilità migliori.',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'Integrazioni API',
           description:
             'Connessione a servizi esterni: CRM, pagamenti, email marketing, social network e altro.',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: 'Manutenzione e supporto',
           description:
             'Monitoraggio continuo, aggiornamenti di sicurezza e supporto tecnico.',
@@ -4849,37 +4771,31 @@ resources.it = {
         'Un sito che non converte è denaro perso. Realizzo siti pensati per trasformare visitatori in clienti, consegnati in 24-48 ore.',
       benefits: [
         {
-          icon: '💰',
           title: 'Un sito che vende',
           description:
             'Non solo una vetrina, ma un motore di conversione. Ogni sezione, bottone e parola ha uno scopo.',
         },
         {
-          icon: '📱',
           title: '100% ottimizzato per dispositivi mobili e veloce',
           description:
             'Oltre il 60% dei visitatori arriva da dispositivi mobili. Il sito è ottimizzato per tutti i dispositivi.',
         },
         {
-          icon: '🎯',
           title: 'Copywriting orientato all\'azione',
           description:
             'Titoli che catturano, argomenti che convincono e CTA che convertono.',
         },
         {
-          icon: '🔍',
           title: 'SEO e visibilità',
           description:
             'Sito ottimizzato per Google: struttura semantica, tag e performance per aumentare il traffico.',
         },
         {
-          icon: '⚡',
           title: 'Consegna rapida',
           description:
             'Consegna in 24-48 ore per progetti standard, in base alla complessità.',
         },
         {
-          icon: '🔧',
           title: 'Autonomia totale',
           description:
             'Ricevi un sito che puoi evolvere senza dipendenze e senza costi nascosti.',
@@ -5600,42 +5516,36 @@ resources.zh = {
       subtitle: '从设计到上线，为你提供定制化网页解决方案。',
       items: [
         {
-          icon: '🎨',
           title: '展示型网站',
           description:
             '高质感且高性能的网站，用于展示业务并把访客转化为客户。',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: '电商网站',
           description:
             '定制化电商站点，聚焦转化，集成安全支付。',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: '网页应用开发',
           description:
             '包含后台、鉴权、数据库和 REST 接口的完整网页应用。',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: '性能优化与搜索引擎优化',
           description:
             '技术审计与优化，提升性能和搜索可见性。',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: '接口集成',
           description:
             '对接 CRM、支付、邮件营销、社交平台等第三方服务。',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: '维护与支持',
           description:
             '持续维护、安全更新与技术支持。',
@@ -5650,32 +5560,26 @@ resources.zh = {
         '不能转化的网站就是浪费预算。我构建以转化为目标的网站，标准项目 24 到 48 小时交付。',
       benefits: [
         {
-          icon: '💰',
           title: '能卖货的网站',
           description: '不只是展示，而是转化机器。每个区块、按钮和文字都以让访客变客户为目标。',
         },
         {
-          icon: '📱',
           title: '100% 移动端适配且快速',
           description: '超过 60% 的访客来自手机。你的网站将针对所有设备进行优化，体验流畅。',
         },
         {
-          icon: '🎯',
           title: '行动导向的文案',
           description: '吸引眼球的标题、有说服力的论据、促成行动的号召。设计服务于内容。',
         },
         {
-          icon: '🔍',
           title: '搜索引擎优化与搜索可见性',
           description: '网站针对谷歌优化：语义结构、标签和性能，从上线第一天就吸引流量。',
         },
         {
-          icon: '⚡',
           title: '快速交付',
           description: '标准项目 24 到 48 小时交付，复杂需求根据实际情况安排。快速，不牺牲质量。',
         },
         {
-          icon: '🔧',
           title: '完全自主',
           description: '你将获得一个可以自行发展的网站。无依赖，无隐性费用，你是工具的主人。',
         },
@@ -6384,42 +6288,36 @@ resources.ja = {
       subtitle: '設計から本番運用まで、課題に合わせたウェブソリュションを提供します。',
       items: [
         {
-          icon: '🎨',
           title: 'コポレトサイト制作',
           description:
             '事業を魅力的に伝え、訪問者を顧客へ導く高品質・高速なサイトを制作します。',
           tags: ['React', 'Next.js', 'Vite'],
         },
         {
-          icon: '🛒',
           title: 'ECサイト構築',
           description:
             '売上につながる導線設計と安全な決済を備えたECサイトを構築します。',
           tags: ['Shopify', 'Next.js', 'Stripe'],
         },
         {
-          icon: '⚙️',
           title: 'ウェブアプリ開発',
           description:
             'ダッシュボド、認証、デタベス、REST APIを備えたウェブアプリを開発します。',
           tags: ['Node.js', 'Express', 'PostgreSQL'],
         },
         {
-          icon: '🚀',
           title: '最適化とSEO',
           description:
             '技術監査と改善で、表示速度と検索での見つかりやすさを高めます。',
           tags: ['Lighthouse', 'Core Web Vitals', 'SEO'],
         },
         {
-          icon: '🔗',
           title: 'API連携',
           description:
             'CRM、決済、メル配信、SNSなど外部サビスとの連携を実装します。',
           tags: ['REST API', 'GraphQL', 'Webhooks'],
         },
         {
-          icon: '🛡️',
           title: '保守・サポト',
           description:
             '継続的な運用支援、セキュリティ更新、技術サポトを提供します。',
@@ -6434,32 +6332,26 @@ resources.ja = {
         '成果につながらないサイトは機会損失です。訪問者を顧客に変えるサイトを、標準案件なら24〜48時間で提供します。',
       benefits: [
         {
-          icon: '💰',
           title: '売れるサイト',
           description: '単なる紹介ペジではなく、コンバジョンの仕組み。すべてのセクション・ボタン・テキストが成果を出すために設計されています。',
         },
         {
-          icon: '📱',
           title: '100% モバイル対応・高速',
           description: '訪問者の60%以上はスマトフォンから来ます。あらゆるデバイスで快適に動作するよう最適化します。',
         },
         {
-          icon: '🎯',
           title: 'アクション重視のコピライティング',
           description: '惹きつける見出し、納得させる論拠、行動を促すCTA。デザインはメッセジに奉仕します。',
         },
         {
-          icon: '🔍',
           title: 'SEOと検索露出',
           description: 'ググルに評価される構造・タグ・パフォマンスで、公開初日からトラフィックを獲得します。',
         },
         {
-          icon: '⚡',
           title: 'スピド納品',
           description: '標準案件は24〜48時間で納品。要件の複雑さに応じて柔軟に対応します。品質は妥協しません。',
         },
         {
-          icon: '🔧',
           title: '完全な自律性',
           description: '依存なし・隠れたコストなし。自分で育てられるサイトをお渡しします。',
         },
@@ -7142,6 +7034,8 @@ i18n.use(initReactI18next).init({
   lng: initialLanguage,
   fallbackLng: 'fr',
   interpolation: { escapeValue: false },
+  // Coupe le message promotionnel i18next dans la console (contient des emojis)
+  showSupportNotice: false,
 })
 
 i18n.on('languageChanged', language => {
